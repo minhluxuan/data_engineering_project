@@ -108,7 +108,6 @@ class GameView(APIView):
     def post(self, request):
         try:
             body = request.data
-            print(body)
             new_game_data, message, status_code = GameService.create(body)
             return Response({"message": message, "data": new_game_data}, status=status_code)
 
@@ -136,3 +135,16 @@ class GameView(APIView):
                 'data': None,
                 'message': 'An error occurs'
             }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+        
+    def delete(self, request, id):
+        try:
+            _, message, status_code = GameService.delete(id)
+            return Response({
+                'data': None,
+                'message': message,
+            }, status=status_code)
+        except:
+            return Response({
+                'data': None,
+                'message': 'An error occurs'
+            }, status=status.HTTP_500_INTERNAL_SERVER_ERROR) 
