@@ -34,8 +34,9 @@ class CountryTotalOvertime:
         medalTable['year'] = medalTable['edition'].str[:4]
         medalTable['year'] = pd.Categorical(medalTable['year'], ordered=True)
 
+        #! Note about the observed parameter
         medalTableByYear = medalTable.groupby(
-            ['year', 'noc'])[['gold', 'silver', 'bronze', 'total']].sum().reset_index()
+            ['year', 'noc'], observed=False)[['gold', 'silver', 'bronze', 'total']].sum().reset_index()
         medalTableByYear = pd.merge(
             left=medalTableByYear, right=nocTable, left_on='noc', right_on='noc', how='left')
 
@@ -65,4 +66,4 @@ class CountryTotalOvertime:
                       title='Country Consistency Over Time (Total Medals)',
                       labels={'total': 'Total Medals', 'country': 'Country'})
 
-        st.write(fig, use_container_width=True)
+        st.write(fig)

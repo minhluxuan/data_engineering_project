@@ -27,6 +27,13 @@ class MedalTableOperation:
 
     @staticmethod
     def create(data):
+        country = data.get('country')
+        edition_id = data.get('edition_id')
+
+        if not country or not edition_id:
+            print("Country and Edition ID are required")
+            return None
+
         response = requests.post(MedalTableOperation.base_url, json=data)
         if response.status_code == 201:
             return response.json()

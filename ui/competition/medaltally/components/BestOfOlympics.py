@@ -36,4 +36,4 @@ class BestOlympics:
                      title='Best Olympic Edition for Each Country (Total Medals)',
                      labels={'total': 'Total Medals', 'country': 'Country', 'edition': 'Olympic Edition'})
 
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig)
