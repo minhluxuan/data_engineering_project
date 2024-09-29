@@ -1,5 +1,5 @@
-![Medal Table](path/to/image1.png)
+![Medal Table](./image1.png)
 
-![Country Consistency Over Time](path/to/image2.png)
+![Country Consistency Over Time](./image2.png)
 
-![Best Olympics for each country](path/to/image3.png)
+![Best Olympics for each country](./image3.png)
