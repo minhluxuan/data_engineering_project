@@ -36,9 +36,12 @@ class MedalTableOperation:
 
     @staticmethod
     def update(id, data):
+        print(data)
         response = requests.put(
             f"{MedalTableOperation.base_url}{id}/", json=data)
         if response.status_code == 200:
+            print(response.json())
+            print("upadtaed")
             return response.json()
         else:
             print(f"Error: {response.status_code}, {response.text}")

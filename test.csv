@@ -1,6 +1,7 @@
-Name,Amt
-A,1
-B,2
-C,3
-D,4
-E,5
+CollaboratorName, Location, HourlyRate
+John Doe, New York, 75
+Jane Doe, New York, 75
+John Smith, New York, 75
+Jane Smith, New York, 75
+John Doe, New York, 75
+Jane Doe, New York, 75
