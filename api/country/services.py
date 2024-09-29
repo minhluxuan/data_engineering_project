@@ -56,3 +56,16 @@ class GameService:
                 return None, serializer.errors, status.HTTP_400_BAD_REQUEST
         except Exception as e:
             return None, f"An error occurred: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR
+        
+    @staticmethod
+    def delete(id):
+        try:
+            game = Game.objects.get(edition_id=id)
+
+            if not game:
+                return None, "Game does not exist", status.HTTP_404_NOT_FOUND
+            
+            game.delete()
+            return None, "Game deleted successfully", status.HTTP_200_OK
+        except:
+            return None, f"An error occurred: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR

@@ -69,7 +69,14 @@ def main():
                 data = response.json()
                 if isinstance(data, list):
                     df = pd.DataFrame(data)
-                    edited_df = st.data_editor(df)
+                    # edited_df = st.data_editor(df, use_container_width=True)
+                    df_with_selections = df.copy()
+                    df_with_selections.insert(0, "Select", False)
+                    edited_df = st.data_editor(
+                        df_with_selections,
+                        hide_index=True,
+                        column_config={"Select": st.column_config.CheckboxColumn(required=True)},
+                    )
                     if st.button("Update Data"):
                         updated_rows = edited_df.compare(df)
                         for index, _ in updated_rows.iterrows():
@@ -82,60 +89,23 @@ def main():
                                         st.success(response.json()['message'])
                                     else:
                                         st.error(response.json()['message'])
-                                    
-                            
-
-                    # for index, row in df.iterrows():
-                    #     st.subheader(f"Update Game - Edition: {row['edition']}")  # Hiển thị tiêu đề
-                    #     with st.form(key=f'update_form_{index}'):
-                    #         edition = st.text_input("Edition", value=row['edition'])
-                    #         year = st.number_input("Year", value=row['year'], min_value=1896, max_value=2100)
-                    #         city = st.text_input("City", value=row['city'])
-                    #         edition_url = st.text_input("Edition URL", value=row['edition_url'])
-                    #         country_flag_url = st.text_input("Country Flag URL", value=row['country_flag_url'])
-                            
-                    #         # Kiểm tra và chuyển đổi giá trị ngày tháng
-                    #         start_date = row['start_date'] if row['start_date'] else None
-                    #         end_date = row['end_date'] if row['end_date'] else None
-                            
-                    #         start_date = datetime.strptime(start_date, "%Y-%m-%d").date() if isinstance(start_date, str) else start_date
-                    #         end_date = datetime.strptime(end_date, "%Y-%m-%d").date() if isinstance(end_date, str) else end_date
-                            
-                    #         start_date = st.date_input("Start Date", value=start_date)
-                    #         end_date = st.date_input("End Date", value=end_date)
-
-                    #         is_held = st.checkbox("Is Held", value=row['is_held'])
-                    #         competition_start_date = st.date_input("Competition Start Date", value=row['competition_start_date'])
-                    #         competition_end_date = st.date_input("Competition End Date", value=row['competition_end_date'])
-                            
-                    #         submit_button = st.form_submit_button(label='Update Game')
-
-                    #         if submit_button:
-                    #             # Thực hiện cập nhật
-                    #             edition_id = row['edition_id']  # Giả sử có trường 'edition_id' trong DataFrame
-                    #             updated_data = {
-                    #                 'edition': edition,
-                    #                 'year': year,
-                    #                 'city': city,
-                    #                 'edition_url': edition_url,
-                    #                 'country_flag_url': country_flag_url,
-                    #                 'start_date': start_date,
-                    #                 'end_date': end_date,
-                    #                 'is_held': is_held,
-                    #                 'competition_start_date': competition_start_date,
-                    #                 'competition_end_date': competition_end_date,
-                    #             }
-                    #             update_response = GameOperation.update(edition_id, updated_data)
-
-                    #             if update_response.status_code == 200:
-                    #                 st.success("Game updated successfully!")
-                    #             else:
-                    #                 st.error("Failed to update game.")
-                                        
+                    
+                    if st.button("Delete selected row"):
+                        selected_rows = edited_df[edited_df.Select]
+                        
+                        if not selected_rows.empty:
+                            for index, row in selected_rows.iterrows():  # Dùng iterrows để duyệt qua từng hàng
+                                    response = GameOperation.delete(row['edition_id'])
+                                    if response.status_code == 200:
+                                        st.success(response.json()['message'])
+                                    else:
+                                        st.error(response.json()['message'])
+                            st.experimental_rerun()
                 else:
                     st.write('No game has been created yet')
             else:
                 st.write('An error occurred. Please try again.')
+        
         # uploaded_file = st.file_uploader("Country", type="csv")
 
         # if uploaded_file is not None:
