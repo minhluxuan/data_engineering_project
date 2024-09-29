@@ -12,4 +12,3 @@ class Athlete_Bio(models.Model):
     country_noc = models.ForeignKey(Country, on_delete=models.RESTRICT)
     description = models.TextField()
     special_notes = models.TextField()
-

@@ -80,9 +80,9 @@ WSGI_APPLICATION = "api.wsgi.application"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'do_an',  # Replace with your database name
-        'USER': 'admin',        # Replace with your database user
-        'PASSWORD': 'admin@localhost',    # Replace with your database password
+        'NAME': 'olympic',  # Replace with your database name
+        'USER': 'root',        # Replace with your database user
+        'PASSWORD': 'nhannt@@##',    # Replace with your database password
         'HOST': 'localhost',            # Set to your MySQL server address
         'PORT': '3306',                 # Default MySQL port
     }

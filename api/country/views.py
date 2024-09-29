@@ -136,3 +136,5 @@ class GameView(APIView):
                 'data': None,
                 'message': 'An error occurs'
             }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+            
+    

@@ -29,11 +29,20 @@ class EventResult(models.Model):
     result_id = models.ForeignKey(Result, on_delete=models.RESTRICT)
     athlete_id = models.ForeignKey(Athlete_Bio, on_delete=models.RESTRICT)
     pos = models.CharField(max_length=255)
-    medal = models.CharField(max_length=255)
     isTeamSport = models.BooleanField()
 
     def __str__(self):
         return self.event
+    
+class MedalResult(models.Model):
+    edition_id = models.ForeignKey(Game, on_delete=models.RESTRICT)
+    country_noc = models.ForeignKey(Country, on_delete=models.RESTRICT)
+    result_id = models.ForeignKey(Result, on_delete=models.RESTRICT)
+    athlete_id = models.ForeignKey(Athlete_Bio, on_delete=models.RESTRICT)
+    medal = models.CharField(max_length=255)
+    
+    def __str__(self):
+        return self.medal + " - " + self.athlete_id.name + " (" + self.country_noc + ")"
     
 class GamesMedalTally(models.Model):
     edition_id = models.ForeignKey(Game, on_delete=models.RESTRICT)
