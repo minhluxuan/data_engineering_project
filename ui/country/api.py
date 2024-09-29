@@ -37,7 +37,13 @@ class GameOperation:
     @staticmethod
     def update(id, data):
         response = requests.put(GameOperation.base_url + str(id) + '/', data)
-        print(response)
+        if response:
+            return response
+        return None
+
+    @staticmethod
+    def delete(id):
+        response = requests.delete(GameOperation.base_url + str(id) + '/')
         if response:
             return response
         return None
