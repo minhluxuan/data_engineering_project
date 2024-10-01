@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import country.main as country
+import competition.main as competition
 
 st.sidebar.title("Menu")
 
@@ -15,7 +16,7 @@ if selected_options == 'Country':
     country.main()
 
 if selected_options == 'Competition':
-    pass
+    competition.main()
 
 if selected_options == 'Athlete':
     pass
