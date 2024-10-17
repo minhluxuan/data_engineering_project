@@ -19,8 +19,10 @@ from django.contrib import admin
 from django.urls import path
 
 from country.urls import urlpatterns as country_urls
+from athlete.urls import urlpatterns as athleteBio_urls
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    *country_urls
+    *country_urls,
+    *athleteBio_urls,
 ]

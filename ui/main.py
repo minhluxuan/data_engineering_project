@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import country.main as country
+import athlete.main as athlete
 
 st.sidebar.title("Menu")
 
@@ -24,7 +25,7 @@ if selected_options == 'Homepage':
     st.write('**Student:** ')
     table_data = {
         'Student name': ['Lu Xuan Minh', 'Tran The Nhan', 'Ho Thanh Nhan', 'Nguyen Thanh Nhan', 'Nguyen Thanh Nhan'],
-        'Student ID': ['2212051', '', '', '', '']
+        'Student ID': ['2212051', '', '', '', '2212366']
     }
 
     df = pd.DataFrame(table_data)
@@ -39,7 +40,8 @@ if selected_options == 'Country':
     country.main()
 
 if selected_options == 'Competition':
-    pass
+    pass 
 
 if selected_options == 'Athlete':
-    pass
+    athlete.main()
+
