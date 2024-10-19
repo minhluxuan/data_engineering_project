@@ -1,5 +1,5 @@
 from django.shortcuts import render
-
+from django.db import connection
 import pandas as pd
 from rest_framework.views import APIView
 from rest_framework.decorators import api_view
@@ -17,6 +17,7 @@ def upload_event_results(request):
     file = request.FILES['file']
     # Đọc file CSV
     event_res = pd.read_csv(file)
+    # event_res = pd.read_csv("D:\CO3127_ProjectOlympics\data_engineering_project\data\processed\Olympic_Athlete_Event_Details_Processed.csv")
     # Loại bỏ các hàng trùng lặp
     event_res = event_res.drop_duplicates()
     # Tách thông tin medal ra khỏi event_res
@@ -56,6 +57,16 @@ def upload_event_results(request):
             return Response(medal_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
     return Response({'message': 'Event and Medal results uploaded successfully'}, status=status.HTTP_201_CREATED)
 
+# @api_view(['GET'])
+# def check_connection(request):
+#     try:
+#         with connection.cursor() as cursor:
+#             cursor.execute("SELECT 1;")
+#             cursor.fetchone()
+#         return Response({"message": "Database connection successful"}, status=status.HTTP_200_OK)
+#     except Exception as e:
+#         return Response({"message": f"Database connection failed: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
 class EventResultView(APIView):
     
     def post(self, request):
@@ -66,17 +77,16 @@ class EventResultView(APIView):
         except Exception as e:
             return Response({"message": f"An error occurred: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
-    def get(self, request):
-        try:
-            games = EventResultService.search()
-            return Response(games, status=status.HTTP_200_OK)
-        except Exception as e:
-            return Response({"message": f"An error occurred: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-        
-    def put(self, request, athlete_id, result_id, country_noc, edition_id):
+    # def get(self, request, id1, id2, id3, id4):
+    #     try:
+    #         get_data, message, status_code = EventResultService.search(id1, id2, id3, id4)
+    #         return Response(get_data, status=status.HTTP_200_OK)
+    #     except Exception as e:
+    #         return Response({"message": f"An error occurred: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+    def put(self, request, edition_id, country_noc, result_id, athlete_id):
         try:
             data = request.data  # Lấy dữ liệu từ request
-            updated_data, message, status_code = EventResultService.update(athlete_id, result_id, country_noc, edition_id, data)
+            updated_data, message, status_code = EventResultService.update(edition_id, country_noc, result_id, athlete_id, data)
             return Response({
                 'data': updated_data,
                 'message': message
@@ -86,16 +96,35 @@ class EventResultView(APIView):
                 'data': None,
                 'message': f'An error occurred: {str(e)}'
             }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-
-    def delete(self, request, athlete_id, result_id, country_noc, edition_id):
+            
+    def get(self, request, edition_id, country_noc, result_id, athlete_id):
         try:
-            _, message, status_code = EventResultService.delete(athlete_id, result_id, country_noc, edition_id)
+            get_data, message, status_code = EventResultService.search(edition_id, country_noc, result_id, athlete_id)
+            print(message)
+            return Response(get_data, status=status_code)
+        except Exception as e:
+            return Response({"message": f"An error occurred: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+        
+    
+
+    def delete(self, request, edition_id, country_noc, result_id, athlete_id):
+        try:
+            # Gọi service để thực hiện thao tác xóa
+            response, message, status_code = EventResultService.delete(edition_id, country_noc, result_id, athlete_id)
+
+            # Trả về kết quả nếu xóa thành công
             return Response({
-                'data': None,
                 'message': message,
             }, status=status_code)
-        except:
+
+        except EventResult.DoesNotExist:
+            # Trả về thông báo nếu không tìm thấy bản ghi
             return Response({
-                'data': None,
-                'message': 'An error occurs'
-            }, status=status.HTTP_500_INTERNAL_SERVER_ERROR) 
+                'message': "Event result not found."
+            }, status=status.HTTP_404_NOT_FOUND)
+
+        except Exception as e:
+            # Trả về thông báo lỗi chi tiết
+            return Response({
+                'message': f'An error occurred: {str(e)}'
+            }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)

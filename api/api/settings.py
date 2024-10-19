@@ -80,14 +80,13 @@ WSGI_APPLICATION = "api.wsgi.application"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'olympic',  # Replace with your database name
+        'NAME': 'do_an',  # Replace with your database name
         'USER': 'root',        # Replace with your database user
         'PASSWORD': 'nhannt@@##',    # Replace with your database password
         'HOST': 'localhost',            # Set to your MySQL server address
         'PORT': '3306',                 # Default MySQL port
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators

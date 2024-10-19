@@ -11,15 +11,15 @@ class EventResultService:
         pass
     
     @staticmethod
-    def search(edition_id=None, country_noc=None, result_id=None, athlete_id=None):
+    def search(edition_id, country_noc, result_id, athlete_id):
         queryset = EventResult.objects.all()
-        if edition_id:
+        if edition_id != 9132662681:
             queryset = queryset.filter(edition_id=edition_id)
-        if country_noc:
+        if country_noc != 'All':
             queryset = queryset.filter(country_noc=country_noc)
-        if result_id:
+        if result_id != 9132662681:
             queryset = queryset.filter(result_id=result_id)
-        if athlete_id:
+        if athlete_id != 9132662681:
             queryset = queryset.filter(athlete_id=athlete_id)
         # Trả về None nếu không có kết quả
         if not queryset.exists():
@@ -60,13 +60,16 @@ class EventResultService:
                     'medal': None
                 })
         # Trả về dữ liệu đã kết hợp
-        return event_results_with_medals
+        return event_results_with_medals, "Search successfully", status.HTTP_200_OK
     
     @staticmethod
-    def update(athlete_id, result_id, country_noc, edition_id, data):
+    def update(edition_id, country_noc, result_id, athlete_id, data):
         try:
             # Tìm event_result theo 4 id
-            event_res = EventResult.objects.get(athlete_id=athlete_id, result_id=result_id, country_noc=country_noc, edition_id=edition_id)
+            event_res = EventResult.objects.get(edition_id=edition_id,
+                                                country_noc=country_noc,
+                                                result_id=result_id,
+                                                athlete_id=athlete_id)
             # Tách dữ liệu thành hai phần
             event_data = {
                 'edition_id': data.get('edition_id', event_res.edition_id),  # Nếu không có, dùng giá trị hiện tại
@@ -88,10 +91,10 @@ class EventResultService:
             if 'medal' in data and data['medal'] is not None:  # Chỉ cập nhật nếu medal không phải là None
                 try:
                     medal_result = MedalResult.objects.get(
-                        athlete_id=athlete_id,
-                        result_id=result_id,
+                        edition_id=edition_id,
                         country_noc=country_noc,
-                        edition_id=edition_id
+                        result_id=result_id,
+                        athlete_id=athlete_id
                     )
                     medal_data = {
                         'edition_id': data.get('edition_id', medal_result.edition_id),
@@ -153,30 +156,30 @@ class EventResultService:
             return None, f"An error occurred: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR
 
     @staticmethod
-    def delete(athlete_id, result_id, country_noc, edition_id):
+    def delete(edition_id, country_noc, result_id, athlete_id):
         try:
-            # Tìm EventResult theo 4 id
-            event_result = EventResult.objects.get(
-                athlete_id=athlete_id,
-                result_id=result_id,
+            # Tìm và xóa tất cả MedalResult liên quan
+            MedalResult.objects.filter(
+                edition_id=edition_id,
                 country_noc=country_noc,
-                edition_id=edition_id
+                result_id=result_id,
+                athlete_id=athlete_id
+            ).delete()
+
+            # Tìm và xóa EventResult
+            event_result = EventResult.objects.get(
+                edition_id=edition_id,
+                country_noc=country_noc,
+                result_id=result_id,
+                athlete_id=athlete_id
             )
-            try:
-                medal_result = MedalResult.objects.get(
-                    athlete_id=athlete_id,
-                    result_id=result_id,
-                    country_noc=country_noc,
-                    edition_id=edition_id
-                )
-                medal_result.delete()  # Xóa MedalResult
-            except MedalResult.DoesNotExist:
-                # Nếu không tìm thấy MedalResult, không cần làm gì cả
-                pass
-            # Xóa EventResult
             event_result.delete()
-            return {"message": "Event result deleted successfully."}, status.HTTP_204_NO_CONTENT
+            
+            return None, "Event result deleted successfully.", status.HTTP_204_NO_CONTENT  # Trả về đủ 3 giá trị
         except EventResult.DoesNotExist:
-            return {"message": "Event result not found."}, status.HTTP_404_NOT_FOUND
+            return None, "Event result not found.", status.HTTP_404_NOT_FOUND  # Trả về đủ 3 giá trị
         except Exception as e:
-            return {"message": str(e)}, status.HTTP_500_INTERNAL_SERVER_ERROR
+            return None, str(e), status.HTTP_500_INTERNAL_SERVER_ERROR  # Trả về đủ 3 giá trị
+        
+    def __str__():
+        return "Done"
