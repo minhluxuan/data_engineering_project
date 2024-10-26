@@ -10,6 +10,7 @@ from .serializers import CountryProfileSerializer, GameSerializer
 from country.services import CountryService, GameService
 from rest_framework import status
 
+
 @api_view(['POST'])
 def upload_games(request):
     if 'file' not in request.FILES:
@@ -35,7 +36,8 @@ def upload_games(request):
     # Áp dụng hàm chuyển đổi ngày cho các cột
     df['start_date'] = df['start_date'].apply(parse_date)
     df['end_date'] = df['end_date'].apply(parse_date)
-    df['competition_start_date'] = df['competition_start_date'].apply(parse_date)
+    df['competition_start_date'] = df['competition_start_date'].apply(
+        parse_date)
     df['competition_end_date'] = df['competition_end_date'].apply(parse_date)
 
     # Lặp qua từng dòng và lưu vào cơ sở dữ liệu
@@ -54,7 +56,7 @@ def upload_games(request):
             'competition_start_date': row['competition_start_date'],
             'competition_end_date': row['competition_end_date'],
         }
-        
+
         serializer = GameSerializer(data=game_data)
         if serializer.is_valid():
             serializer.save()
@@ -62,6 +64,7 @@ def upload_games(request):
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
     return Response({'message': 'Games uploaded successfully'}, status=status.HTTP_201_CREATED)
+
 
 @api_view(['POST'])
 def upload_country_profiles(request):
@@ -96,6 +99,7 @@ def upload_country_profiles(request):
 
     return Response({'message': 'Country profiles uploaded successfully'}, status=status.HTTP_201_CREATED)
 
+
 class CountryView(APIView):
     def get(self, requests):
         try:
@@ -103,6 +107,7 @@ class CountryView(APIView):
             return Response(countries, status=status.HTTP_200_OK)
         except:
             return Response(None, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
 
 class GameView(APIView):
     def post(self, request):
@@ -114,14 +119,13 @@ class GameView(APIView):
         except Exception as e:
             return Response({"message": f"An error occurred: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
-
     def get(self, request):
         try:
             games = GameService.search()
             return Response(games, status=status.HTTP_200_OK)
         except:
             return Response(None, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-        
+
     def put(self, request, id):
         try:
             data = request.data  # Lấy dữ liệu từ request
@@ -135,7 +139,7 @@ class GameView(APIView):
                 'data': None,
                 'message': 'An error occurs'
             }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-        
+
     def delete(self, request, id):
         try:
             _, message, status_code = GameService.delete(id)
@@ -147,4 +151,4 @@ class GameView(APIView):
             return Response({
                 'data': None,
                 'message': 'An error occurs'
-            }, status=status.HTTP_500_INTERNAL_SERVER_ERROR) 
+            }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)

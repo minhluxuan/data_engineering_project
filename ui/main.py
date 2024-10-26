@@ -3,6 +3,7 @@ import pandas as pd
 import country.main as country
 from competition.medaltally.main import Dashboard
 import athlete.main as athlete
+import competition.main as competition
 
 st.set_page_config(layout="wide")
 st.sidebar.title("Menu")
@@ -45,7 +46,7 @@ if selected_options == 'Country':
     country.main()
 
 if selected_options == 'Competition':
-    pass
+    competition.main()
 
 if selected_options == 'Athlete':
     athlete.main()
