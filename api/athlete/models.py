@@ -2,8 +2,9 @@ from django.db import models
 
 from country.models import Country
 
+
 class Athlete_Bio(models.Model):
-    athlete_id = models.BigIntegerField(primary_key= True)
+    athlete_id = models.BigIntegerField(primary_key=True)
     name = models.CharField(max_length=255)
     sex = models.CharField(max_length=10)
     born = models.TextField()
@@ -13,7 +14,4 @@ class Athlete_Bio(models.Model):
     # country_noc = models.TextField()
     description = models.TextField()
     special_notes = models.TextField()
-    country = models.TextField(default = 'Unknown')
-    
-
-
+    country = models.TextField(default='Unknown')
