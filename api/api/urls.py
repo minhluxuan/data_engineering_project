@@ -20,9 +20,11 @@ from django.urls import path
 
 from country.urls import urlpatterns as country_urls
 from competition.urls import urlpatterns as competition_urls
+from athlete.urls import urlpatterns as athleteBio_urls
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     *country_urls,
-    *competition_urls,
+    *competition_urls, ,
+    *athleteBio_urls,
 ]
