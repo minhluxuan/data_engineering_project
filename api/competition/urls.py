@@ -1,14 +1,14 @@
+from .views import ResultView
 from .views import EventResultView, upload_event_results
 from django.contrib import admin
 from django.urls import path
 from competition.views.medalTableViews import MedalTableView
 
-urlpatterns = [
-    path("medaltally/", MedalTableView.as_view(), name="medal_table_search"),
-    path("medaltally/<int:id>/", MedalTableView.as_view(), name="competition"),
-]
 
 urlpatterns = [
+    path('results/', ResultView.as_view(), name='results'),
+    path("medaltally/", MedalTableView.as_view(), name="medal_table_search"),
+    path("medaltally/<int:id>/", MedalTableView.as_view(), name="competition"),
     # URL cho EventResultView
     path('upload-results/', upload_event_results, name='upload_event_results'),
     path('eventresult/', EventResultView.as_view(),

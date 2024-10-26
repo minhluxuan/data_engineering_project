@@ -1,3 +1,4 @@
+from .models import Result
 from .models import EventResult, MedalResult
 from rest_framework import serializers
 from .models import MedalTable
@@ -19,3 +20,9 @@ class MedalResultSerializer(serializers.ModelSerializer):
     class Meta:
         model = MedalResult
         fields = '__all__'  # Hoặc chỉ định các trường cụ thể
+
+
+class ResultSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Result
+        fields = '__all__'
