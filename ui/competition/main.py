@@ -8,7 +8,7 @@ from competition.api import EventResultOperation
 from rest_framework import status
 
 
-def main():
+def eventResult():
     st.title("Event Results")
 
     tab1, tab2, tab3, tab4 = st.tabs(
@@ -296,10 +296,6 @@ def main():
                 st.write("No event result found.")
 
 
-if __name__ == "__main__":
-    main()
-
-
 # def main():
 #     st.title("Country")
 
@@ -402,7 +398,7 @@ if __name__ == "__main__":
 #                 st.write('An error occurred. Please try again.')from datetime import datetime
 
 
-def main():
+def competitionResult():
     st.title("Competition")
 
     tab1, tab2 = st.tabs(['Result Profile', 'Results'])

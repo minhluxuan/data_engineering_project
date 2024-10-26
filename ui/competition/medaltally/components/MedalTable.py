@@ -171,7 +171,7 @@ class MedalTable:
             editionSelect = st.selectbox(
                 "Select Edition:",
                 ["All", *olympicEditionTable['edition'].tolist()],
-                key="medal_table_edition"
+                key="medal_table_abc"
             )
         with col2:
             countrySelect = st.selectbox(

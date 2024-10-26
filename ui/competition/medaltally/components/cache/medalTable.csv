@@ -1,5 +1,5 @@
 Olympic Edition,Country,Gold,Silver,Bronze,Total Medals,id,edition_id,country_noc
-1896 Summer Olympics,United States,80,7,2,89,1,1,USA
+1896 Summer Olympics,United States,11,7,2,20,1,1,USA
 1896 Summer Olympics,Greece,10,18,19,47,2,1,GRE
 1896 Summer Olympics,Germany,6,5,2,13,3,1,GER
 1896 Summer Olympics,France,5,4,2,11,4,1,FRA
@@ -531,7 +531,7 @@ Olympic Edition,Country,Gold,Silver,Bronze,Total Medals,id,edition_id,country_no
 1976 Summer Olympics,Pakistan,0,0,1,1,557,19,PAK
 1976 Summer Olympics,Puerto Rico,0,0,1,1,558,19,PUR
 1976 Summer Olympics,Thailand,0,0,1,1,559,19,THA
-1980 Summer Olympics,Soviet Union,22,69,46,137,560,20,URS
+1980 Summer Olympics,Soviet Union,80,69,46,195,560,20,URS
 1980 Summer Olympics,East Germany,47,37,42,126,561,20,GDR
 1980 Summer Olympics,Bulgaria,8,16,17,41,562,20,BUL
 1980 Summer Olympics,Cuba,8,7,5,20,563,20,CUB
@@ -567,7 +567,7 @@ Olympic Edition,Country,Gold,Silver,Bronze,Total Medals,id,edition_id,country_no
 1980 Summer Olympics,Jamaica,0,0,3,3,593,20,JAM
 1980 Summer Olympics,Guyana,0,0,1,1,594,20,GUY
 1980 Summer Olympics,Lebanon,0,0,1,1,595,20,LBN
-1984 Summer Olympics,United States,90,61,30,181,596,21,USA
+1984 Summer Olympics,United States,83,61,30,174,596,21,USA
 1984 Summer Olympics,Romania,20,16,17,53,597,21,ROU
 1984 Summer Olympics,West Germany,17,19,23,59,598,21,FRG
 1984 Summer Olympics,People's Republic of China,15,8,9,32,599,21,CHN

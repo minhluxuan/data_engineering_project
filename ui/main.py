@@ -31,7 +31,7 @@ if selected_options == 'Homepage':
     st.write('**Student:** ')
     table_data = {
         'Student name': ['Lu Xuan Minh', 'Tran The Nhan', 'Ho Thanh Nhan', 'Nguyen Thanh Nhan', 'Nguyen Thanh Nhan'],
-        'Student ID': ['2212051', '', '', '', '2212366']
+        'Student ID': ['2212051', '', '2212352', '', '2212366']
     }
 
     df = pd.DataFrame(table_data)
@@ -46,7 +46,9 @@ if selected_options == 'Country':
     country.main()
 
 if selected_options == 'Competition':
-    competition.main()
+    competition.eventResult()
+    competition.competitionResult()
+    Dashboard.display()
 
 if selected_options == 'Athlete':
     athlete.main()
