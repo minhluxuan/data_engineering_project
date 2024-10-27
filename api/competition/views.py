@@ -1,3 +1,6 @@
+from django.shortcuts import render
+from .serializers import MedalTableSerializer
+from .models import MedalTable
 import pandas as pd
 from rest_framework.views import APIView
 from rest_framework.decorators import api_view
@@ -67,15 +70,59 @@ def upload_event_results(request):
             return Response(medal_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
     return Response({'message': 'Event and Medal results uploaded successfully'}, status=status.HTTP_201_CREATED)
 
-# @api_view(['GET'])
-# def check_connection(request):
-#     try:
-#         with connection.cursor() as cursor:
-#             cursor.execute("SELECT 1;")
-#             cursor.fetchone()
-#         return Response({"message": "Database connection successful"}, status=status.HTTP_200_OK)
-#     except Exception as e:
-#         return Response({"message": f"Database connection failed: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+@api_view(['POST'])
+def upload_result(request):
+    if 'file' not in request.FILES:
+        return Response({'error': 'No file provided'}, status=status.HTTP_400_BAD_REQUEST)
+
+    file = request.FILES['file']
+    # print(file)
+    # if not file.name.endswith('.csv'):
+    #     return Response({'error': 'File is not CSV type'}, status=status.HTTP_400_BAD_REQUEST)
+
+    # Đọc dữ liệu từ file CSV vào DataFrame
+    df = pd.read_csv(file)
+
+    def parse_date(date_str):
+        if pd.isna(date_str) or date_str == 'None':
+            return None  # hoặc bạn có thể cung cấp một giá trị mặc định
+        try:
+            # Chuyển đổi ngày về định dạng YYYY-MM-DD
+            return pd.to_datetime(date_str, errors='coerce').strftime('%Y-%m-%d')
+        except Exception:
+            return None
+
+    # Áp dụng hàm chuyển đổi ngày cho các cột
+    df['start_date'] = df['start_date'].apply(parse_date)
+    df['end_date'] = df['end_date'].apply(parse_date)
+
+    # Lặp qua từng dòng và lưu vào cơ sở dữ liệu
+    for _, row in df.iterrows():
+        game_data = {
+            'result_id': row['result_id'],
+            'event_title': row['event_title'],
+            'sport': row['sport'],
+            'sport_url': row['sport_url'],
+            'result_location': row['result_location'],
+            'result_participants': row['result_participants'],
+            # Nếu bạn có noc trong CSV
+            'result_countries': row['result_countries'],
+            'start_date': row['start_date'],
+            'end_date': row['end_date'],
+            'result_format': row['result_format'],
+            'result_detail': row['result_detail'],
+            'result_description': row['result_description'],
+            'edition_id': row['edition_id']
+        }
+
+        serializer = ResultSerializer(data=game_data)
+        if serializer.is_valid():
+            serializer.save()
+        else:
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    return Response({'message': 'Result uploaded successfully'}, status=status.HTTP_201_CREATED)
 
 
 class EventResultView(APIView):
@@ -143,60 +190,6 @@ class EventResultView(APIView):
             }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 
-@api_view(['POST'])
-def upload_result(request):
-    if 'file' not in request.FILES:
-        return Response({'error': 'No file provided'}, status=status.HTTP_400_BAD_REQUEST)
-
-    file = request.FILES['file']
-    # print(file)
-    # if not file.name.endswith('.csv'):
-    #     return Response({'error': 'File is not CSV type'}, status=status.HTTP_400_BAD_REQUEST)
-
-    # Đọc dữ liệu từ file CSV vào DataFrame
-    df = pd.read_csv(file)
-
-    def parse_date(date_str):
-        if pd.isna(date_str) or date_str == 'None':
-            return None  # hoặc bạn có thể cung cấp một giá trị mặc định
-        try:
-            # Chuyển đổi ngày về định dạng YYYY-MM-DD
-            return pd.to_datetime(date_str, errors='coerce').strftime('%Y-%m-%d')
-        except Exception:
-            return None
-
-    # Áp dụng hàm chuyển đổi ngày cho các cột
-    df['start_date'] = df['start_date'].apply(parse_date)
-    df['end_date'] = df['end_date'].apply(parse_date)
-
-    # Lặp qua từng dòng và lưu vào cơ sở dữ liệu
-    for _, row in df.iterrows():
-        game_data = {
-            'result_id': row['result_id'],
-            'event_title': row['event_title'],
-            'sport': row['sport'],
-            'sport_url': row['sport_url'],
-            'result_location': row['result_location'],
-            'result_participants': row['result_participants'],
-            # Nếu bạn có noc trong CSV
-            'result_countries': row['result_countries'],
-            'start_date': row['start_date'],
-            'end_date': row['end_date'],
-            'result_format': row['result_format'],
-            'result_detail': row['result_detail'],
-            'result_description': row['result_description'],
-            'edition_id': row['edition_id']
-        }
-
-        serializer = ResultSerializer(data=game_data)
-        if serializer.is_valid():
-            serializer.save()
-        else:
-            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-    return Response({'message': 'Result uploaded successfully'}, status=status.HTTP_201_CREATED)
-
-
 class ResultView(APIView):
     def post(self, request):
         try:
@@ -248,3 +241,66 @@ class ResultView(APIView):
                 'data': None,
                 'message': 'An error occurs'
             }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
+class MedalTableView(APIView):
+    def get(self, request):
+        try:
+            noc = request.query_params.get('noc')
+            edition_id = request.query_params.get('edition_id')
+
+            queryset = MedalTable.objects.all()
+
+            if noc:
+                queryset = queryset.filter(country_noc=noc)
+            if edition_id:
+                queryset = queryset.filter(edition_id=edition_id)
+
+            # medal_tallies = MedalTable.objects.all()
+            serializer = MedalTableSerializer(queryset, many=True)
+            return Response(serializer.data, status=status.HTTP_200_OK)
+        except Exception as e:
+            return Response({"message": f"An error occurred: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+    # def get(self, request, id):
+    #     try:
+    #         medal_tally = MedalTable.objects.get(id=id)
+    #         serializer = MedalTableSerializer(medal_tally)
+    #         return Response(serializer.data, status=status.HTTP_200_OK)
+    #     except MedalTable.DoesNotExist:
+    #         return Response({"message": "Medal tally not found"}, status=status.HTTP_404_NOT_FOUND)
+    #     except Exception as e:
+    #         return Response({"message": f"An error occurred: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+    def post(self, request):
+        try:
+            serializer = MedalTableSerializer(data=request.data)
+            if serializer.is_valid():
+                serializer.save()
+                return Response(serializer.data, status=status.HTTP_201_CREATED)
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        except Exception as e:
+            return Response({"message": f"An error occurred: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+    def put(self, request, id):
+        try:
+            medal_tally = MedalTable.objects.get(id=id)
+            serializer = MedalTableSerializer(medal_tally, data=request.data)
+            if serializer.is_valid():
+                serializer.save()
+                return Response(serializer.data, status=status.HTTP_200_OK)
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        except MedalTable.DoesNotExist:
+            return Response({"message": "Medal tally not found"}, status=status.HTTP_404_NOT_FOUND)
+        except Exception as e:
+            return Response({"message": f"An error occurred: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+    def delete(self, request, id):
+        try:
+            medal_tally = MedalTable.objects.get(id=id)
+            medal_tally.delete()
+            return Response(status=status.HTTP_204_NO_CONTENT)
+        except MedalTable.DoesNotExist:
+            return Response({"message": "Medal tally not found"}, status=status.HTTP_404_NOT_FOUND)
+        except Exception as e:
+            return Response({"message": f"An error occurred: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)

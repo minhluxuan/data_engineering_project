@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "country",
     "competition",
-    # "athlete",
+    "athlete",
     "rest_framework"
 ]
 

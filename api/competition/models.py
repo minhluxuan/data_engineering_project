@@ -1,9 +1,28 @@
 from django.db import models
-
+from athlete.models import Athlete_Bio
 from country.models import Country, Game
 
 
-class MedalTable(models.Model):
+class Result(models.Model):
+    result_id = models.IntegerField(primary_key=True)
+    event_title = models.CharField(max_length=255)
+    edition_id = models.ForeignKey(Game, on_delete=models.RESTRICT)
+    sport = models.CharField(max_length=255)
+    sport_url = models.CharField(max_length=255)
+    result_location = models.CharField(max_length=255)
+    result_participants = models.IntegerField()
+    result_countries = models.IntegerField()
+    result_format = models.TextField()
+    result_detail = models.TextField()
+    result_description = models.TextField()
+    start_date = models.DateField()
+    end_date = models.DateField()
+
+    def __str__(self):
+        return self.sport + '(' + self.event_title + ')'
+
+
+class EventResult(models.Model):
     edition_id = models.ForeignKey(Game, on_delete=models.RESTRICT)
     country_noc = models.ForeignKey(Country, on_delete=models.RESTRICT)
     sport = models.CharField(max_length=255)
@@ -28,9 +47,8 @@ class MedalResult(models.Model):
         return self.medal + " - " + self.athlete_id + " (" + self.country_noc + ")"
 
 
-class GamesMedalTally(models.Model):
+class MedalTable(models.Model):
     edition_id = models.ForeignKey(Game, on_delete=models.RESTRICT)
-    year = models.IntegerField()
     country_noc = models.ForeignKey(Country, on_delete=models.RESTRICT)
     gold = models.IntegerField()
     silver = models.IntegerField()

@@ -2,7 +2,7 @@ from .views import ResultView
 from .views import EventResultView, upload_event_results
 from django.contrib import admin
 from django.urls import path
-from competition.views.medalTableViews import MedalTableView
+from .views import MedalTableView
 
 
 urlpatterns = [

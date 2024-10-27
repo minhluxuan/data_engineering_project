@@ -1,2 +1,3 @@
 /venv
 /api/api/settings.py
+*.pyc
