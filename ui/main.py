@@ -12,8 +12,6 @@ menu_options = ['Competition', 'Homepage', 'Country', 'Athlete']
 
 selected_options = st.sidebar.radio('Choose one', menu_options)
 
-if selected_options == 'Competition':
-    Dashboard.display()
 
 if selected_options == 'Homepage':
     st.title('Data engineering project')
