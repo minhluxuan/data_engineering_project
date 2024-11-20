@@ -40,7 +40,8 @@ class AthleteOperations():
     def update(id, data):
         response = requests.put(
             AthleteOperations.base_url + str(id) + '/', json=data)
-        if response != 500:
+        if response.status_code != 500:
+            print(response)
             return response
         return None
 

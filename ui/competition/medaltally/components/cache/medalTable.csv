@@ -1,1688 +1,1808 @@
 Olympic Edition,Country,Gold,Silver,Bronze,Total Medals,id,edition_id,country_noc
-1896 Summer Olympics,United States,11,7,2,20,1809,1,USA
-1896 Summer Olympics,Greece,10,18,19,47,1810,1,GRE
-1896 Summer Olympics,Germany,6,5,2,13,1811,1,GER
-1896 Summer Olympics,France,5,4,2,11,1812,1,FRA
-1896 Summer Olympics,Great Britain,2,3,2,7,1813,1,GBR
-1896 Summer Olympics,Hungary,2,1,3,6,1814,1,HUN
-1896 Summer Olympics,Austria,2,1,2,5,1815,1,AUT
-1896 Summer Olympics,Australia,2,0,0,2,1816,1,AUS
-1896 Summer Olympics,Denmark,1,2,3,6,1817,1,DEN
-1896 Summer Olympics,Switzerland,1,2,0,3,1818,1,SUI
-1896 Summer Olympics,Mixed team,1,0,1,2,1819,1,MIX
-1908 Summer Olympics,Great Britain,56,51,39,146,1847,5,GBR
-1908 Summer Olympics,United States,23,12,12,47,1848,5,USA
-1908 Summer Olympics,Sweden,8,6,11,25,1849,5,SWE
-1908 Summer Olympics,France,5,5,9,19,1850,5,FRA
-1908 Summer Olympics,Germany,3,5,5,13,1851,5,GER
-1908 Summer Olympics,Hungary,3,4,2,9,1852,5,HUN
-1908 Summer Olympics,Canada,3,3,10,16,1853,5,CAN
-1908 Summer Olympics,Norway,2,3,3,8,1854,5,NOR
-1908 Summer Olympics,Italy,2,2,0,4,1855,5,ITA
-1908 Summer Olympics,Belgium,1,5,2,8,1856,5,BEL
-1908 Summer Olympics,Australasia,1,2,2,5,1857,5,ANZ
-1908 Summer Olympics,Russian Federation,1,2,0,3,1858,5,RUS
-1908 Summer Olympics,Finland,1,1,3,5,1859,5,FIN
-1908 Summer Olympics,South Africa,1,1,0,2,1860,5,RSA
-1908 Summer Olympics,Greece,0,3,1,4,1861,5,GRE
-1908 Summer Olympics,Denmark,0,2,3,5,1862,5,DEN
-1908 Summer Olympics,Bohemia,0,0,2,2,1863,5,BOH
-1908 Summer Olympics,Netherlands,0,0,2,2,1864,5,NED
-1908 Summer Olympics,Austria,0,0,1,1,1865,5,AUT
-1912 Summer Olympics,United States,26,19,19,64,1866,6,USA
-1912 Summer Olympics,Sweden,23,25,17,65,1867,6,SWE
-1912 Summer Olympics,Great Britain,10,15,16,41,1868,6,GBR
-1912 Summer Olympics,Finland,9,8,9,26,1869,6,FIN
-1912 Summer Olympics,France,7,5,3,15,1870,6,FRA
-1912 Summer Olympics,Germany,6,13,7,26,1871,6,GER
-1912 Summer Olympics,Italy,5,1,2,8,1872,6,ITA
-1912 Summer Olympics,South Africa,4,2,0,6,1873,6,RSA
-1912 Summer Olympics,Norway,3,2,5,10,1874,6,NOR
-1912 Summer Olympics,Canada,3,2,3,8,1875,6,CAN
-1912 Summer Olympics,Hungary,3,2,3,8,1876,6,HUN
-1912 Summer Olympics,Australasia,2,2,3,7,1877,6,ANZ
-1912 Summer Olympics,Belgium,2,1,3,6,1878,6,BEL
-1912 Summer Olympics,Denmark,1,6,5,12,1879,6,DEN
-1912 Summer Olympics,Greece,1,0,1,2,1880,6,GRE
-1912 Summer Olympics,Switzerland,1,0,0,1,1881,6,SUI
-1912 Summer Olympics,Russian Federation,0,2,3,5,1882,6,RUS
-1912 Summer Olympics,Austria,0,2,2,4,1883,6,AUT
-1912 Summer Olympics,Netherlands,0,0,3,3,1884,6,NED
-1920 Summer Olympics,United States,41,27,27,95,1885,7,USA
-1920 Summer Olympics,Sweden,19,20,25,64,1886,7,SWE
-1920 Summer Olympics,Belgium,16,12,14,42,1887,7,BEL
-1920 Summer Olympics,Finland,15,10,9,34,1888,7,FIN
-1920 Summer Olympics,Great Britain,14,16,13,43,1889,7,GBR
-1920 Summer Olympics,Italy,14,6,5,25,1890,7,ITA
-1920 Summer Olympics,Norway,13,10,9,32,1891,7,NOR
-1920 Summer Olympics,France,9,20,13,42,1892,7,FRA
-1920 Summer Olympics,Netherlands,4,2,5,11,1893,7,NED
-1920 Summer Olympics,Denmark,3,9,1,13,1894,7,DEN
-1920 Summer Olympics,South Africa,3,4,3,10,1895,7,RSA
-1920 Summer Olympics,Canada,3,3,3,9,1896,7,CAN
-1920 Summer Olympics,Switzerland,2,2,7,11,1897,7,SUI
-1920 Summer Olympics,Estonia,1,2,0,3,1898,7,EST
-1920 Summer Olympics,Brazil,1,1,1,3,1899,7,BRA
-1920 Summer Olympics,Australia,0,2,1,3,1900,7,AUS
-1920 Summer Olympics,Japan,0,2,0,2,1901,7,JPN
-1920 Summer Olympics,Spain,0,2,0,2,1902,7,ESP
-1920 Summer Olympics,Greece,0,1,0,1,1903,7,GRE
-1920 Summer Olympics,Luxembourg,0,1,0,1,1904,7,LUX
-1920 Summer Olympics,Czechoslovakia,0,0,2,2,1905,7,TCH
-1920 Summer Olympics,New Zealand,0,0,1,1,1906,7,NZL
-1924 Summer Olympics,United States,45,27,27,99,1907,8,USA
-1924 Summer Olympics,France,14,15,12,41,1908,8,FRA
-1924 Summer Olympics,Finland,14,13,10,37,1909,8,FIN
-1924 Summer Olympics,Great Britain,9,14,12,35,1910,8,GBR
-1924 Summer Olympics,Italy,8,3,5,16,1911,8,ITA
-1924 Summer Olympics,Switzerland,7,8,10,25,1912,8,SUI
-1924 Summer Olympics,Norway,5,2,3,10,1913,8,NOR
-1924 Summer Olympics,Sweden,4,13,12,29,1914,8,SWE
-1924 Summer Olympics,Netherlands,4,1,6,11,1915,8,NED
-1924 Summer Olympics,Belgium,3,7,3,13,1916,8,BEL
-1924 Summer Olympics,Australia,3,1,2,6,1917,8,AUS
-1924 Summer Olympics,Denmark,2,6,3,11,1918,8,DEN
-1924 Summer Olympics,Hungary,2,4,4,10,1919,8,HUN
-1924 Summer Olympics,Yugoslavia,2,0,0,2,1920,8,YUG
-1924 Summer Olympics,Czechoslovakia,1,4,5,10,1921,8,TCH
-1924 Summer Olympics,Argentina,1,3,2,6,1922,8,ARG
-1924 Summer Olympics,Estonia,1,1,4,6,1923,8,EST
-1924 Summer Olympics,South Africa,1,1,1,3,1924,8,RSA
-1924 Summer Olympics,Luxembourg,1,1,0,2,1925,8,LUX
-1924 Summer Olympics,Greece,1,0,0,1,1926,8,GRE
-1924 Summer Olympics,Uruguay,1,0,0,1,1927,8,URU
-1924 Summer Olympics,Austria,0,3,1,4,1928,8,AUT
-1924 Summer Olympics,Canada,0,3,1,4,1929,8,CAN
-1924 Summer Olympics,Ireland,0,1,1,2,1930,8,IRL
-1924 Summer Olympics,Poland,0,1,1,2,1931,8,POL
-1924 Summer Olympics,Haiti,0,0,1,1,1932,8,HAI
-1924 Summer Olympics,Japan,0,0,1,1,1933,8,JPN
-1924 Summer Olympics,Monaco,0,0,1,1,1934,8,MON
-1924 Summer Olympics,New Zealand,0,0,1,1,1935,8,NZL
-1924 Summer Olympics,Portugal,0,0,1,1,1936,8,POR
-1924 Summer Olympics,Romania,0,0,1,1,1937,8,ROU
-1928 Summer Olympics,United States,22,18,16,56,1938,9,USA
-1928 Summer Olympics,Germany,11,9,19,39,1939,9,GER
-1928 Summer Olympics,Netherlands,8,10,5,23,1940,9,NED
-1928 Summer Olympics,Finland,8,8,9,25,1941,9,FIN
-1928 Summer Olympics,France,7,12,6,25,1942,9,FRA
-1928 Summer Olympics,Sweden,7,6,12,25,1943,9,SWE
-1928 Summer Olympics,Italy,7,6,7,20,1944,9,ITA
-1928 Summer Olympics,Switzerland,7,6,4,17,1945,9,SUI
-1928 Summer Olympics,Hungary,5,5,0,10,1946,9,HUN
-1928 Summer Olympics,Great Britain,4,11,7,22,1947,9,GBR
-1928 Summer Olympics,Canada,4,4,7,15,1948,9,CAN
-1928 Summer Olympics,Argentina,3,3,1,7,1949,9,ARG
-1928 Summer Olympics,Denmark,3,2,4,9,1950,9,DEN
-1928 Summer Olympics,Austria,3,0,1,4,1951,9,AUT
-1928 Summer Olympics,Czechoslovakia,2,5,2,9,1952,9,TCH
-1928 Summer Olympics,Japan,2,2,1,5,1953,9,JPN
-1928 Summer Olympics,Poland,2,1,4,7,1954,9,POL
-1928 Summer Olympics,Estonia,2,1,2,5,1955,9,EST
-1928 Summer Olympics,Egypt,2,1,1,4,1956,9,EGY
-1928 Summer Olympics,Australia,1,2,1,4,1957,9,AUS
-1928 Summer Olympics,Norway,1,2,1,4,1958,9,NOR
-1928 Summer Olympics,Yugoslavia,1,1,3,5,1959,9,YUG
-1928 Summer Olympics,South Africa,1,0,2,3,1960,9,RSA
-1928 Summer Olympics,India,1,0,0,1,1961,9,IND
-1928 Summer Olympics,Ireland,1,0,0,1,1962,9,IRL
-1928 Summer Olympics,Luxembourg,1,0,0,1,1963,9,LUX
-1928 Summer Olympics,New Zealand,1,0,0,1,1964,9,NZL
-1928 Summer Olympics,Spain,1,0,0,1,1965,9,ESP
-1928 Summer Olympics,Uruguay,1,0,0,1,1966,9,URU
-1928 Summer Olympics,Belgium,0,1,2,3,1967,9,BEL
-1928 Summer Olympics,Chile,0,1,0,1,1968,9,CHI
-1928 Summer Olympics,Haiti,0,1,0,1,1969,9,HAI
-1928 Summer Olympics,Philippines,0,0,1,1,1970,9,PHI
-1928 Summer Olympics,Portugal,0,0,1,1,1971,9,POR
-1932 Summer Olympics,United States,44,36,30,110,1972,10,USA
-1932 Summer Olympics,Italy,12,12,12,36,1973,10,ITA
-1932 Summer Olympics,France,11,5,4,20,1974,10,FRA
-1932 Summer Olympics,Sweden,10,5,9,24,1975,10,SWE
-1932 Summer Olympics,Japan,7,7,4,18,1976,10,JPN
-1932 Summer Olympics,Hungary,6,5,5,16,1977,10,HUN
-1932 Summer Olympics,Germany,5,12,7,24,1978,10,GER
-1932 Summer Olympics,Finland,5,8,12,25,1979,10,FIN
-1932 Summer Olympics,Great Britain,5,7,5,17,1980,10,GBR
-1932 Summer Olympics,Poland,3,2,4,9,1981,10,POL
-1932 Summer Olympics,Australia,3,1,1,5,1982,10,AUS
-1932 Summer Olympics,Argentina,3,1,0,4,1983,10,ARG
-1932 Summer Olympics,Canada,2,5,9,16,1984,10,CAN
-1932 Summer Olympics,Netherlands,2,5,1,8,1985,10,NED
-1932 Summer Olympics,South Africa,2,0,3,5,1986,10,RSA
-1932 Summer Olympics,Ireland,2,0,0,2,1987,10,IRL
-1932 Summer Olympics,Czechoslovakia,1,3,2,6,1988,10,TCH
-1932 Summer Olympics,Austria,1,1,3,5,1989,10,AUT
-1932 Summer Olympics,India,1,0,0,1,1990,10,IND
-1932 Summer Olympics,Denmark,0,5,3,8,1991,10,DEN
-1932 Summer Olympics,Mexico,0,2,0,2,1992,10,MEX
-1932 Summer Olympics,Latvia,0,1,0,1,1993,10,LAT
-1932 Summer Olympics,New Zealand,0,1,0,1,1994,10,NZL
-1932 Summer Olympics,Switzerland,0,1,0,1,1995,10,SUI
-1932 Summer Olympics,Philippines,0,0,3,3,1996,10,PHI
-1932 Summer Olympics,Belgium,0,0,1,1,1997,10,BEL
-1932 Summer Olympics,Spain,0,0,1,1,1998,10,ESP
-1932 Summer Olympics,Uruguay,0,0,1,1,1999,10,URU
-1936 Summer Olympics,Germany,38,31,32,101,2000,11,GER
-1936 Summer Olympics,United States,24,21,12,57,2001,11,USA
-1936 Summer Olympics,Hungary,10,1,5,16,2002,11,HUN
-1936 Summer Olympics,Italy,9,13,5,27,2003,11,ITA
-1936 Summer Olympics,Finland,8,6,6,20,2004,11,FIN
-1936 Summer Olympics,France,7,6,6,19,2005,11,FRA
-1936 Summer Olympics,Sweden,6,5,10,21,2006,11,SWE
-1936 Summer Olympics,Japan,6,4,10,20,2007,11,JPN
-1936 Summer Olympics,Netherlands,6,4,7,17,2008,11,NED
-1936 Summer Olympics,Austria,5,7,5,17,2009,11,AUT
-1936 Summer Olympics,Switzerland,4,9,5,18,2010,11,SUI
-1936 Summer Olympics,Great Britain,4,7,3,14,2011,11,GBR
-1936 Summer Olympics,Czechoslovakia,3,5,1,9,2012,11,TCH
-1936 Summer Olympics,Argentina,2,2,3,7,2013,11,ARG
-1936 Summer Olympics,Estonia,2,2,3,7,2014,11,EST
-1936 Summer Olympics,Egypt,2,1,2,5,2015,11,EGY
-1936 Summer Olympics,Canada,1,3,5,9,2016,11,CAN
-1936 Summer Olympics,Norway,1,3,2,6,2017,11,NOR
-1936 Summer Olympics,TÃ¼rkiye,1,0,1,2,2018,11,TUR
-1936 Summer Olympics,India,1,0,0,1,2019,11,IND
-1936 Summer Olympics,New Zealand,1,0,0,1,2020,11,NZL
-1936 Summer Olympics,Poland,0,4,5,9,2021,11,POL
-1936 Summer Olympics,Denmark,0,2,3,5,2022,11,DEN
-1936 Summer Olympics,Latvia,0,1,1,2,2023,11,LAT
-1936 Summer Olympics,Romania,0,1,0,1,2024,11,ROU
-1936 Summer Olympics,South Africa,0,1,0,1,2025,11,RSA
-1936 Summer Olympics,Yugoslavia,0,1,0,1,2026,11,YUG
-1936 Summer Olympics,Belgium,0,0,3,3,2027,11,BEL
-1936 Summer Olympics,Mexico,0,0,3,3,2028,11,MEX
-1936 Summer Olympics,Australia,0,0,1,1,2029,11,AUS
-1936 Summer Olympics,Philippines,0,0,1,1,2030,11,PHI
-1936 Summer Olympics,Portugal,0,0,1,1,2031,11,POR
-1948 Summer Olympics,United States,38,27,19,84,2032,12,USA
-1948 Summer Olympics,Sweden,17,11,18,46,2033,12,SWE
-1948 Summer Olympics,France,11,6,15,32,2034,12,FRA
-1948 Summer Olympics,Finland,10,8,6,24,2035,12,FIN
-1948 Summer Olympics,Hungary,10,5,13,28,2036,12,HUN
-1948 Summer Olympics,Italy,9,12,10,31,2037,12,ITA
-1948 Summer Olympics,TÃ¼rkiye,6,4,2,12,2038,12,TUR
-1948 Summer Olympics,Czechoslovakia,6,2,3,11,2039,12,TCH
-1948 Summer Olympics,Switzerland,5,12,6,23,2040,12,SUI
-1948 Summer Olympics,Denmark,5,8,9,22,2041,12,DEN
-1948 Summer Olympics,Netherlands,5,2,9,16,2042,12,NED
-1948 Summer Olympics,Great Britain,4,16,7,27,2043,12,GBR
-1948 Summer Olympics,Argentina,3,3,1,7,2044,12,ARG
-1948 Summer Olympics,Australia,2,6,5,13,2045,12,AUS
-1948 Summer Olympics,Austria,2,2,4,8,2046,12,AUT
-1948 Summer Olympics,Belgium,2,2,3,7,2047,12,BEL
-1948 Summer Olympics,South Africa,2,2,2,6,2048,12,RSA
-1948 Summer Olympics,Egypt,2,2,1,5,2049,12,EGY
-1948 Summer Olympics,Mexico,2,1,2,5,2050,12,MEX
-1948 Summer Olympics,Norway,1,3,3,7,2051,12,NOR
-1948 Summer Olympics,Jamaica,1,2,0,3,2052,12,JAM
-1948 Summer Olympics,Poland,1,0,1,2,2053,12,POL
-1948 Summer Olympics,India,1,0,0,1,2054,12,IND
-1948 Summer Olympics,Peru,1,0,0,1,2055,12,PER
-1948 Summer Olympics,Canada,0,2,2,4,2056,12,CAN
-1948 Summer Olympics,Yugoslavia,0,2,0,2,2057,12,YUG
-1948 Summer Olympics,Portugal,0,1,1,2,2058,12,POR
-1948 Summer Olympics,Uruguay,0,1,1,2,2059,12,URU
-1948 Summer Olympics,Cuba,0,1,0,1,2060,12,CUB
-1948 Summer Olympics,Spain,0,1,0,1,2061,12,ESP
-1948 Summer Olympics,Sri Lanka,0,1,0,1,2062,12,SRI
-1948 Summer Olympics,Trinidad and Tobago,0,1,0,1,2063,12,TTO
-1948 Summer Olympics,Panama,0,0,2,2,2064,12,PAN
-1948 Summer Olympics,Republic of Korea,0,0,2,2,2065,12,KOR
-1948 Summer Olympics,Brazil,0,0,1,1,2066,12,BRA
-1948 Summer Olympics,Ireland,0,0,1,1,2067,12,IRL
-1948 Summer Olympics,Islamic Republic of Iran,0,0,1,1,2068,12,IRI
-1948 Summer Olympics,Puerto Rico,0,0,1,1,2069,12,PUR
-1952 Summer Olympics,United States,40,19,17,76,2070,13,USA
-1952 Summer Olympics,Soviet Union,22,30,19,71,2071,13,URS
-1952 Summer Olympics,Hungary,16,10,16,42,2072,13,HUN
-1952 Summer Olympics,Sweden,12,13,10,35,2073,13,SWE
-1952 Summer Olympics,Italy,8,9,4,21,2074,13,ITA
-1952 Summer Olympics,Czechoslovakia,7,3,3,13,2075,13,TCH
-1952 Summer Olympics,France,6,6,6,18,2076,13,FRA
-1952 Summer Olympics,Finland,6,3,13,22,2077,13,FIN
-1952 Summer Olympics,Australia,6,2,3,11,2078,13,AUS
-1952 Summer Olympics,Norway,3,2,0,5,2079,13,NOR
-1952 Summer Olympics,Switzerland,2,6,6,14,2080,13,SUI
-1952 Summer Olympics,South Africa,2,4,4,10,2081,13,RSA
-1952 Summer Olympics,Jamaica,2,3,0,5,2082,13,JAM
-1952 Summer Olympics,Belgium,2,2,0,4,2083,13,BEL
-1952 Summer Olympics,Denmark,2,1,3,6,2084,13,DEN
-1952 Summer Olympics,TÃ¼rkiye,2,0,1,3,2085,13,TUR
-1952 Summer Olympics,Japan,1,6,2,9,2086,13,JPN
-1952 Summer Olympics,Great Britain,1,2,8,11,2087,13,GBR
-1952 Summer Olympics,Argentina,1,2,2,5,2088,13,ARG
-1952 Summer Olympics,Poland,1,2,1,4,2089,13,POL
-1952 Summer Olympics,Canada,1,2,0,3,2090,13,CAN
-1952 Summer Olympics,Yugoslavia,1,2,0,3,2091,13,YUG
-1952 Summer Olympics,Romania,1,1,2,4,2092,13,ROU
-1952 Summer Olympics,Brazil,1,0,2,3,2093,13,BRA
-1952 Summer Olympics,New Zealand,1,0,2,3,2094,13,NZL
-1952 Summer Olympics,India,1,0,1,2,2095,13,IND
-1952 Summer Olympics,Luxembourg,1,0,0,1,2096,13,LUX
-1952 Summer Olympics,Germany,0,7,17,24,2097,13,GER
-1952 Summer Olympics,Netherlands,0,5,0,5,2098,13,NED
-1952 Summer Olympics,Islamic Republic of Iran,0,3,4,7,2099,13,IRI
-1952 Summer Olympics,Chile,0,2,0,2,2100,13,CHI
-1952 Summer Olympics,Austria,0,1,1,2,2101,13,AUT
-1952 Summer Olympics,Lebanon,0,1,1,2,2102,13,LBN
-1952 Summer Olympics,Ireland,0,1,0,1,2103,13,IRL
-1952 Summer Olympics,Mexico,0,1,0,1,2104,13,MEX
-1952 Summer Olympics,Spain,0,1,0,1,2105,13,ESP
-1952 Summer Olympics,Republic of Korea,0,0,2,2,2106,13,KOR
-1952 Summer Olympics,Trinidad and Tobago,0,0,2,2,2107,13,TTO
-1952 Summer Olympics,Uruguay,0,0,2,2,2108,13,URU
-1952 Summer Olympics,Bulgaria,0,0,1,1,2109,13,BUL
-1952 Summer Olympics,Egypt,0,0,1,1,2110,13,EGY
-1952 Summer Olympics,Portugal,0,0,1,1,2111,13,POR
-1952 Summer Olympics,Venezuela,0,0,1,1,2112,13,VEN
-1956 Summer Olympics,Soviet Union,37,29,32,98,2113,14,URS
-1956 Summer Olympics,United States,32,25,17,74,2114,14,USA
-1956 Summer Olympics,Australia,13,8,14,35,2115,14,AUS
-1956 Summer Olympics,Hungary,9,10,7,26,2116,14,HUN
-1956 Summer Olympics,Italy,8,6,8,22,2117,14,ITA
-1956 Summer Olympics,Great Britain,5,7,9,21,2118,14,GBR
-1956 Summer Olympics,Sweden,5,5,6,16,2119,14,SWE
-1956 Summer Olympics,Romania,5,3,5,13,2120,14,ROU
-1956 Summer Olympics,Germany,4,10,6,20,2121,14,GER
-1956 Summer Olympics,Japan,4,10,5,19,2122,14,JPN
-1956 Summer Olympics,France,4,4,6,14,2123,14,FRA
-1956 Summer Olympics,TÃ¼rkiye,3,2,2,7,2124,14,TUR
-1956 Summer Olympics,Finland,3,1,11,15,2125,14,FIN
-1956 Summer Olympics,Islamic Republic of Iran,2,2,1,5,2126,14,IRI
-1956 Summer Olympics,Canada,2,1,2,5,2127,14,CAN
-1956 Summer Olympics,New Zealand,2,0,0,2,2128,14,NZL
-1956 Summer Olympics,Poland,1,4,4,9,2129,14,POL
-1956 Summer Olympics,Czechoslovakia,1,4,1,6,2130,14,TCH
-1956 Summer Olympics,Bulgaria,1,3,1,5,2131,14,BUL
-1956 Summer Olympics,Ireland,1,1,3,5,2132,14,IRL
-1956 Summer Olympics,Denmark,1,1,1,3,2133,14,DEN
-1956 Summer Olympics,Norway,1,0,2,3,2134,14,NOR
-1956 Summer Olympics,Mexico,1,0,1,2,2135,14,MEX
-1956 Summer Olympics,Brazil,1,0,0,1,2136,14,BRA
-1956 Summer Olympics,India,1,0,0,1,2137,14,IND
-1956 Summer Olympics,Yugoslavia,0,3,0,3,2138,14,YUG
-1956 Summer Olympics,Chile,0,2,2,4,2139,14,CHI
-1956 Summer Olympics,Belgium,0,2,0,2,2140,14,BEL
-1956 Summer Olympics,Argentina,0,1,1,2,2141,14,ARG
-1956 Summer Olympics,Republic of Korea,0,1,1,2,2142,14,KOR
-1956 Summer Olympics,Iceland,0,1,0,1,2143,14,ISL
-1956 Summer Olympics,Pakistan,0,1,0,1,2144,14,PAK
-1956 Summer Olympics,South Africa,0,0,4,4,2145,14,RSA
-1956 Summer Olympics,Austria,0,0,2,2,2146,14,AUT
-1956 Summer Olympics,Greece,0,0,1,1,2147,14,GRE
-1956 Summer Olympics,The Bahamas,0,0,1,1,2148,14,BAH
-1956 Summer Olympics,Uruguay,0,0,1,1,2149,14,URU
-1960 Summer Olympics,Soviet Union,43,29,31,103,2150,15,URS
-1960 Summer Olympics,United States,34,21,16,71,2151,15,USA
-1960 Summer Olympics,Italy,13,10,13,36,2152,15,ITA
-1960 Summer Olympics,Germany,12,19,11,42,2153,15,GER
-1960 Summer Olympics,Australia,8,8,6,22,2154,15,AUS
-1960 Summer Olympics,TÃ¼rkiye,7,2,0,9,2155,15,TUR
-1960 Summer Olympics,Hungary,6,8,7,21,2156,15,HUN
-1960 Summer Olympics,Japan,4,7,7,18,2157,15,JPN
-1960 Summer Olympics,Poland,4,6,11,21,2158,15,POL
-1960 Summer Olympics,Czechoslovakia,3,2,3,8,2159,15,TCH
-1960 Summer Olympics,Romania,3,1,6,10,2160,15,ROU
-1960 Summer Olympics,Great Britain,2,6,12,20,2161,15,GBR
-1960 Summer Olympics,Denmark,2,3,1,6,2162,15,DEN
-1960 Summer Olympics,New Zealand,2,0,1,3,2163,15,NZL
-1960 Summer Olympics,Bulgaria,1,3,3,7,2164,15,BUL
-1960 Summer Olympics,Sweden,1,2,3,6,2165,15,SWE
-1960 Summer Olympics,Finland,1,1,3,5,2166,15,FIN
-1960 Summer Olympics,Austria,1,1,0,2,2167,15,AUT
-1960 Summer Olympics,Yugoslavia,1,1,0,2,2168,15,YUG
-1960 Summer Olympics,Pakistan,1,0,1,2,2169,15,PAK
-1960 Summer Olympics,Ethiopia,1,0,0,1,2170,15,ETH
-1960 Summer Olympics,Greece,1,0,0,1,2171,15,GRE
-1960 Summer Olympics,Norway,1,0,0,1,2172,15,NOR
-1960 Summer Olympics,Switzerland,0,3,3,6,2173,15,SUI
-1960 Summer Olympics,France,0,2,3,5,2174,15,FRA
-1960 Summer Olympics,Belgium,0,2,2,4,2175,15,BEL
-1960 Summer Olympics,Islamic Republic of Iran,0,1,3,4,2176,15,IRI
-1960 Summer Olympics,Netherlands,0,1,2,3,2177,15,NED
-1960 Summer Olympics,South Africa,0,1,2,3,2178,15,RSA
-1960 Summer Olympics,Argentina,0,1,1,2,2179,15,ARG
-1960 Summer Olympics,United Arab Republic,0,1,1,2,2180,15,UAR
-1960 Summer Olympics,Canada,0,1,0,1,2181,15,CAN
-1960 Summer Olympics,Chinese Taipei,0,1,0,1,2182,15,TPE
-1960 Summer Olympics,Ghana,0,1,0,1,2183,15,GHA
-1960 Summer Olympics,India,0,1,0,1,2184,15,IND
-1960 Summer Olympics,Morocco,0,1,0,1,2185,15,MAR
-1960 Summer Olympics,Portugal,0,1,0,1,2186,15,POR
-1960 Summer Olympics,Singapore,0,1,0,1,2187,15,SGP
-1960 Summer Olympics,Brazil,0,0,2,2,2188,15,BRA
-1960 Summer Olympics,West Indies Federation,0,0,2,2,2189,15,WIF
-1960 Summer Olympics,Iraq,0,0,1,1,2190,15,IRQ
-1960 Summer Olympics,Mexico,0,0,1,1,2191,15,MEX
-1960 Summer Olympics,Spain,0,0,1,1,2192,15,ESP
-1960 Summer Olympics,Venezuela,0,0,1,1,2193,15,VEN
-1964 Summer Olympics,United States,36,26,28,90,2194,16,USA
-1964 Summer Olympics,Soviet Union,30,31,35,96,2195,16,URS
-1964 Summer Olympics,Japan,16,5,8,29,2196,16,JPN
-1964 Summer Olympics,Germany,10,22,18,50,2197,16,GER
-1964 Summer Olympics,Italy,10,10,7,27,2198,16,ITA
-1964 Summer Olympics,Hungary,10,7,5,22,2199,16,HUN
-1964 Summer Olympics,Poland,7,6,10,23,2200,16,POL
-1964 Summer Olympics,Australia,6,2,10,18,2201,16,AUS
-1964 Summer Olympics,Czechoslovakia,5,6,3,14,2202,16,TCH
-1964 Summer Olympics,Great Britain,4,12,2,18,2203,16,GBR
-1964 Summer Olympics,Bulgaria,3,5,2,10,2204,16,BUL
-1964 Summer Olympics,Finland,3,0,2,5,2205,16,FIN
-1964 Summer Olympics,New Zealand,3,0,2,5,2206,16,NZL
-1964 Summer Olympics,Romania,2,4,6,12,2207,16,ROU
-1964 Summer Olympics,Netherlands,2,4,4,10,2208,16,NED
-1964 Summer Olympics,TÃ¼rkiye,2,3,1,6,2209,16,TUR
-1964 Summer Olympics,Sweden,2,2,4,8,2210,16,SWE
-1964 Summer Olympics,Denmark,2,1,3,6,2211,16,DEN
-1964 Summer Olympics,Yugoslavia,2,1,2,5,2212,16,YUG
-1964 Summer Olympics,Belgium,2,0,1,3,2213,16,BEL
-1964 Summer Olympics,France,1,8,6,15,2214,16,FRA
-1964 Summer Olympics,Canada,1,2,1,4,2215,16,CAN
-1964 Summer Olympics,Switzerland,1,2,1,4,2216,16,SUI
-1964 Summer Olympics,Ethiopia,1,0,0,1,2217,16,ETH
-1964 Summer Olympics,India,1,0,0,1,2218,16,IND
-1964 Summer Olympics,The Bahamas,1,0,0,1,2219,16,BAH
-1964 Summer Olympics,Republic of Korea,0,2,1,3,2220,16,KOR
-1964 Summer Olympics,Trinidad and Tobago,0,1,2,3,2221,16,TTO
-1964 Summer Olympics,Tunisia,0,1,1,2,2222,16,TUN
-1964 Summer Olympics,Argentina,0,1,0,1,2223,16,ARG
-1964 Summer Olympics,Cuba,0,1,0,1,2224,16,CUB
-1964 Summer Olympics,Pakistan,0,1,0,1,2225,16,PAK
-1964 Summer Olympics,Philippines,0,1,0,1,2226,16,PHI
-1964 Summer Olympics,Islamic Republic of Iran,0,0,2,2,2227,16,IRI
-1964 Summer Olympics,Brazil,0,0,1,1,2228,16,BRA
-1964 Summer Olympics,Ghana,0,0,1,1,2229,16,GHA
-1964 Summer Olympics,Ireland,0,0,1,1,2230,16,IRL
-1964 Summer Olympics,Kenya,0,0,1,1,2231,16,KEN
-1964 Summer Olympics,Mexico,0,0,1,1,2232,16,MEX
-1964 Summer Olympics,Nigeria,0,0,1,1,2233,16,NGR
-1964 Summer Olympics,Uruguay,0,0,1,1,2234,16,URU
-1968 Summer Olympics,United States,45,28,34,107,2235,17,USA
-1968 Summer Olympics,Soviet Union,29,32,30,91,2236,17,URS
-1968 Summer Olympics,Japan,11,7,7,25,2237,17,JPN
-1968 Summer Olympics,Hungary,10,10,12,32,2238,17,HUN
-1968 Summer Olympics,East Germany,9,9,7,25,2239,17,GDR
-1968 Summer Olympics,France,7,3,5,15,2240,17,FRA
-1968 Summer Olympics,Czechoslovakia,7,2,4,13,2241,17,TCH
-1968 Summer Olympics,West Germany,5,11,10,26,2242,17,FRG
-1968 Summer Olympics,Australia,5,7,5,17,2243,17,AUS
-1968 Summer Olympics,Great Britain,5,5,3,13,2244,17,GBR
-1968 Summer Olympics,Poland,5,2,11,18,2245,17,POL
-1968 Summer Olympics,Romania,4,6,5,15,2246,17,ROU
-1968 Summer Olympics,Italy,3,4,9,16,2247,17,ITA
-1968 Summer Olympics,Kenya,3,4,2,9,2248,17,KEN
-1968 Summer Olympics,Mexico,3,3,3,9,2249,17,MEX
-1968 Summer Olympics,Yugoslavia,3,3,2,8,2250,17,YUG
-1968 Summer Olympics,Netherlands,3,3,1,7,2251,17,NED
-1968 Summer Olympics,Bulgaria,2,4,3,9,2252,17,BUL
-1968 Summer Olympics,Islamic Republic of Iran,2,1,2,5,2253,17,IRI
-1968 Summer Olympics,Sweden,2,1,1,4,2254,17,SWE
-1968 Summer Olympics,TÃ¼rkiye,2,0,0,2,2255,17,TUR
-1968 Summer Olympics,Denmark,1,4,3,8,2256,17,DEN
-1968 Summer Olympics,Canada,1,3,1,5,2257,17,CAN
-1968 Summer Olympics,Finland,1,2,1,4,2258,17,FIN
-1968 Summer Olympics,Ethiopia,1,1,0,2,2259,17,ETH
-1968 Summer Olympics,Norway,1,1,0,2,2260,17,NOR
-1968 Summer Olympics,New Zealand,1,0,2,3,2261,17,NZL
-1968 Summer Olympics,Tunisia,1,0,1,2,2262,17,TUN
-1968 Summer Olympics,Pakistan,1,0,0,1,2263,17,PAK
-1968 Summer Olympics,Venezuela,1,0,0,1,2264,17,VEN
-1968 Summer Olympics,Cuba,0,4,0,4,2265,17,CUB
-1968 Summer Olympics,Austria,0,2,2,4,2266,17,AUT
-1968 Summer Olympics,Switzerland,0,1,4,5,2267,17,SUI
-1968 Summer Olympics,Mongolia,0,1,3,4,2268,17,MGL
-1968 Summer Olympics,Brazil,0,1,2,3,2269,17,BRA
-1968 Summer Olympics,Belgium,0,1,1,2,2270,17,BEL
-1968 Summer Olympics,Republic of Korea,0,1,1,2,2271,17,KOR
-1968 Summer Olympics,Uganda,0,1,1,2,2272,17,UGA
-1968 Summer Olympics,Cameroon,0,1,0,1,2273,17,CMR
-1968 Summer Olympics,Jamaica,0,1,0,1,2274,17,JAM
-1968 Summer Olympics,Argentina,0,0,2,2,2275,17,ARG
-1968 Summer Olympics,Chinese Taipei,0,0,1,1,2276,17,TPE
-1968 Summer Olympics,Greece,0,0,1,1,2277,17,GRE
-1968 Summer Olympics,India,0,0,1,1,2278,17,IND
-1972 Summer Olympics,Soviet Union,50,27,22,99,2279,18,URS
-1972 Summer Olympics,United States,33,31,30,94,2280,18,USA
-1972 Summer Olympics,East Germany,20,23,23,66,2281,18,GDR
-1972 Summer Olympics,West Germany,13,11,16,40,2282,18,FRG
-1972 Summer Olympics,Japan,13,8,8,29,2283,18,JPN
-1972 Summer Olympics,Australia,8,7,2,17,2284,18,AUS
-1972 Summer Olympics,Poland,7,5,9,21,2285,18,POL
-1972 Summer Olympics,Hungary,6,13,16,35,2286,18,HUN
-1972 Summer Olympics,Bulgaria,6,10,5,21,2287,18,BUL
-1972 Summer Olympics,Italy,5,3,10,18,2288,18,ITA
-1972 Summer Olympics,Sweden,4,6,6,16,2289,18,SWE
-1972 Summer Olympics,Great Britain,4,5,9,18,2290,18,GBR
-1972 Summer Olympics,Romania,3,6,7,16,2291,18,ROU
-1972 Summer Olympics,Cuba,3,1,4,8,2292,18,CUB
-1972 Summer Olympics,Finland,3,1,4,8,2293,18,FIN
-1972 Summer Olympics,Netherlands,3,1,1,5,2294,18,NED
-1972 Summer Olympics,France,2,4,7,13,2295,18,FRA
-1972 Summer Olympics,Czechoslovakia,2,4,2,8,2296,18,TCH
-1972 Summer Olympics,Kenya,2,3,4,9,2297,18,KEN
-1972 Summer Olympics,Yugoslavia,2,1,2,5,2298,18,YUG
-1972 Summer Olympics,Norway,2,1,1,4,2299,18,NOR
-1972 Summer Olympics,Democratic People's Republic of Korea,1,1,3,5,2300,18,PRK
-1972 Summer Olympics,New Zealand,1,1,1,3,2301,18,NZL
-1972 Summer Olympics,Uganda,1,1,0,2,2302,18,UGA
-1972 Summer Olympics,Denmark,1,0,0,1,2303,18,DEN
-1972 Summer Olympics,Switzerland,0,3,0,3,2304,18,SUI
-1972 Summer Olympics,Canada,0,2,3,5,2305,18,CAN
-1972 Summer Olympics,Islamic Republic of Iran,0,2,1,3,2306,18,IRI
-1972 Summer Olympics,Belgium,0,2,0,2,2307,18,BEL
-1972 Summer Olympics,Greece,0,2,0,2,2308,18,GRE
-1972 Summer Olympics,Austria,0,1,2,3,2309,18,AUT
-1972 Summer Olympics,Colombia,0,1,2,3,2310,18,COL
-1972 Summer Olympics,Argentina,0,1,0,1,2311,18,ARG
-1972 Summer Olympics,Lebanon,0,1,0,1,2312,18,LBN
-1972 Summer Olympics,Mexico,0,1,0,1,2313,18,MEX
-1972 Summer Olympics,Mongolia,0,1,0,1,2314,18,MGL
-1972 Summer Olympics,Pakistan,0,1,0,1,2315,18,PAK
-1972 Summer Olympics,Republic of Korea,0,1,0,1,2316,18,KOR
-1972 Summer Olympics,Tunisia,0,1,0,1,2317,18,TUN
-1972 Summer Olympics,TÃ¼rkiye,0,1,0,1,2318,18,TUR
-1972 Summer Olympics,Brazil,0,0,2,2,2319,18,BRA
-1972 Summer Olympics,Ethiopia,0,0,2,2,2320,18,ETH
-1972 Summer Olympics,Ghana,0,0,1,1,2321,18,GHA
-1972 Summer Olympics,India,0,0,1,1,2322,18,IND
-1972 Summer Olympics,Jamaica,0,0,1,1,2323,18,JAM
-1972 Summer Olympics,Niger,0,0,1,1,2324,18,NIG
-1972 Summer Olympics,Nigeria,0,0,1,1,2325,18,NGR
-1972 Summer Olympics,Spain,0,0,1,1,2326,18,ESP
-1976 Summer Olympics,Soviet Union,49,41,35,125,2327,19,URS
-1976 Summer Olympics,East Germany,40,25,25,90,2328,19,GDR
-1976 Summer Olympics,United States,34,35,25,94,2329,19,USA
-1976 Summer Olympics,West Germany,10,12,17,39,2330,19,FRG
-1976 Summer Olympics,Japan,9,6,10,25,2331,19,JPN
-1976 Summer Olympics,Poland,7,6,13,26,2332,19,POL
-1976 Summer Olympics,Bulgaria,6,9,7,22,2333,19,BUL
-1976 Summer Olympics,Cuba,6,4,3,13,2334,19,CUB
-1976 Summer Olympics,Romania,4,9,14,27,2335,19,ROU
-1976 Summer Olympics,Hungary,4,5,13,22,2336,19,HUN
-1976 Summer Olympics,Finland,4,2,0,6,2337,19,FIN
-1976 Summer Olympics,Sweden,4,1,0,5,2338,19,SWE
-1976 Summer Olympics,Great Britain,3,5,5,13,2339,19,GBR
-1976 Summer Olympics,Italy,2,7,4,13,2340,19,ITA
-1976 Summer Olympics,France,2,3,4,9,2341,19,FRA
-1976 Summer Olympics,Yugoslavia,2,3,3,8,2342,19,YUG
-1976 Summer Olympics,Czechoslovakia,2,2,4,8,2343,19,TCH
-1976 Summer Olympics,New Zealand,2,1,1,4,2344,19,NZL
-1976 Summer Olympics,Republic of Korea,1,1,4,6,2345,19,KOR
-1976 Summer Olympics,Switzerland,1,1,2,4,2346,19,SUI
-1976 Summer Olympics,Democratic People's Republic of Korea,1,1,0,2,2347,19,PRK
-1976 Summer Olympics,Jamaica,1,1,0,2,2348,19,JAM
-1976 Summer Olympics,Norway,1,1,0,2,2349,19,NOR
-1976 Summer Olympics,Denmark,1,0,2,3,2350,19,DEN
-1976 Summer Olympics,Mexico,1,0,1,2,2351,19,MEX
-1976 Summer Olympics,Trinidad and Tobago,1,0,0,1,2352,19,TTO
-1976 Summer Olympics,Canada,0,5,6,11,2353,19,CAN
-1976 Summer Olympics,Belgium,0,3,3,6,2354,19,BEL
-1976 Summer Olympics,Netherlands,0,2,3,5,2355,19,NED
-1976 Summer Olympics,Portugal,0,2,0,2,2356,19,POR
-1976 Summer Olympics,Spain,0,2,0,2,2357,19,ESP
-1976 Summer Olympics,Australia,0,1,4,5,2358,19,AUS
-1976 Summer Olympics,Islamic Republic of Iran,0,1,1,2,2359,19,IRI
-1976 Summer Olympics,Mongolia,0,1,0,1,2360,19,MGL
-1976 Summer Olympics,Venezuela,0,1,0,1,2361,19,VEN
-1976 Summer Olympics,Brazil,0,0,2,2,2362,19,BRA
-1976 Summer Olympics,Austria,0,0,1,1,2363,19,AUT
-1976 Summer Olympics,Bermuda,0,0,1,1,2364,19,BER
-1976 Summer Olympics,Pakistan,0,0,1,1,2365,19,PAK
-1976 Summer Olympics,Puerto Rico,0,0,1,1,2366,19,PUR
-1976 Summer Olympics,Thailand,0,0,1,1,2367,19,THA
-1980 Summer Olympics,Soviet Union,80,69,46,195,2368,20,URS
-1980 Summer Olympics,East Germany,47,37,42,126,2369,20,GDR
-1980 Summer Olympics,Bulgaria,8,16,17,41,2370,20,BUL
-1980 Summer Olympics,Cuba,8,7,5,20,2371,20,CUB
-1980 Summer Olympics,Italy,8,3,4,15,2372,20,ITA
-1980 Summer Olympics,Hungary,7,10,15,32,2373,20,HUN
-1980 Summer Olympics,Romania,6,6,13,25,2374,20,ROU
-1980 Summer Olympics,France,6,5,3,14,2375,20,FRA
-1980 Summer Olympics,Great Britain,5,7,9,21,2376,20,GBR
-1980 Summer Olympics,Poland,3,14,15,32,2377,20,POL
-1980 Summer Olympics,Sweden,3,3,6,12,2378,20,SWE
-1980 Summer Olympics,Finland,3,1,4,8,2379,20,FIN
-1980 Summer Olympics,Czechoslovakia,2,3,9,14,2380,20,TCH
-1980 Summer Olympics,Yugoslavia,2,3,4,9,2381,20,YUG
-1980 Summer Olympics,Australia,2,2,5,9,2382,20,AUS
-1980 Summer Olympics,Denmark,2,1,2,5,2383,20,DEN
-1980 Summer Olympics,Brazil,2,0,2,4,2384,20,BRA
-1980 Summer Olympics,Ethiopia,2,0,2,4,2385,20,ETH
-1980 Summer Olympics,Switzerland,2,0,0,2,2386,20,SUI
-1980 Summer Olympics,Spain,1,3,2,6,2387,20,ESP
-1980 Summer Olympics,Austria,1,2,1,4,2388,20,AUT
-1980 Summer Olympics,Greece,1,0,2,3,2389,20,GRE
-1980 Summer Olympics,Belgium,1,0,0,1,2390,20,BEL
-1980 Summer Olympics,India,1,0,0,1,2391,20,IND
-1980 Summer Olympics,Zimbabwe,1,0,0,1,2392,20,ZIM
-1980 Summer Olympics,Democratic People's Republic of Korea,0,3,2,5,2393,20,PRK
-1980 Summer Olympics,Mongolia,0,2,2,4,2394,20,MGL
-1980 Summer Olympics,United Republic of Tanzania,0,2,0,2,2395,20,TAN
-1980 Summer Olympics,Mexico,0,1,3,4,2396,20,MEX
-1980 Summer Olympics,Netherlands,0,1,2,3,2397,20,NED
-1980 Summer Olympics,Ireland,0,1,1,2,2398,20,IRL
-1980 Summer Olympics,Uganda,0,1,0,1,2399,20,UGA
-1980 Summer Olympics,Venezuela,0,1,0,1,2400,20,VEN
-1980 Summer Olympics,Jamaica,0,0,3,3,2401,20,JAM
-1980 Summer Olympics,Guyana,0,0,1,1,2402,20,GUY
-1980 Summer Olympics,Lebanon,0,0,1,1,2403,20,LBN
-1984 Summer Olympics,United States,83,61,30,174,2404,21,USA
-1984 Summer Olympics,Romania,20,16,17,53,2405,21,ROU
-1984 Summer Olympics,West Germany,17,19,23,59,2406,21,FRG
-1984 Summer Olympics,People's Republic of China,15,8,9,32,2407,21,CHN
-1984 Summer Olympics,Italy,14,6,12,32,2408,21,ITA
-1984 Summer Olympics,Canada,10,18,16,44,2409,21,CAN
-1984 Summer Olympics,Japan,10,8,14,32,2410,21,JPN
-1984 Summer Olympics,New Zealand,8,1,2,11,2411,21,NZL
-1984 Summer Olympics,Yugoslavia,7,4,7,18,2412,21,YUG
-1984 Summer Olympics,Republic of Korea,6,6,7,19,2413,21,KOR
-1984 Summer Olympics,Great Britain,5,11,21,37,2414,21,GBR
-1984 Summer Olympics,France,5,7,16,28,2415,21,FRA
-1984 Summer Olympics,Netherlands,5,2,6,13,2416,21,NED
-1984 Summer Olympics,Australia,4,8,12,24,2417,21,AUS
-1984 Summer Olympics,Finland,4,2,6,12,2418,21,FIN
-1984 Summer Olympics,Sweden,2,11,6,19,2419,21,SWE
-1984 Summer Olympics,Mexico,2,3,1,6,2420,21,MEX
-1984 Summer Olympics,Morocco,2,0,0,2,2421,21,MAR
-1984 Summer Olympics,Brazil,1,5,2,8,2422,21,BRA
-1984 Summer Olympics,Spain,1,2,2,5,2423,21,ESP
-1984 Summer Olympics,Belgium,1,1,2,4,2424,21,BEL
-1984 Summer Olympics,Austria,1,1,1,3,2425,21,AUT
-1984 Summer Olympics,Kenya,1,0,2,3,2426,21,KEN
-1984 Summer Olympics,Portugal,1,0,2,3,2427,21,POR
-1984 Summer Olympics,Pakistan,1,0,0,1,2428,21,PAK
-1984 Summer Olympics,Switzerland,0,4,4,8,2429,21,SUI
-1984 Summer Olympics,Denmark,0,3,3,6,2430,21,DEN
-1984 Summer Olympics,Jamaica,0,1,2,3,2431,21,JAM
-1984 Summer Olympics,Norway,0,1,2,3,2432,21,NOR
-1984 Summer Olympics,Greece,0,1,1,2,2433,21,GRE
-1984 Summer Olympics,Nigeria,0,1,1,2,2434,21,NGR
-1984 Summer Olympics,Puerto Rico,0,1,1,2,2435,21,PUR
-1984 Summer Olympics,Colombia,0,1,0,1,2436,21,COL
-1984 Summer Olympics,CÃ´te d'Ivoire,0,1,0,1,2437,21,CIV
-1984 Summer Olympics,Egypt,0,1,0,1,2438,21,EGY
-1984 Summer Olympics,Ireland,0,1,0,1,2439,21,IRL
-1984 Summer Olympics,Peru,0,1,0,1,2440,21,PER
-1984 Summer Olympics,Syrian Arab Republic,0,1,0,1,2441,21,SYR
-1984 Summer Olympics,Thailand,0,1,0,1,2442,21,THA
-1984 Summer Olympics,TÃ¼rkiye,0,0,3,3,2443,21,TUR
-1984 Summer Olympics,Venezuela,0,0,3,3,2444,21,VEN
-1984 Summer Olympics,Algeria,0,0,2,2,2445,21,ALG
-1984 Summer Olympics,Cameroon,0,0,1,1,2446,21,CMR
-1984 Summer Olympics,Chinese Taipei,0,0,1,1,2447,21,TPE
-1984 Summer Olympics,Dominican Republic,0,0,1,1,2448,21,DOM
-1984 Summer Olympics,Iceland,0,0,1,1,2449,21,ISL
-1984 Summer Olympics,Zambia,0,0,1,1,2450,21,ZAM
-1988 Summer Olympics,Soviet Union,55,31,46,132,2451,22,URS
-1988 Summer Olympics,East Germany,37,35,30,102,2452,22,GDR
-1988 Summer Olympics,United States,36,31,27,94,2453,22,USA
-1988 Summer Olympics,Republic of Korea,12,10,11,33,2454,22,KOR
-1988 Summer Olympics,West Germany,11,14,15,40,2455,22,FRG
-1988 Summer Olympics,Hungary,11,6,6,23,2456,22,HUN
-1988 Summer Olympics,Bulgaria,10,12,13,35,2457,22,BUL
-1988 Summer Olympics,Romania,7,11,6,24,2458,22,ROU
-1988 Summer Olympics,France,6,4,6,16,2459,22,FRA
-1988 Summer Olympics,Italy,6,4,4,14,2460,22,ITA
-1988 Summer Olympics,People's Republic of China,5,11,12,28,2461,22,CHN
-1988 Summer Olympics,Great Britain,5,10,9,24,2462,22,GBR
-1988 Summer Olympics,Kenya,5,2,2,9,2463,22,KEN
-1988 Summer Olympics,Japan,4,3,7,14,2464,22,JPN
-1988 Summer Olympics,Australia,3,6,5,14,2465,22,AUS
-1988 Summer Olympics,Yugoslavia,3,4,5,12,2466,22,YUG
-1988 Summer Olympics,Czechoslovakia,3,3,2,8,2467,22,TCH
-1988 Summer Olympics,New Zealand,3,2,8,13,2468,22,NZL
-1988 Summer Olympics,Canada,3,2,5,10,2469,22,CAN
-1988 Summer Olympics,Poland,2,5,9,16,2470,22,POL
-1988 Summer Olympics,Norway,2,3,0,5,2471,22,NOR
-1988 Summer Olympics,Netherlands,2,2,5,9,2472,22,NED
-1988 Summer Olympics,Denmark,2,1,1,4,2473,22,DEN
-1988 Summer Olympics,Brazil,1,2,3,6,2474,22,BRA
-1988 Summer Olympics,Finland,1,1,2,4,2475,22,FIN
-1988 Summer Olympics,Spain,1,1,2,4,2476,22,ESP
-1988 Summer Olympics,TÃ¼rkiye,1,1,0,2,2477,22,TUR
-1988 Summer Olympics,Morocco,1,0,2,3,2478,22,MAR
-1988 Summer Olympics,Austria,1,0,0,1,2479,22,AUT
-1988 Summer Olympics,Portugal,1,0,0,1,2480,22,POR
-1988 Summer Olympics,Suriname,1,0,0,1,2481,22,SUR
-1988 Summer Olympics,Sweden,0,4,7,11,2482,22,SWE
-1988 Summer Olympics,Switzerland,0,2,2,4,2483,22,SUI
-1988 Summer Olympics,Jamaica,0,2,0,2,2484,22,JAM
-1988 Summer Olympics,Argentina,0,1,1,2,2485,22,ARG
-1988 Summer Olympics,Chile,0,1,0,1,2486,22,CHI
-1988 Summer Olympics,Costa Rica,0,1,0,1,2487,22,CRC
-1988 Summer Olympics,Indonesia,0,1,0,1,2488,22,INA
-1988 Summer Olympics,Islamic Republic of Iran,0,1,0,1,2489,22,IRI
-1988 Summer Olympics,Netherlands Antilles,0,1,0,1,2490,22,AHO
-1988 Summer Olympics,Peru,0,1,0,1,2491,22,PER
-1988 Summer Olympics,Senegal,0,1,0,1,2492,22,SEN
-1988 Summer Olympics,United States Virgin Islands,0,1,0,1,2493,22,ISV
-1988 Summer Olympics,Belgium,0,0,2,2,2494,22,BEL
-1988 Summer Olympics,Mexico,0,0,2,2,2495,22,MEX
-1988 Summer Olympics,Colombia,0,0,1,1,2496,22,COL
-1988 Summer Olympics,Djibouti,0,0,1,1,2497,22,DJI
-1988 Summer Olympics,Greece,0,0,1,1,2498,22,GRE
-1988 Summer Olympics,Mongolia,0,0,1,1,2499,22,MGL
-1988 Summer Olympics,Pakistan,0,0,1,1,2500,22,PAK
-1988 Summer Olympics,Philippines,0,0,1,1,2501,22,PHI
-1988 Summer Olympics,Thailand,0,0,1,1,2502,22,THA
-1992 Summer Olympics,Unified Team,45,38,29,112,2503,23,EUN
-1992 Summer Olympics,United States,37,34,37,108,2504,23,USA
-1992 Summer Olympics,Germany,33,21,28,82,2505,23,GER
-1992 Summer Olympics,People's Republic of China,16,22,16,54,2506,23,CHN
-1992 Summer Olympics,Cuba,14,6,11,31,2507,23,CUB
-1992 Summer Olympics,Spain,13,7,2,22,2508,23,ESP
-1992 Summer Olympics,Republic of Korea,12,5,12,29,2509,23,KOR
-1992 Summer Olympics,Hungary,11,12,7,30,2510,23,HUN
-1992 Summer Olympics,France,8,5,16,29,2511,23,FRA
-1992 Summer Olympics,Australia,7,9,11,27,2512,23,AUS
-1992 Summer Olympics,Canada,7,4,7,18,2513,23,CAN
-1992 Summer Olympics,Italy,6,5,8,19,2514,23,ITA
-1992 Summer Olympics,Great Britain,5,3,12,20,2515,23,GBR
-1992 Summer Olympics,Romania,4,6,8,18,2516,23,ROU
-1992 Summer Olympics,Czechoslovakia,4,2,1,7,2517,23,TCH
-1992 Summer Olympics,Democratic People's Republic of Korea,4,0,5,9,2518,23,PRK
-1992 Summer Olympics,Japan,3,8,11,22,2519,23,JPN
-1992 Summer Olympics,Bulgaria,3,7,6,16,2520,23,BUL
-1992 Summer Olympics,Poland,3,6,10,19,2521,23,POL
-1992 Summer Olympics,Netherlands,2,6,7,15,2522,23,NED
-1992 Summer Olympics,Kenya,2,4,2,8,2523,23,KEN
-1992 Summer Olympics,Norway,2,4,1,7,2524,23,NOR
-1992 Summer Olympics,TÃ¼rkiye,2,2,2,6,2525,23,TUR
-1992 Summer Olympics,Indonesia,2,2,1,5,2526,23,INA
-1992 Summer Olympics,Brazil,2,1,0,3,2527,23,BRA
-1992 Summer Olympics,Greece,2,0,0,2,2528,23,GRE
-1992 Summer Olympics,Sweden,1,7,4,12,2529,23,SWE
-1992 Summer Olympics,New Zealand,1,4,5,10,2530,23,NZL
-1992 Summer Olympics,Finland,1,2,2,5,2531,23,FIN
-1992 Summer Olympics,Denmark,1,1,4,6,2532,23,DEN
-1992 Summer Olympics,Morocco,1,1,1,3,2533,23,MAR
-1992 Summer Olympics,Ireland,1,1,0,2,2534,23,IRL
-1992 Summer Olympics,Ethiopia,1,0,2,3,2535,23,ETH
-1992 Summer Olympics,Algeria,1,0,1,2,2536,23,ALG
-1992 Summer Olympics,Estonia,1,0,1,2,2537,23,EST
-1992 Summer Olympics,Lithuania,1,0,1,2,2538,23,LTU
-1992 Summer Olympics,Switzerland,1,0,0,1,2539,23,SUI
-1992 Summer Olympics,Jamaica,0,3,1,4,2540,23,JAM
-1992 Summer Olympics,Nigeria,0,3,1,4,2541,23,NGR
-1992 Summer Olympics,Latvia,0,2,1,3,2542,23,LAT
-1992 Summer Olympics,Austria,0,2,0,2,2543,23,AUT
-1992 Summer Olympics,Namibia,0,2,0,2,2544,23,NAM
-1992 Summer Olympics,South Africa,0,2,0,2,2545,23,RSA
-1992 Summer Olympics,Belgium,0,1,2,3,2546,23,BEL
-1992 Summer Olympics,Croatia,0,1,2,3,2547,23,CRO
-1992 Summer Olympics,Independent Olympic Athletes,0,1,2,3,2548,23,IOA
-1992 Summer Olympics,Islamic Republic of Iran,0,1,2,3,2549,23,IRI
-1992 Summer Olympics,Israel,0,1,1,2,2550,23,ISR
-1992 Summer Olympics,Chinese Taipei,0,1,0,1,2551,23,TPE
-1992 Summer Olympics,Mexico,0,1,0,1,2552,23,MEX
-1992 Summer Olympics,Peru,0,1,0,1,2553,23,PER
-1992 Summer Olympics,Mongolia,0,0,2,2,2554,23,MGL
-1992 Summer Olympics,Slovenia,0,0,2,2,2555,23,SLO
-1992 Summer Olympics,Argentina,0,0,1,1,2556,23,ARG
-1992 Summer Olympics,Colombia,0,0,1,1,2557,23,COL
-1992 Summer Olympics,Ghana,0,0,1,1,2558,23,GHA
-1992 Summer Olympics,Malaysia,0,0,1,1,2559,23,MAS
-1992 Summer Olympics,Pakistan,0,0,1,1,2560,23,PAK
-1992 Summer Olympics,Philippines,0,0,1,1,2561,23,PHI
-1992 Summer Olympics,Puerto Rico,0,0,1,1,2562,23,PUR
-1992 Summer Olympics,Qatar,0,0,1,1,2563,23,QAT
-1992 Summer Olympics,Suriname,0,0,1,1,2564,23,SUR
-1992 Summer Olympics,Thailand,0,0,1,1,2565,23,THA
-1992 Summer Olympics,The Bahamas,0,0,1,1,2566,23,BAH
-1996 Summer Olympics,United States,44,32,25,101,2567,24,USA
-1996 Summer Olympics,Russian Federation,26,21,16,63,2568,24,RUS
-1996 Summer Olympics,Germany,20,18,27,65,2569,24,GER
-1996 Summer Olympics,People's Republic of China,16,22,12,50,2570,24,CHN
-1996 Summer Olympics,France,15,7,15,37,2571,24,FRA
-1996 Summer Olympics,Italy,13,10,12,35,2572,24,ITA
-1996 Summer Olympics,Australia,9,9,23,41,2573,24,AUS
-1996 Summer Olympics,Cuba,9,8,8,25,2574,24,CUB
-1996 Summer Olympics,Ukraine,9,2,12,23,2575,24,UKR
-1996 Summer Olympics,Republic of Korea,7,15,5,27,2576,24,KOR
-1996 Summer Olympics,Poland,7,5,5,17,2577,24,POL
-1996 Summer Olympics,Hungary,7,4,10,21,2578,24,HUN
-1996 Summer Olympics,Spain,5,6,6,17,2579,24,ESP
-1996 Summer Olympics,Romania,4,7,9,20,2580,24,ROU
-1996 Summer Olympics,Netherlands,4,5,10,19,2581,24,NED
-1996 Summer Olympics,Greece,4,4,0,8,2582,24,GRE
-1996 Summer Olympics,Czechia,4,3,4,11,2583,24,CZE
-1996 Summer Olympics,Switzerland,4,3,0,7,2584,24,SUI
-1996 Summer Olympics,Denmark,4,1,1,6,2585,24,DEN
-1996 Summer Olympics,TÃ¼rkiye,4,1,1,6,2586,24,TUR
-1996 Summer Olympics,Canada,3,11,8,22,2587,24,CAN
-1996 Summer Olympics,Bulgaria,3,7,5,15,2588,24,BUL
-1996 Summer Olympics,Japan,3,6,5,14,2589,24,JPN
-1996 Summer Olympics,Kazakhstan,3,4,4,11,2590,24,KAZ
-1996 Summer Olympics,Brazil,3,3,9,15,2591,24,BRA
-1996 Summer Olympics,New Zealand,3,2,1,6,2592,24,NZL
-1996 Summer Olympics,South Africa,3,1,1,5,2593,24,RSA
-1996 Summer Olympics,Ireland,3,0,1,4,2594,24,IRL
-1996 Summer Olympics,Sweden,2,4,2,8,2595,24,SWE
-1996 Summer Olympics,Norway,2,2,3,7,2596,24,NOR
-1996 Summer Olympics,Belgium,2,2,2,6,2597,24,BEL
-1996 Summer Olympics,Nigeria,2,1,3,6,2598,24,NGR
-1996 Summer Olympics,Democratic People's Republic of Korea,2,1,2,5,2599,24,PRK
-1996 Summer Olympics,Algeria,2,0,1,3,2600,24,ALG
-1996 Summer Olympics,Ethiopia,2,0,1,3,2601,24,ETH
-1996 Summer Olympics,Great Britain,1,8,6,15,2602,24,GBR
-1996 Summer Olympics,Belarus,1,6,8,15,2603,24,BLR
-1996 Summer Olympics,Kenya,1,4,3,8,2604,24,KEN
-1996 Summer Olympics,Jamaica,1,3,2,6,2605,24,JAM
-1996 Summer Olympics,Finland,1,2,1,4,2606,24,FIN
-1996 Summer Olympics,Indonesia,1,1,2,4,2607,24,INA
-1996 Summer Olympics,Serbia and Montenegro,1,1,2,4,2608,24,SCG
-1996 Summer Olympics,Islamic Republic of Iran,1,1,1,3,2609,24,IRI
-1996 Summer Olympics,Slovakia,1,1,1,3,2610,24,SVK
-1996 Summer Olympics,Armenia,1,1,0,2,2611,24,ARM
-1996 Summer Olympics,Croatia,1,1,0,2,2612,24,CRO
-1996 Summer Olympics,Portugal,1,0,1,2,2613,24,POR
-1996 Summer Olympics,Thailand,1,0,1,2,2614,24,THA
-1996 Summer Olympics,Burundi,1,0,0,1,2615,24,BDI
-1996 Summer Olympics,Costa Rica,1,0,0,1,2616,24,CRC
-1996 Summer Olympics,Ecuador,1,0,0,1,2617,24,ECU
-1996 Summer Olympics,"Hong Kong, China",1,0,0,1,2618,24,HKG
-1996 Summer Olympics,Syrian Arab Republic,1,0,0,1,2619,24,SYR
-1996 Summer Olympics,Argentina,0,2,1,3,2620,24,ARG
-1996 Summer Olympics,Namibia,0,2,0,2,2621,24,NAM
-1996 Summer Olympics,Slovenia,0,2,0,2,2622,24,SLO
-1996 Summer Olympics,Austria,0,1,2,3,2623,24,AUT
-1996 Summer Olympics,Malaysia,0,1,1,2,2624,24,MAS
-1996 Summer Olympics,Republic of Moldova,0,1,1,2,2625,24,MDA
-1996 Summer Olympics,Uzbekistan,0,1,1,2,2626,24,UZB
-1996 Summer Olympics,Azerbaijan,0,1,0,1,2627,24,AZE
-1996 Summer Olympics,Chinese Taipei,0,1,0,1,2628,24,TPE
-1996 Summer Olympics,Latvia,0,1,0,1,2629,24,LAT
-1996 Summer Olympics,Philippines,0,1,0,1,2630,24,PHI
-1996 Summer Olympics,The Bahamas,0,1,0,1,2631,24,BAH
-1996 Summer Olympics,Tonga,0,1,0,1,2632,24,TGA
-1996 Summer Olympics,Zambia,0,1,0,1,2633,24,ZAM
-1996 Summer Olympics,Georgia,0,0,2,2,2634,24,GEO
-1996 Summer Olympics,Morocco,0,0,2,2,2635,24,MAR
-1996 Summer Olympics,Trinidad and Tobago,0,0,2,2,2636,24,TTO
-1996 Summer Olympics,India,0,0,1,1,2637,24,IND
-1996 Summer Olympics,Israel,0,0,1,1,2638,24,ISR
-1996 Summer Olympics,Lithuania,0,0,1,1,2639,24,LTU
-1996 Summer Olympics,Mexico,0,0,1,1,2640,24,MEX
-1996 Summer Olympics,Mongolia,0,0,1,1,2641,24,MGL
-1996 Summer Olympics,Mozambique,0,0,1,1,2642,24,MOZ
-1996 Summer Olympics,Puerto Rico,0,0,1,1,2643,24,PUR
-1996 Summer Olympics,Tunisia,0,0,1,1,2644,24,TUN
-1996 Summer Olympics,Uganda,0,0,1,1,2645,24,UGA
-2000 Summer Olympics,United States,37,24,32,93,2646,25,USA
-2000 Summer Olympics,Russian Federation,32,28,29,89,2647,25,RUS
-2000 Summer Olympics,People's Republic of China,28,16,14,58,2648,25,CHN
-2000 Summer Olympics,Australia,16,25,17,58,2649,25,AUS
-2000 Summer Olympics,Germany,13,17,26,56,2650,25,GER
-2000 Summer Olympics,France,13,14,11,38,2651,25,FRA
-2000 Summer Olympics,Italy,13,8,13,34,2652,25,ITA
-2000 Summer Olympics,Netherlands,12,9,4,25,2653,25,NED
-2000 Summer Olympics,Cuba,11,11,7,29,2654,25,CUB
-2000 Summer Olympics,Great Britain,11,10,7,28,2655,25,GBR
-2000 Summer Olympics,Romania,11,6,9,26,2656,25,ROU
-2000 Summer Olympics,Republic of Korea,8,10,10,28,2657,25,KOR
-2000 Summer Olympics,Hungary,8,6,3,17,2658,25,HUN
-2000 Summer Olympics,Poland,6,5,3,14,2659,25,POL
-2000 Summer Olympics,Japan,5,8,5,18,2660,25,JPN
-2000 Summer Olympics,Bulgaria,5,6,2,13,2661,25,BUL
-2000 Summer Olympics,Greece,4,6,3,13,2662,25,GRE
-2000 Summer Olympics,Sweden,4,5,3,12,2663,25,SWE
-2000 Summer Olympics,Norway,4,3,3,10,2664,25,NOR
-2000 Summer Olympics,Ethiopia,4,1,3,8,2665,25,ETH
-2000 Summer Olympics,Ukraine,3,10,10,23,2666,25,UKR
-2000 Summer Olympics,Kazakhstan,3,4,0,7,2667,25,KAZ
-2000 Summer Olympics,Belarus,3,3,11,17,2668,25,BLR
-2000 Summer Olympics,Canada,3,3,8,14,2669,25,CAN
-2000 Summer Olympics,Spain,3,3,5,11,2670,25,ESP
-2000 Summer Olympics,TÃ¼rkiye,3,0,2,5,2671,25,TUR
-2000 Summer Olympics,Islamic Republic of Iran,3,0,1,4,2672,25,IRI
-2000 Summer Olympics,Czechia,2,3,3,8,2673,25,CZE
-2000 Summer Olympics,Kenya,2,3,2,7,2674,25,KEN
-2000 Summer Olympics,Denmark,2,3,1,6,2675,25,DEN
-2000 Summer Olympics,Finland,2,1,1,4,2676,25,FIN
-2000 Summer Olympics,Austria,2,1,0,3,2677,25,AUT
-2000 Summer Olympics,Lithuania,2,0,3,5,2678,25,LTU
-2000 Summer Olympics,Azerbaijan,2,0,1,3,2679,25,AZE
-2000 Summer Olympics,The Bahamas,2,0,1,3,2680,25,BAH
-2000 Summer Olympics,Slovenia,2,0,0,2,2681,25,SLO
-2000 Summer Olympics,Switzerland,1,6,2,9,2682,25,SUI
-2000 Summer Olympics,Indonesia,1,3,2,6,2683,25,INA
-2000 Summer Olympics,Slovakia,1,3,1,5,2684,25,SVK
-2000 Summer Olympics,Mexico,1,2,3,6,2685,25,MEX
-2000 Summer Olympics,Nigeria,1,2,0,3,2686,25,NGR
-2000 Summer Olympics,Algeria,1,1,3,5,2687,25,ALG
-2000 Summer Olympics,Uzbekistan,1,1,2,4,2688,25,UZB
-2000 Summer Olympics,Latvia,1,1,1,3,2689,25,LAT
-2000 Summer Olympics,Serbia and Montenegro,1,1,1,3,2690,25,SCG
-2000 Summer Olympics,New Zealand,1,0,3,4,2691,25,NZL
-2000 Summer Olympics,Estonia,1,0,2,3,2692,25,EST
-2000 Summer Olympics,Thailand,1,0,2,3,2693,25,THA
-2000 Summer Olympics,Croatia,1,0,1,2,2694,25,CRO
-2000 Summer Olympics,Cameroon,1,0,0,1,2695,25,CMR
-2000 Summer Olympics,Colombia,1,0,0,1,2696,25,COL
-2000 Summer Olympics,Mozambique,1,0,0,1,2697,25,MOZ
-2000 Summer Olympics,Brazil,0,6,6,12,2698,25,BRA
-2000 Summer Olympics,Jamaica,0,6,3,9,2699,25,JAM
-2000 Summer Olympics,Belgium,0,2,3,5,2700,25,BEL
-2000 Summer Olympics,South Africa,0,2,3,5,2701,25,RSA
-2000 Summer Olympics,Argentina,0,2,2,4,2702,25,ARG
-2000 Summer Olympics,Chinese Taipei,0,1,4,5,2703,25,TPE
-2000 Summer Olympics,Morocco,0,1,4,5,2704,25,MAR
-2000 Summer Olympics,Democratic People's Republic of Korea,0,1,3,4,2705,25,PRK
-2000 Summer Olympics,Kingdom of Saudi Arabia,0,1,1,2,2706,25,KSA
-2000 Summer Olympics,Republic of Moldova,0,1,1,2,2707,25,MDA
-2000 Summer Olympics,Trinidad and Tobago,0,1,1,2,2708,25,TTO
-2000 Summer Olympics,Ireland,0,1,0,1,2709,25,IRL
-2000 Summer Olympics,Sri Lanka,0,1,0,1,2710,25,SRI
-2000 Summer Olympics,Uruguay,0,1,0,1,2711,25,URU
-2000 Summer Olympics,Vietnam,0,1,0,1,2712,25,VIE
-2000 Summer Olympics,Georgia,0,0,6,6,2713,25,GEO
-2000 Summer Olympics,Costa Rica,0,0,2,2,2714,25,CRC
-2000 Summer Olympics,Portugal,0,0,2,2,2715,25,POR
-2000 Summer Olympics,Armenia,0,0,1,1,2716,25,ARM
-2000 Summer Olympics,Barbados,0,0,1,1,2717,25,BAR
-2000 Summer Olympics,Chile,0,0,1,1,2718,25,CHI
-2000 Summer Olympics,Iceland,0,0,1,1,2719,25,ISL
-2000 Summer Olympics,India,0,0,1,1,2720,25,IND
-2000 Summer Olympics,Israel,0,0,1,1,2721,25,ISR
-2000 Summer Olympics,Kuwait,0,0,1,1,2722,25,KUW
-2000 Summer Olympics,Kyrgyzstan,0,0,1,1,2723,25,KGZ
-2000 Summer Olympics,North Macedonia,0,0,1,1,2724,25,MKD
-2000 Summer Olympics,Qatar,0,0,1,1,2725,25,QAT
-2004 Summer Olympics,United States,36,39,26,101,2726,26,USA
-2004 Summer Olympics,People's Republic of China,32,17,14,63,2727,26,CHN
-2004 Summer Olympics,Russian Federation,28,26,36,90,2728,26,RUS
-2004 Summer Olympics,Australia,17,16,17,50,2729,26,AUS
-2004 Summer Olympics,Japan,16,9,12,37,2730,26,JPN
-2004 Summer Olympics,Germany,13,16,20,49,2731,26,GER
-2004 Summer Olympics,France,11,9,13,33,2732,26,FRA
-2004 Summer Olympics,Italy,10,11,11,32,2733,26,ITA
-2004 Summer Olympics,Republic of Korea,9,12,9,30,2734,26,KOR
-2004 Summer Olympics,Great Britain,9,9,12,30,2735,26,GBR
-2004 Summer Olympics,Cuba,9,7,11,27,2736,26,CUB
-2004 Summer Olympics,Hungary,8,6,3,17,2737,26,HUN
-2004 Summer Olympics,Ukraine,8,5,9,22,2738,26,UKR
-2004 Summer Olympics,Romania,8,5,6,19,2739,26,ROU
-2004 Summer Olympics,Greece,6,6,4,16,2740,26,GRE
-2004 Summer Olympics,Brazil,5,2,3,10,2741,26,BRA
-2004 Summer Olympics,Norway,5,0,1,6,2742,26,NOR
-2004 Summer Olympics,Netherlands,4,9,9,22,2743,26,NED
-2004 Summer Olympics,Sweden,4,2,1,7,2744,26,SWE
-2004 Summer Olympics,Spain,3,11,6,20,2745,26,ESP
-2004 Summer Olympics,Canada,3,6,3,12,2746,26,CAN
-2004 Summer Olympics,TÃ¼rkiye,3,3,4,10,2747,26,TUR
-2004 Summer Olympics,Poland,3,2,5,10,2748,26,POL
-2004 Summer Olympics,New Zealand,3,2,0,5,2749,26,NZL
-2004 Summer Olympics,Thailand,3,1,4,8,2750,26,THA
-2004 Summer Olympics,Belarus,2,5,6,13,2751,26,BLR
-2004 Summer Olympics,Austria,2,4,1,7,2752,26,AUT
-2004 Summer Olympics,Ethiopia,2,3,2,7,2753,26,ETH
-2004 Summer Olympics,Islamic Republic of Iran,2,2,2,6,2754,26,IRI
-2004 Summer Olympics,Slovakia,2,2,2,6,2755,26,SVK
-2004 Summer Olympics,Chinese Taipei,2,2,1,5,2756,26,TPE
-2004 Summer Olympics,Georgia,2,2,0,4,2757,26,GEO
-2004 Summer Olympics,Bulgaria,2,1,9,12,2758,26,BUL
-2004 Summer Olympics,Denmark,2,1,5,8,2759,26,DEN
-2004 Summer Olympics,Jamaica,2,1,2,5,2760,26,JAM
-2004 Summer Olympics,Uzbekistan,2,1,2,5,2761,26,UZB
-2004 Summer Olympics,Morocco,2,1,0,3,2762,26,MAR
-2004 Summer Olympics,Argentina,2,0,4,6,2763,26,ARG
-2004 Summer Olympics,Chile,2,0,1,3,2764,26,CHI
-2004 Summer Olympics,Kazakhstan,1,4,3,8,2765,26,KAZ
-2004 Summer Olympics,Kenya,1,4,2,7,2766,26,KEN
-2004 Summer Olympics,Czechia,1,3,5,9,2767,26,CZE
-2004 Summer Olympics,South Africa,1,3,2,6,2768,26,RSA
-2004 Summer Olympics,Croatia,1,2,2,5,2769,26,CRO
-2004 Summer Olympics,Lithuania,1,2,0,3,2770,26,LTU
-2004 Summer Olympics,Egypt,1,1,3,5,2771,26,EGY
-2004 Summer Olympics,Switzerland,1,1,3,5,2772,26,SUI
-2004 Summer Olympics,Indonesia,1,1,2,4,2773,26,INA
-2004 Summer Olympics,Zimbabwe,1,1,1,3,2774,26,ZIM
-2004 Summer Olympics,Azerbaijan,1,0,4,5,2775,26,AZE
-2004 Summer Olympics,Belgium,1,0,2,3,2776,26,BEL
-2004 Summer Olympics,Israel,1,0,1,2,2777,26,ISR
-2004 Summer Olympics,The Bahamas,1,0,1,2,2778,26,BAH
-2004 Summer Olympics,Cameroon,1,0,0,1,2779,26,CMR
-2004 Summer Olympics,Dominican Republic,1,0,0,1,2780,26,DOM
-2004 Summer Olympics,United Arab Emirates,1,0,0,1,2781,26,UAE
-2004 Summer Olympics,Democratic People's Republic of Korea,0,4,1,5,2782,26,PRK
-2004 Summer Olympics,Latvia,0,4,0,4,2783,26,LAT
-2004 Summer Olympics,Mexico,0,3,1,4,2784,26,MEX
-2004 Summer Olympics,Portugal,0,2,1,3,2785,26,POR
-2004 Summer Olympics,Finland,0,2,0,2,2786,26,FIN
-2004 Summer Olympics,Serbia and Montenegro,0,2,0,2,2787,26,SCG
-2004 Summer Olympics,Slovenia,0,1,3,4,2788,26,SLO
-2004 Summer Olympics,Estonia,0,1,2,3,2789,26,EST
-2004 Summer Olympics,"Hong Kong, China",0,1,0,1,2790,26,HKG
-2004 Summer Olympics,India,0,1,0,1,2791,26,IND
-2004 Summer Olympics,Paraguay,0,1,0,1,2792,26,PAR
-2004 Summer Olympics,Colombia,0,0,2,2,2793,26,COL
-2004 Summer Olympics,Nigeria,0,0,2,2,2794,26,NGR
-2004 Summer Olympics,Venezuela,0,0,2,2,2795,26,VEN
-2004 Summer Olympics,Eritrea,0,0,1,1,2796,26,ERI
-2004 Summer Olympics,Mongolia,0,0,1,1,2797,26,MGL
-2004 Summer Olympics,Syrian Arab Republic,0,0,1,1,2798,26,SYR
-2004 Summer Olympics,Trinidad and Tobago,0,0,1,1,2799,26,TTO
-2008 Summer Olympics,People's Republic of China,48,22,30,100,2800,53,CHN
-2008 Summer Olympics,United States,36,39,37,112,2801,53,USA
-2008 Summer Olympics,Russian Federation,24,13,23,60,2802,53,RUS
-2008 Summer Olympics,Great Britain,19,13,19,51,2803,53,GBR
-2008 Summer Olympics,Germany,16,11,14,41,2804,53,GER
-2008 Summer Olympics,Australia,14,15,17,46,2805,53,AUS
-2008 Summer Olympics,Republic of Korea,13,11,8,32,2806,53,KOR
-2008 Summer Olympics,Japan,9,8,8,25,2807,53,JPN
-2008 Summer Olympics,Italy,8,9,10,27,2808,53,ITA
-2008 Summer Olympics,France,7,16,20,43,2809,53,FRA
-2008 Summer Olympics,Netherlands,7,5,4,16,2810,53,NED
-2008 Summer Olympics,Ukraine,7,4,11,22,2811,53,UKR
-2008 Summer Olympics,Kenya,6,4,6,16,2812,53,KEN
-2008 Summer Olympics,Spain,5,11,3,19,2813,53,ESP
-2008 Summer Olympics,Jamaica,5,4,2,11,2814,53,JAM
-2008 Summer Olympics,Poland,4,5,2,11,2815,53,POL
-2008 Summer Olympics,Ethiopia,4,2,1,7,2816,53,ETH
-2008 Summer Olympics,Romania,4,1,4,9,2817,53,ROU
-2008 Summer Olympics,Cuba,3,10,17,30,2818,53,CUB
-2008 Summer Olympics,Canada,3,9,8,20,2819,53,CAN
-2008 Summer Olympics,Hungary,3,5,2,10,2820,53,HUN
-2008 Summer Olympics,Norway,3,5,1,9,2821,53,NOR
-2008 Summer Olympics,Brazil,3,4,10,17,2822,53,BRA
-2008 Summer Olympics,Belarus,3,4,7,14,2823,53,BLR
-2008 Summer Olympics,Czechia,3,3,1,7,2824,53,CZE
-2008 Summer Olympics,Slovakia,3,3,0,6,2825,53,SVK
-2008 Summer Olympics,New Zealand,3,2,4,9,2826,53,NZL
-2008 Summer Olympics,Georgia,3,2,2,7,2827,53,GEO
-2008 Summer Olympics,Kazakhstan,2,3,4,9,2828,53,KAZ
-2008 Summer Olympics,Denmark,2,2,3,7,2829,53,DEN
-2008 Summer Olympics,Democratic People's Republic of Korea,2,2,2,6,2830,53,PRK
-2008 Summer Olympics,Thailand,2,2,2,6,2831,53,THA
-2008 Summer Olympics,Mongolia,2,2,0,4,2832,53,MGL
-2008 Summer Olympics,Switzerland,2,1,4,7,2833,53,SUI
-2008 Summer Olympics,Argentina,2,0,4,6,2834,53,ARG
-2008 Summer Olympics,Mexico,2,0,2,4,2835,53,MEX
-2008 Summer Olympics,Belgium,2,0,0,2,2836,53,BEL
-2008 Summer Olympics,Zimbabwe,1,3,0,4,2837,53,ZIM
-2008 Summer Olympics,Slovenia,1,2,2,5,2838,53,SLO
-2008 Summer Olympics,Azerbaijan,1,1,4,6,2839,53,AZE
-2008 Summer Olympics,Indonesia,1,1,4,6,2840,53,INA
-2008 Summer Olympics,Bulgaria,1,1,3,5,2841,53,BUL
-2008 Summer Olympics,TÃ¼rkiye,1,1,3,5,2842,53,TUR
-2008 Summer Olympics,Chinese Taipei,1,1,2,4,2843,53,TPE
-2008 Summer Olympics,Finland,1,1,2,4,2844,53,FIN
-2008 Summer Olympics,Latvia,1,1,1,3,2845,53,LAT
-2008 Summer Olympics,Dominican Republic,1,1,0,2,2846,53,DOM
-2008 Summer Olympics,Estonia,1,1,0,2,2847,53,EST
-2008 Summer Olympics,Portugal,1,1,0,2,2848,53,POR
-2008 Summer Olympics,Trinidad and Tobago,1,1,0,2,2849,53,TTO
-2008 Summer Olympics,India,1,0,2,3,2850,53,IND
-2008 Summer Olympics,Islamic Republic of Iran,1,0,1,2,2851,53,IRI
-2008 Summer Olympics,Cameroon,1,0,0,1,2852,53,CMR
-2008 Summer Olympics,Panama,1,0,0,1,2853,53,PAN
-2008 Summer Olympics,Tunisia,1,0,0,1,2854,53,TUN
-2008 Summer Olympics,Sweden,0,4,1,5,2855,53,SWE
-2008 Summer Olympics,Lithuania,0,3,2,5,2856,53,LTU
-2008 Summer Olympics,Nigeria,0,3,2,5,2857,53,NGR
-2008 Summer Olympics,Croatia,0,2,3,5,2858,53,CRO
-2008 Summer Olympics,Colombia,0,2,1,3,2859,53,COL
-2008 Summer Olympics,Greece,0,2,1,3,2860,53,GRE
-2008 Summer Olympics,Armenia,0,1,4,5,2861,53,ARM
-2008 Summer Olympics,Uzbekistan,0,1,3,4,2862,53,UZB
-2008 Summer Olympics,Austria,0,1,2,3,2863,53,AUT
-2008 Summer Olympics,Ireland,0,1,2,3,2864,53,IRL
-2008 Summer Olympics,Kyrgyzstan,0,1,2,3,2865,53,KGZ
-2008 Summer Olympics,Serbia,0,1,2,3,2866,53,SRB
-2008 Summer Olympics,Algeria,0,1,1,2,2867,53,ALG
-2008 Summer Olympics,Morocco,0,1,1,2,2868,53,MAR
-2008 Summer Olympics,Tajikistan,0,1,1,2,2869,53,TJK
-2008 Summer Olympics,The Bahamas,0,1,1,2,2870,53,BAH
-2008 Summer Olympics,Chile,0,1,0,1,2871,53,CHI
-2008 Summer Olympics,Ecuador,0,1,0,1,2872,53,ECU
-2008 Summer Olympics,Iceland,0,1,0,1,2873,53,ISL
-2008 Summer Olympics,Malaysia,0,1,0,1,2874,53,MAS
-2008 Summer Olympics,Samoa,0,1,0,1,2875,53,SAM
-2008 Summer Olympics,Singapore,0,1,0,1,2876,53,SGP
-2008 Summer Olympics,South Africa,0,1,0,1,2877,53,RSA
-2008 Summer Olympics,Sudan,0,1,0,1,2878,53,SUD
-2008 Summer Olympics,Vietnam,0,1,0,1,2879,53,VIE
-2008 Summer Olympics,Egypt,0,0,2,2,2880,53,EGY
-2008 Summer Olympics,Afghanistan,0,0,1,1,2881,53,AFG
-2008 Summer Olympics,Israel,0,0,1,1,2882,53,ISR
-2008 Summer Olympics,Mauritius,0,0,1,1,2883,53,MRI
-2008 Summer Olympics,Republic of Moldova,0,0,1,1,2884,53,MDA
-2008 Summer Olympics,Togo,0,0,1,1,2885,53,TOG
-2008 Summer Olympics,Venezuela,0,0,1,1,2886,53,VEN
-2012 Summer Olympics,United States,48,26,30,104,2887,54,USA
-2012 Summer Olympics,People's Republic of China,39,31,22,92,2888,54,CHN
-2012 Summer Olympics,Great Britain,29,18,18,65,2889,54,GBR
-2012 Summer Olympics,Russian Federation,18,21,26,65,2890,54,RUS
-2012 Summer Olympics,Republic of Korea,13,9,8,30,2891,54,KOR
-2012 Summer Olympics,Germany,11,20,13,44,2892,54,GER
-2012 Summer Olympics,France,11,11,13,35,2893,54,FRA
-2012 Summer Olympics,Australia,8,15,12,35,2894,54,AUS
-2012 Summer Olympics,Italy,8,9,11,28,2895,54,ITA
-2012 Summer Olympics,Hungary,8,4,6,18,2896,54,HUN
-2012 Summer Olympics,Japan,7,14,17,38,2897,54,JPN
-2012 Summer Olympics,Islamic Republic of Iran,7,5,1,13,2898,54,IRI
-2012 Summer Olympics,Netherlands,6,6,8,20,2899,54,NED
-2012 Summer Olympics,New Zealand,6,2,5,13,2900,54,NZL
-2012 Summer Olympics,Ukraine,5,4,10,19,2901,54,UKR
-2012 Summer Olympics,Cuba,5,3,7,15,2902,54,CUB
-2012 Summer Olympics,Spain,4,10,6,20,2903,54,ESP
-2012 Summer Olympics,Jamaica,4,5,4,13,2904,54,JAM
-2012 Summer Olympics,Czechia,4,4,3,11,2905,54,CZE
-2012 Summer Olympics,South Africa,4,1,1,6,2906,54,RSA
-2012 Summer Olympics,Democratic People's Republic of Korea,4,0,3,7,2907,54,PRK
-2012 Summer Olympics,Brazil,3,5,9,17,2908,54,BRA
-2012 Summer Olympics,Poland,3,2,6,11,2909,54,POL
-2012 Summer Olympics,Ethiopia,3,2,3,8,2910,54,ETH
-2012 Summer Olympics,Kazakhstan,3,1,7,11,2911,54,KAZ
-2012 Summer Olympics,Croatia,3,1,2,6,2912,54,CRO
-2012 Summer Olympics,Canada,2,6,10,18,2913,54,CAN
-2012 Summer Olympics,Belarus,2,5,3,10,2914,54,BLR
-2012 Summer Olympics,Kenya,2,4,7,13,2915,54,KEN
-2012 Summer Olympics,Denmark,2,4,3,9,2916,54,DEN
-2012 Summer Olympics,Romania,2,4,1,7,2917,54,ROU
-2012 Summer Olympics,Azerbaijan,2,2,5,9,2918,54,AZE
-2012 Summer Olympics,Switzerland,2,2,0,4,2919,54,SUI
-2012 Summer Olympics,Norway,2,1,1,4,2920,54,NOR
-2012 Summer Olympics,Lithuania,2,0,3,5,2921,54,LTU
-2012 Summer Olympics,Tunisia,2,0,1,3,2922,54,TUN
-2012 Summer Olympics,Sweden,1,4,3,8,2923,54,SWE
-2012 Summer Olympics,Colombia,1,3,5,9,2924,54,COL
-2012 Summer Olympics,Mexico,1,3,4,8,2925,54,MEX
-2012 Summer Olympics,Georgia,1,2,3,6,2926,54,GEO
-2012 Summer Olympics,Ireland,1,1,4,6,2927,54,IRL
-2012 Summer Olympics,Argentina,1,1,2,4,2928,54,ARG
-2012 Summer Olympics,Serbia,1,1,2,4,2929,54,SRB
-2012 Summer Olympics,Slovenia,1,1,2,4,2930,54,SLO
-2012 Summer Olympics,Trinidad and Tobago,1,1,2,4,2931,54,TTO
-2012 Summer Olympics,TÃ¼rkiye,1,1,1,3,2932,54,TUR
-2012 Summer Olympics,Dominican Republic,1,1,0,2,2933,54,DOM
-2012 Summer Olympics,Chinese Taipei,1,0,1,2,2934,54,TPE
-2012 Summer Olympics,Latvia,1,0,1,2,2935,54,LAT
-2012 Summer Olympics,Algeria,1,0,0,1,2936,54,ALG
-2012 Summer Olympics,Bahrain,1,0,0,1,2937,54,BRN
-2012 Summer Olympics,Grenada,1,0,0,1,2938,54,GRN
-2012 Summer Olympics,The Bahamas,1,0,0,1,2939,54,BAH
-2012 Summer Olympics,Uganda,1,0,0,1,2940,54,UGA
-2012 Summer Olympics,Venezuela,1,0,0,1,2941,54,VEN
-2012 Summer Olympics,Egypt,0,3,1,4,2942,54,EGY
-2012 Summer Olympics,India,0,2,4,6,2943,54,IND
-2012 Summer Olympics,Mongolia,0,2,3,5,2944,54,MGL
-2012 Summer Olympics,Thailand,0,2,2,4,2945,54,THA
-2012 Summer Olympics,Bulgaria,0,2,1,3,2946,54,BUL
-2012 Summer Olympics,Finland,0,2,1,3,2947,54,FIN
-2012 Summer Olympics,Indonesia,0,2,1,3,2948,54,INA
-2012 Summer Olympics,Slovakia,0,1,3,4,2949,54,SVK
-2012 Summer Olympics,Belgium,0,1,2,3,2950,54,BEL
-2012 Summer Olympics,Armenia,0,1,1,2,2951,54,ARM
-2012 Summer Olympics,Estonia,0,1,1,2,2952,54,EST
-2012 Summer Olympics,Malaysia,0,1,1,2,2953,54,MAS
-2012 Summer Olympics,Puerto Rico,0,1,1,2,2954,54,PUR
-2012 Summer Olympics,Qatar,0,1,1,2,2955,54,QAT
-2012 Summer Olympics,Botswana,0,1,0,1,2956,54,BOT
-2012 Summer Olympics,Cyprus,0,1,0,1,2957,54,CYP
-2012 Summer Olympics,Gabon,0,1,0,1,2958,54,GAB
-2012 Summer Olympics,Guatemala,0,1,0,1,2959,54,GUA
-2012 Summer Olympics,Montenegro,0,1,0,1,2960,54,MNE
-2012 Summer Olympics,Portugal,0,1,0,1,2961,54,POR
-2012 Summer Olympics,Uzbekistan,0,0,3,3,2962,54,UZB
-2012 Summer Olympics,Greece,0,0,2,2,2963,54,GRE
-2012 Summer Olympics,Singapore,0,0,2,2,2964,54,SGP
-2012 Summer Olympics,Afghanistan,0,0,1,1,2965,54,AFG
-2012 Summer Olympics,Cameroon,0,0,1,1,2966,54,CMR
-2012 Summer Olympics,"Hong Kong, China",0,0,1,1,2967,54,HKG
-2012 Summer Olympics,Kingdom of Saudi Arabia,0,0,1,1,2968,54,KSA
-2012 Summer Olympics,Kuwait,0,0,1,1,2969,54,KUW
-2012 Summer Olympics,Morocco,0,0,1,1,2970,54,MAR
-2012 Summer Olympics,Tajikistan,0,0,1,1,2971,54,TJK
-2012 Summer Olympics,Vietnam,0,0,1,1,2972,54,VIE
-2016 Summer Olympics,United States,46,37,38,121,2973,59,USA
-2016 Summer Olympics,Great Britain,27,23,17,67,2974,59,GBR
-2016 Summer Olympics,People's Republic of China,26,18,26,70,2975,59,CHN
-2016 Summer Olympics,Russian Federation,19,17,20,56,2976,59,RUS
-2016 Summer Olympics,Germany,17,10,15,42,2977,59,GER
-2016 Summer Olympics,Japan,12,8,21,41,2978,59,JPN
-2016 Summer Olympics,France,10,18,14,42,2979,59,FRA
-2016 Summer Olympics,Republic of Korea,9,3,9,21,2980,59,KOR
-2016 Summer Olympics,Italy,8,12,8,28,2981,59,ITA
-2016 Summer Olympics,Australia,8,11,10,29,2982,59,AUS
-2016 Summer Olympics,Netherlands,8,7,4,19,2983,59,NED
-2016 Summer Olympics,Hungary,8,3,4,15,2984,59,HUN
-2016 Summer Olympics,Brazil,7,6,6,19,2985,59,BRA
-2016 Summer Olympics,Spain,7,4,6,17,2986,59,ESP
-2016 Summer Olympics,Kenya,6,6,1,13,2987,59,KEN
-2016 Summer Olympics,Jamaica,6,3,2,11,2988,59,JAM
-2016 Summer Olympics,Croatia,5,3,2,10,2989,59,CRO
-2016 Summer Olympics,Cuba,5,2,4,11,2990,59,CUB
-2016 Summer Olympics,New Zealand,4,9,5,18,2991,59,NZL
-2016 Summer Olympics,Canada,4,3,15,22,2992,59,CAN
-2016 Summer Olympics,Uzbekistan,4,2,7,13,2993,59,UZB
-2016 Summer Olympics,Colombia,3,2,3,8,2994,59,COL
-2016 Summer Olympics,Switzerland,3,2,2,7,2995,59,SUI
-2016 Summer Olympics,Islamic Republic of Iran,3,1,4,8,2996,59,IRI
-2016 Summer Olympics,Greece,3,1,2,6,2997,59,GRE
-2016 Summer Olympics,Argentina,3,1,0,4,2998,59,ARG
-2016 Summer Olympics,Denmark,2,6,7,15,2999,59,DEN
-2016 Summer Olympics,Sweden,2,6,3,11,3000,59,SWE
-2016 Summer Olympics,South Africa,2,6,2,10,3001,59,RSA
-2016 Summer Olympics,Kazakhstan,2,5,10,17,3002,59,KAZ
-2016 Summer Olympics,Ukraine,2,5,4,11,3003,59,UKR
-2016 Summer Olympics,Serbia,2,4,2,8,3004,59,SRB
-2016 Summer Olympics,Poland,2,3,6,11,3005,59,POL
-2016 Summer Olympics,Democratic People's Republic of Korea,2,3,2,7,3006,59,PRK
-2016 Summer Olympics,Belgium,2,2,2,6,3007,59,BEL
-2016 Summer Olympics,Thailand,2,2,2,6,3008,59,THA
-2016 Summer Olympics,Slovakia,2,2,0,4,3009,59,SVK
-2016 Summer Olympics,Georgia,2,1,4,7,3010,59,GEO
-2016 Summer Olympics,Azerbaijan,1,7,10,18,3011,59,AZE
-2016 Summer Olympics,Belarus,1,4,4,9,3012,59,BLR
-2016 Summer Olympics,TÃ¼rkiye,1,3,4,8,3013,59,TUR
-2016 Summer Olympics,Armenia,1,3,0,4,3014,59,ARM
-2016 Summer Olympics,Czechia,1,2,7,10,3015,59,CZE
-2016 Summer Olympics,Ethiopia,1,2,5,8,3016,59,ETH
-2016 Summer Olympics,Slovenia,1,2,1,4,3017,59,SLO
-2016 Summer Olympics,Indonesia,1,2,0,3,3018,59,INA
-2016 Summer Olympics,Romania,1,1,2,4,3019,59,ROU
-2016 Summer Olympics,Bahrain,1,1,0,2,3020,59,BRN
-2016 Summer Olympics,Vietnam,1,1,0,2,3021,59,VIE
-2016 Summer Olympics,Chinese Taipei,1,0,2,3,3022,59,TPE
-2016 Summer Olympics,CÃ´te d'Ivoire,1,0,1,2,3023,59,CIV
-2016 Summer Olympics,Independent Olympic Athletes,1,0,1,2,3024,59,IOA
-2016 Summer Olympics,The Bahamas,1,0,1,2,3025,59,BAH
-2016 Summer Olympics,Fiji,1,0,0,1,3026,59,FIJ
-2016 Summer Olympics,Jordan,1,0,0,1,3027,59,JOR
-2016 Summer Olympics,Kosovo,1,0,0,1,3028,59,KOS
-2016 Summer Olympics,Puerto Rico,1,0,0,1,3029,59,PUR
-2016 Summer Olympics,Singapore,1,0,0,1,3030,59,SGP
-2016 Summer Olympics,Tajikistan,1,0,0,1,3031,59,TJK
-2016 Summer Olympics,Malaysia,0,4,1,5,3032,59,MAS
-2016 Summer Olympics,Mexico,0,3,2,5,3033,59,MEX
-2016 Summer Olympics,Venezuela,0,2,1,3,3034,59,VEN
-2016 Summer Olympics,Algeria,0,2,0,2,3035,59,ALG
-2016 Summer Olympics,Ireland,0,2,0,2,3036,59,IRL
-2016 Summer Olympics,Lithuania,0,1,3,4,3037,59,LTU
-2016 Summer Olympics,Bulgaria,0,1,2,3,3038,59,BUL
-2016 Summer Olympics,India,0,1,1,2,3039,59,IND
-2016 Summer Olympics,Mongolia,0,1,1,2,3040,59,MGL
-2016 Summer Olympics,Burundi,0,1,0,1,3041,59,BDI
-2016 Summer Olympics,Grenada,0,1,0,1,3042,59,GRN
-2016 Summer Olympics,Niger,0,1,0,1,3043,59,NIG
-2016 Summer Olympics,Philippines,0,1,0,1,3044,59,PHI
-2016 Summer Olympics,Qatar,0,1,0,1,3045,59,QAT
-2016 Summer Olympics,Norway,0,0,4,4,3046,59,NOR
-2016 Summer Olympics,Egypt,0,0,3,3,3047,59,EGY
-2016 Summer Olympics,Tunisia,0,0,3,3,3048,59,TUN
-2016 Summer Olympics,Israel,0,0,2,2,3049,59,ISR
-2016 Summer Olympics,Austria,0,0,1,1,3050,59,AUT
-2016 Summer Olympics,Dominican Republic,0,0,1,1,3051,59,DOM
-2016 Summer Olympics,Estonia,0,0,1,1,3052,59,EST
-2016 Summer Olympics,Finland,0,0,1,1,3053,59,FIN
-2016 Summer Olympics,Morocco,0,0,1,1,3054,59,MAR
-2016 Summer Olympics,Nigeria,0,0,1,1,3055,59,NGR
-2016 Summer Olympics,Portugal,0,0,1,1,3056,59,POR
-2016 Summer Olympics,Trinidad and Tobago,0,0,1,1,3057,59,TTO
-2016 Summer Olympics,United Arab Emirates,0,0,1,1,3058,59,UAE
-1924 Winter Olympics,Norway,4,7,6,17,3152,29,NOR
-1924 Winter Olympics,Finland,4,4,3,11,3153,29,FIN
-1924 Winter Olympics,Austria,2,1,0,3,3154,29,AUT
-1924 Winter Olympics,Switzerland,2,0,1,3,3155,29,SUI
-1924 Winter Olympics,United States,1,2,1,4,3156,29,USA
-1924 Winter Olympics,Great Britain,1,1,2,4,3157,29,GBR
-1924 Winter Olympics,Sweden,1,1,0,2,3158,29,SWE
-1924 Winter Olympics,Canada,1,0,0,1,3159,29,CAN
-1924 Winter Olympics,Mixed team,1,0,0,1,3160,29,MIX
-1924 Winter Olympics,France,0,0,3,3,3161,29,FRA
-1924 Winter Olympics,Belgium,0,0,1,1,3162,29,BEL
-1928 Winter Olympics,Norway,6,4,5,15,3163,30,NOR
-1928 Winter Olympics,United States,2,2,2,6,3164,30,USA
-1928 Winter Olympics,Sweden,2,2,1,5,3165,30,SWE
-1928 Winter Olympics,Finland,2,1,1,4,3166,30,FIN
-1928 Winter Olympics,Canada,1,0,0,1,3167,30,CAN
-1928 Winter Olympics,France,1,0,0,1,3168,30,FRA
-1928 Winter Olympics,Austria,0,3,1,4,3169,30,AUT
-1928 Winter Olympics,Belgium,0,0,1,1,3170,30,BEL
-1928 Winter Olympics,Czechoslovakia,0,0,1,1,3171,30,TCH
-1928 Winter Olympics,Germany,0,0,1,1,3172,30,GER
-1928 Winter Olympics,Great Britain,0,0,1,1,3173,30,GBR
-1928 Winter Olympics,Switzerland,0,0,1,1,3174,30,SUI
-1932 Winter Olympics,United States,6,4,2,12,3175,31,USA
-1932 Winter Olympics,Norway,3,4,3,10,3176,31,NOR
-1932 Winter Olympics,Sweden,1,2,0,3,3177,31,SWE
-1932 Winter Olympics,Canada,1,1,5,7,3178,31,CAN
-1932 Winter Olympics,Finland,1,1,1,3,3179,31,FIN
-1932 Winter Olympics,Austria,1,1,0,2,3180,31,AUT
-1932 Winter Olympics,France,1,0,0,1,3181,31,FRA
-1932 Winter Olympics,Switzerland,0,1,0,1,3182,31,SUI
-1932 Winter Olympics,Germany,0,0,2,2,3183,31,GER
-1932 Winter Olympics,Hungary,0,0,1,1,3184,31,HUN
-1936 Winter Olympics,Norway,7,5,3,15,3185,32,NOR
-1936 Winter Olympics,Germany,3,3,0,6,3186,32,GER
-1936 Winter Olympics,Sweden,2,2,3,7,3187,32,SWE
-1936 Winter Olympics,Finland,1,2,3,6,3188,32,FIN
-1936 Winter Olympics,Switzerland,1,2,0,3,3189,32,SUI
-1936 Winter Olympics,Austria,1,1,2,4,3190,32,AUT
-1936 Winter Olympics,Great Britain,1,1,1,3,3191,32,GBR
-1936 Winter Olympics,United States,1,0,3,4,3192,32,USA
-1936 Winter Olympics,Canada,0,1,0,1,3193,32,CAN
-1936 Winter Olympics,France,0,0,1,1,3194,32,FRA
-1936 Winter Olympics,Hungary,0,0,1,1,3195,32,HUN
-1948 Winter Olympics,Norway,4,3,3,10,3196,33,NOR
-1948 Winter Olympics,Sweden,4,3,3,10,3197,33,SWE
-1948 Winter Olympics,Switzerland,3,4,3,10,3198,33,SUI
-1948 Winter Olympics,United States,3,4,2,9,3199,33,USA
-1948 Winter Olympics,France,2,1,2,5,3200,33,FRA
-1948 Winter Olympics,Canada,2,0,1,3,3201,33,CAN
-1948 Winter Olympics,Austria,1,3,4,8,3202,33,AUT
-1948 Winter Olympics,Finland,1,3,2,6,3203,33,FIN
-1948 Winter Olympics,Belgium,1,1,0,2,3204,33,BEL
-1948 Winter Olympics,Italy,1,0,0,1,3205,33,ITA
-1948 Winter Olympics,Czechoslovakia,0,1,0,1,3206,33,TCH
-1948 Winter Olympics,Hungary,0,1,0,1,3207,33,HUN
-1948 Winter Olympics,Great Britain,0,0,2,2,3208,33,GBR
-1952 Winter Olympics,Norway,7,3,6,16,3209,34,NOR
-1952 Winter Olympics,United States,4,6,1,11,3210,34,USA
-1952 Winter Olympics,Finland,3,4,2,9,3211,34,FIN
-1952 Winter Olympics,Germany,3,2,2,7,3212,34,GER
-1952 Winter Olympics,Austria,2,4,2,8,3213,34,AUT
-1952 Winter Olympics,Canada,1,0,1,2,3214,34,CAN
-1952 Winter Olympics,Italy,1,0,1,2,3215,34,ITA
-1952 Winter Olympics,Great Britain,1,0,0,1,3216,34,GBR
-1952 Winter Olympics,Netherlands,0,3,0,3,3217,34,NED
-1952 Winter Olympics,Sweden,0,0,4,4,3218,34,SWE
-1952 Winter Olympics,Switzerland,0,0,2,2,3219,34,SUI
-1952 Winter Olympics,France,0,0,1,1,3220,34,FRA
-1952 Winter Olympics,Hungary,0,0,1,1,3221,34,HUN
-1956 Winter Olympics,Soviet Union,7,3,6,16,3222,35,URS
-1956 Winter Olympics,Austria,4,3,4,11,3223,35,AUT
-1956 Winter Olympics,Finland,3,3,1,7,3224,35,FIN
-1956 Winter Olympics,Switzerland,3,2,1,6,3225,35,SUI
-1956 Winter Olympics,Sweden,2,4,4,10,3226,35,SWE
-1956 Winter Olympics,United States,2,3,2,7,3227,35,USA
-1956 Winter Olympics,Norway,2,1,1,4,3228,35,NOR
-1956 Winter Olympics,Italy,1,2,0,3,3229,35,ITA
-1956 Winter Olympics,Germany,1,0,1,2,3230,35,GER
-1956 Winter Olympics,Canada,0,1,2,3,3231,35,CAN
-1956 Winter Olympics,Japan,0,1,0,1,3232,35,JPN
-1956 Winter Olympics,Hungary,0,0,1,1,3233,35,HUN
-1956 Winter Olympics,Poland,0,0,1,1,3234,35,POL
-1960 Winter Olympics,Soviet Union,7,5,9,21,3235,36,URS
-1960 Winter Olympics,Germany,4,3,1,8,3236,36,GER
-1960 Winter Olympics,United States,3,4,3,10,3237,36,USA
-1960 Winter Olympics,Norway,3,3,0,6,3238,36,NOR
-1960 Winter Olympics,Sweden,3,2,2,7,3239,36,SWE
-1960 Winter Olympics,Finland,2,3,3,8,3240,36,FIN
-1960 Winter Olympics,Canada,2,1,1,4,3241,36,CAN
-1960 Winter Olympics,Switzerland,2,0,0,2,3242,36,SUI
-1960 Winter Olympics,Austria,1,2,3,6,3243,36,AUT
-1960 Winter Olympics,France,1,0,2,3,3244,36,FRA
-1960 Winter Olympics,Netherlands,0,1,1,2,3245,36,NED
-1960 Winter Olympics,Poland,0,1,1,2,3246,36,POL
-1960 Winter Olympics,Czechoslovakia,0,1,0,1,3247,36,TCH
-1960 Winter Olympics,Italy,0,0,1,1,3248,36,ITA
-1964 Winter Olympics,Soviet Union,11,8,6,25,3249,37,URS
-1964 Winter Olympics,Austria,4,5,3,12,3250,37,AUT
-1964 Winter Olympics,Norway,3,6,6,15,3251,37,NOR
-1964 Winter Olympics,Finland,3,4,3,10,3252,37,FIN
-1964 Winter Olympics,France,3,4,0,7,3253,37,FRA
-1964 Winter Olympics,Germany,3,3,3,9,3254,37,GER
-1964 Winter Olympics,Sweden,3,3,1,7,3255,37,SWE
-1964 Winter Olympics,United States,1,2,4,7,3256,37,USA
-1964 Winter Olympics,Canada,1,1,1,3,3257,37,CAN
-1964 Winter Olympics,Netherlands,1,1,0,2,3258,37,NED
-1964 Winter Olympics,Great Britain,1,0,0,1,3259,37,GBR
-1964 Winter Olympics,Italy,0,1,3,4,3260,37,ITA
-1964 Winter Olympics,Democratic People's Republic of Korea,0,1,0,1,3261,37,PRK
-1964 Winter Olympics,Czechoslovakia,0,0,1,1,3262,37,TCH
-1968 Winter Olympics,Norway,6,6,2,14,3263,38,NOR
-1968 Winter Olympics,Soviet Union,5,5,3,13,3264,38,URS
-1968 Winter Olympics,France,4,3,2,9,3265,38,FRA
-1968 Winter Olympics,Italy,4,0,0,4,3266,38,ITA
-1968 Winter Olympics,Austria,3,4,4,11,3267,38,AUT
-1968 Winter Olympics,Netherlands,3,3,3,9,3268,38,NED
-1968 Winter Olympics,Sweden,3,2,3,8,3269,38,SWE
-1968 Winter Olympics,West Germany,2,2,3,7,3270,38,FRG
-1968 Winter Olympics,United States,1,5,1,7,3271,38,USA
-1968 Winter Olympics,East Germany,1,2,2,5,3272,38,GDR
-1968 Winter Olympics,Finland,1,2,2,5,3273,38,FIN
-1968 Winter Olympics,Czechoslovakia,1,2,1,4,3274,38,TCH
-1968 Winter Olympics,Canada,1,1,1,3,3275,38,CAN
-1968 Winter Olympics,Switzerland,0,2,4,6,3276,38,SUI
-1968 Winter Olympics,Romania,0,0,1,1,3277,38,ROU
-1972 Winter Olympics,Soviet Union,8,5,3,16,3278,39,URS
-1972 Winter Olympics,East Germany,4,3,7,14,3279,39,GDR
-1972 Winter Olympics,Switzerland,4,3,3,10,3280,39,SUI
-1972 Winter Olympics,Netherlands,4,3,2,9,3281,39,NED
-1972 Winter Olympics,United States,3,2,3,8,3282,39,USA
-1972 Winter Olympics,West Germany,3,1,1,5,3283,39,FRG
-1972 Winter Olympics,Norway,2,5,5,12,3284,39,NOR
-1972 Winter Olympics,Italy,2,2,1,5,3285,39,ITA
-1972 Winter Olympics,Austria,1,2,2,5,3286,39,AUT
-1972 Winter Olympics,Sweden,1,1,2,4,3287,39,SWE
-1972 Winter Olympics,Japan,1,1,1,3,3288,39,JPN
-1972 Winter Olympics,Czechoslovakia,1,0,2,3,3289,39,TCH
-1972 Winter Olympics,Poland,1,0,0,1,3290,39,POL
-1972 Winter Olympics,Spain,1,0,0,1,3291,39,ESP
-1972 Winter Olympics,Finland,0,4,1,5,3292,39,FIN
-1972 Winter Olympics,France,0,1,2,3,3293,39,FRA
-1972 Winter Olympics,Canada,0,1,0,1,3294,39,CAN
-1976 Winter Olympics,Soviet Union,13,6,8,27,3295,40,URS
-1976 Winter Olympics,East Germany,7,5,7,19,3296,40,GDR
-1976 Winter Olympics,United States,3,3,4,10,3297,40,USA
-1976 Winter Olympics,Norway,3,3,1,7,3298,40,NOR
-1976 Winter Olympics,West Germany,2,5,3,10,3299,40,FRG
-1976 Winter Olympics,Finland,2,4,1,7,3300,40,FIN
-1976 Winter Olympics,Austria,2,2,2,6,3301,40,AUT
-1976 Winter Olympics,Switzerland,1,3,1,5,3302,40,SUI
-1976 Winter Olympics,Netherlands,1,2,3,6,3303,40,NED
-1976 Winter Olympics,Italy,1,2,1,4,3304,40,ITA
-1976 Winter Olympics,Canada,1,1,1,3,3305,40,CAN
-1976 Winter Olympics,Great Britain,1,0,0,1,3306,40,GBR
-1976 Winter Olympics,Czechoslovakia,0,1,0,1,3307,40,TCH
-1976 Winter Olympics,Liechtenstein,0,0,2,2,3308,40,LIE
-1976 Winter Olympics,Sweden,0,0,2,2,3309,40,SWE
-1976 Winter Olympics,France,0,0,1,1,3310,40,FRA
-1980 Winter Olympics,Soviet Union,10,6,6,22,3311,41,URS
-1980 Winter Olympics,East Germany,9,7,7,23,3312,41,GDR
-1980 Winter Olympics,United States,6,4,2,12,3313,41,USA
-1980 Winter Olympics,Austria,3,2,2,7,3314,41,AUT
-1980 Winter Olympics,Sweden,3,0,1,4,3315,41,SWE
-1980 Winter Olympics,Liechtenstein,2,2,0,4,3316,41,LIE
-1980 Winter Olympics,Finland,1,5,3,9,3317,41,FIN
-1980 Winter Olympics,Norway,1,3,6,10,3318,41,NOR
-1980 Winter Olympics,Netherlands,1,2,1,4,3319,41,NED
-1980 Winter Olympics,Switzerland,1,1,3,5,3320,41,SUI
-1980 Winter Olympics,Great Britain,1,0,0,1,3321,41,GBR
-1980 Winter Olympics,West Germany,0,2,3,5,3322,41,FRG
-1980 Winter Olympics,Italy,0,2,0,2,3323,41,ITA
-1980 Winter Olympics,Canada,0,1,1,2,3324,41,CAN
-1980 Winter Olympics,Hungary,0,1,0,1,3325,41,HUN
-1980 Winter Olympics,Japan,0,1,0,1,3326,41,JPN
-1980 Winter Olympics,Bulgaria,0,0,1,1,3327,41,BUL
-1980 Winter Olympics,Czechoslovakia,0,0,1,1,3328,41,TCH
-1980 Winter Olympics,France,0,0,1,1,3329,41,FRA
-1984 Winter Olympics,East Germany,9,9,6,24,3330,42,GDR
-1984 Winter Olympics,Soviet Union,6,10,9,25,3331,42,URS
-1984 Winter Olympics,United States,4,4,0,8,3332,42,USA
-1984 Winter Olympics,Finland,4,3,6,13,3333,42,FIN
-1984 Winter Olympics,Sweden,4,2,2,8,3334,42,SWE
-1984 Winter Olympics,Norway,3,2,4,9,3335,42,NOR
-1984 Winter Olympics,Switzerland,2,2,1,5,3336,42,SUI
-1984 Winter Olympics,Canada,2,1,1,4,3337,42,CAN
-1984 Winter Olympics,West Germany,2,1,1,4,3338,42,FRG
-1984 Winter Olympics,Italy,2,0,0,2,3339,42,ITA
-1984 Winter Olympics,Great Britain,1,0,0,1,3340,42,GBR
-1984 Winter Olympics,Czechoslovakia,0,2,4,6,3341,42,TCH
-1984 Winter Olympics,France,0,1,2,3,3342,42,FRA
-1984 Winter Olympics,Japan,0,1,0,1,3343,42,JPN
-1984 Winter Olympics,Yugoslavia,0,1,0,1,3344,42,YUG
-1984 Winter Olympics,Liechtenstein,0,0,2,2,3345,42,LIE
-1984 Winter Olympics,Austria,0,0,1,1,3346,42,AUT
-1988 Winter Olympics,Soviet Union,11,9,9,29,3347,43,URS
-1988 Winter Olympics,East Germany,9,10,6,25,3348,43,GDR
-1988 Winter Olympics,Switzerland,5,5,5,15,3349,43,SUI
-1988 Winter Olympics,Finland,4,1,2,7,3350,43,FIN
-1988 Winter Olympics,Sweden,4,0,2,6,3351,43,SWE
-1988 Winter Olympics,Austria,3,5,2,10,3352,43,AUT
-1988 Winter Olympics,Netherlands,3,2,2,7,3353,43,NED
-1988 Winter Olympics,West Germany,2,4,2,8,3354,43,FRG
-1988 Winter Olympics,United States,2,1,3,6,3355,43,USA
-1988 Winter Olympics,Italy,2,1,2,5,3356,43,ITA
-1988 Winter Olympics,France,1,0,1,2,3357,43,FRA
-1988 Winter Olympics,Norway,0,3,2,5,3358,43,NOR
-1988 Winter Olympics,Canada,0,2,3,5,3359,43,CAN
-1988 Winter Olympics,Yugoslavia,0,2,1,3,3360,43,YUG
-1988 Winter Olympics,Czechoslovakia,0,1,2,3,3361,43,TCH
-1988 Winter Olympics,Japan,0,0,1,1,3362,43,JPN
-1988 Winter Olympics,Liechtenstein,0,0,1,1,3363,43,LIE
-1992 Winter Olympics,Germany,10,10,6,26,3364,44,GER
-1992 Winter Olympics,Unified Team,9,6,8,23,3365,44,EUN
-1992 Winter Olympics,Norway,9,6,5,20,3366,44,NOR
-1992 Winter Olympics,Austria,6,7,8,21,3367,44,AUT
-1992 Winter Olympics,United States,5,4,2,11,3368,44,USA
-1992 Winter Olympics,Italy,4,6,4,14,3369,44,ITA
-1992 Winter Olympics,France,3,5,1,9,3370,44,FRA
-1992 Winter Olympics,Finland,3,1,3,7,3371,44,FIN
-1992 Winter Olympics,Canada,2,3,2,7,3372,44,CAN
-1992 Winter Olympics,Republic of Korea,2,1,1,4,3373,44,KOR
-1992 Winter Olympics,Japan,1,2,4,7,3374,44,JPN
-1992 Winter Olympics,Netherlands,1,1,2,4,3375,44,NED
-1992 Winter Olympics,Sweden,1,0,3,4,3376,44,SWE
-1992 Winter Olympics,Switzerland,1,0,2,3,3377,44,SUI
-1992 Winter Olympics,People's Republic of China,0,3,0,3,3378,44,CHN
-1992 Winter Olympics,Luxembourg,0,2,0,2,3379,44,LUX
-1992 Winter Olympics,New Zealand,0,1,0,1,3380,44,NZL
-1992 Winter Olympics,Czechoslovakia,0,0,3,3,3381,44,TCH
-1992 Winter Olympics,Democratic People's Republic of Korea,0,0,1,1,3382,44,PRK
-1992 Winter Olympics,Spain,0,0,1,1,3383,44,ESP
-1994 Winter Olympics,Russian Federation,11,8,4,23,3384,45,RUS
-1994 Winter Olympics,Norway,10,11,5,26,3385,45,NOR
-1994 Winter Olympics,Germany,9,7,8,24,3386,45,GER
-1994 Winter Olympics,Italy,7,5,8,20,3387,45,ITA
-1994 Winter Olympics,United States,6,5,2,13,3388,45,USA
-1994 Winter Olympics,Republic of Korea,4,1,1,6,3389,45,KOR
-1994 Winter Olympics,Canada,3,6,4,13,3390,45,CAN
-1994 Winter Olympics,Switzerland,3,4,2,9,3391,45,SUI
-1994 Winter Olympics,Austria,2,3,4,9,3392,45,AUT
-1994 Winter Olympics,Sweden,2,1,0,3,3393,45,SWE
-1994 Winter Olympics,Japan,1,2,2,5,3394,45,JPN
-1994 Winter Olympics,Kazakhstan,1,2,0,3,3395,45,KAZ
-1994 Winter Olympics,Ukraine,1,0,1,2,3396,45,UKR
-1994 Winter Olympics,Uzbekistan,1,0,0,1,3397,45,UZB
-1994 Winter Olympics,Belarus,0,2,0,2,3398,45,BLR
-1994 Winter Olympics,Finland,0,1,5,6,3399,45,FIN
-1994 Winter Olympics,France,0,1,4,5,3400,45,FRA
-1994 Winter Olympics,Netherlands,0,1,3,4,3401,45,NED
-1994 Winter Olympics,People's Republic of China,0,1,2,3,3402,45,CHN
-1994 Winter Olympics,Slovenia,0,0,3,3,3403,45,SLO
-1994 Winter Olympics,Great Britain,0,0,2,2,3404,45,GBR
-1994 Winter Olympics,Australia,0,0,1,1,3405,45,AUS
-1998 Winter Olympics,Germany,12,9,8,29,3406,46,GER
-1998 Winter Olympics,Norway,10,10,5,25,3407,46,NOR
-1998 Winter Olympics,Russian Federation,9,6,3,18,3408,46,RUS
-1998 Winter Olympics,Canada,6,5,4,15,3409,46,CAN
-1998 Winter Olympics,United States,6,3,4,13,3410,46,USA
-1998 Winter Olympics,Netherlands,5,4,2,11,3411,46,NED
-1998 Winter Olympics,Japan,5,1,4,10,3412,46,JPN
-1998 Winter Olympics,Austria,3,5,9,17,3413,46,AUT
-1998 Winter Olympics,Republic of Korea,3,1,2,6,3414,46,KOR
-1998 Winter Olympics,Italy,2,6,2,10,3415,46,ITA
-1998 Winter Olympics,Finland,2,4,6,12,3416,46,FIN
-1998 Winter Olympics,Switzerland,2,2,3,7,3417,46,SUI
-1998 Winter Olympics,France,2,1,5,8,3418,46,FRA
-1998 Winter Olympics,Czechia,1,1,1,3,3419,46,CZE
-1998 Winter Olympics,Bulgaria,1,0,0,1,3420,46,BUL
-1998 Winter Olympics,People's Republic of China,0,6,2,8,3421,46,CHN
-1998 Winter Olympics,Sweden,0,2,1,3,3422,46,SWE
-1998 Winter Olympics,Denmark,0,1,0,1,3423,46,DEN
-1998 Winter Olympics,Ukraine,0,1,0,1,3424,46,UKR
-1998 Winter Olympics,Belarus,0,0,2,2,3425,46,BLR
-1998 Winter Olympics,Kazakhstan,0,0,2,2,3426,46,KAZ
-1998 Winter Olympics,Australia,0,0,1,1,3427,46,AUS
-1998 Winter Olympics,Belgium,0,0,1,1,3428,46,BEL
-1998 Winter Olympics,Great Britain,0,0,1,1,3429,46,GBR
-2002 Winter Olympics,Norway,13,5,7,25,3430,47,NOR
-2002 Winter Olympics,Germany,12,16,8,36,3431,47,GER
-2002 Winter Olympics,United States,10,13,11,34,3432,47,USA
-2002 Winter Olympics,Canada,7,3,7,17,3433,47,CAN
-2002 Winter Olympics,Russian Federation,5,4,4,13,3434,47,RUS
-2002 Winter Olympics,France,4,5,2,11,3435,47,FRA
-2002 Winter Olympics,Italy,4,4,5,13,3436,47,ITA
-2002 Winter Olympics,Finland,4,2,1,7,3437,47,FIN
-2002 Winter Olympics,Netherlands,3,5,0,8,3438,47,NED
-2002 Winter Olympics,Austria,3,4,10,17,3439,47,AUT
-2002 Winter Olympics,Switzerland,3,2,6,11,3440,47,SUI
-2002 Winter Olympics,Croatia,3,1,0,4,3441,47,CRO
-2002 Winter Olympics,People's Republic of China,2,2,4,8,3442,47,CHN
-2002 Winter Olympics,Republic of Korea,2,2,0,4,3443,47,KOR
-2002 Winter Olympics,Australia,2,0,0,2,3444,47,AUS
-2002 Winter Olympics,Czechia,1,2,0,3,3445,47,CZE
-2002 Winter Olympics,Estonia,1,1,1,3,3446,47,EST
-2002 Winter Olympics,Great Britain,1,0,1,2,3447,47,GBR
-2002 Winter Olympics,Sweden,0,2,5,7,3448,47,SWE
-2002 Winter Olympics,Bulgaria,0,1,2,3,3449,47,BUL
-2002 Winter Olympics,Japan,0,1,1,2,3450,47,JPN
-2002 Winter Olympics,Poland,0,1,1,2,3451,47,POL
-2002 Winter Olympics,Belarus,0,0,1,1,3452,47,BLR
-2002 Winter Olympics,Slovenia,0,0,1,1,3453,47,SLO
-2006 Winter Olympics,Germany,11,12,6,29,3454,49,GER
-2006 Winter Olympics,United States,9,9,7,25,3455,49,USA
-2006 Winter Olympics,Austria,9,7,7,23,3456,49,AUT
-2006 Winter Olympics,Russian Federation,8,6,8,22,3457,49,RUS
-2006 Winter Olympics,Canada,7,10,7,24,3458,49,CAN
-2006 Winter Olympics,Sweden,7,2,5,14,3459,49,SWE
-2006 Winter Olympics,Republic of Korea,6,3,2,11,3460,49,KOR
-2006 Winter Olympics,Switzerland,5,4,5,14,3461,49,SUI
-2006 Winter Olympics,Italy,5,0,6,11,3462,49,ITA
-2006 Winter Olympics,France,3,2,4,9,3463,49,FRA
-2006 Winter Olympics,Netherlands,3,2,4,9,3464,49,NED
-2006 Winter Olympics,Estonia,3,0,0,3,3465,49,EST
-2006 Winter Olympics,Norway,2,8,9,19,3466,49,NOR
-2006 Winter Olympics,People's Republic of China,2,4,5,11,3467,49,CHN
-2006 Winter Olympics,Czechia,1,2,1,4,3468,49,CZE
-2006 Winter Olympics,Croatia,1,2,0,3,3469,49,CRO
-2006 Winter Olympics,Australia,1,0,1,2,3470,49,AUS
-2006 Winter Olympics,Japan,1,0,0,1,3471,49,JPN
-2006 Winter Olympics,Finland,0,6,3,9,3472,49,FIN
-2006 Winter Olympics,Poland,0,1,1,2,3473,49,POL
-2006 Winter Olympics,Belarus,0,1,0,1,3474,49,BLR
-2006 Winter Olympics,Bulgaria,0,1,0,1,3475,49,BUL
-2006 Winter Olympics,Great Britain,0,1,0,1,3476,49,GBR
-2006 Winter Olympics,Slovakia,0,1,0,1,3477,49,SVK
-2006 Winter Olympics,Ukraine,0,0,2,2,3478,49,UKR
-2006 Winter Olympics,Latvia,0,0,1,1,3479,49,LAT
-2010 Winter Olympics,Canada,14,7,5,26,3480,57,CAN
-2010 Winter Olympics,Germany,10,13,7,30,3481,57,GER
-2010 Winter Olympics,United States,9,15,13,37,3482,57,USA
-2010 Winter Olympics,Norway,9,8,6,23,3483,57,NOR
-2010 Winter Olympics,Republic of Korea,6,6,2,14,3484,57,KOR
-2010 Winter Olympics,Switzerland,6,0,3,9,3485,57,SUI
-2010 Winter Olympics,People's Republic of China,5,2,4,11,3486,57,CHN
-2010 Winter Olympics,Sweden,5,2,4,11,3487,57,SWE
-2010 Winter Olympics,Austria,4,6,6,16,3488,57,AUT
-2010 Winter Olympics,Netherlands,4,1,3,8,3489,57,NED
-2010 Winter Olympics,Russian Federation,3,5,7,15,3490,57,RUS
-2010 Winter Olympics,France,2,3,6,11,3491,57,FRA
-2010 Winter Olympics,Australia,2,1,0,3,3492,57,AUS
-2010 Winter Olympics,Czechia,2,0,4,6,3493,57,CZE
-2010 Winter Olympics,Poland,1,3,2,6,3494,57,POL
-2010 Winter Olympics,Italy,1,1,3,5,3495,57,ITA
-2010 Winter Olympics,Belarus,1,1,1,3,3496,57,BLR
-2010 Winter Olympics,Slovakia,1,1,1,3,3497,57,SVK
-2010 Winter Olympics,Great Britain,1,0,0,1,3498,57,GBR
-2010 Winter Olympics,Japan,0,3,2,5,3499,57,JPN
-2010 Winter Olympics,Croatia,0,2,1,3,3500,57,CRO
-2010 Winter Olympics,Slovenia,0,2,1,3,3501,57,SLO
-2010 Winter Olympics,Latvia,0,2,0,2,3502,57,LAT
-2010 Winter Olympics,Finland,0,1,4,5,3503,57,FIN
-2010 Winter Olympics,Estonia,0,1,0,1,3504,57,EST
-2010 Winter Olympics,Kazakhstan,0,1,0,1,3505,57,KAZ
-2014 Winter Olympics,Norway,11,6,9,26,3506,58,NOR
-2014 Winter Olympics,Russian Federation,10,10,9,29,3507,58,RUS
-2014 Winter Olympics,Canada,10,10,5,25,3508,58,CAN
-2014 Winter Olympics,United States,9,9,10,28,3509,58,USA
-2014 Winter Olympics,Netherlands,8,7,9,24,3510,58,NED
-2014 Winter Olympics,Germany,8,6,5,19,3511,58,GER
-2014 Winter Olympics,Switzerland,7,2,2,11,3512,58,SUI
-2014 Winter Olympics,Belarus,5,0,1,6,3513,58,BLR
-2014 Winter Olympics,Austria,4,8,5,17,3514,58,AUT
-2014 Winter Olympics,France,4,4,7,15,3515,58,FRA
-2014 Winter Olympics,Poland,4,1,1,6,3516,58,POL
-2014 Winter Olympics,People's Republic of China,3,4,2,9,3517,58,CHN
-2014 Winter Olympics,Republic of Korea,3,3,2,8,3518,58,KOR
-2014 Winter Olympics,Sweden,2,7,6,15,3519,58,SWE
-2014 Winter Olympics,Czechia,2,4,3,9,3520,58,CZE
-2014 Winter Olympics,Slovenia,2,2,4,8,3521,58,SLO
-2014 Winter Olympics,Japan,1,4,3,8,3522,58,JPN
-2014 Winter Olympics,Finland,1,3,1,5,3523,58,FIN
-2014 Winter Olympics,Great Britain,1,1,3,5,3524,58,GBR
-2014 Winter Olympics,Latvia,1,1,3,5,3525,58,LAT
-2014 Winter Olympics,Ukraine,1,0,1,2,3526,58,UKR
-2014 Winter Olympics,Slovakia,1,0,0,1,3527,58,SVK
-2014 Winter Olympics,Italy,0,2,6,8,3528,58,ITA
-2014 Winter Olympics,Australia,0,2,1,3,3529,58,AUS
-2014 Winter Olympics,Croatia,0,1,0,1,3530,58,CRO
-2014 Winter Olympics,Kazakhstan,0,0,1,1,3531,58,KAZ
-2018 Winter Olympics,Norway,14,14,11,39,3532,60,NOR
-2018 Winter Olympics,Germany,14,10,7,31,3533,60,GER
-2018 Winter Olympics,Canada,11,8,10,29,3534,60,CAN
-2018 Winter Olympics,United States,9,8,6,23,3535,60,USA
-2018 Winter Olympics,Netherlands,8,6,6,20,3536,60,NED
-2018 Winter Olympics,Sweden,7,6,1,14,3537,60,SWE
-2018 Winter Olympics,Republic of Korea,5,8,4,17,3538,60,KOR
-2018 Winter Olympics,Switzerland,5,6,4,15,3539,60,SUI
-2018 Winter Olympics,France,5,4,6,15,3540,60,FRA
-2018 Winter Olympics,Austria,5,3,6,14,3541,60,AUT
-2018 Winter Olympics,Japan,4,5,4,13,3542,60,JPN
-2018 Winter Olympics,Italy,3,2,5,10,3543,60,ITA
-2018 Winter Olympics,Russian Olympic Committee,2,6,9,17,3544,60,ROC
-2018 Winter Olympics,Czechia,2,2,3,7,3545,60,CZE
-2018 Winter Olympics,Belarus,2,1,0,3,3546,60,BLR
-2018 Winter Olympics,People's Republic of China,1,6,2,9,3547,60,CHN
-2018 Winter Olympics,Slovakia,1,2,0,3,3548,60,SVK
-2018 Winter Olympics,Finland,1,1,4,6,3549,60,FIN
-2018 Winter Olympics,Great Britain,1,0,4,5,3550,60,GBR
-2018 Winter Olympics,Poland,1,0,1,2,3551,60,POL
-2018 Winter Olympics,Hungary,1,0,0,1,3552,60,HUN
-2018 Winter Olympics,Ukraine,1,0,0,1,3553,60,UKR
-2018 Winter Olympics,Australia,0,2,1,3,3554,60,AUS
-2018 Winter Olympics,Slovenia,0,1,1,2,3555,60,SLO
-2018 Winter Olympics,Belgium,0,1,0,1,3556,60,BEL
-2018 Winter Olympics,New Zealand,0,0,2,2,3557,60,NZL
-2018 Winter Olympics,Spain,0,0,2,2,3558,60,ESP
-2018 Winter Olympics,Kazakhstan,0,0,1,1,3559,60,KAZ
-2018 Winter Olympics,Latvia,0,0,1,1,3560,60,LAT
-2018 Winter Olympics,Liechtenstein,0,0,1,1,3561,60,LIE
-2022 Winter Olympics,Norway,16,8,13,37,3562,62,NOR
-2022 Winter Olympics,Germany,12,10,5,27,3563,62,GER
-2022 Winter Olympics,People's Republic of China,9,4,2,15,3564,62,CHN
-2022 Winter Olympics,United States,8,10,7,25,3565,62,USA
-2022 Winter Olympics,Sweden,8,5,5,18,3566,62,SWE
-2022 Winter Olympics,Netherlands,8,5,4,17,3567,62,NED
-2022 Winter Olympics,Austria,7,7,4,18,3568,62,AUT
-2022 Winter Olympics,Switzerland,7,2,6,15,3569,62,SUI
-2022 Winter Olympics,Russian Olympic Committee,6,12,14,32,3570,62,ROC
-2022 Winter Olympics,France,5,7,2,14,3571,62,FRA
-2022 Winter Olympics,Canada,4,8,14,26,3572,62,CAN
-2022 Winter Olympics,Japan,3,6,9,18,3573,62,JPN
-2022 Winter Olympics,Italy,2,7,8,17,3574,62,ITA
-2022 Winter Olympics,Republic of Korea,2,5,2,9,3575,62,KOR
-2022 Winter Olympics,Slovenia,2,3,2,7,3576,62,SLO
-2022 Winter Olympics,Finland,2,2,4,8,3577,62,FIN
-2022 Winter Olympics,New Zealand,2,1,0,3,3578,62,NZL
-2022 Winter Olympics,Australia,1,2,1,4,3579,62,AUS
-2022 Winter Olympics,Great Britain,1,1,0,2,3580,62,GBR
-2022 Winter Olympics,Hungary,1,0,2,3,3581,62,HUN
-2022 Winter Olympics,Belgium,1,0,1,2,3582,62,BEL
-2022 Winter Olympics,Czechia,1,0,1,2,3583,62,CZE
-2022 Winter Olympics,Slovakia,1,0,1,2,3584,62,SVK
-2022 Winter Olympics,Belarus,0,2,0,2,3585,62,BLR
-2022 Winter Olympics,Spain,0,1,0,1,3586,62,ESP
-2022 Winter Olympics,Ukraine,0,1,0,1,3587,62,UKR
-2022 Winter Olympics,Estonia,0,0,1,1,3588,62,EST
-2022 Winter Olympics,Latvia,0,0,1,1,3589,62,LAT
-2022 Winter Olympics,Poland,0,0,1,1,3590,62,POL
-1956 Equestrian,Sweden,3,0,0,3,3591,48,SWE
-1956 Equestrian,Germany,2,3,1,6,3592,48,GER
-1956 Equestrian,Great Britain,1,0,2,3,3593,48,GBR
-1956 Equestrian,Italy,0,2,1,3,3594,48,ITA
-1956 Equestrian,Denmark,0,1,0,1,3595,48,DEN
-1956 Equestrian,Canada,0,0,1,1,3596,48,CAN
-1956 Equestrian,Switzerland,0,0,1,1,3597,48,SUI
-1906 Intercalated,France,15,9,16,40,3598,4,FRA
-1906 Intercalated,United States,12,6,6,24,3599,4,USA
-1906 Intercalated,Greece,8,14,13,35,3600,4,GRE
-1906 Intercalated,Great Britain,8,11,5,24,3601,4,GBR
-1906 Intercalated,Italy,7,6,3,16,3602,4,ITA
-1906 Intercalated,Germany,4,6,5,15,3603,4,GER
-1906 Intercalated,Switzerland,4,3,1,8,3604,4,SUI
-1906 Intercalated,Austria,3,3,3,9,3605,4,AUT
-1906 Intercalated,Denmark,3,2,1,6,3606,4,DEN
-1906 Intercalated,Sweden,2,5,7,14,3607,4,SWE
-1906 Intercalated,Hungary,2,5,3,10,3608,4,HUN
-1906 Intercalated,Belgium,2,2,3,7,3609,4,BEL
-1906 Intercalated,Finland,2,1,1,4,3610,4,FIN
-1906 Intercalated,Canada,1,1,0,2,3611,4,CAN
-1906 Intercalated,Norway,1,1,0,2,3612,4,NOR
-1906 Intercalated,Netherlands,0,1,2,3,3613,4,NED
-1906 Intercalated,Australia,0,0,3,3,3614,4,AUS
-1906 Intercalated,Bohemia,0,0,2,2,3615,4,BOH
+1896 Summer Olympics,United States,11,7,2,20,1,1,USA
+1896 Summer Olympics,Greece,10,18,19,47,2,1,GRE
+1896 Summer Olympics,Germany,6,5,2,13,3,1,GER
+1896 Summer Olympics,France,5,4,2,11,4,1,FRA
+1896 Summer Olympics,Great Britain,2,3,2,7,5,1,GBR
+1896 Summer Olympics,Hungary,2,1,3,6,6,1,HUN
+1896 Summer Olympics,Austria,2,1,2,5,7,1,AUT
+1896 Summer Olympics,Australia,2,0,0,2,8,1,AUS
+1896 Summer Olympics,Denmark,1,2,3,6,9,1,DEN
+1896 Summer Olympics,Switzerland,1,2,0,3,10,1,SUI
+1896 Summer Olympics,Mixed team,1,0,1,2,11,1,MIX
+1900 Summer Olympics,France,31,41,40,112,12,2,FRA
+1900 Summer Olympics,United States,20,13,15,48,13,2,USA
+1900 Summer Olympics,Great Britain,20,8,9,37,14,2,GBR
+1900 Summer Olympics,Belgium,6,6,6,18,15,2,BEL
+1900 Summer Olympics,Switzerland,6,3,1,10,16,2,SUI
+1900 Summer Olympics,Germany,4,3,2,9,17,2,GER
+1900 Summer Olympics,Italy,3,2,0,5,18,2,ITA
+1900 Summer Olympics,Denmark,1,3,2,6,19,2,DEN
+1900 Summer Olympics,Mixed team,1,2,3,6,20,2,MIX
+1900 Summer Olympics,Netherlands,1,2,3,6,21,2,NED
+1900 Summer Olympics,Hungary,1,2,2,5,22,2,HUN
+1900 Summer Olympics,Cuba,1,1,0,2,23,2,CUB
+1900 Summer Olympics,Spain,1,0,0,1,24,2,ESP
+1900 Summer Olympics,Austria,0,3,3,6,25,2,AUT
+1900 Summer Olympics,Norway,0,2,3,5,26,2,NOR
+1900 Summer Olympics,India,0,2,0,2,27,2,IND
+1900 Summer Olympics,Bohemia,0,1,1,2,28,2,BOH
+1900 Summer Olympics,Australia,0,0,3,3,29,2,AUS
+1900 Summer Olympics,Sweden,0,0,1,1,30,2,SWE
+1904 Summer Olympics,United States,80,85,83,248,31,3,USA
+1904 Summer Olympics,Germany,5,4,5,14,32,3,GER
+1904 Summer Olympics,Canada,4,1,1,6,33,3,CAN
+1904 Summer Olympics,Cuba,3,0,0,3,34,3,CUB
+1904 Summer Olympics,Hungary,2,1,1,4,35,3,HUN
+1904 Summer Olympics,Great Britain,1,1,0,2,36,3,GBR
+1904 Summer Olympics,Greece,1,0,1,2,37,3,GRE
+1904 Summer Olympics,Mixed team,1,0,0,1,38,3,MIX
+1908 Summer Olympics,Great Britain,56,51,39,146,39,5,GBR
+1908 Summer Olympics,United States,23,12,12,47,40,5,USA
+1908 Summer Olympics,Sweden,8,6,11,25,41,5,SWE
+1908 Summer Olympics,France,5,5,9,19,42,5,FRA
+1908 Summer Olympics,Germany,3,5,5,13,43,5,GER
+1908 Summer Olympics,Hungary,3,4,2,9,44,5,HUN
+1908 Summer Olympics,Canada,3,3,10,16,45,5,CAN
+1908 Summer Olympics,Norway,2,3,3,8,46,5,NOR
+1908 Summer Olympics,Italy,2,2,0,4,47,5,ITA
+1908 Summer Olympics,Belgium,1,5,2,8,48,5,BEL
+1908 Summer Olympics,Australasia,1,2,2,5,49,5,ANZ
+1908 Summer Olympics,Russian Federation,1,2,0,3,50,5,RUS
+1908 Summer Olympics,Finland,1,1,3,5,51,5,FIN
+1908 Summer Olympics,South Africa,1,1,0,2,52,5,RSA
+1908 Summer Olympics,Greece,0,3,1,4,53,5,GRE
+1908 Summer Olympics,Denmark,0,2,3,5,54,5,DEN
+1908 Summer Olympics,Bohemia,0,0,2,2,55,5,BOH
+1908 Summer Olympics,Netherlands,0,0,2,2,56,5,NED
+1908 Summer Olympics,Austria,0,0,1,1,57,5,AUT
+1912 Summer Olympics,United States,26,19,19,64,58,6,USA
+1912 Summer Olympics,Sweden,23,25,17,65,59,6,SWE
+1912 Summer Olympics,Great Britain,10,15,16,41,60,6,GBR
+1912 Summer Olympics,Finland,9,8,9,26,61,6,FIN
+1912 Summer Olympics,France,7,5,3,15,62,6,FRA
+1912 Summer Olympics,Germany,6,13,7,26,63,6,GER
+1912 Summer Olympics,Italy,5,1,2,8,64,6,ITA
+1912 Summer Olympics,South Africa,4,2,0,6,65,6,RSA
+1912 Summer Olympics,Norway,3,2,5,10,66,6,NOR
+1912 Summer Olympics,Canada,3,2,3,8,67,6,CAN
+1912 Summer Olympics,Hungary,3,2,3,8,68,6,HUN
+1912 Summer Olympics,Australasia,2,2,3,7,69,6,ANZ
+1912 Summer Olympics,Belgium,2,1,3,6,70,6,BEL
+1912 Summer Olympics,Denmark,1,6,5,12,71,6,DEN
+1912 Summer Olympics,Greece,1,0,1,2,72,6,GRE
+1912 Summer Olympics,Switzerland,1,0,0,1,73,6,SUI
+1912 Summer Olympics,Russian Federation,0,2,3,5,74,6,RUS
+1912 Summer Olympics,Austria,0,2,2,4,75,6,AUT
+1912 Summer Olympics,Netherlands,0,0,3,3,76,6,NED
+1920 Summer Olympics,United States,41,27,27,95,77,7,USA
+1920 Summer Olympics,Sweden,19,20,25,64,78,7,SWE
+1920 Summer Olympics,Belgium,16,12,14,42,79,7,BEL
+1920 Summer Olympics,Finland,15,10,9,34,80,7,FIN
+1920 Summer Olympics,Great Britain,14,16,13,43,81,7,GBR
+1920 Summer Olympics,Italy,14,6,5,25,82,7,ITA
+1920 Summer Olympics,Norway,13,10,9,32,83,7,NOR
+1920 Summer Olympics,France,9,20,13,42,84,7,FRA
+1920 Summer Olympics,Netherlands,4,2,5,11,85,7,NED
+1920 Summer Olympics,Denmark,3,9,1,13,86,7,DEN
+1920 Summer Olympics,South Africa,3,4,3,10,87,7,RSA
+1920 Summer Olympics,Canada,3,3,3,9,88,7,CAN
+1920 Summer Olympics,Switzerland,2,2,7,11,89,7,SUI
+1920 Summer Olympics,Estonia,1,2,0,3,90,7,EST
+1920 Summer Olympics,Brazil,1,1,1,3,91,7,BRA
+1920 Summer Olympics,Australia,0,2,1,3,92,7,AUS
+1920 Summer Olympics,Japan,0,2,0,2,93,7,JPN
+1920 Summer Olympics,Spain,0,2,0,2,94,7,ESP
+1920 Summer Olympics,Greece,0,1,0,1,95,7,GRE
+1920 Summer Olympics,Luxembourg,0,1,0,1,96,7,LUX
+1920 Summer Olympics,Czechoslovakia,0,0,2,2,97,7,TCH
+1920 Summer Olympics,New Zealand,0,0,1,1,98,7,NZL
+1924 Summer Olympics,United States,45,27,27,99,99,8,USA
+1924 Summer Olympics,France,14,15,12,41,100,8,FRA
+1924 Summer Olympics,Finland,14,13,10,37,101,8,FIN
+1924 Summer Olympics,Great Britain,9,14,12,35,102,8,GBR
+1924 Summer Olympics,Italy,8,3,5,16,103,8,ITA
+1924 Summer Olympics,Switzerland,7,8,10,25,104,8,SUI
+1924 Summer Olympics,Norway,5,2,3,10,105,8,NOR
+1924 Summer Olympics,Sweden,4,13,12,29,106,8,SWE
+1924 Summer Olympics,Netherlands,4,1,6,11,107,8,NED
+1924 Summer Olympics,Belgium,3,7,3,13,108,8,BEL
+1924 Summer Olympics,Australia,3,1,2,6,109,8,AUS
+1924 Summer Olympics,Denmark,2,6,3,11,110,8,DEN
+1924 Summer Olympics,Hungary,2,4,4,10,111,8,HUN
+1924 Summer Olympics,Yugoslavia,2,0,0,2,112,8,YUG
+1924 Summer Olympics,Czechoslovakia,1,4,5,10,113,8,TCH
+1924 Summer Olympics,Argentina,1,3,2,6,114,8,ARG
+1924 Summer Olympics,Estonia,1,1,4,6,115,8,EST
+1924 Summer Olympics,South Africa,1,1,1,3,116,8,RSA
+1924 Summer Olympics,Luxembourg,1,1,0,2,117,8,LUX
+1924 Summer Olympics,Greece,1,0,0,1,118,8,GRE
+1924 Summer Olympics,Uruguay,1,0,0,1,119,8,URU
+1924 Summer Olympics,Austria,0,3,1,4,120,8,AUT
+1924 Summer Olympics,Canada,0,3,1,4,121,8,CAN
+1924 Summer Olympics,Ireland,0,1,1,2,122,8,IRL
+1924 Summer Olympics,Poland,0,1,1,2,123,8,POL
+1924 Summer Olympics,Haiti,0,0,1,1,124,8,HAI
+1924 Summer Olympics,Japan,0,0,1,1,125,8,JPN
+1924 Summer Olympics,Monaco,0,0,1,1,126,8,MON
+1924 Summer Olympics,New Zealand,0,0,1,1,127,8,NZL
+1924 Summer Olympics,Portugal,0,0,1,1,128,8,POR
+1924 Summer Olympics,Romania,0,0,1,1,129,8,ROU
+1928 Summer Olympics,United States,22,18,16,56,130,9,USA
+1928 Summer Olympics,Germany,11,9,19,39,131,9,GER
+1928 Summer Olympics,Netherlands,8,10,5,23,132,9,NED
+1928 Summer Olympics,Finland,8,8,9,25,133,9,FIN
+1928 Summer Olympics,France,7,12,6,25,134,9,FRA
+1928 Summer Olympics,Sweden,7,6,12,25,135,9,SWE
+1928 Summer Olympics,Italy,7,6,7,20,136,9,ITA
+1928 Summer Olympics,Switzerland,7,6,4,17,137,9,SUI
+1928 Summer Olympics,Hungary,5,5,0,10,138,9,HUN
+1928 Summer Olympics,Great Britain,4,11,7,22,139,9,GBR
+1928 Summer Olympics,Canada,4,4,7,15,140,9,CAN
+1928 Summer Olympics,Argentina,3,3,1,7,141,9,ARG
+1928 Summer Olympics,Denmark,3,2,4,9,142,9,DEN
+1928 Summer Olympics,Austria,3,0,1,4,143,9,AUT
+1928 Summer Olympics,Czechoslovakia,2,5,2,9,144,9,TCH
+1928 Summer Olympics,Japan,2,2,1,5,145,9,JPN
+1928 Summer Olympics,Poland,2,1,4,7,146,9,POL
+1928 Summer Olympics,Estonia,2,1,2,5,147,9,EST
+1928 Summer Olympics,Egypt,2,1,1,4,148,9,EGY
+1928 Summer Olympics,Australia,1,2,1,4,149,9,AUS
+1928 Summer Olympics,Norway,1,2,1,4,150,9,NOR
+1928 Summer Olympics,Yugoslavia,1,1,3,5,151,9,YUG
+1928 Summer Olympics,South Africa,1,0,2,3,152,9,RSA
+1928 Summer Olympics,India,1,0,0,1,153,9,IND
+1928 Summer Olympics,Ireland,1,0,0,1,154,9,IRL
+1928 Summer Olympics,Luxembourg,1,0,0,1,155,9,LUX
+1928 Summer Olympics,New Zealand,1,0,0,1,156,9,NZL
+1928 Summer Olympics,Spain,1,0,0,1,157,9,ESP
+1928 Summer Olympics,Uruguay,1,0,0,1,158,9,URU
+1928 Summer Olympics,Belgium,0,1,2,3,159,9,BEL
+1928 Summer Olympics,Chile,0,1,0,1,160,9,CHI
+1928 Summer Olympics,Haiti,0,1,0,1,161,9,HAI
+1928 Summer Olympics,Philippines,0,0,1,1,162,9,PHI
+1928 Summer Olympics,Portugal,0,0,1,1,163,9,POR
+1932 Summer Olympics,United States,44,36,30,110,164,10,USA
+1932 Summer Olympics,Italy,12,12,12,36,165,10,ITA
+1932 Summer Olympics,France,11,5,4,20,166,10,FRA
+1932 Summer Olympics,Sweden,10,5,9,24,167,10,SWE
+1932 Summer Olympics,Japan,7,7,4,18,168,10,JPN
+1932 Summer Olympics,Hungary,6,5,5,16,169,10,HUN
+1932 Summer Olympics,Germany,5,12,7,24,170,10,GER
+1932 Summer Olympics,Finland,5,8,12,25,171,10,FIN
+1932 Summer Olympics,Great Britain,5,7,5,17,172,10,GBR
+1932 Summer Olympics,Poland,3,2,4,9,173,10,POL
+1932 Summer Olympics,Australia,3,1,1,5,174,10,AUS
+1932 Summer Olympics,Argentina,3,1,0,4,175,10,ARG
+1932 Summer Olympics,Canada,2,5,9,16,176,10,CAN
+1932 Summer Olympics,Netherlands,2,5,1,8,177,10,NED
+1932 Summer Olympics,South Africa,2,0,3,5,178,10,RSA
+1932 Summer Olympics,Ireland,2,0,0,2,179,10,IRL
+1932 Summer Olympics,Czechoslovakia,1,3,2,6,180,10,TCH
+1932 Summer Olympics,Austria,1,1,3,5,181,10,AUT
+1932 Summer Olympics,India,1,0,0,1,182,10,IND
+1932 Summer Olympics,Denmark,0,5,3,8,183,10,DEN
+1932 Summer Olympics,Mexico,0,2,0,2,184,10,MEX
+1932 Summer Olympics,Latvia,0,1,0,1,185,10,LAT
+1932 Summer Olympics,New Zealand,0,1,0,1,186,10,NZL
+1932 Summer Olympics,Switzerland,0,1,0,1,187,10,SUI
+1932 Summer Olympics,Philippines,0,0,3,3,188,10,PHI
+1932 Summer Olympics,Belgium,0,0,1,1,189,10,BEL
+1932 Summer Olympics,Spain,0,0,1,1,190,10,ESP
+1932 Summer Olympics,Uruguay,0,0,1,1,191,10,URU
+1936 Summer Olympics,Germany,38,31,32,101,192,11,GER
+1936 Summer Olympics,United States,24,21,12,57,193,11,USA
+1936 Summer Olympics,Hungary,10,1,5,16,194,11,HUN
+1936 Summer Olympics,Italy,9,13,5,27,195,11,ITA
+1936 Summer Olympics,Finland,8,6,6,20,196,11,FIN
+1936 Summer Olympics,France,7,6,6,19,197,11,FRA
+1936 Summer Olympics,Sweden,6,5,10,21,198,11,SWE
+1936 Summer Olympics,Japan,6,4,10,20,199,11,JPN
+1936 Summer Olympics,Netherlands,6,4,7,17,200,11,NED
+1936 Summer Olympics,Austria,5,7,5,17,201,11,AUT
+1936 Summer Olympics,Switzerland,4,9,5,18,202,11,SUI
+1936 Summer Olympics,Great Britain,4,7,3,14,203,11,GBR
+1936 Summer Olympics,Czechoslovakia,3,5,1,9,204,11,TCH
+1936 Summer Olympics,Argentina,2,2,3,7,205,11,ARG
+1936 Summer Olympics,Estonia,2,2,3,7,206,11,EST
+1936 Summer Olympics,Egypt,2,1,2,5,207,11,EGY
+1936 Summer Olympics,Canada,1,3,5,9,208,11,CAN
+1936 Summer Olympics,Norway,1,3,2,6,209,11,NOR
+1936 Summer Olympics,TÃ¼rkiye,1,0,1,2,210,11,TUR
+1936 Summer Olympics,India,1,0,0,1,211,11,IND
+1936 Summer Olympics,New Zealand,1,0,0,1,212,11,NZL
+1936 Summer Olympics,Poland,0,4,5,9,213,11,POL
+1936 Summer Olympics,Denmark,0,2,3,5,214,11,DEN
+1936 Summer Olympics,Latvia,0,1,1,2,215,11,LAT
+1936 Summer Olympics,Romania,0,1,0,1,216,11,ROU
+1936 Summer Olympics,South Africa,0,1,0,1,217,11,RSA
+1936 Summer Olympics,Yugoslavia,0,1,0,1,218,11,YUG
+1936 Summer Olympics,Belgium,0,0,3,3,219,11,BEL
+1936 Summer Olympics,Mexico,0,0,3,3,220,11,MEX
+1936 Summer Olympics,Australia,0,0,1,1,221,11,AUS
+1936 Summer Olympics,Philippines,0,0,1,1,222,11,PHI
+1936 Summer Olympics,Portugal,0,0,1,1,223,11,POR
+1948 Summer Olympics,United States,38,27,19,84,224,12,USA
+1948 Summer Olympics,Sweden,17,11,18,46,225,12,SWE
+1948 Summer Olympics,France,11,6,15,32,226,12,FRA
+1948 Summer Olympics,Finland,10,8,6,24,227,12,FIN
+1948 Summer Olympics,Hungary,10,5,13,28,228,12,HUN
+1948 Summer Olympics,Italy,9,12,10,31,229,12,ITA
+1948 Summer Olympics,TÃ¼rkiye,6,4,2,12,230,12,TUR
+1948 Summer Olympics,Czechoslovakia,6,2,3,11,231,12,TCH
+1948 Summer Olympics,Switzerland,5,12,6,23,232,12,SUI
+1948 Summer Olympics,Denmark,5,8,9,22,233,12,DEN
+1948 Summer Olympics,Netherlands,5,2,9,16,234,12,NED
+1948 Summer Olympics,Great Britain,4,16,7,27,235,12,GBR
+1948 Summer Olympics,Argentina,3,3,1,7,236,12,ARG
+1948 Summer Olympics,Australia,2,6,5,13,237,12,AUS
+1948 Summer Olympics,Austria,2,2,4,8,238,12,AUT
+1948 Summer Olympics,Belgium,2,2,3,7,239,12,BEL
+1948 Summer Olympics,South Africa,2,2,2,6,240,12,RSA
+1948 Summer Olympics,Egypt,2,2,1,5,241,12,EGY
+1948 Summer Olympics,Mexico,2,1,2,5,242,12,MEX
+1948 Summer Olympics,Norway,1,3,3,7,243,12,NOR
+1948 Summer Olympics,Jamaica,1,2,0,3,244,12,JAM
+1948 Summer Olympics,Poland,1,0,1,2,245,12,POL
+1948 Summer Olympics,India,1,0,0,1,246,12,IND
+1948 Summer Olympics,Peru,1,0,0,1,247,12,PER
+1948 Summer Olympics,Canada,0,2,2,4,248,12,CAN
+1948 Summer Olympics,Yugoslavia,0,2,0,2,249,12,YUG
+1948 Summer Olympics,Portugal,0,1,1,2,250,12,POR
+1948 Summer Olympics,Uruguay,0,1,1,2,251,12,URU
+1948 Summer Olympics,Cuba,0,1,0,1,252,12,CUB
+1948 Summer Olympics,Spain,0,1,0,1,253,12,ESP
+1948 Summer Olympics,Sri Lanka,0,1,0,1,254,12,SRI
+1948 Summer Olympics,Trinidad and Tobago,0,1,0,1,255,12,TTO
+1948 Summer Olympics,Panama,0,0,2,2,256,12,PAN
+1948 Summer Olympics,Republic of Korea,0,0,2,2,257,12,KOR
+1948 Summer Olympics,Brazil,0,0,1,1,258,12,BRA
+1948 Summer Olympics,Ireland,0,0,1,1,259,12,IRL
+1948 Summer Olympics,Islamic Republic of Iran,0,0,1,1,260,12,IRI
+1948 Summer Olympics,Puerto Rico,0,0,1,1,261,12,PUR
+1952 Summer Olympics,United States,40,19,17,76,262,13,USA
+1952 Summer Olympics,Soviet Union,22,30,19,71,263,13,URS
+1952 Summer Olympics,Hungary,16,10,16,42,264,13,HUN
+1952 Summer Olympics,Sweden,12,13,10,35,265,13,SWE
+1952 Summer Olympics,Italy,8,9,4,21,266,13,ITA
+1952 Summer Olympics,Czechoslovakia,7,3,3,13,267,13,TCH
+1952 Summer Olympics,France,6,6,6,18,268,13,FRA
+1952 Summer Olympics,Finland,6,3,13,22,269,13,FIN
+1952 Summer Olympics,Australia,6,2,3,11,270,13,AUS
+1952 Summer Olympics,Norway,3,2,0,5,271,13,NOR
+1952 Summer Olympics,Switzerland,2,6,6,14,272,13,SUI
+1952 Summer Olympics,South Africa,2,4,4,10,273,13,RSA
+1952 Summer Olympics,Jamaica,2,3,0,5,274,13,JAM
+1952 Summer Olympics,Belgium,2,2,0,4,275,13,BEL
+1952 Summer Olympics,Denmark,2,1,3,6,276,13,DEN
+1952 Summer Olympics,TÃ¼rkiye,2,0,1,3,277,13,TUR
+1952 Summer Olympics,Japan,1,6,2,9,278,13,JPN
+1952 Summer Olympics,Great Britain,1,2,8,11,279,13,GBR
+1952 Summer Olympics,Argentina,1,2,2,5,280,13,ARG
+1952 Summer Olympics,Poland,1,2,1,4,281,13,POL
+1952 Summer Olympics,Canada,1,2,0,3,282,13,CAN
+1952 Summer Olympics,Yugoslavia,1,2,0,3,283,13,YUG
+1952 Summer Olympics,Romania,1,1,2,4,284,13,ROU
+1952 Summer Olympics,Brazil,1,0,2,3,285,13,BRA
+1952 Summer Olympics,New Zealand,1,0,2,3,286,13,NZL
+1952 Summer Olympics,India,1,0,1,2,287,13,IND
+1952 Summer Olympics,Luxembourg,1,0,0,1,288,13,LUX
+1952 Summer Olympics,Germany,0,7,17,24,289,13,GER
+1952 Summer Olympics,Netherlands,0,5,0,5,290,13,NED
+1952 Summer Olympics,Islamic Republic of Iran,0,3,4,7,291,13,IRI
+1952 Summer Olympics,Chile,0,2,0,2,292,13,CHI
+1952 Summer Olympics,Austria,0,1,1,2,293,13,AUT
+1952 Summer Olympics,Lebanon,0,1,1,2,294,13,LBN
+1952 Summer Olympics,Ireland,0,1,0,1,295,13,IRL
+1952 Summer Olympics,Mexico,0,1,0,1,296,13,MEX
+1952 Summer Olympics,Spain,0,1,0,1,297,13,ESP
+1952 Summer Olympics,Republic of Korea,0,0,2,2,298,13,KOR
+1952 Summer Olympics,Trinidad and Tobago,0,0,2,2,299,13,TTO
+1952 Summer Olympics,Uruguay,0,0,2,2,300,13,URU
+1952 Summer Olympics,Bulgaria,0,0,1,1,301,13,BUL
+1952 Summer Olympics,Egypt,0,0,1,1,302,13,EGY
+1952 Summer Olympics,Portugal,0,0,1,1,303,13,POR
+1952 Summer Olympics,Venezuela,0,0,1,1,304,13,VEN
+1956 Summer Olympics,Soviet Union,37,29,32,98,305,14,URS
+1956 Summer Olympics,United States,32,25,17,74,306,14,USA
+1956 Summer Olympics,Australia,13,8,14,35,307,14,AUS
+1956 Summer Olympics,Hungary,9,10,7,26,308,14,HUN
+1956 Summer Olympics,Italy,8,6,8,22,309,14,ITA
+1956 Summer Olympics,Great Britain,5,7,9,21,310,14,GBR
+1956 Summer Olympics,Sweden,5,5,6,16,311,14,SWE
+1956 Summer Olympics,Romania,5,3,5,13,312,14,ROU
+1956 Summer Olympics,Germany,4,10,6,20,313,14,GER
+1956 Summer Olympics,Japan,4,10,5,19,314,14,JPN
+1956 Summer Olympics,France,4,4,6,14,315,14,FRA
+1956 Summer Olympics,TÃ¼rkiye,3,2,2,7,316,14,TUR
+1956 Summer Olympics,Finland,3,1,11,15,317,14,FIN
+1956 Summer Olympics,Islamic Republic of Iran,2,2,1,5,318,14,IRI
+1956 Summer Olympics,Canada,2,1,2,5,319,14,CAN
+1956 Summer Olympics,New Zealand,2,0,0,2,320,14,NZL
+1956 Summer Olympics,Poland,1,4,4,9,321,14,POL
+1956 Summer Olympics,Czechoslovakia,1,4,1,6,322,14,TCH
+1956 Summer Olympics,Bulgaria,1,3,1,5,323,14,BUL
+1956 Summer Olympics,Ireland,1,1,3,5,324,14,IRL
+1956 Summer Olympics,Denmark,1,1,1,3,325,14,DEN
+1956 Summer Olympics,Norway,1,0,2,3,326,14,NOR
+1956 Summer Olympics,Mexico,1,0,1,2,327,14,MEX
+1956 Summer Olympics,Brazil,1,0,0,1,328,14,BRA
+1956 Summer Olympics,India,1,0,0,1,329,14,IND
+1956 Summer Olympics,Yugoslavia,0,3,0,3,330,14,YUG
+1956 Summer Olympics,Chile,0,2,2,4,331,14,CHI
+1956 Summer Olympics,Belgium,0,2,0,2,332,14,BEL
+1956 Summer Olympics,Argentina,0,1,1,2,333,14,ARG
+1956 Summer Olympics,Republic of Korea,0,1,1,2,334,14,KOR
+1956 Summer Olympics,Iceland,0,1,0,1,335,14,ISL
+1956 Summer Olympics,Pakistan,0,1,0,1,336,14,PAK
+1956 Summer Olympics,South Africa,0,0,4,4,337,14,RSA
+1956 Summer Olympics,Austria,0,0,2,2,338,14,AUT
+1956 Summer Olympics,Greece,0,0,1,1,339,14,GRE
+1956 Summer Olympics,The Bahamas,0,0,1,1,340,14,BAH
+1956 Summer Olympics,Uruguay,0,0,1,1,341,14,URU
+1960 Summer Olympics,Soviet Union,43,29,31,103,342,15,URS
+1960 Summer Olympics,United States,34,21,16,71,343,15,USA
+1960 Summer Olympics,Italy,13,10,13,36,344,15,ITA
+1960 Summer Olympics,Germany,12,19,11,42,345,15,GER
+1960 Summer Olympics,Australia,8,8,6,22,346,15,AUS
+1960 Summer Olympics,TÃ¼rkiye,7,2,0,9,347,15,TUR
+1960 Summer Olympics,Hungary,6,8,7,21,348,15,HUN
+1960 Summer Olympics,Japan,4,7,7,18,349,15,JPN
+1960 Summer Olympics,Poland,4,6,11,21,350,15,POL
+1960 Summer Olympics,Czechoslovakia,3,2,3,8,351,15,TCH
+1960 Summer Olympics,Romania,3,1,6,10,352,15,ROU
+1960 Summer Olympics,Great Britain,2,6,12,20,353,15,GBR
+1960 Summer Olympics,Denmark,2,3,1,6,354,15,DEN
+1960 Summer Olympics,New Zealand,2,0,1,3,355,15,NZL
+1960 Summer Olympics,Bulgaria,1,3,3,7,356,15,BUL
+1960 Summer Olympics,Sweden,1,2,3,6,357,15,SWE
+1960 Summer Olympics,Finland,1,1,3,5,358,15,FIN
+1960 Summer Olympics,Austria,1,1,0,2,359,15,AUT
+1960 Summer Olympics,Yugoslavia,1,1,0,2,360,15,YUG
+1960 Summer Olympics,Pakistan,1,0,1,2,361,15,PAK
+1960 Summer Olympics,Ethiopia,1,0,0,1,362,15,ETH
+1960 Summer Olympics,Greece,1,0,0,1,363,15,GRE
+1960 Summer Olympics,Norway,1,0,0,1,364,15,NOR
+1960 Summer Olympics,Switzerland,0,3,3,6,365,15,SUI
+1960 Summer Olympics,France,0,2,3,5,366,15,FRA
+1960 Summer Olympics,Belgium,0,2,2,4,367,15,BEL
+1960 Summer Olympics,Islamic Republic of Iran,0,1,3,4,368,15,IRI
+1960 Summer Olympics,Netherlands,0,1,2,3,369,15,NED
+1960 Summer Olympics,South Africa,0,1,2,3,370,15,RSA
+1960 Summer Olympics,Argentina,0,1,1,2,371,15,ARG
+1960 Summer Olympics,United Arab Republic,0,1,1,2,372,15,UAR
+1960 Summer Olympics,Canada,0,1,0,1,373,15,CAN
+1960 Summer Olympics,Chinese Taipei,0,1,0,1,374,15,TPE
+1960 Summer Olympics,Ghana,0,1,0,1,375,15,GHA
+1960 Summer Olympics,India,0,1,0,1,376,15,IND
+1960 Summer Olympics,Morocco,0,1,0,1,377,15,MAR
+1960 Summer Olympics,Portugal,0,1,0,1,378,15,POR
+1960 Summer Olympics,Singapore,0,1,0,1,379,15,SGP
+1960 Summer Olympics,Brazil,0,0,2,2,380,15,BRA
+1960 Summer Olympics,West Indies Federation,0,0,2,2,381,15,WIF
+1960 Summer Olympics,Iraq,0,0,1,1,382,15,IRQ
+1960 Summer Olympics,Mexico,0,0,1,1,383,15,MEX
+1960 Summer Olympics,Spain,0,0,1,1,384,15,ESP
+1960 Summer Olympics,Venezuela,0,0,1,1,385,15,VEN
+1964 Summer Olympics,United States,36,26,28,90,386,16,USA
+1964 Summer Olympics,Soviet Union,30,31,35,96,387,16,URS
+1964 Summer Olympics,Japan,16,5,8,29,388,16,JPN
+1964 Summer Olympics,Germany,10,22,18,50,389,16,GER
+1964 Summer Olympics,Italy,10,10,7,27,390,16,ITA
+1964 Summer Olympics,Hungary,10,7,5,22,391,16,HUN
+1964 Summer Olympics,Poland,7,6,10,23,392,16,POL
+1964 Summer Olympics,Australia,6,2,10,18,393,16,AUS
+1964 Summer Olympics,Czechoslovakia,5,6,3,14,394,16,TCH
+1964 Summer Olympics,Great Britain,4,12,2,18,395,16,GBR
+1964 Summer Olympics,Bulgaria,3,5,2,10,396,16,BUL
+1964 Summer Olympics,Finland,3,0,2,5,397,16,FIN
+1964 Summer Olympics,New Zealand,3,0,2,5,398,16,NZL
+1964 Summer Olympics,Romania,2,4,6,12,399,16,ROU
+1964 Summer Olympics,Netherlands,2,4,4,10,400,16,NED
+1964 Summer Olympics,TÃ¼rkiye,2,3,1,6,401,16,TUR
+1964 Summer Olympics,Sweden,2,2,4,8,402,16,SWE
+1964 Summer Olympics,Denmark,2,1,3,6,403,16,DEN
+1964 Summer Olympics,Yugoslavia,2,1,2,5,404,16,YUG
+1964 Summer Olympics,Belgium,2,0,1,3,405,16,BEL
+1964 Summer Olympics,France,1,8,6,15,406,16,FRA
+1964 Summer Olympics,Canada,1,2,1,4,407,16,CAN
+1964 Summer Olympics,Switzerland,1,2,1,4,408,16,SUI
+1964 Summer Olympics,Ethiopia,1,0,0,1,409,16,ETH
+1964 Summer Olympics,India,1,0,0,1,410,16,IND
+1964 Summer Olympics,The Bahamas,1,0,0,1,411,16,BAH
+1964 Summer Olympics,Republic of Korea,0,2,1,3,412,16,KOR
+1964 Summer Olympics,Trinidad and Tobago,0,1,2,3,413,16,TTO
+1964 Summer Olympics,Tunisia,0,1,1,2,414,16,TUN
+1964 Summer Olympics,Argentina,0,1,0,1,415,16,ARG
+1964 Summer Olympics,Cuba,0,1,0,1,416,16,CUB
+1964 Summer Olympics,Pakistan,0,1,0,1,417,16,PAK
+1964 Summer Olympics,Philippines,0,1,0,1,418,16,PHI
+1964 Summer Olympics,Islamic Republic of Iran,0,0,2,2,419,16,IRI
+1964 Summer Olympics,Brazil,0,0,1,1,420,16,BRA
+1964 Summer Olympics,Ghana,0,0,1,1,421,16,GHA
+1964 Summer Olympics,Ireland,0,0,1,1,422,16,IRL
+1964 Summer Olympics,Kenya,0,0,1,1,423,16,KEN
+1964 Summer Olympics,Mexico,0,0,1,1,424,16,MEX
+1964 Summer Olympics,Nigeria,0,0,1,1,425,16,NGR
+1964 Summer Olympics,Uruguay,0,0,1,1,426,16,URU
+1968 Summer Olympics,United States,45,28,34,107,427,17,USA
+1968 Summer Olympics,Soviet Union,29,32,30,91,428,17,URS
+1968 Summer Olympics,Japan,11,7,7,25,429,17,JPN
+1968 Summer Olympics,Hungary,10,10,12,32,430,17,HUN
+1968 Summer Olympics,East Germany,9,9,7,25,431,17,GDR
+1968 Summer Olympics,France,7,3,5,15,432,17,FRA
+1968 Summer Olympics,Czechoslovakia,7,2,4,13,433,17,TCH
+1968 Summer Olympics,West Germany,5,11,10,26,434,17,FRG
+1968 Summer Olympics,Australia,5,7,5,17,435,17,AUS
+1968 Summer Olympics,Great Britain,5,5,3,13,436,17,GBR
+1968 Summer Olympics,Poland,5,2,11,18,437,17,POL
+1968 Summer Olympics,Romania,4,6,5,15,438,17,ROU
+1968 Summer Olympics,Italy,3,4,9,16,439,17,ITA
+1968 Summer Olympics,Kenya,3,4,2,9,440,17,KEN
+1968 Summer Olympics,Mexico,3,3,3,9,441,17,MEX
+1968 Summer Olympics,Yugoslavia,3,3,2,8,442,17,YUG
+1968 Summer Olympics,Netherlands,3,3,1,7,443,17,NED
+1968 Summer Olympics,Bulgaria,2,4,3,9,444,17,BUL
+1968 Summer Olympics,Islamic Republic of Iran,2,1,2,5,445,17,IRI
+1968 Summer Olympics,Sweden,2,1,1,4,446,17,SWE
+1968 Summer Olympics,TÃ¼rkiye,2,0,0,2,447,17,TUR
+1968 Summer Olympics,Denmark,1,4,3,8,448,17,DEN
+1968 Summer Olympics,Canada,1,3,1,5,449,17,CAN
+1968 Summer Olympics,Finland,1,2,1,4,450,17,FIN
+1968 Summer Olympics,Ethiopia,1,1,0,2,451,17,ETH
+1968 Summer Olympics,Norway,1,1,0,2,452,17,NOR
+1968 Summer Olympics,New Zealand,1,0,2,3,453,17,NZL
+1968 Summer Olympics,Tunisia,1,0,1,2,454,17,TUN
+1968 Summer Olympics,Pakistan,1,0,0,1,455,17,PAK
+1968 Summer Olympics,Venezuela,1,0,0,1,456,17,VEN
+1968 Summer Olympics,Cuba,0,4,0,4,457,17,CUB
+1968 Summer Olympics,Austria,0,2,2,4,458,17,AUT
+1968 Summer Olympics,Switzerland,0,1,4,5,459,17,SUI
+1968 Summer Olympics,Mongolia,0,1,3,4,460,17,MGL
+1968 Summer Olympics,Brazil,0,1,2,3,461,17,BRA
+1968 Summer Olympics,Belgium,0,1,1,2,462,17,BEL
+1968 Summer Olympics,Republic of Korea,0,1,1,2,463,17,KOR
+1968 Summer Olympics,Uganda,0,1,1,2,464,17,UGA
+1968 Summer Olympics,Cameroon,0,1,0,1,465,17,CMR
+1968 Summer Olympics,Jamaica,0,1,0,1,466,17,JAM
+1968 Summer Olympics,Argentina,0,0,2,2,467,17,ARG
+1968 Summer Olympics,Chinese Taipei,0,0,1,1,468,17,TPE
+1968 Summer Olympics,Greece,0,0,1,1,469,17,GRE
+1968 Summer Olympics,India,0,0,1,1,470,17,IND
+1972 Summer Olympics,Soviet Union,50,27,22,99,471,18,URS
+1972 Summer Olympics,United States,33,31,30,94,472,18,USA
+1972 Summer Olympics,East Germany,20,23,23,66,473,18,GDR
+1972 Summer Olympics,West Germany,13,11,16,40,474,18,FRG
+1972 Summer Olympics,Japan,13,8,8,29,475,18,JPN
+1972 Summer Olympics,Australia,8,7,2,17,476,18,AUS
+1972 Summer Olympics,Poland,7,5,9,21,477,18,POL
+1972 Summer Olympics,Hungary,6,13,16,35,478,18,HUN
+1972 Summer Olympics,Bulgaria,6,10,5,21,479,18,BUL
+1972 Summer Olympics,Italy,5,3,10,18,480,18,ITA
+1972 Summer Olympics,Sweden,4,6,6,16,481,18,SWE
+1972 Summer Olympics,Great Britain,4,5,9,18,482,18,GBR
+1972 Summer Olympics,Romania,3,6,7,16,483,18,ROU
+1972 Summer Olympics,Cuba,3,1,4,8,484,18,CUB
+1972 Summer Olympics,Finland,3,1,4,8,485,18,FIN
+1972 Summer Olympics,Netherlands,3,1,1,5,486,18,NED
+1972 Summer Olympics,France,2,4,7,13,487,18,FRA
+1972 Summer Olympics,Czechoslovakia,2,4,2,8,488,18,TCH
+1972 Summer Olympics,Kenya,2,3,4,9,489,18,KEN
+1972 Summer Olympics,Yugoslavia,2,1,2,5,490,18,YUG
+1972 Summer Olympics,Norway,2,1,1,4,491,18,NOR
+1972 Summer Olympics,Democratic People's Republic of Korea,1,1,3,5,492,18,PRK
+1972 Summer Olympics,New Zealand,1,1,1,3,493,18,NZL
+1972 Summer Olympics,Uganda,1,1,0,2,494,18,UGA
+1972 Summer Olympics,Denmark,1,0,0,1,495,18,DEN
+1972 Summer Olympics,Switzerland,0,3,0,3,496,18,SUI
+1972 Summer Olympics,Canada,0,2,3,5,497,18,CAN
+1972 Summer Olympics,Islamic Republic of Iran,0,2,1,3,498,18,IRI
+1972 Summer Olympics,Belgium,0,2,0,2,499,18,BEL
+1972 Summer Olympics,Greece,0,2,0,2,500,18,GRE
+1972 Summer Olympics,Austria,0,1,2,3,501,18,AUT
+1972 Summer Olympics,Colombia,0,1,2,3,502,18,COL
+1972 Summer Olympics,Argentina,0,1,0,1,503,18,ARG
+1972 Summer Olympics,Lebanon,0,1,0,1,504,18,LBN
+1972 Summer Olympics,Mexico,0,1,0,1,505,18,MEX
+1972 Summer Olympics,Mongolia,0,1,0,1,506,18,MGL
+1972 Summer Olympics,Pakistan,0,1,0,1,507,18,PAK
+1972 Summer Olympics,Republic of Korea,0,1,0,1,508,18,KOR
+1972 Summer Olympics,Tunisia,0,1,0,1,509,18,TUN
+1972 Summer Olympics,TÃ¼rkiye,0,1,0,1,510,18,TUR
+1972 Summer Olympics,Brazil,0,0,2,2,511,18,BRA
+1972 Summer Olympics,Ethiopia,0,0,2,2,512,18,ETH
+1972 Summer Olympics,Ghana,0,0,1,1,513,18,GHA
+1972 Summer Olympics,India,0,0,1,1,514,18,IND
+1972 Summer Olympics,Jamaica,0,0,1,1,515,18,JAM
+1972 Summer Olympics,Niger,0,0,1,1,516,18,NIG
+1972 Summer Olympics,Nigeria,0,0,1,1,517,18,NGR
+1972 Summer Olympics,Spain,0,0,1,1,518,18,ESP
+1976 Summer Olympics,Soviet Union,49,41,35,125,519,19,URS
+1976 Summer Olympics,East Germany,40,25,25,90,520,19,GDR
+1976 Summer Olympics,United States,34,35,25,94,521,19,USA
+1976 Summer Olympics,West Germany,10,12,17,39,522,19,FRG
+1976 Summer Olympics,Japan,9,6,10,25,523,19,JPN
+1976 Summer Olympics,Poland,7,6,13,26,524,19,POL
+1976 Summer Olympics,Bulgaria,6,9,7,22,525,19,BUL
+1976 Summer Olympics,Cuba,6,4,3,13,526,19,CUB
+1976 Summer Olympics,Romania,4,9,14,27,527,19,ROU
+1976 Summer Olympics,Hungary,4,5,13,22,528,19,HUN
+1976 Summer Olympics,Finland,4,2,0,6,529,19,FIN
+1976 Summer Olympics,Sweden,4,1,0,5,530,19,SWE
+1976 Summer Olympics,Great Britain,3,5,5,13,531,19,GBR
+1976 Summer Olympics,Italy,2,7,4,13,532,19,ITA
+1976 Summer Olympics,France,2,3,4,9,533,19,FRA
+1976 Summer Olympics,Yugoslavia,2,3,3,8,534,19,YUG
+1976 Summer Olympics,Czechoslovakia,2,2,4,8,535,19,TCH
+1976 Summer Olympics,New Zealand,2,1,1,4,536,19,NZL
+1976 Summer Olympics,Republic of Korea,1,1,4,6,537,19,KOR
+1976 Summer Olympics,Switzerland,1,1,2,4,538,19,SUI
+1976 Summer Olympics,Democratic People's Republic of Korea,1,1,0,2,539,19,PRK
+1976 Summer Olympics,Jamaica,1,1,0,2,540,19,JAM
+1976 Summer Olympics,Norway,1,1,0,2,541,19,NOR
+1976 Summer Olympics,Denmark,1,0,2,3,542,19,DEN
+1976 Summer Olympics,Mexico,1,0,1,2,543,19,MEX
+1976 Summer Olympics,Trinidad and Tobago,1,0,0,1,544,19,TTO
+1976 Summer Olympics,Canada,0,5,6,11,545,19,CAN
+1976 Summer Olympics,Belgium,0,3,3,6,546,19,BEL
+1976 Summer Olympics,Netherlands,0,2,3,5,547,19,NED
+1976 Summer Olympics,Portugal,0,2,0,2,548,19,POR
+1976 Summer Olympics,Spain,0,2,0,2,549,19,ESP
+1976 Summer Olympics,Australia,0,1,4,5,550,19,AUS
+1976 Summer Olympics,Islamic Republic of Iran,0,1,1,2,551,19,IRI
+1976 Summer Olympics,Mongolia,0,1,0,1,552,19,MGL
+1976 Summer Olympics,Venezuela,0,1,0,1,553,19,VEN
+1976 Summer Olympics,Brazil,0,0,2,2,554,19,BRA
+1976 Summer Olympics,Austria,0,0,1,1,555,19,AUT
+1976 Summer Olympics,Bermuda,0,0,1,1,556,19,BER
+1976 Summer Olympics,Pakistan,0,0,1,1,557,19,PAK
+1976 Summer Olympics,Puerto Rico,0,0,1,1,558,19,PUR
+1976 Summer Olympics,Thailand,0,0,1,1,559,19,THA
+1980 Summer Olympics,Soviet Union,80,69,46,195,560,20,URS
+1980 Summer Olympics,East Germany,47,37,42,126,561,20,GDR
+1980 Summer Olympics,Bulgaria,8,16,17,41,562,20,BUL
+1980 Summer Olympics,Cuba,8,7,5,20,563,20,CUB
+1980 Summer Olympics,Italy,8,3,4,15,564,20,ITA
+1980 Summer Olympics,Hungary,7,10,15,32,565,20,HUN
+1980 Summer Olympics,Romania,6,6,13,25,566,20,ROU
+1980 Summer Olympics,France,6,5,3,14,567,20,FRA
+1980 Summer Olympics,Great Britain,5,7,9,21,568,20,GBR
+1980 Summer Olympics,Poland,3,14,15,32,569,20,POL
+1980 Summer Olympics,Sweden,3,3,6,12,570,20,SWE
+1980 Summer Olympics,Finland,3,1,4,8,571,20,FIN
+1980 Summer Olympics,Czechoslovakia,2,3,9,14,572,20,TCH
+1980 Summer Olympics,Yugoslavia,2,3,4,9,573,20,YUG
+1980 Summer Olympics,Australia,2,2,5,9,574,20,AUS
+1980 Summer Olympics,Denmark,2,1,2,5,575,20,DEN
+1980 Summer Olympics,Brazil,2,0,2,4,576,20,BRA
+1980 Summer Olympics,Ethiopia,2,0,2,4,577,20,ETH
+1980 Summer Olympics,Switzerland,2,0,0,2,578,20,SUI
+1980 Summer Olympics,Spain,1,3,2,6,579,20,ESP
+1980 Summer Olympics,Austria,1,2,1,4,580,20,AUT
+1980 Summer Olympics,Greece,1,0,2,3,581,20,GRE
+1980 Summer Olympics,Belgium,1,0,0,1,582,20,BEL
+1980 Summer Olympics,India,1,0,0,1,583,20,IND
+1980 Summer Olympics,Zimbabwe,1,0,0,1,584,20,ZIM
+1980 Summer Olympics,Democratic People's Republic of Korea,0,3,2,5,585,20,PRK
+1980 Summer Olympics,Mongolia,0,2,2,4,586,20,MGL
+1980 Summer Olympics,United Republic of Tanzania,0,2,0,2,587,20,TAN
+1980 Summer Olympics,Mexico,0,1,3,4,588,20,MEX
+1980 Summer Olympics,Netherlands,0,1,2,3,589,20,NED
+1980 Summer Olympics,Ireland,0,1,1,2,590,20,IRL
+1980 Summer Olympics,Uganda,0,1,0,1,591,20,UGA
+1980 Summer Olympics,Venezuela,0,1,0,1,592,20,VEN
+1980 Summer Olympics,Jamaica,0,0,3,3,593,20,JAM
+1980 Summer Olympics,Guyana,0,0,1,1,594,20,GUY
+1980 Summer Olympics,Lebanon,0,0,1,1,595,20,LBN
+1984 Summer Olympics,United States,83,61,30,174,596,21,USA
+1984 Summer Olympics,Romania,20,16,17,53,597,21,ROU
+1984 Summer Olympics,West Germany,17,19,23,59,598,21,FRG
+1984 Summer Olympics,People's Republic of China,15,8,9,32,599,21,CHN
+1984 Summer Olympics,Italy,14,6,12,32,600,21,ITA
+1984 Summer Olympics,Canada,10,18,16,44,601,21,CAN
+1984 Summer Olympics,Japan,10,8,14,32,602,21,JPN
+1984 Summer Olympics,New Zealand,8,1,2,11,603,21,NZL
+1984 Summer Olympics,Yugoslavia,7,4,7,18,604,21,YUG
+1984 Summer Olympics,Republic of Korea,6,6,7,19,605,21,KOR
+1984 Summer Olympics,Great Britain,5,11,21,37,606,21,GBR
+1984 Summer Olympics,France,5,7,16,28,607,21,FRA
+1984 Summer Olympics,Netherlands,5,2,6,13,608,21,NED
+1984 Summer Olympics,Australia,4,8,12,24,609,21,AUS
+1984 Summer Olympics,Finland,4,2,6,12,610,21,FIN
+1984 Summer Olympics,Sweden,2,11,6,19,611,21,SWE
+1984 Summer Olympics,Mexico,2,3,1,6,612,21,MEX
+1984 Summer Olympics,Morocco,2,0,0,2,613,21,MAR
+1984 Summer Olympics,Brazil,1,5,2,8,614,21,BRA
+1984 Summer Olympics,Spain,1,2,2,5,615,21,ESP
+1984 Summer Olympics,Belgium,1,1,2,4,616,21,BEL
+1984 Summer Olympics,Austria,1,1,1,3,617,21,AUT
+1984 Summer Olympics,Kenya,1,0,2,3,618,21,KEN
+1984 Summer Olympics,Portugal,1,0,2,3,619,21,POR
+1984 Summer Olympics,Pakistan,1,0,0,1,620,21,PAK
+1984 Summer Olympics,Switzerland,0,4,4,8,621,21,SUI
+1984 Summer Olympics,Denmark,0,3,3,6,622,21,DEN
+1984 Summer Olympics,Jamaica,0,1,2,3,623,21,JAM
+1984 Summer Olympics,Norway,0,1,2,3,624,21,NOR
+1984 Summer Olympics,Greece,0,1,1,2,625,21,GRE
+1984 Summer Olympics,Nigeria,0,1,1,2,626,21,NGR
+1984 Summer Olympics,Puerto Rico,0,1,1,2,627,21,PUR
+1984 Summer Olympics,Colombia,0,1,0,1,628,21,COL
+1984 Summer Olympics,CÃ´te d'Ivoire,0,1,0,1,629,21,CIV
+1984 Summer Olympics,Egypt,0,1,0,1,630,21,EGY
+1984 Summer Olympics,Ireland,0,1,0,1,631,21,IRL
+1984 Summer Olympics,Peru,0,1,0,1,632,21,PER
+1984 Summer Olympics,Syrian Arab Republic,0,1,0,1,633,21,SYR
+1984 Summer Olympics,Thailand,0,1,0,1,634,21,THA
+1984 Summer Olympics,TÃ¼rkiye,0,0,3,3,635,21,TUR
+1984 Summer Olympics,Venezuela,0,0,3,3,636,21,VEN
+1984 Summer Olympics,Algeria,0,0,2,2,637,21,ALG
+1984 Summer Olympics,Cameroon,0,0,1,1,638,21,CMR
+1984 Summer Olympics,Chinese Taipei,0,0,1,1,639,21,TPE
+1984 Summer Olympics,Dominican Republic,0,0,1,1,640,21,DOM
+1984 Summer Olympics,Iceland,0,0,1,1,641,21,ISL
+1984 Summer Olympics,Zambia,0,0,1,1,642,21,ZAM
+1988 Summer Olympics,Soviet Union,55,31,46,132,643,22,URS
+1988 Summer Olympics,East Germany,37,35,30,102,644,22,GDR
+1988 Summer Olympics,United States,36,31,27,94,645,22,USA
+1988 Summer Olympics,Republic of Korea,12,10,11,33,646,22,KOR
+1988 Summer Olympics,West Germany,11,14,15,40,647,22,FRG
+1988 Summer Olympics,Hungary,11,6,6,23,648,22,HUN
+1988 Summer Olympics,Bulgaria,10,12,13,35,649,22,BUL
+1988 Summer Olympics,Romania,7,11,6,24,650,22,ROU
+1988 Summer Olympics,France,6,4,6,16,651,22,FRA
+1988 Summer Olympics,Italy,6,4,4,14,652,22,ITA
+1988 Summer Olympics,People's Republic of China,5,11,12,28,653,22,CHN
+1988 Summer Olympics,Great Britain,5,10,9,24,654,22,GBR
+1988 Summer Olympics,Kenya,5,2,2,9,655,22,KEN
+1988 Summer Olympics,Japan,4,3,7,14,656,22,JPN
+1988 Summer Olympics,Australia,3,6,5,14,657,22,AUS
+1988 Summer Olympics,Yugoslavia,3,4,5,12,658,22,YUG
+1988 Summer Olympics,Czechoslovakia,3,3,2,8,659,22,TCH
+1988 Summer Olympics,New Zealand,3,2,8,13,660,22,NZL
+1988 Summer Olympics,Canada,3,2,5,10,661,22,CAN
+1988 Summer Olympics,Poland,2,5,9,16,662,22,POL
+1988 Summer Olympics,Norway,2,3,0,5,663,22,NOR
+1988 Summer Olympics,Netherlands,2,2,5,9,664,22,NED
+1988 Summer Olympics,Denmark,2,1,1,4,665,22,DEN
+1988 Summer Olympics,Brazil,1,2,3,6,666,22,BRA
+1988 Summer Olympics,Finland,1,1,2,4,667,22,FIN
+1988 Summer Olympics,Spain,1,1,2,4,668,22,ESP
+1988 Summer Olympics,TÃ¼rkiye,1,1,0,2,669,22,TUR
+1988 Summer Olympics,Morocco,1,0,2,3,670,22,MAR
+1988 Summer Olympics,Austria,1,0,0,1,671,22,AUT
+1988 Summer Olympics,Portugal,1,0,0,1,672,22,POR
+1988 Summer Olympics,Suriname,1,0,0,1,673,22,SUR
+1988 Summer Olympics,Sweden,0,4,7,11,674,22,SWE
+1988 Summer Olympics,Switzerland,0,2,2,4,675,22,SUI
+1988 Summer Olympics,Jamaica,0,2,0,2,676,22,JAM
+1988 Summer Olympics,Argentina,0,1,1,2,677,22,ARG
+1988 Summer Olympics,Chile,0,1,0,1,678,22,CHI
+1988 Summer Olympics,Costa Rica,0,1,0,1,679,22,CRC
+1988 Summer Olympics,Indonesia,0,1,0,1,680,22,INA
+1988 Summer Olympics,Islamic Republic of Iran,0,1,0,1,681,22,IRI
+1988 Summer Olympics,Netherlands Antilles,0,1,0,1,682,22,AHO
+1988 Summer Olympics,Peru,0,1,0,1,683,22,PER
+1988 Summer Olympics,Senegal,0,1,0,1,684,22,SEN
+1988 Summer Olympics,United States Virgin Islands,0,1,0,1,685,22,ISV
+1988 Summer Olympics,Belgium,0,0,2,2,686,22,BEL
+1988 Summer Olympics,Mexico,0,0,2,2,687,22,MEX
+1988 Summer Olympics,Colombia,0,0,1,1,688,22,COL
+1988 Summer Olympics,Djibouti,0,0,1,1,689,22,DJI
+1988 Summer Olympics,Greece,0,0,1,1,690,22,GRE
+1988 Summer Olympics,Mongolia,0,0,1,1,691,22,MGL
+1988 Summer Olympics,Pakistan,0,0,1,1,692,22,PAK
+1988 Summer Olympics,Philippines,0,0,1,1,693,22,PHI
+1988 Summer Olympics,Thailand,0,0,1,1,694,22,THA
+1992 Summer Olympics,Unified Team,45,38,29,112,695,23,EUN
+1992 Summer Olympics,United States,37,34,37,108,696,23,USA
+1992 Summer Olympics,Germany,33,21,28,82,697,23,GER
+1992 Summer Olympics,People's Republic of China,16,22,16,54,698,23,CHN
+1992 Summer Olympics,Cuba,14,6,11,31,699,23,CUB
+1992 Summer Olympics,Spain,13,7,2,22,700,23,ESP
+1992 Summer Olympics,Republic of Korea,12,5,12,29,701,23,KOR
+1992 Summer Olympics,Hungary,11,12,7,30,702,23,HUN
+1992 Summer Olympics,France,8,5,16,29,703,23,FRA
+1992 Summer Olympics,Australia,7,9,11,27,704,23,AUS
+1992 Summer Olympics,Canada,7,4,7,18,705,23,CAN
+1992 Summer Olympics,Italy,6,5,8,19,706,23,ITA
+1992 Summer Olympics,Great Britain,5,3,12,20,707,23,GBR
+1992 Summer Olympics,Romania,4,6,8,18,708,23,ROU
+1992 Summer Olympics,Czechoslovakia,4,2,1,7,709,23,TCH
+1992 Summer Olympics,Democratic People's Republic of Korea,4,0,5,9,710,23,PRK
+1992 Summer Olympics,Japan,3,8,11,22,711,23,JPN
+1992 Summer Olympics,Bulgaria,3,7,6,16,712,23,BUL
+1992 Summer Olympics,Poland,3,6,10,19,713,23,POL
+1992 Summer Olympics,Netherlands,2,6,7,15,714,23,NED
+1992 Summer Olympics,Kenya,2,4,2,8,715,23,KEN
+1992 Summer Olympics,Norway,2,4,1,7,716,23,NOR
+1992 Summer Olympics,TÃ¼rkiye,2,2,2,6,717,23,TUR
+1992 Summer Olympics,Indonesia,2,2,1,5,718,23,INA
+1992 Summer Olympics,Brazil,2,1,0,3,719,23,BRA
+1992 Summer Olympics,Greece,2,0,0,2,720,23,GRE
+1992 Summer Olympics,Sweden,1,7,4,12,721,23,SWE
+1992 Summer Olympics,New Zealand,1,4,5,10,722,23,NZL
+1992 Summer Olympics,Finland,1,2,2,5,723,23,FIN
+1992 Summer Olympics,Denmark,1,1,4,6,724,23,DEN
+1992 Summer Olympics,Morocco,1,1,1,3,725,23,MAR
+1992 Summer Olympics,Ireland,1,1,0,2,726,23,IRL
+1992 Summer Olympics,Ethiopia,1,0,2,3,727,23,ETH
+1992 Summer Olympics,Algeria,1,0,1,2,728,23,ALG
+1992 Summer Olympics,Estonia,1,0,1,2,729,23,EST
+1992 Summer Olympics,Lithuania,1,0,1,2,730,23,LTU
+1992 Summer Olympics,Switzerland,1,0,0,1,731,23,SUI
+1992 Summer Olympics,Jamaica,0,3,1,4,732,23,JAM
+1992 Summer Olympics,Nigeria,0,3,1,4,733,23,NGR
+1992 Summer Olympics,Latvia,0,2,1,3,734,23,LAT
+1992 Summer Olympics,Austria,0,2,0,2,735,23,AUT
+1992 Summer Olympics,Namibia,0,2,0,2,736,23,NAM
+1992 Summer Olympics,South Africa,0,2,0,2,737,23,RSA
+1992 Summer Olympics,Belgium,0,1,2,3,738,23,BEL
+1992 Summer Olympics,Croatia,0,1,2,3,739,23,CRO
+1992 Summer Olympics,Independent Olympic Athletes,0,1,2,3,740,23,IOA
+1992 Summer Olympics,Islamic Republic of Iran,0,1,2,3,741,23,IRI
+1992 Summer Olympics,Israel,0,1,1,2,742,23,ISR
+1992 Summer Olympics,Chinese Taipei,0,1,0,1,743,23,TPE
+1992 Summer Olympics,Mexico,0,1,0,1,744,23,MEX
+1992 Summer Olympics,Peru,0,1,0,1,745,23,PER
+1992 Summer Olympics,Mongolia,0,0,2,2,746,23,MGL
+1992 Summer Olympics,Slovenia,0,0,2,2,747,23,SLO
+1992 Summer Olympics,Argentina,0,0,1,1,748,23,ARG
+1992 Summer Olympics,Colombia,0,0,1,1,749,23,COL
+1992 Summer Olympics,Ghana,0,0,1,1,750,23,GHA
+1992 Summer Olympics,Malaysia,0,0,1,1,751,23,MAS
+1992 Summer Olympics,Pakistan,0,0,1,1,752,23,PAK
+1992 Summer Olympics,Philippines,0,0,1,1,753,23,PHI
+1992 Summer Olympics,Puerto Rico,0,0,1,1,754,23,PUR
+1992 Summer Olympics,Qatar,0,0,1,1,755,23,QAT
+1992 Summer Olympics,Suriname,0,0,1,1,756,23,SUR
+1992 Summer Olympics,Thailand,0,0,1,1,757,23,THA
+1992 Summer Olympics,The Bahamas,0,0,1,1,758,23,BAH
+1996 Summer Olympics,United States,44,32,25,101,759,24,USA
+1996 Summer Olympics,Russian Federation,26,21,16,63,760,24,RUS
+1996 Summer Olympics,Germany,20,18,27,65,761,24,GER
+1996 Summer Olympics,People's Republic of China,16,22,12,50,762,24,CHN
+1996 Summer Olympics,France,15,7,15,37,763,24,FRA
+1996 Summer Olympics,Italy,13,10,12,35,764,24,ITA
+1996 Summer Olympics,Australia,9,9,23,41,765,24,AUS
+1996 Summer Olympics,Cuba,9,8,8,25,766,24,CUB
+1996 Summer Olympics,Ukraine,9,2,12,23,767,24,UKR
+1996 Summer Olympics,Republic of Korea,7,15,5,27,768,24,KOR
+1996 Summer Olympics,Poland,7,5,5,17,769,24,POL
+1996 Summer Olympics,Hungary,7,4,10,21,770,24,HUN
+1996 Summer Olympics,Spain,5,6,6,17,771,24,ESP
+1996 Summer Olympics,Romania,4,7,9,20,772,24,ROU
+1996 Summer Olympics,Netherlands,4,5,10,19,773,24,NED
+1996 Summer Olympics,Greece,4,4,0,8,774,24,GRE
+1996 Summer Olympics,Czechia,4,3,4,11,775,24,CZE
+1996 Summer Olympics,Switzerland,4,3,0,7,776,24,SUI
+1996 Summer Olympics,Denmark,4,1,1,6,777,24,DEN
+1996 Summer Olympics,TÃ¼rkiye,4,1,1,6,778,24,TUR
+1996 Summer Olympics,Canada,3,11,8,22,779,24,CAN
+1996 Summer Olympics,Bulgaria,3,7,5,15,780,24,BUL
+1996 Summer Olympics,Japan,3,6,5,14,781,24,JPN
+1996 Summer Olympics,Kazakhstan,3,4,4,11,782,24,KAZ
+1996 Summer Olympics,Brazil,3,3,9,15,783,24,BRA
+1996 Summer Olympics,New Zealand,3,2,1,6,784,24,NZL
+1996 Summer Olympics,South Africa,3,1,1,5,785,24,RSA
+1996 Summer Olympics,Ireland,3,0,1,4,786,24,IRL
+1996 Summer Olympics,Sweden,2,4,2,8,787,24,SWE
+1996 Summer Olympics,Norway,2,2,3,7,788,24,NOR
+1996 Summer Olympics,Belgium,2,2,2,6,789,24,BEL
+1996 Summer Olympics,Nigeria,2,1,3,6,790,24,NGR
+1996 Summer Olympics,Democratic People's Republic of Korea,2,1,2,5,791,24,PRK
+1996 Summer Olympics,Algeria,2,0,1,3,792,24,ALG
+1996 Summer Olympics,Ethiopia,2,0,1,3,793,24,ETH
+1996 Summer Olympics,Great Britain,1,8,6,15,794,24,GBR
+1996 Summer Olympics,Belarus,1,6,8,15,795,24,BLR
+1996 Summer Olympics,Kenya,1,4,3,8,796,24,KEN
+1996 Summer Olympics,Jamaica,1,3,2,6,797,24,JAM
+1996 Summer Olympics,Finland,1,2,1,4,798,24,FIN
+1996 Summer Olympics,Indonesia,1,1,2,4,799,24,INA
+1996 Summer Olympics,Serbia and Montenegro,1,1,2,4,800,24,SCG
+1996 Summer Olympics,Islamic Republic of Iran,1,1,1,3,801,24,IRI
+1996 Summer Olympics,Slovakia,1,1,1,3,802,24,SVK
+1996 Summer Olympics,Armenia,1,1,0,2,803,24,ARM
+1996 Summer Olympics,Croatia,1,1,0,2,804,24,CRO
+1996 Summer Olympics,Portugal,1,0,1,2,805,24,POR
+1996 Summer Olympics,Thailand,1,0,1,2,806,24,THA
+1996 Summer Olympics,Burundi,1,0,0,1,807,24,BDI
+1996 Summer Olympics,Costa Rica,1,0,0,1,808,24,CRC
+1996 Summer Olympics,Ecuador,1,0,0,1,809,24,ECU
+1996 Summer Olympics,"Hong Kong, China",1,0,0,1,810,24,HKG
+1996 Summer Olympics,Syrian Arab Republic,1,0,0,1,811,24,SYR
+1996 Summer Olympics,Argentina,0,2,1,3,812,24,ARG
+1996 Summer Olympics,Namibia,0,2,0,2,813,24,NAM
+1996 Summer Olympics,Slovenia,0,2,0,2,814,24,SLO
+1996 Summer Olympics,Austria,0,1,2,3,815,24,AUT
+1996 Summer Olympics,Malaysia,0,1,1,2,816,24,MAS
+1996 Summer Olympics,Republic of Moldova,0,1,1,2,817,24,MDA
+1996 Summer Olympics,Uzbekistan,0,1,1,2,818,24,UZB
+1996 Summer Olympics,Azerbaijan,0,1,0,1,819,24,AZE
+1996 Summer Olympics,Chinese Taipei,0,1,0,1,820,24,TPE
+1996 Summer Olympics,Latvia,0,1,0,1,821,24,LAT
+1996 Summer Olympics,Philippines,0,1,0,1,822,24,PHI
+1996 Summer Olympics,The Bahamas,0,1,0,1,823,24,BAH
+1996 Summer Olympics,Tonga,0,1,0,1,824,24,TGA
+1996 Summer Olympics,Zambia,0,1,0,1,825,24,ZAM
+1996 Summer Olympics,Georgia,0,0,2,2,826,24,GEO
+1996 Summer Olympics,Morocco,0,0,2,2,827,24,MAR
+1996 Summer Olympics,Trinidad and Tobago,0,0,2,2,828,24,TTO
+1996 Summer Olympics,India,0,0,1,1,829,24,IND
+1996 Summer Olympics,Israel,0,0,1,1,830,24,ISR
+1996 Summer Olympics,Lithuania,0,0,1,1,831,24,LTU
+1996 Summer Olympics,Mexico,0,0,1,1,832,24,MEX
+1996 Summer Olympics,Mongolia,0,0,1,1,833,24,MGL
+1996 Summer Olympics,Mozambique,0,0,1,1,834,24,MOZ
+1996 Summer Olympics,Puerto Rico,0,0,1,1,835,24,PUR
+1996 Summer Olympics,Tunisia,0,0,1,1,836,24,TUN
+1996 Summer Olympics,Uganda,0,0,1,1,837,24,UGA
+2000 Summer Olympics,United States,37,24,32,93,838,25,USA
+2000 Summer Olympics,Russian Federation,32,28,29,89,839,25,RUS
+2000 Summer Olympics,People's Republic of China,28,16,14,58,840,25,CHN
+2000 Summer Olympics,Australia,16,25,17,58,841,25,AUS
+2000 Summer Olympics,Germany,13,17,26,56,842,25,GER
+2000 Summer Olympics,France,13,14,11,38,843,25,FRA
+2000 Summer Olympics,Italy,13,8,13,34,844,25,ITA
+2000 Summer Olympics,Netherlands,12,9,4,25,845,25,NED
+2000 Summer Olympics,Cuba,11,11,7,29,846,25,CUB
+2000 Summer Olympics,Great Britain,11,10,7,28,847,25,GBR
+2000 Summer Olympics,Romania,11,6,9,26,848,25,ROU
+2000 Summer Olympics,Republic of Korea,8,10,10,28,849,25,KOR
+2000 Summer Olympics,Hungary,8,6,3,17,850,25,HUN
+2000 Summer Olympics,Poland,6,5,3,14,851,25,POL
+2000 Summer Olympics,Japan,5,8,5,18,852,25,JPN
+2000 Summer Olympics,Bulgaria,5,6,2,13,853,25,BUL
+2000 Summer Olympics,Greece,4,6,3,13,854,25,GRE
+2000 Summer Olympics,Sweden,4,5,3,12,855,25,SWE
+2000 Summer Olympics,Norway,4,3,3,10,856,25,NOR
+2000 Summer Olympics,Ethiopia,4,1,3,8,857,25,ETH
+2000 Summer Olympics,Ukraine,3,10,10,23,858,25,UKR
+2000 Summer Olympics,Kazakhstan,3,4,0,7,859,25,KAZ
+2000 Summer Olympics,Belarus,3,3,11,17,860,25,BLR
+2000 Summer Olympics,Canada,3,3,8,14,861,25,CAN
+2000 Summer Olympics,Spain,3,3,5,11,862,25,ESP
+2000 Summer Olympics,TÃ¼rkiye,3,0,2,5,863,25,TUR
+2000 Summer Olympics,Islamic Republic of Iran,3,0,1,4,864,25,IRI
+2000 Summer Olympics,Czechia,2,3,3,8,865,25,CZE
+2000 Summer Olympics,Kenya,2,3,2,7,866,25,KEN
+2000 Summer Olympics,Denmark,2,3,1,6,867,25,DEN
+2000 Summer Olympics,Finland,2,1,1,4,868,25,FIN
+2000 Summer Olympics,Austria,2,1,0,3,869,25,AUT
+2000 Summer Olympics,Lithuania,2,0,3,5,870,25,LTU
+2000 Summer Olympics,Azerbaijan,2,0,1,3,871,25,AZE
+2000 Summer Olympics,The Bahamas,2,0,1,3,872,25,BAH
+2000 Summer Olympics,Slovenia,2,0,0,2,873,25,SLO
+2000 Summer Olympics,Switzerland,1,6,2,9,874,25,SUI
+2000 Summer Olympics,Indonesia,1,3,2,6,875,25,INA
+2000 Summer Olympics,Slovakia,1,3,1,5,876,25,SVK
+2000 Summer Olympics,Mexico,1,2,3,6,877,25,MEX
+2000 Summer Olympics,Nigeria,1,2,0,3,878,25,NGR
+2000 Summer Olympics,Algeria,1,1,3,5,879,25,ALG
+2000 Summer Olympics,Uzbekistan,1,1,2,4,880,25,UZB
+2000 Summer Olympics,Latvia,1,1,1,3,881,25,LAT
+2000 Summer Olympics,Serbia and Montenegro,1,1,1,3,882,25,SCG
+2000 Summer Olympics,New Zealand,1,0,3,4,883,25,NZL
+2000 Summer Olympics,Estonia,1,0,2,3,884,25,EST
+2000 Summer Olympics,Thailand,1,0,2,3,885,25,THA
+2000 Summer Olympics,Croatia,1,0,1,2,886,25,CRO
+2000 Summer Olympics,Cameroon,1,0,0,1,887,25,CMR
+2000 Summer Olympics,Colombia,1,0,0,1,888,25,COL
+2000 Summer Olympics,Mozambique,1,0,0,1,889,25,MOZ
+2000 Summer Olympics,Brazil,0,6,6,12,890,25,BRA
+2000 Summer Olympics,Jamaica,0,6,3,9,891,25,JAM
+2000 Summer Olympics,Belgium,0,2,3,5,892,25,BEL
+2000 Summer Olympics,South Africa,0,2,3,5,893,25,RSA
+2000 Summer Olympics,Argentina,0,2,2,4,894,25,ARG
+2000 Summer Olympics,Chinese Taipei,0,1,4,5,895,25,TPE
+2000 Summer Olympics,Morocco,0,1,4,5,896,25,MAR
+2000 Summer Olympics,Democratic People's Republic of Korea,0,1,3,4,897,25,PRK
+2000 Summer Olympics,Kingdom of Saudi Arabia,0,1,1,2,898,25,KSA
+2000 Summer Olympics,Republic of Moldova,0,1,1,2,899,25,MDA
+2000 Summer Olympics,Trinidad and Tobago,0,1,1,2,900,25,TTO
+2000 Summer Olympics,Ireland,0,1,0,1,901,25,IRL
+2000 Summer Olympics,Sri Lanka,0,1,0,1,902,25,SRI
+2000 Summer Olympics,Uruguay,0,1,0,1,903,25,URU
+2000 Summer Olympics,Vietnam,0,1,0,1,904,25,VIE
+2000 Summer Olympics,Georgia,0,0,6,6,905,25,GEO
+2000 Summer Olympics,Costa Rica,0,0,2,2,906,25,CRC
+2000 Summer Olympics,Portugal,0,0,2,2,907,25,POR
+2000 Summer Olympics,Armenia,0,0,1,1,908,25,ARM
+2000 Summer Olympics,Barbados,0,0,1,1,909,25,BAR
+2000 Summer Olympics,Chile,0,0,1,1,910,25,CHI
+2000 Summer Olympics,Iceland,0,0,1,1,911,25,ISL
+2000 Summer Olympics,India,0,0,1,1,912,25,IND
+2000 Summer Olympics,Israel,0,0,1,1,913,25,ISR
+2000 Summer Olympics,Kuwait,0,0,1,1,914,25,KUW
+2000 Summer Olympics,Kyrgyzstan,0,0,1,1,915,25,KGZ
+2000 Summer Olympics,North Macedonia,0,0,1,1,916,25,MKD
+2000 Summer Olympics,Qatar,0,0,1,1,917,25,QAT
+2004 Summer Olympics,United States,36,39,26,101,918,26,USA
+2004 Summer Olympics,People's Republic of China,32,17,14,63,919,26,CHN
+2004 Summer Olympics,Russian Federation,28,26,36,90,920,26,RUS
+2004 Summer Olympics,Australia,17,16,17,50,921,26,AUS
+2004 Summer Olympics,Japan,16,9,12,37,922,26,JPN
+2004 Summer Olympics,Germany,13,16,20,49,923,26,GER
+2004 Summer Olympics,France,11,9,13,33,924,26,FRA
+2004 Summer Olympics,Italy,10,11,11,32,925,26,ITA
+2004 Summer Olympics,Republic of Korea,9,12,9,30,926,26,KOR
+2004 Summer Olympics,Great Britain,9,9,12,30,927,26,GBR
+2004 Summer Olympics,Cuba,9,7,11,27,928,26,CUB
+2004 Summer Olympics,Hungary,8,6,3,17,929,26,HUN
+2004 Summer Olympics,Ukraine,8,5,9,22,930,26,UKR
+2004 Summer Olympics,Romania,8,5,6,19,931,26,ROU
+2004 Summer Olympics,Greece,6,6,4,16,932,26,GRE
+2004 Summer Olympics,Brazil,5,2,3,10,933,26,BRA
+2004 Summer Olympics,Norway,5,0,1,6,934,26,NOR
+2004 Summer Olympics,Netherlands,4,9,9,22,935,26,NED
+2004 Summer Olympics,Sweden,4,2,1,7,936,26,SWE
+2004 Summer Olympics,Spain,3,11,6,20,937,26,ESP
+2004 Summer Olympics,Canada,3,6,3,12,938,26,CAN
+2004 Summer Olympics,TÃ¼rkiye,3,3,4,10,939,26,TUR
+2004 Summer Olympics,Poland,3,2,5,10,940,26,POL
+2004 Summer Olympics,New Zealand,3,2,0,5,941,26,NZL
+2004 Summer Olympics,Thailand,3,1,4,8,942,26,THA
+2004 Summer Olympics,Belarus,2,5,6,13,943,26,BLR
+2004 Summer Olympics,Austria,2,4,1,7,944,26,AUT
+2004 Summer Olympics,Ethiopia,2,3,2,7,945,26,ETH
+2004 Summer Olympics,Islamic Republic of Iran,2,2,2,6,946,26,IRI
+2004 Summer Olympics,Slovakia,2,2,2,6,947,26,SVK
+2004 Summer Olympics,Chinese Taipei,2,2,1,5,948,26,TPE
+2004 Summer Olympics,Georgia,2,2,0,4,949,26,GEO
+2004 Summer Olympics,Bulgaria,2,1,9,12,950,26,BUL
+2004 Summer Olympics,Denmark,2,1,5,8,951,26,DEN
+2004 Summer Olympics,Jamaica,2,1,2,5,952,26,JAM
+2004 Summer Olympics,Uzbekistan,2,1,2,5,953,26,UZB
+2004 Summer Olympics,Morocco,2,1,0,3,954,26,MAR
+2004 Summer Olympics,Argentina,2,0,4,6,955,26,ARG
+2004 Summer Olympics,Chile,2,0,1,3,956,26,CHI
+2004 Summer Olympics,Kazakhstan,1,4,3,8,957,26,KAZ
+2004 Summer Olympics,Kenya,1,4,2,7,958,26,KEN
+2004 Summer Olympics,Czechia,1,3,5,9,959,26,CZE
+2004 Summer Olympics,South Africa,1,3,2,6,960,26,RSA
+2004 Summer Olympics,Croatia,1,2,2,5,961,26,CRO
+2004 Summer Olympics,Lithuania,1,2,0,3,962,26,LTU
+2004 Summer Olympics,Egypt,1,1,3,5,963,26,EGY
+2004 Summer Olympics,Switzerland,1,1,3,5,964,26,SUI
+2004 Summer Olympics,Indonesia,1,1,2,4,965,26,INA
+2004 Summer Olympics,Zimbabwe,1,1,1,3,966,26,ZIM
+2004 Summer Olympics,Azerbaijan,1,0,4,5,967,26,AZE
+2004 Summer Olympics,Belgium,1,0,2,3,968,26,BEL
+2004 Summer Olympics,Israel,1,0,1,2,969,26,ISR
+2004 Summer Olympics,The Bahamas,1,0,1,2,970,26,BAH
+2004 Summer Olympics,Cameroon,1,0,0,1,971,26,CMR
+2004 Summer Olympics,Dominican Republic,1,0,0,1,972,26,DOM
+2004 Summer Olympics,United Arab Emirates,1,0,0,1,973,26,UAE
+2004 Summer Olympics,Democratic People's Republic of Korea,0,4,1,5,974,26,PRK
+2004 Summer Olympics,Latvia,0,4,0,4,975,26,LAT
+2004 Summer Olympics,Mexico,0,3,1,4,976,26,MEX
+2004 Summer Olympics,Portugal,0,2,1,3,977,26,POR
+2004 Summer Olympics,Finland,0,2,0,2,978,26,FIN
+2004 Summer Olympics,Serbia and Montenegro,0,2,0,2,979,26,SCG
+2004 Summer Olympics,Slovenia,0,1,3,4,980,26,SLO
+2004 Summer Olympics,Estonia,0,1,2,3,981,26,EST
+2004 Summer Olympics,"Hong Kong, China",0,1,0,1,982,26,HKG
+2004 Summer Olympics,India,0,1,0,1,983,26,IND
+2004 Summer Olympics,Paraguay,0,1,0,1,984,26,PAR
+2004 Summer Olympics,Colombia,0,0,2,2,985,26,COL
+2004 Summer Olympics,Nigeria,0,0,2,2,986,26,NGR
+2004 Summer Olympics,Venezuela,0,0,2,2,987,26,VEN
+2004 Summer Olympics,Eritrea,0,0,1,1,988,26,ERI
+2004 Summer Olympics,Mongolia,0,0,1,1,989,26,MGL
+2004 Summer Olympics,Syrian Arab Republic,0,0,1,1,990,26,SYR
+2004 Summer Olympics,Trinidad and Tobago,0,0,1,1,991,26,TTO
+2008 Summer Olympics,People's Republic of China,48,22,30,100,992,53,CHN
+2008 Summer Olympics,United States,36,39,37,112,993,53,USA
+2008 Summer Olympics,Russian Federation,24,13,23,60,994,53,RUS
+2008 Summer Olympics,Great Britain,19,13,19,51,995,53,GBR
+2008 Summer Olympics,Germany,16,11,14,41,996,53,GER
+2008 Summer Olympics,Australia,14,15,17,46,997,53,AUS
+2008 Summer Olympics,Republic of Korea,13,11,8,32,998,53,KOR
+2008 Summer Olympics,Japan,9,8,8,25,999,53,JPN
+2008 Summer Olympics,Italy,8,9,10,27,1000,53,ITA
+2008 Summer Olympics,France,7,16,20,43,1001,53,FRA
+2008 Summer Olympics,Netherlands,7,5,4,16,1002,53,NED
+2008 Summer Olympics,Ukraine,7,4,11,22,1003,53,UKR
+2008 Summer Olympics,Kenya,6,4,6,16,1004,53,KEN
+2008 Summer Olympics,Spain,5,11,3,19,1005,53,ESP
+2008 Summer Olympics,Jamaica,5,4,2,11,1006,53,JAM
+2008 Summer Olympics,Poland,4,5,2,11,1007,53,POL
+2008 Summer Olympics,Ethiopia,4,2,1,7,1008,53,ETH
+2008 Summer Olympics,Romania,4,1,4,9,1009,53,ROU
+2008 Summer Olympics,Cuba,3,10,17,30,1010,53,CUB
+2008 Summer Olympics,Canada,3,9,8,20,1011,53,CAN
+2008 Summer Olympics,Hungary,3,5,2,10,1012,53,HUN
+2008 Summer Olympics,Norway,3,5,1,9,1013,53,NOR
+2008 Summer Olympics,Brazil,3,4,10,17,1014,53,BRA
+2008 Summer Olympics,Belarus,3,4,7,14,1015,53,BLR
+2008 Summer Olympics,Czechia,3,3,1,7,1016,53,CZE
+2008 Summer Olympics,Slovakia,3,3,0,6,1017,53,SVK
+2008 Summer Olympics,New Zealand,3,2,4,9,1018,53,NZL
+2008 Summer Olympics,Georgia,3,2,2,7,1019,53,GEO
+2008 Summer Olympics,Kazakhstan,2,3,4,9,1020,53,KAZ
+2008 Summer Olympics,Denmark,2,2,3,7,1021,53,DEN
+2008 Summer Olympics,Democratic People's Republic of Korea,2,2,2,6,1022,53,PRK
+2008 Summer Olympics,Thailand,2,2,2,6,1023,53,THA
+2008 Summer Olympics,Mongolia,2,2,0,4,1024,53,MGL
+2008 Summer Olympics,Switzerland,2,1,4,7,1025,53,SUI
+2008 Summer Olympics,Argentina,2,0,4,6,1026,53,ARG
+2008 Summer Olympics,Mexico,2,0,2,4,1027,53,MEX
+2008 Summer Olympics,Belgium,2,0,0,2,1028,53,BEL
+2008 Summer Olympics,Zimbabwe,1,3,0,4,1029,53,ZIM
+2008 Summer Olympics,Slovenia,1,2,2,5,1030,53,SLO
+2008 Summer Olympics,Azerbaijan,1,1,4,6,1031,53,AZE
+2008 Summer Olympics,Indonesia,1,1,4,6,1032,53,INA
+2008 Summer Olympics,Bulgaria,1,1,3,5,1033,53,BUL
+2008 Summer Olympics,TÃ¼rkiye,1,1,3,5,1034,53,TUR
+2008 Summer Olympics,Chinese Taipei,1,1,2,4,1035,53,TPE
+2008 Summer Olympics,Finland,1,1,2,4,1036,53,FIN
+2008 Summer Olympics,Latvia,1,1,1,3,1037,53,LAT
+2008 Summer Olympics,Dominican Republic,1,1,0,2,1038,53,DOM
+2008 Summer Olympics,Estonia,1,1,0,2,1039,53,EST
+2008 Summer Olympics,Portugal,1,1,0,2,1040,53,POR
+2008 Summer Olympics,Trinidad and Tobago,1,1,0,2,1041,53,TTO
+2008 Summer Olympics,India,1,0,2,3,1042,53,IND
+2008 Summer Olympics,Islamic Republic of Iran,1,0,1,2,1043,53,IRI
+2008 Summer Olympics,Cameroon,1,0,0,1,1044,53,CMR
+2008 Summer Olympics,Panama,1,0,0,1,1045,53,PAN
+2008 Summer Olympics,Tunisia,1,0,0,1,1046,53,TUN
+2008 Summer Olympics,Sweden,0,4,1,5,1047,53,SWE
+2008 Summer Olympics,Lithuania,0,3,2,5,1048,53,LTU
+2008 Summer Olympics,Nigeria,0,3,2,5,1049,53,NGR
+2008 Summer Olympics,Croatia,0,2,3,5,1050,53,CRO
+2008 Summer Olympics,Colombia,0,2,1,3,1051,53,COL
+2008 Summer Olympics,Greece,0,2,1,3,1052,53,GRE
+2008 Summer Olympics,Armenia,0,1,4,5,1053,53,ARM
+2008 Summer Olympics,Uzbekistan,0,1,3,4,1054,53,UZB
+2008 Summer Olympics,Austria,0,1,2,3,1055,53,AUT
+2008 Summer Olympics,Ireland,0,1,2,3,1056,53,IRL
+2008 Summer Olympics,Kyrgyzstan,0,1,2,3,1057,53,KGZ
+2008 Summer Olympics,Serbia,0,1,2,3,1058,53,SRB
+2008 Summer Olympics,Algeria,0,1,1,2,1059,53,ALG
+2008 Summer Olympics,Morocco,0,1,1,2,1060,53,MAR
+2008 Summer Olympics,Tajikistan,0,1,1,2,1061,53,TJK
+2008 Summer Olympics,The Bahamas,0,1,1,2,1062,53,BAH
+2008 Summer Olympics,Chile,0,1,0,1,1063,53,CHI
+2008 Summer Olympics,Ecuador,0,1,0,1,1064,53,ECU
+2008 Summer Olympics,Iceland,0,1,0,1,1065,53,ISL
+2008 Summer Olympics,Malaysia,0,1,0,1,1066,53,MAS
+2008 Summer Olympics,Samoa,0,1,0,1,1067,53,SAM
+2008 Summer Olympics,Singapore,0,1,0,1,1068,53,SGP
+2008 Summer Olympics,South Africa,0,1,0,1,1069,53,RSA
+2008 Summer Olympics,Sudan,0,1,0,1,1070,53,SUD
+2008 Summer Olympics,Vietnam,0,1,0,1,1071,53,VIE
+2008 Summer Olympics,Egypt,0,0,2,2,1072,53,EGY
+2008 Summer Olympics,Afghanistan,0,0,1,1,1073,53,AFG
+2008 Summer Olympics,Israel,0,0,1,1,1074,53,ISR
+2008 Summer Olympics,Mauritius,0,0,1,1,1075,53,MRI
+2008 Summer Olympics,Republic of Moldova,0,0,1,1,1076,53,MDA
+2008 Summer Olympics,Togo,0,0,1,1,1077,53,TOG
+2008 Summer Olympics,Venezuela,0,0,1,1,1078,53,VEN
+2012 Summer Olympics,United States,48,26,30,104,1079,54,USA
+2012 Summer Olympics,People's Republic of China,39,31,22,92,1080,54,CHN
+2012 Summer Olympics,Great Britain,29,18,18,65,1081,54,GBR
+2012 Summer Olympics,Russian Federation,18,21,26,65,1082,54,RUS
+2012 Summer Olympics,Republic of Korea,13,9,8,30,1083,54,KOR
+2012 Summer Olympics,Germany,11,20,13,44,1084,54,GER
+2012 Summer Olympics,France,11,11,13,35,1085,54,FRA
+2012 Summer Olympics,Australia,8,15,12,35,1086,54,AUS
+2012 Summer Olympics,Italy,8,9,11,28,1087,54,ITA
+2012 Summer Olympics,Hungary,8,4,6,18,1088,54,HUN
+2012 Summer Olympics,Japan,7,14,17,38,1089,54,JPN
+2012 Summer Olympics,Islamic Republic of Iran,7,5,1,13,1090,54,IRI
+2012 Summer Olympics,Netherlands,6,6,8,20,1091,54,NED
+2012 Summer Olympics,New Zealand,6,2,5,13,1092,54,NZL
+2012 Summer Olympics,Ukraine,5,4,10,19,1093,54,UKR
+2012 Summer Olympics,Cuba,5,3,7,15,1094,54,CUB
+2012 Summer Olympics,Spain,4,10,6,20,1095,54,ESP
+2012 Summer Olympics,Jamaica,4,5,4,13,1096,54,JAM
+2012 Summer Olympics,Czechia,4,4,3,11,1097,54,CZE
+2012 Summer Olympics,South Africa,4,1,1,6,1098,54,RSA
+2012 Summer Olympics,Democratic People's Republic of Korea,4,0,3,7,1099,54,PRK
+2012 Summer Olympics,Brazil,3,5,9,17,1100,54,BRA
+2012 Summer Olympics,Poland,3,2,6,11,1101,54,POL
+2012 Summer Olympics,Ethiopia,3,2,3,8,1102,54,ETH
+2012 Summer Olympics,Kazakhstan,3,1,7,11,1103,54,KAZ
+2012 Summer Olympics,Croatia,3,1,2,6,1104,54,CRO
+2012 Summer Olympics,Canada,2,6,10,18,1105,54,CAN
+2012 Summer Olympics,Belarus,2,5,3,10,1106,54,BLR
+2012 Summer Olympics,Kenya,2,4,7,13,1107,54,KEN
+2012 Summer Olympics,Denmark,2,4,3,9,1108,54,DEN
+2012 Summer Olympics,Romania,2,4,1,7,1109,54,ROU
+2012 Summer Olympics,Azerbaijan,2,2,5,9,1110,54,AZE
+2012 Summer Olympics,Switzerland,2,2,0,4,1111,54,SUI
+2012 Summer Olympics,Norway,2,1,1,4,1112,54,NOR
+2012 Summer Olympics,Lithuania,2,0,3,5,1113,54,LTU
+2012 Summer Olympics,Tunisia,2,0,1,3,1114,54,TUN
+2012 Summer Olympics,Sweden,1,4,3,8,1115,54,SWE
+2012 Summer Olympics,Colombia,1,3,5,9,1116,54,COL
+2012 Summer Olympics,Mexico,1,3,4,8,1117,54,MEX
+2012 Summer Olympics,Georgia,1,2,3,6,1118,54,GEO
+2012 Summer Olympics,Ireland,1,1,4,6,1119,54,IRL
+2012 Summer Olympics,Argentina,1,1,2,4,1120,54,ARG
+2012 Summer Olympics,Serbia,1,1,2,4,1121,54,SRB
+2012 Summer Olympics,Slovenia,1,1,2,4,1122,54,SLO
+2012 Summer Olympics,Trinidad and Tobago,1,1,2,4,1123,54,TTO
+2012 Summer Olympics,TÃ¼rkiye,1,1,1,3,1124,54,TUR
+2012 Summer Olympics,Dominican Republic,1,1,0,2,1125,54,DOM
+2012 Summer Olympics,Chinese Taipei,1,0,1,2,1126,54,TPE
+2012 Summer Olympics,Latvia,1,0,1,2,1127,54,LAT
+2012 Summer Olympics,Algeria,1,0,0,1,1128,54,ALG
+2012 Summer Olympics,Bahrain,1,0,0,1,1129,54,BRN
+2012 Summer Olympics,Grenada,1,0,0,1,1130,54,GRN
+2012 Summer Olympics,The Bahamas,1,0,0,1,1131,54,BAH
+2012 Summer Olympics,Uganda,1,0,0,1,1132,54,UGA
+2012 Summer Olympics,Venezuela,1,0,0,1,1133,54,VEN
+2012 Summer Olympics,Egypt,0,3,1,4,1134,54,EGY
+2012 Summer Olympics,India,0,2,4,6,1135,54,IND
+2012 Summer Olympics,Mongolia,0,2,3,5,1136,54,MGL
+2012 Summer Olympics,Thailand,0,2,2,4,1137,54,THA
+2012 Summer Olympics,Bulgaria,0,2,1,3,1138,54,BUL
+2012 Summer Olympics,Finland,0,2,1,3,1139,54,FIN
+2012 Summer Olympics,Indonesia,0,2,1,3,1140,54,INA
+2012 Summer Olympics,Slovakia,0,1,3,4,1141,54,SVK
+2012 Summer Olympics,Belgium,0,1,2,3,1142,54,BEL
+2012 Summer Olympics,Armenia,0,1,1,2,1143,54,ARM
+2012 Summer Olympics,Estonia,0,1,1,2,1144,54,EST
+2012 Summer Olympics,Malaysia,0,1,1,2,1145,54,MAS
+2012 Summer Olympics,Puerto Rico,0,1,1,2,1146,54,PUR
+2012 Summer Olympics,Qatar,0,1,1,2,1147,54,QAT
+2012 Summer Olympics,Botswana,0,1,0,1,1148,54,BOT
+2012 Summer Olympics,Cyprus,0,1,0,1,1149,54,CYP
+2012 Summer Olympics,Gabon,0,1,0,1,1150,54,GAB
+2012 Summer Olympics,Guatemala,0,1,0,1,1151,54,GUA
+2012 Summer Olympics,Montenegro,0,1,0,1,1152,54,MNE
+2012 Summer Olympics,Portugal,0,1,0,1,1153,54,POR
+2012 Summer Olympics,Uzbekistan,0,0,3,3,1154,54,UZB
+2012 Summer Olympics,Greece,0,0,2,2,1155,54,GRE
+2012 Summer Olympics,Singapore,0,0,2,2,1156,54,SGP
+2012 Summer Olympics,Afghanistan,0,0,1,1,1157,54,AFG
+2012 Summer Olympics,Cameroon,0,0,1,1,1158,54,CMR
+2012 Summer Olympics,"Hong Kong, China",0,0,1,1,1159,54,HKG
+2012 Summer Olympics,Kingdom of Saudi Arabia,0,0,1,1,1160,54,KSA
+2012 Summer Olympics,Kuwait,0,0,1,1,1161,54,KUW
+2012 Summer Olympics,Morocco,0,0,1,1,1162,54,MAR
+2012 Summer Olympics,Tajikistan,0,0,1,1,1163,54,TJK
+2012 Summer Olympics,Vietnam,0,0,1,1,1164,54,VIE
+2016 Summer Olympics,United States,46,37,38,121,1165,59,USA
+2016 Summer Olympics,Great Britain,27,23,17,67,1166,59,GBR
+2016 Summer Olympics,People's Republic of China,26,18,26,70,1167,59,CHN
+2016 Summer Olympics,Russian Federation,19,17,20,56,1168,59,RUS
+2016 Summer Olympics,Germany,17,10,15,42,1169,59,GER
+2016 Summer Olympics,Japan,12,8,21,41,1170,59,JPN
+2016 Summer Olympics,France,10,18,14,42,1171,59,FRA
+2016 Summer Olympics,Republic of Korea,9,3,9,21,1172,59,KOR
+2016 Summer Olympics,Italy,8,12,8,28,1173,59,ITA
+2016 Summer Olympics,Australia,8,11,10,29,1174,59,AUS
+2016 Summer Olympics,Netherlands,8,7,4,19,1175,59,NED
+2016 Summer Olympics,Hungary,8,3,4,15,1176,59,HUN
+2016 Summer Olympics,Brazil,7,6,6,19,1177,59,BRA
+2016 Summer Olympics,Spain,7,4,6,17,1178,59,ESP
+2016 Summer Olympics,Kenya,6,6,1,13,1179,59,KEN
+2016 Summer Olympics,Jamaica,6,3,2,11,1180,59,JAM
+2016 Summer Olympics,Croatia,5,3,2,10,1181,59,CRO
+2016 Summer Olympics,Cuba,5,2,4,11,1182,59,CUB
+2016 Summer Olympics,New Zealand,4,9,5,18,1183,59,NZL
+2016 Summer Olympics,Canada,4,3,15,22,1184,59,CAN
+2016 Summer Olympics,Uzbekistan,4,2,7,13,1185,59,UZB
+2016 Summer Olympics,Colombia,3,2,3,8,1186,59,COL
+2016 Summer Olympics,Switzerland,3,2,2,7,1187,59,SUI
+2016 Summer Olympics,Islamic Republic of Iran,3,1,4,8,1188,59,IRI
+2016 Summer Olympics,Greece,3,1,2,6,1189,59,GRE
+2016 Summer Olympics,Argentina,3,1,0,4,1190,59,ARG
+2016 Summer Olympics,Denmark,2,6,7,15,1191,59,DEN
+2016 Summer Olympics,Sweden,2,6,3,11,1192,59,SWE
+2016 Summer Olympics,South Africa,2,6,2,10,1193,59,RSA
+2016 Summer Olympics,Kazakhstan,2,5,10,17,1194,59,KAZ
+2016 Summer Olympics,Ukraine,2,5,4,11,1195,59,UKR
+2016 Summer Olympics,Serbia,2,4,2,8,1196,59,SRB
+2016 Summer Olympics,Poland,2,3,6,11,1197,59,POL
+2016 Summer Olympics,Democratic People's Republic of Korea,2,3,2,7,1198,59,PRK
+2016 Summer Olympics,Belgium,2,2,2,6,1199,59,BEL
+2016 Summer Olympics,Thailand,2,2,2,6,1200,59,THA
+2016 Summer Olympics,Slovakia,2,2,0,4,1201,59,SVK
+2016 Summer Olympics,Georgia,2,1,4,7,1202,59,GEO
+2016 Summer Olympics,Azerbaijan,1,7,10,18,1203,59,AZE
+2016 Summer Olympics,Belarus,1,4,4,9,1204,59,BLR
+2016 Summer Olympics,TÃ¼rkiye,1,3,4,8,1205,59,TUR
+2016 Summer Olympics,Armenia,1,3,0,4,1206,59,ARM
+2016 Summer Olympics,Czechia,1,2,7,10,1207,59,CZE
+2016 Summer Olympics,Ethiopia,1,2,5,8,1208,59,ETH
+2016 Summer Olympics,Slovenia,1,2,1,4,1209,59,SLO
+2016 Summer Olympics,Indonesia,1,2,0,3,1210,59,INA
+2016 Summer Olympics,Romania,1,1,2,4,1211,59,ROU
+2016 Summer Olympics,Bahrain,1,1,0,2,1212,59,BRN
+2016 Summer Olympics,Vietnam,1,1,0,2,1213,59,VIE
+2016 Summer Olympics,Chinese Taipei,1,0,2,3,1214,59,TPE
+2016 Summer Olympics,CÃ´te d'Ivoire,1,0,1,2,1215,59,CIV
+2016 Summer Olympics,Independent Olympic Athletes,1,0,1,2,1216,59,IOA
+2016 Summer Olympics,The Bahamas,1,0,1,2,1217,59,BAH
+2016 Summer Olympics,Fiji,1,0,0,1,1218,59,FIJ
+2016 Summer Olympics,Jordan,1,0,0,1,1219,59,JOR
+2016 Summer Olympics,Kosovo,1,0,0,1,1220,59,KOS
+2016 Summer Olympics,Puerto Rico,1,0,0,1,1221,59,PUR
+2016 Summer Olympics,Singapore,1,0,0,1,1222,59,SGP
+2016 Summer Olympics,Tajikistan,1,0,0,1,1223,59,TJK
+2016 Summer Olympics,Malaysia,0,4,1,5,1224,59,MAS
+2016 Summer Olympics,Mexico,0,3,2,5,1225,59,MEX
+2016 Summer Olympics,Venezuela,0,2,1,3,1226,59,VEN
+2016 Summer Olympics,Algeria,0,2,0,2,1227,59,ALG
+2016 Summer Olympics,Ireland,0,2,0,2,1228,59,IRL
+2016 Summer Olympics,Lithuania,0,1,3,4,1229,59,LTU
+2016 Summer Olympics,Bulgaria,0,1,2,3,1230,59,BUL
+2016 Summer Olympics,India,0,1,1,2,1231,59,IND
+2016 Summer Olympics,Mongolia,0,1,1,2,1232,59,MGL
+2016 Summer Olympics,Burundi,0,1,0,1,1233,59,BDI
+2016 Summer Olympics,Grenada,0,1,0,1,1234,59,GRN
+2016 Summer Olympics,Niger,0,1,0,1,1235,59,NIG
+2016 Summer Olympics,Philippines,0,1,0,1,1236,59,PHI
+2016 Summer Olympics,Qatar,0,1,0,1,1237,59,QAT
+2016 Summer Olympics,Norway,0,0,4,4,1238,59,NOR
+2016 Summer Olympics,Egypt,0,0,3,3,1239,59,EGY
+2016 Summer Olympics,Tunisia,0,0,3,3,1240,59,TUN
+2016 Summer Olympics,Israel,0,0,2,2,1241,59,ISR
+2016 Summer Olympics,Austria,0,0,1,1,1242,59,AUT
+2016 Summer Olympics,Dominican Republic,0,0,1,1,1243,59,DOM
+2016 Summer Olympics,Estonia,0,0,1,1,1244,59,EST
+2016 Summer Olympics,Finland,0,0,1,1,1245,59,FIN
+2016 Summer Olympics,Morocco,0,0,1,1,1246,59,MAR
+2016 Summer Olympics,Nigeria,0,0,1,1,1247,59,NGR
+2016 Summer Olympics,Portugal,0,0,1,1,1248,59,POR
+2016 Summer Olympics,Trinidad and Tobago,0,0,1,1,1249,59,TTO
+2016 Summer Olympics,United Arab Emirates,0,0,1,1,1250,59,UAE
+2020 Summer Olympics,United States,39,41,33,113,1251,61,USA
+2020 Summer Olympics,People's Republic of China,38,32,19,89,1252,61,CHN
+2020 Summer Olympics,Japan,27,14,17,58,1253,61,JPN
+2020 Summer Olympics,Great Britain,22,20,22,64,1254,61,GBR
+2020 Summer Olympics,Russian Olympic Committee,20,28,23,71,1255,61,ROC
+2020 Summer Olympics,Australia,17,7,22,46,1256,61,AUS
+2020 Summer Olympics,Netherlands,10,12,14,36,1257,61,NED
+2020 Summer Olympics,France,10,12,11,33,1258,61,FRA
+2020 Summer Olympics,Germany,10,11,16,37,1259,61,GER
+2020 Summer Olympics,Italy,10,10,20,40,1260,61,ITA
+2020 Summer Olympics,Canada,7,7,10,24,1261,61,CAN
+2020 Summer Olympics,Brazil,7,6,8,21,1262,61,BRA
+2020 Summer Olympics,New Zealand,7,6,7,20,1263,61,NZL
+2020 Summer Olympics,Cuba,7,3,5,15,1264,61,CUB
+2020 Summer Olympics,Hungary,6,7,7,20,1265,61,HUN
+2020 Summer Olympics,Republic of Korea,6,4,10,20,1266,61,KOR
+2020 Summer Olympics,Poland,4,5,5,14,1267,61,POL
+2020 Summer Olympics,Czechia,4,4,3,11,1268,61,CZE
+2020 Summer Olympics,Kenya,4,4,2,10,1269,61,KEN
+2020 Summer Olympics,Norway,4,2,2,8,1270,61,NOR
+2020 Summer Olympics,Jamaica,4,1,4,9,1271,61,JAM
+2020 Summer Olympics,Spain,3,8,6,17,1272,61,ESP
+2020 Summer Olympics,Sweden,3,6,0,9,1273,61,SWE
+2020 Summer Olympics,Switzerland,3,4,6,13,1274,61,SUI
+2020 Summer Olympics,Denmark,3,4,4,11,1275,61,DEN
+2020 Summer Olympics,Croatia,3,3,2,8,1276,61,CRO
+2020 Summer Olympics,Islamic Republic of Iran,3,2,2,7,1277,61,IRI
+2020 Summer Olympics,Serbia,3,1,5,9,1278,61,SRB
+2020 Summer Olympics,Belgium,3,1,3,7,1279,61,BEL
+2020 Summer Olympics,Bulgaria,3,1,2,6,1280,61,BUL
+2020 Summer Olympics,Slovenia,3,1,1,5,1281,61,SLO
+2020 Summer Olympics,Uzbekistan,3,0,2,5,1282,61,UZB
+2020 Summer Olympics,Georgia,2,5,1,8,1283,61,GEO
+2020 Summer Olympics,Chinese Taipei,2,4,6,12,1284,61,TPE
+2020 Summer Olympics,TÃ¼rkiye,2,2,9,13,1285,61,TUR
+2020 Summer Olympics,Greece,2,1,1,4,1286,61,GRE
+2020 Summer Olympics,Uganda,2,1,1,4,1287,61,UGA
+2020 Summer Olympics,Ecuador,2,1,0,3,1288,61,ECU
+2020 Summer Olympics,Ireland,2,0,2,4,1289,61,IRL
+2020 Summer Olympics,Israel,2,0,2,4,1290,61,ISR
+2020 Summer Olympics,Qatar,2,0,1,3,1291,61,QAT
+2020 Summer Olympics,Kosovo,2,0,0,2,1292,61,KOS
+2020 Summer Olympics,The Bahamas,2,0,0,2,1293,61,BAH
+2020 Summer Olympics,Ukraine,1,6,12,19,1294,61,UKR
+2020 Summer Olympics,Belarus,1,3,3,7,1295,61,BLR
+2020 Summer Olympics,Romania,1,3,0,4,1296,61,ROU
+2020 Summer Olympics,Venezuela,1,3,0,4,1297,61,VEN
+2020 Summer Olympics,India,1,2,4,7,1298,61,IND
+2020 Summer Olympics,"Hong Kong, China",1,2,3,6,1299,61,HKG
+2020 Summer Olympics,Philippines,1,2,1,4,1300,61,PHI
+2020 Summer Olympics,Slovakia,1,2,1,4,1301,61,SVK
+2020 Summer Olympics,South Africa,1,2,0,3,1302,61,RSA
+2020 Summer Olympics,Austria,1,1,5,7,1303,61,AUT
+2020 Summer Olympics,Egypt,1,1,4,6,1304,61,EGY
+2020 Summer Olympics,Indonesia,1,1,3,5,1305,61,INA
+2020 Summer Olympics,Ethiopia,1,1,2,4,1306,61,ETH
+2020 Summer Olympics,Portugal,1,1,2,4,1307,61,POR
+2020 Summer Olympics,Tunisia,1,1,0,2,1308,61,TUN
+2020 Summer Olympics,Estonia,1,0,1,2,1309,61,EST
+2020 Summer Olympics,Fiji,1,0,1,2,1310,61,FIJ
+2020 Summer Olympics,Latvia,1,0,1,2,1311,61,LAT
+2020 Summer Olympics,Thailand,1,0,1,2,1312,61,THA
+2020 Summer Olympics,Bermuda,1,0,0,1,1313,61,BER
+2020 Summer Olympics,Morocco,1,0,0,1,1314,61,MAR
+2020 Summer Olympics,Puerto Rico,1,0,0,1,1315,61,PUR
+2020 Summer Olympics,Colombia,0,4,1,5,1316,61,COL
+2020 Summer Olympics,Azerbaijan,0,3,4,7,1317,61,AZE
+2020 Summer Olympics,Dominican Republic,0,3,2,5,1318,61,DOM
+2020 Summer Olympics,Armenia,0,2,2,4,1319,61,ARM
+2020 Summer Olympics,Kyrgyzstan,0,2,1,3,1320,61,KGZ
+2020 Summer Olympics,Mongolia,0,1,3,4,1321,61,MGL
+2020 Summer Olympics,Argentina,0,1,2,3,1322,61,ARG
+2020 Summer Olympics,San Marino,0,1,2,3,1323,61,SMR
+2020 Summer Olympics,Jordan,0,1,1,2,1324,61,JOR
+2020 Summer Olympics,Malaysia,0,1,1,2,1325,61,MAS
+2020 Summer Olympics,Nigeria,0,1,1,2,1326,61,NGR
+2020 Summer Olympics,Bahrain,0,1,0,1,1327,61,BRN
+2020 Summer Olympics,Kingdom of Saudi Arabia,0,1,0,1,1328,61,KSA
+2020 Summer Olympics,Lithuania,0,1,0,1,1329,61,LTU
+2020 Summer Olympics,Namibia,0,1,0,1,1330,61,NAM
+2020 Summer Olympics,North Macedonia,0,1,0,1,1331,61,MKD
+2020 Summer Olympics,Turkmenistan,0,1,0,1,1332,61,TKM
+2020 Summer Olympics,Kazakhstan,0,0,8,8,1333,61,KAZ
+2020 Summer Olympics,Mexico,0,0,4,4,1334,61,MEX
+2020 Summer Olympics,Finland,0,0,2,2,1335,61,FIN
+2020 Summer Olympics,Botswana,0,0,1,1,1336,61,BOT
+2020 Summer Olympics,Burkina Faso,0,0,1,1,1337,61,BUR
+2020 Summer Olympics,CÃ´te d'Ivoire,0,0,1,1,1338,61,CIV
+2020 Summer Olympics,Ghana,0,0,1,1,1339,61,GHA
+2020 Summer Olympics,Grenada,0,0,1,1,1340,61,GRN
+2020 Summer Olympics,Kuwait,0,0,1,1,1341,61,KUW
+2020 Summer Olympics,Republic of Moldova,0,0,1,1,1342,61,MDA
+2020 Summer Olympics,Syrian Arab Republic,0,0,1,1,1343,61,SYR
+1924 Winter Olympics,Norway,4,7,6,17,1344,29,NOR
+1924 Winter Olympics,Finland,4,4,3,11,1345,29,FIN
+1924 Winter Olympics,Austria,2,1,0,3,1346,29,AUT
+1924 Winter Olympics,Switzerland,2,0,1,3,1347,29,SUI
+1924 Winter Olympics,United States,1,2,1,4,1348,29,USA
+1924 Winter Olympics,Great Britain,1,1,2,4,1349,29,GBR
+1924 Winter Olympics,Sweden,1,1,0,2,1350,29,SWE
+1924 Winter Olympics,Canada,1,0,0,1,1351,29,CAN
+1924 Winter Olympics,Mixed team,1,0,0,1,1352,29,MIX
+1924 Winter Olympics,France,0,0,3,3,1353,29,FRA
+1924 Winter Olympics,Belgium,0,0,1,1,1354,29,BEL
+1928 Winter Olympics,Norway,6,4,5,15,1355,30,NOR
+1928 Winter Olympics,United States,2,2,2,6,1356,30,USA
+1928 Winter Olympics,Sweden,2,2,1,5,1357,30,SWE
+1928 Winter Olympics,Finland,2,1,1,4,1358,30,FIN
+1928 Winter Olympics,Canada,1,0,0,1,1359,30,CAN
+1928 Winter Olympics,France,1,0,0,1,1360,30,FRA
+1928 Winter Olympics,Austria,0,3,1,4,1361,30,AUT
+1928 Winter Olympics,Belgium,0,0,1,1,1362,30,BEL
+1928 Winter Olympics,Czechoslovakia,0,0,1,1,1363,30,TCH
+1928 Winter Olympics,Germany,0,0,1,1,1364,30,GER
+1928 Winter Olympics,Great Britain,0,0,1,1,1365,30,GBR
+1928 Winter Olympics,Switzerland,0,0,1,1,1366,30,SUI
+1932 Winter Olympics,United States,6,4,2,12,1367,31,USA
+1932 Winter Olympics,Norway,3,4,3,10,1368,31,NOR
+1932 Winter Olympics,Sweden,1,2,0,3,1369,31,SWE
+1932 Winter Olympics,Canada,1,1,5,7,1370,31,CAN
+1932 Winter Olympics,Finland,1,1,1,3,1371,31,FIN
+1932 Winter Olympics,Austria,1,1,0,2,1372,31,AUT
+1932 Winter Olympics,France,1,0,0,1,1373,31,FRA
+1932 Winter Olympics,Switzerland,0,1,0,1,1374,31,SUI
+1932 Winter Olympics,Germany,0,0,2,2,1375,31,GER
+1932 Winter Olympics,Hungary,0,0,1,1,1376,31,HUN
+1936 Winter Olympics,Norway,7,5,3,15,1377,32,NOR
+1936 Winter Olympics,Germany,3,3,0,6,1378,32,GER
+1936 Winter Olympics,Sweden,2,2,3,7,1379,32,SWE
+1936 Winter Olympics,Finland,1,2,3,6,1380,32,FIN
+1936 Winter Olympics,Switzerland,1,2,0,3,1381,32,SUI
+1936 Winter Olympics,Austria,1,1,2,4,1382,32,AUT
+1936 Winter Olympics,Great Britain,1,1,1,3,1383,32,GBR
+1936 Winter Olympics,United States,1,0,3,4,1384,32,USA
+1936 Winter Olympics,Canada,0,1,0,1,1385,32,CAN
+1936 Winter Olympics,France,0,0,1,1,1386,32,FRA
+1936 Winter Olympics,Hungary,0,0,1,1,1387,32,HUN
+1948 Winter Olympics,Norway,4,3,3,10,1388,33,NOR
+1948 Winter Olympics,Sweden,4,3,3,10,1389,33,SWE
+1948 Winter Olympics,Switzerland,3,4,3,10,1390,33,SUI
+1948 Winter Olympics,United States,3,4,2,9,1391,33,USA
+1948 Winter Olympics,France,2,1,2,5,1392,33,FRA
+1948 Winter Olympics,Canada,2,0,1,3,1393,33,CAN
+1948 Winter Olympics,Austria,1,3,4,8,1394,33,AUT
+1948 Winter Olympics,Finland,1,3,2,6,1395,33,FIN
+1948 Winter Olympics,Belgium,1,1,0,2,1396,33,BEL
+1948 Winter Olympics,Italy,1,0,0,1,1397,33,ITA
+1948 Winter Olympics,Czechoslovakia,0,1,0,1,1398,33,TCH
+1948 Winter Olympics,Hungary,0,1,0,1,1399,33,HUN
+1948 Winter Olympics,Great Britain,0,0,2,2,1400,33,GBR
+1952 Winter Olympics,Norway,7,3,6,16,1401,34,NOR
+1952 Winter Olympics,United States,4,6,1,11,1402,34,USA
+1952 Winter Olympics,Finland,3,4,2,9,1403,34,FIN
+1952 Winter Olympics,Germany,3,2,2,7,1404,34,GER
+1952 Winter Olympics,Austria,2,4,2,8,1405,34,AUT
+1952 Winter Olympics,Canada,1,0,1,2,1406,34,CAN
+1952 Winter Olympics,Italy,1,0,1,2,1407,34,ITA
+1952 Winter Olympics,Great Britain,1,0,0,1,1408,34,GBR
+1952 Winter Olympics,Netherlands,0,3,0,3,1409,34,NED
+1952 Winter Olympics,Sweden,0,0,4,4,1410,34,SWE
+1952 Winter Olympics,Switzerland,0,0,2,2,1411,34,SUI
+1952 Winter Olympics,France,0,0,1,1,1412,34,FRA
+1952 Winter Olympics,Hungary,0,0,1,1,1413,34,HUN
+1956 Winter Olympics,Soviet Union,7,3,6,16,1414,35,URS
+1956 Winter Olympics,Austria,4,3,4,11,1415,35,AUT
+1956 Winter Olympics,Finland,3,3,1,7,1416,35,FIN
+1956 Winter Olympics,Switzerland,3,2,1,6,1417,35,SUI
+1956 Winter Olympics,Sweden,2,4,4,10,1418,35,SWE
+1956 Winter Olympics,United States,2,3,2,7,1419,35,USA
+1956 Winter Olympics,Norway,2,1,1,4,1420,35,NOR
+1956 Winter Olympics,Italy,1,2,0,3,1421,35,ITA
+1956 Winter Olympics,Germany,1,0,1,2,1422,35,GER
+1956 Winter Olympics,Canada,0,1,2,3,1423,35,CAN
+1956 Winter Olympics,Japan,0,1,0,1,1424,35,JPN
+1956 Winter Olympics,Hungary,0,0,1,1,1425,35,HUN
+1956 Winter Olympics,Poland,0,0,1,1,1426,35,POL
+1960 Winter Olympics,Soviet Union,7,5,9,21,1427,36,URS
+1960 Winter Olympics,Germany,4,3,1,8,1428,36,GER
+1960 Winter Olympics,United States,3,4,3,10,1429,36,USA
+1960 Winter Olympics,Norway,3,3,0,6,1430,36,NOR
+1960 Winter Olympics,Sweden,3,2,2,7,1431,36,SWE
+1960 Winter Olympics,Finland,2,3,3,8,1432,36,FIN
+1960 Winter Olympics,Canada,2,1,1,4,1433,36,CAN
+1960 Winter Olympics,Switzerland,2,0,0,2,1434,36,SUI
+1960 Winter Olympics,Austria,1,2,3,6,1435,36,AUT
+1960 Winter Olympics,France,1,0,2,3,1436,36,FRA
+1960 Winter Olympics,Netherlands,0,1,1,2,1437,36,NED
+1960 Winter Olympics,Poland,0,1,1,2,1438,36,POL
+1960 Winter Olympics,Czechoslovakia,0,1,0,1,1439,36,TCH
+1960 Winter Olympics,Italy,0,0,1,1,1440,36,ITA
+1964 Winter Olympics,Soviet Union,11,8,6,25,1441,37,URS
+1964 Winter Olympics,Austria,4,5,3,12,1442,37,AUT
+1964 Winter Olympics,Norway,3,6,6,15,1443,37,NOR
+1964 Winter Olympics,Finland,3,4,3,10,1444,37,FIN
+1964 Winter Olympics,France,3,4,0,7,1445,37,FRA
+1964 Winter Olympics,Germany,3,3,3,9,1446,37,GER
+1964 Winter Olympics,Sweden,3,3,1,7,1447,37,SWE
+1964 Winter Olympics,United States,1,2,4,7,1448,37,USA
+1964 Winter Olympics,Canada,1,1,1,3,1449,37,CAN
+1964 Winter Olympics,Netherlands,1,1,0,2,1450,37,NED
+1964 Winter Olympics,Great Britain,1,0,0,1,1451,37,GBR
+1964 Winter Olympics,Italy,0,1,3,4,1452,37,ITA
+1964 Winter Olympics,Democratic People's Republic of Korea,0,1,0,1,1453,37,PRK
+1964 Winter Olympics,Czechoslovakia,0,0,1,1,1454,37,TCH
+1968 Winter Olympics,Norway,6,6,2,14,1455,38,NOR
+1968 Winter Olympics,Soviet Union,5,5,3,13,1456,38,URS
+1968 Winter Olympics,France,4,3,2,9,1457,38,FRA
+1968 Winter Olympics,Italy,4,0,0,4,1458,38,ITA
+1968 Winter Olympics,Austria,3,4,4,11,1459,38,AUT
+1968 Winter Olympics,Netherlands,3,3,3,9,1460,38,NED
+1968 Winter Olympics,Sweden,3,2,3,8,1461,38,SWE
+1968 Winter Olympics,West Germany,2,2,3,7,1462,38,FRG
+1968 Winter Olympics,United States,1,5,1,7,1463,38,USA
+1968 Winter Olympics,East Germany,1,2,2,5,1464,38,GDR
+1968 Winter Olympics,Finland,1,2,2,5,1465,38,FIN
+1968 Winter Olympics,Czechoslovakia,1,2,1,4,1466,38,TCH
+1968 Winter Olympics,Canada,1,1,1,3,1467,38,CAN
+1968 Winter Olympics,Switzerland,0,2,4,6,1468,38,SUI
+1968 Winter Olympics,Romania,0,0,1,1,1469,38,ROU
+1972 Winter Olympics,Soviet Union,8,5,3,16,1470,39,URS
+1972 Winter Olympics,East Germany,4,3,7,14,1471,39,GDR
+1972 Winter Olympics,Switzerland,4,3,3,10,1472,39,SUI
+1972 Winter Olympics,Netherlands,4,3,2,9,1473,39,NED
+1972 Winter Olympics,United States,3,2,3,8,1474,39,USA
+1972 Winter Olympics,West Germany,3,1,1,5,1475,39,FRG
+1972 Winter Olympics,Norway,2,5,5,12,1476,39,NOR
+1972 Winter Olympics,Italy,2,2,1,5,1477,39,ITA
+1972 Winter Olympics,Austria,1,2,2,5,1478,39,AUT
+1972 Winter Olympics,Sweden,1,1,2,4,1479,39,SWE
+1972 Winter Olympics,Japan,1,1,1,3,1480,39,JPN
+1972 Winter Olympics,Czechoslovakia,1,0,2,3,1481,39,TCH
+1972 Winter Olympics,Poland,1,0,0,1,1482,39,POL
+1972 Winter Olympics,Spain,1,0,0,1,1483,39,ESP
+1972 Winter Olympics,Finland,0,4,1,5,1484,39,FIN
+1972 Winter Olympics,France,0,1,2,3,1485,39,FRA
+1972 Winter Olympics,Canada,0,1,0,1,1486,39,CAN
+1976 Winter Olympics,Soviet Union,13,6,8,27,1487,40,URS
+1976 Winter Olympics,East Germany,7,5,7,19,1488,40,GDR
+1976 Winter Olympics,United States,3,3,4,10,1489,40,USA
+1976 Winter Olympics,Norway,3,3,1,7,1490,40,NOR
+1976 Winter Olympics,West Germany,2,5,3,10,1491,40,FRG
+1976 Winter Olympics,Finland,2,4,1,7,1492,40,FIN
+1976 Winter Olympics,Austria,2,2,2,6,1493,40,AUT
+1976 Winter Olympics,Switzerland,1,3,1,5,1494,40,SUI
+1976 Winter Olympics,Netherlands,1,2,3,6,1495,40,NED
+1976 Winter Olympics,Italy,1,2,1,4,1496,40,ITA
+1976 Winter Olympics,Canada,1,1,1,3,1497,40,CAN
+1976 Winter Olympics,Great Britain,1,0,0,1,1498,40,GBR
+1976 Winter Olympics,Czechoslovakia,0,1,0,1,1499,40,TCH
+1976 Winter Olympics,Liechtenstein,0,0,2,2,1500,40,LIE
+1976 Winter Olympics,Sweden,0,0,2,2,1501,40,SWE
+1976 Winter Olympics,France,0,0,1,1,1502,40,FRA
+1980 Winter Olympics,Soviet Union,10,6,6,22,1503,41,URS
+1980 Winter Olympics,East Germany,9,7,7,23,1504,41,GDR
+1980 Winter Olympics,United States,6,4,2,12,1505,41,USA
+1980 Winter Olympics,Austria,3,2,2,7,1506,41,AUT
+1980 Winter Olympics,Sweden,3,0,1,4,1507,41,SWE
+1980 Winter Olympics,Liechtenstein,2,2,0,4,1508,41,LIE
+1980 Winter Olympics,Finland,1,5,3,9,1509,41,FIN
+1980 Winter Olympics,Norway,1,3,6,10,1510,41,NOR
+1980 Winter Olympics,Netherlands,1,2,1,4,1511,41,NED
+1980 Winter Olympics,Switzerland,1,1,3,5,1512,41,SUI
+1980 Winter Olympics,Great Britain,1,0,0,1,1513,41,GBR
+1980 Winter Olympics,West Germany,0,2,3,5,1514,41,FRG
+1980 Winter Olympics,Italy,0,2,0,2,1515,41,ITA
+1980 Winter Olympics,Canada,0,1,1,2,1516,41,CAN
+1980 Winter Olympics,Hungary,0,1,0,1,1517,41,HUN
+1980 Winter Olympics,Japan,0,1,0,1,1518,41,JPN
+1980 Winter Olympics,Bulgaria,0,0,1,1,1519,41,BUL
+1980 Winter Olympics,Czechoslovakia,0,0,1,1,1520,41,TCH
+1980 Winter Olympics,France,0,0,1,1,1521,41,FRA
+1984 Winter Olympics,East Germany,9,9,6,24,1522,42,GDR
+1984 Winter Olympics,Soviet Union,6,10,9,25,1523,42,URS
+1984 Winter Olympics,United States,4,4,0,8,1524,42,USA
+1984 Winter Olympics,Finland,4,3,6,13,1525,42,FIN
+1984 Winter Olympics,Sweden,4,2,2,8,1526,42,SWE
+1984 Winter Olympics,Norway,3,2,4,9,1527,42,NOR
+1984 Winter Olympics,Switzerland,2,2,1,5,1528,42,SUI
+1984 Winter Olympics,Canada,2,1,1,4,1529,42,CAN
+1984 Winter Olympics,West Germany,2,1,1,4,1530,42,FRG
+1984 Winter Olympics,Italy,2,0,0,2,1531,42,ITA
+1984 Winter Olympics,Great Britain,1,0,0,1,1532,42,GBR
+1984 Winter Olympics,Czechoslovakia,0,2,4,6,1533,42,TCH
+1984 Winter Olympics,France,0,1,2,3,1534,42,FRA
+1984 Winter Olympics,Japan,0,1,0,1,1535,42,JPN
+1984 Winter Olympics,Yugoslavia,0,1,0,1,1536,42,YUG
+1984 Winter Olympics,Liechtenstein,0,0,2,2,1537,42,LIE
+1984 Winter Olympics,Austria,0,0,1,1,1538,42,AUT
+1988 Winter Olympics,Soviet Union,11,9,9,29,1539,43,URS
+1988 Winter Olympics,East Germany,9,10,6,25,1540,43,GDR
+1988 Winter Olympics,Switzerland,5,5,5,15,1541,43,SUI
+1988 Winter Olympics,Finland,4,1,2,7,1542,43,FIN
+1988 Winter Olympics,Sweden,4,0,2,6,1543,43,SWE
+1988 Winter Olympics,Austria,3,5,2,10,1544,43,AUT
+1988 Winter Olympics,Netherlands,3,2,2,7,1545,43,NED
+1988 Winter Olympics,West Germany,2,4,2,8,1546,43,FRG
+1988 Winter Olympics,United States,2,1,3,6,1547,43,USA
+1988 Winter Olympics,Italy,2,1,2,5,1548,43,ITA
+1988 Winter Olympics,France,1,0,1,2,1549,43,FRA
+1988 Winter Olympics,Norway,0,3,2,5,1550,43,NOR
+1988 Winter Olympics,Canada,0,2,3,5,1551,43,CAN
+1988 Winter Olympics,Yugoslavia,0,2,1,3,1552,43,YUG
+1988 Winter Olympics,Czechoslovakia,0,1,2,3,1553,43,TCH
+1988 Winter Olympics,Japan,0,0,1,1,1554,43,JPN
+1988 Winter Olympics,Liechtenstein,0,0,1,1,1555,43,LIE
+1992 Winter Olympics,Germany,10,10,6,26,1556,44,GER
+1992 Winter Olympics,Unified Team,9,6,8,23,1557,44,EUN
+1992 Winter Olympics,Norway,9,6,5,20,1558,44,NOR
+1992 Winter Olympics,Austria,6,7,8,21,1559,44,AUT
+1992 Winter Olympics,United States,5,4,2,11,1560,44,USA
+1992 Winter Olympics,Italy,4,6,4,14,1561,44,ITA
+1992 Winter Olympics,France,3,5,1,9,1562,44,FRA
+1992 Winter Olympics,Finland,3,1,3,7,1563,44,FIN
+1992 Winter Olympics,Canada,2,3,2,7,1564,44,CAN
+1992 Winter Olympics,Republic of Korea,2,1,1,4,1565,44,KOR
+1992 Winter Olympics,Japan,1,2,4,7,1566,44,JPN
+1992 Winter Olympics,Netherlands,1,1,2,4,1567,44,NED
+1992 Winter Olympics,Sweden,1,0,3,4,1568,44,SWE
+1992 Winter Olympics,Switzerland,1,0,2,3,1569,44,SUI
+1992 Winter Olympics,People's Republic of China,0,3,0,3,1570,44,CHN
+1992 Winter Olympics,Luxembourg,0,2,0,2,1571,44,LUX
+1992 Winter Olympics,New Zealand,0,1,0,1,1572,44,NZL
+1992 Winter Olympics,Czechoslovakia,0,0,3,3,1573,44,TCH
+1992 Winter Olympics,Democratic People's Republic of Korea,0,0,1,1,1574,44,PRK
+1992 Winter Olympics,Spain,0,0,1,1,1575,44,ESP
+1994 Winter Olympics,Russian Federation,11,8,4,23,1576,45,RUS
+1994 Winter Olympics,Norway,10,11,5,26,1577,45,NOR
+1994 Winter Olympics,Germany,9,7,8,24,1578,45,GER
+1994 Winter Olympics,Italy,7,5,8,20,1579,45,ITA
+1994 Winter Olympics,United States,6,5,2,13,1580,45,USA
+1994 Winter Olympics,Republic of Korea,4,1,1,6,1581,45,KOR
+1994 Winter Olympics,Canada,3,6,4,13,1582,45,CAN
+1994 Winter Olympics,Switzerland,3,4,2,9,1583,45,SUI
+1994 Winter Olympics,Austria,2,3,4,9,1584,45,AUT
+1994 Winter Olympics,Sweden,2,1,0,3,1585,45,SWE
+1994 Winter Olympics,Japan,1,2,2,5,1586,45,JPN
+1994 Winter Olympics,Kazakhstan,1,2,0,3,1587,45,KAZ
+1994 Winter Olympics,Ukraine,1,0,1,2,1588,45,UKR
+1994 Winter Olympics,Uzbekistan,1,0,0,1,1589,45,UZB
+1994 Winter Olympics,Belarus,0,2,0,2,1590,45,BLR
+1994 Winter Olympics,Finland,0,1,5,6,1591,45,FIN
+1994 Winter Olympics,France,0,1,4,5,1592,45,FRA
+1994 Winter Olympics,Netherlands,0,1,3,4,1593,45,NED
+1994 Winter Olympics,People's Republic of China,0,1,2,3,1594,45,CHN
+1994 Winter Olympics,Slovenia,0,0,3,3,1595,45,SLO
+1994 Winter Olympics,Great Britain,0,0,2,2,1596,45,GBR
+1994 Winter Olympics,Australia,0,0,1,1,1597,45,AUS
+1998 Winter Olympics,Germany,12,9,8,29,1598,46,GER
+1998 Winter Olympics,Norway,10,10,5,25,1599,46,NOR
+1998 Winter Olympics,Russian Federation,9,6,3,18,1600,46,RUS
+1998 Winter Olympics,Canada,6,5,4,15,1601,46,CAN
+1998 Winter Olympics,United States,6,3,4,13,1602,46,USA
+1998 Winter Olympics,Netherlands,5,4,2,11,1603,46,NED
+1998 Winter Olympics,Japan,5,1,4,10,1604,46,JPN
+1998 Winter Olympics,Austria,3,5,9,17,1605,46,AUT
+1998 Winter Olympics,Republic of Korea,3,1,2,6,1606,46,KOR
+1998 Winter Olympics,Italy,2,6,2,10,1607,46,ITA
+1998 Winter Olympics,Finland,2,4,6,12,1608,46,FIN
+1998 Winter Olympics,Switzerland,2,2,3,7,1609,46,SUI
+1998 Winter Olympics,France,2,1,5,8,1610,46,FRA
+1998 Winter Olympics,Czechia,1,1,1,3,1611,46,CZE
+1998 Winter Olympics,Bulgaria,1,0,0,1,1612,46,BUL
+1998 Winter Olympics,People's Republic of China,0,6,2,8,1613,46,CHN
+1998 Winter Olympics,Sweden,0,2,1,3,1614,46,SWE
+1998 Winter Olympics,Denmark,0,1,0,1,1615,46,DEN
+1998 Winter Olympics,Ukraine,0,1,0,1,1616,46,UKR
+1998 Winter Olympics,Belarus,0,0,2,2,1617,46,BLR
+1998 Winter Olympics,Kazakhstan,0,0,2,2,1618,46,KAZ
+1998 Winter Olympics,Australia,0,0,1,1,1619,46,AUS
+1998 Winter Olympics,Belgium,0,0,1,1,1620,46,BEL
+1998 Winter Olympics,Great Britain,0,0,1,1,1621,46,GBR
+2002 Winter Olympics,Norway,13,5,7,25,1622,47,NOR
+2002 Winter Olympics,Germany,12,16,8,36,1623,47,GER
+2002 Winter Olympics,United States,10,13,11,34,1624,47,USA
+2002 Winter Olympics,Canada,7,3,7,17,1625,47,CAN
+2002 Winter Olympics,Russian Federation,5,4,4,13,1626,47,RUS
+2002 Winter Olympics,France,4,5,2,11,1627,47,FRA
+2002 Winter Olympics,Italy,4,4,5,13,1628,47,ITA
+2002 Winter Olympics,Finland,4,2,1,7,1629,47,FIN
+2002 Winter Olympics,Netherlands,3,5,0,8,1630,47,NED
+2002 Winter Olympics,Austria,3,4,10,17,1631,47,AUT
+2002 Winter Olympics,Switzerland,3,2,6,11,1632,47,SUI
+2002 Winter Olympics,Croatia,3,1,0,4,1633,47,CRO
+2002 Winter Olympics,People's Republic of China,2,2,4,8,1634,47,CHN
+2002 Winter Olympics,Republic of Korea,2,2,0,4,1635,47,KOR
+2002 Winter Olympics,Australia,2,0,0,2,1636,47,AUS
+2002 Winter Olympics,Czechia,1,2,0,3,1637,47,CZE
+2002 Winter Olympics,Estonia,1,1,1,3,1638,47,EST
+2002 Winter Olympics,Great Britain,1,0,1,2,1639,47,GBR
+2002 Winter Olympics,Sweden,0,2,5,7,1640,47,SWE
+2002 Winter Olympics,Bulgaria,0,1,2,3,1641,47,BUL
+2002 Winter Olympics,Japan,0,1,1,2,1642,47,JPN
+2002 Winter Olympics,Poland,0,1,1,2,1643,47,POL
+2002 Winter Olympics,Belarus,0,0,1,1,1644,47,BLR
+2002 Winter Olympics,Slovenia,0,0,1,1,1645,47,SLO
+2006 Winter Olympics,Germany,11,12,6,29,1646,49,GER
+2006 Winter Olympics,United States,9,9,7,25,1647,49,USA
+2006 Winter Olympics,Austria,9,7,7,23,1648,49,AUT
+2006 Winter Olympics,Russian Federation,8,6,8,22,1649,49,RUS
+2006 Winter Olympics,Canada,7,10,7,24,1650,49,CAN
+2006 Winter Olympics,Sweden,7,2,5,14,1651,49,SWE
+2006 Winter Olympics,Republic of Korea,6,3,2,11,1652,49,KOR
+2006 Winter Olympics,Switzerland,5,4,5,14,1653,49,SUI
+2006 Winter Olympics,Italy,5,0,6,11,1654,49,ITA
+2006 Winter Olympics,France,3,2,4,9,1655,49,FRA
+2006 Winter Olympics,Netherlands,3,2,4,9,1656,49,NED
+2006 Winter Olympics,Estonia,3,0,0,3,1657,49,EST
+2006 Winter Olympics,Norway,2,8,9,19,1658,49,NOR
+2006 Winter Olympics,People's Republic of China,2,4,5,11,1659,49,CHN
+2006 Winter Olympics,Czechia,1,2,1,4,1660,49,CZE
+2006 Winter Olympics,Croatia,1,2,0,3,1661,49,CRO
+2006 Winter Olympics,Australia,1,0,1,2,1662,49,AUS
+2006 Winter Olympics,Japan,1,0,0,1,1663,49,JPN
+2006 Winter Olympics,Finland,0,6,3,9,1664,49,FIN
+2006 Winter Olympics,Poland,0,1,1,2,1665,49,POL
+2006 Winter Olympics,Belarus,0,1,0,1,1666,49,BLR
+2006 Winter Olympics,Bulgaria,0,1,0,1,1667,49,BUL
+2006 Winter Olympics,Great Britain,0,1,0,1,1668,49,GBR
+2006 Winter Olympics,Slovakia,0,1,0,1,1669,49,SVK
+2006 Winter Olympics,Ukraine,0,0,2,2,1670,49,UKR
+2006 Winter Olympics,Latvia,0,0,1,1,1671,49,LAT
+2010 Winter Olympics,Canada,14,7,5,26,1672,57,CAN
+2010 Winter Olympics,Germany,10,13,7,30,1673,57,GER
+2010 Winter Olympics,United States,9,15,13,37,1674,57,USA
+2010 Winter Olympics,Norway,9,8,6,23,1675,57,NOR
+2010 Winter Olympics,Republic of Korea,6,6,2,14,1676,57,KOR
+2010 Winter Olympics,Switzerland,6,0,3,9,1677,57,SUI
+2010 Winter Olympics,People's Republic of China,5,2,4,11,1678,57,CHN
+2010 Winter Olympics,Sweden,5,2,4,11,1679,57,SWE
+2010 Winter Olympics,Austria,4,6,6,16,1680,57,AUT
+2010 Winter Olympics,Netherlands,4,1,3,8,1681,57,NED
+2010 Winter Olympics,Russian Federation,3,5,7,15,1682,57,RUS
+2010 Winter Olympics,France,2,3,6,11,1683,57,FRA
+2010 Winter Olympics,Australia,2,1,0,3,1684,57,AUS
+2010 Winter Olympics,Czechia,2,0,4,6,1685,57,CZE
+2010 Winter Olympics,Poland,1,3,2,6,1686,57,POL
+2010 Winter Olympics,Italy,1,1,3,5,1687,57,ITA
+2010 Winter Olympics,Belarus,1,1,1,3,1688,57,BLR
+2010 Winter Olympics,Slovakia,1,1,1,3,1689,57,SVK
+2010 Winter Olympics,Great Britain,1,0,0,1,1690,57,GBR
+2010 Winter Olympics,Japan,0,3,2,5,1691,57,JPN
+2010 Winter Olympics,Croatia,0,2,1,3,1692,57,CRO
+2010 Winter Olympics,Slovenia,0,2,1,3,1693,57,SLO
+2010 Winter Olympics,Latvia,0,2,0,2,1694,57,LAT
+2010 Winter Olympics,Finland,0,1,4,5,1695,57,FIN
+2010 Winter Olympics,Estonia,0,1,0,1,1696,57,EST
+2010 Winter Olympics,Kazakhstan,0,1,0,1,1697,57,KAZ
+2014 Winter Olympics,Norway,11,6,9,26,1698,58,NOR
+2014 Winter Olympics,Russian Federation,10,10,9,29,1699,58,RUS
+2014 Winter Olympics,Canada,10,10,5,25,1700,58,CAN
+2014 Winter Olympics,United States,9,9,10,28,1701,58,USA
+2014 Winter Olympics,Netherlands,8,7,9,24,1702,58,NED
+2014 Winter Olympics,Germany,8,6,5,19,1703,58,GER
+2014 Winter Olympics,Switzerland,7,2,2,11,1704,58,SUI
+2014 Winter Olympics,Belarus,5,0,1,6,1705,58,BLR
+2014 Winter Olympics,Austria,4,8,5,17,1706,58,AUT
+2014 Winter Olympics,France,4,4,7,15,1707,58,FRA
+2014 Winter Olympics,Poland,4,1,1,6,1708,58,POL
+2014 Winter Olympics,People's Republic of China,3,4,2,9,1709,58,CHN
+2014 Winter Olympics,Republic of Korea,3,3,2,8,1710,58,KOR
+2014 Winter Olympics,Sweden,2,7,6,15,1711,58,SWE
+2014 Winter Olympics,Czechia,2,4,3,9,1712,58,CZE
+2014 Winter Olympics,Slovenia,2,2,4,8,1713,58,SLO
+2014 Winter Olympics,Japan,1,4,3,8,1714,58,JPN
+2014 Winter Olympics,Finland,1,3,1,5,1715,58,FIN
+2014 Winter Olympics,Great Britain,1,1,3,5,1716,58,GBR
+2014 Winter Olympics,Latvia,1,1,3,5,1717,58,LAT
+2014 Winter Olympics,Ukraine,1,0,1,2,1718,58,UKR
+2014 Winter Olympics,Slovakia,1,0,0,1,1719,58,SVK
+2014 Winter Olympics,Italy,0,2,6,8,1720,58,ITA
+2014 Winter Olympics,Australia,0,2,1,3,1721,58,AUS
+2014 Winter Olympics,Croatia,0,1,0,1,1722,58,CRO
+2014 Winter Olympics,Kazakhstan,0,0,1,1,1723,58,KAZ
+2018 Winter Olympics,Norway,14,14,11,39,1724,60,NOR
+2018 Winter Olympics,Germany,14,10,7,31,1725,60,GER
+2018 Winter Olympics,Canada,11,8,10,29,1726,60,CAN
+2018 Winter Olympics,United States,9,8,6,23,1727,60,USA
+2018 Winter Olympics,Netherlands,8,6,6,20,1728,60,NED
+2018 Winter Olympics,Sweden,7,6,1,14,1729,60,SWE
+2018 Winter Olympics,Republic of Korea,5,8,4,17,1730,60,KOR
+2018 Winter Olympics,Switzerland,5,6,4,15,1731,60,SUI
+2018 Winter Olympics,France,5,4,6,15,1732,60,FRA
+2018 Winter Olympics,Austria,5,3,6,14,1733,60,AUT
+2018 Winter Olympics,Japan,4,5,4,13,1734,60,JPN
+2018 Winter Olympics,Italy,3,2,5,10,1735,60,ITA
+2018 Winter Olympics,Russian Olympic Committee,2,6,9,17,1736,60,ROC
+2018 Winter Olympics,Czechia,2,2,3,7,1737,60,CZE
+2018 Winter Olympics,Belarus,2,1,0,3,1738,60,BLR
+2018 Winter Olympics,People's Republic of China,1,6,2,9,1739,60,CHN
+2018 Winter Olympics,Slovakia,1,2,0,3,1740,60,SVK
+2018 Winter Olympics,Finland,1,1,4,6,1741,60,FIN
+2018 Winter Olympics,Great Britain,1,0,4,5,1742,60,GBR
+2018 Winter Olympics,Poland,1,0,1,2,1743,60,POL
+2018 Winter Olympics,Hungary,1,0,0,1,1744,60,HUN
+2018 Winter Olympics,Ukraine,1,0,0,1,1745,60,UKR
+2018 Winter Olympics,Australia,0,2,1,3,1746,60,AUS
+2018 Winter Olympics,Slovenia,0,1,1,2,1747,60,SLO
+2018 Winter Olympics,Belgium,0,1,0,1,1748,60,BEL
+2018 Winter Olympics,New Zealand,0,0,2,2,1749,60,NZL
+2018 Winter Olympics,Spain,0,0,2,2,1750,60,ESP
+2018 Winter Olympics,Kazakhstan,0,0,1,1,1751,60,KAZ
+2018 Winter Olympics,Latvia,0,0,1,1,1752,60,LAT
+2018 Winter Olympics,Liechtenstein,0,0,1,1,1753,60,LIE
+2022 Winter Olympics,Norway,16,8,13,37,1754,62,NOR
+2022 Winter Olympics,Germany,12,10,5,27,1755,62,GER
+2022 Winter Olympics,People's Republic of China,9,4,2,15,1756,62,CHN
+2022 Winter Olympics,United States,8,10,7,25,1757,62,USA
+2022 Winter Olympics,Sweden,8,5,5,18,1758,62,SWE
+2022 Winter Olympics,Netherlands,8,5,4,17,1759,62,NED
+2022 Winter Olympics,Austria,7,7,4,18,1760,62,AUT
+2022 Winter Olympics,Switzerland,7,2,6,15,1761,62,SUI
+2022 Winter Olympics,Russian Olympic Committee,6,12,14,32,1762,62,ROC
+2022 Winter Olympics,France,5,7,2,14,1763,62,FRA
+2022 Winter Olympics,Canada,4,8,14,26,1764,62,CAN
+2022 Winter Olympics,Japan,3,6,9,18,1765,62,JPN
+2022 Winter Olympics,Italy,2,7,8,17,1766,62,ITA
+2022 Winter Olympics,Republic of Korea,2,5,2,9,1767,62,KOR
+2022 Winter Olympics,Slovenia,2,3,2,7,1768,62,SLO
+2022 Winter Olympics,Finland,2,2,4,8,1769,62,FIN
+2022 Winter Olympics,New Zealand,2,1,0,3,1770,62,NZL
+2022 Winter Olympics,Australia,1,2,1,4,1771,62,AUS
+2022 Winter Olympics,Great Britain,1,1,0,2,1772,62,GBR
+2022 Winter Olympics,Hungary,1,0,2,3,1773,62,HUN
+2022 Winter Olympics,Belgium,1,0,1,2,1774,62,BEL
+2022 Winter Olympics,Czechia,1,0,1,2,1775,62,CZE
+2022 Winter Olympics,Slovakia,1,0,1,2,1776,62,SVK
+2022 Winter Olympics,Belarus,0,2,0,2,1777,62,BLR
+2022 Winter Olympics,Spain,0,1,0,1,1778,62,ESP
+2022 Winter Olympics,Ukraine,0,1,0,1,1779,62,UKR
+2022 Winter Olympics,Estonia,0,0,1,1,1780,62,EST
+2022 Winter Olympics,Latvia,0,0,1,1,1781,62,LAT
+2022 Winter Olympics,Poland,0,0,1,1,1782,62,POL
+1956 Equestrian,Sweden,3,0,0,3,1783,48,SWE
+1956 Equestrian,Germany,2,3,1,6,1784,48,GER
+1956 Equestrian,Great Britain,1,0,2,3,1785,48,GBR
+1956 Equestrian,Italy,0,2,1,3,1786,48,ITA
+1956 Equestrian,Denmark,0,1,0,1,1787,48,DEN
+1956 Equestrian,Canada,0,0,1,1,1788,48,CAN
+1956 Equestrian,Switzerland,0,0,1,1,1789,48,SUI
+1906 Intercalated,France,15,9,16,40,1790,4,FRA
+1906 Intercalated,United States,12,6,6,24,1791,4,USA
+1906 Intercalated,Greece,8,14,13,35,1792,4,GRE
+1906 Intercalated,Great Britain,8,11,5,24,1793,4,GBR
+1906 Intercalated,Italy,7,6,3,16,1794,4,ITA
+1906 Intercalated,Germany,4,6,5,15,1795,4,GER
+1906 Intercalated,Switzerland,4,3,1,8,1796,4,SUI
+1906 Intercalated,Austria,3,3,3,9,1797,4,AUT
+1906 Intercalated,Denmark,3,2,1,6,1798,4,DEN
+1906 Intercalated,Sweden,2,5,7,14,1799,4,SWE
+1906 Intercalated,Hungary,2,5,3,10,1800,4,HUN
+1906 Intercalated,Belgium,2,2,3,7,1801,4,BEL
+1906 Intercalated,Finland,2,1,1,4,1802,4,FIN
+1906 Intercalated,Canada,1,1,0,2,1803,4,CAN
+1906 Intercalated,Norway,1,1,0,2,1804,4,NOR
+1906 Intercalated,Netherlands,0,1,2,3,1805,4,NED
+1906 Intercalated,Australia,0,0,3,3,1806,4,AUS
+1906 Intercalated,Bohemia,0,0,2,2,1807,4,BOH

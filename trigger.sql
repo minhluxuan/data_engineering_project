@@ -1,0 +1,102 @@
+-- DELIMITER $$
+-- 
+-- CREATE TRIGGER update_result_participants_on_insert
+-- AFTER INSERT ON competition_eventresult
+-- FOR EACH ROW
+-- BEGIN
+--     -- Đếm lại số participants cho result_id
+--     UPDATE competition_result
+--     SET result_participants = (
+--         SELECT COUNT(*)
+--         FROM competition_eventresult
+--         WHERE result_id_id = NEW.result_id_id
+--     )
+--     WHERE result_id = NEW.result_id_id;
+-- END$$
+-- 
+-- CREATE TRIGGER update_result_participants_on_delete
+-- AFTER DELETE ON competition_eventresult
+-- FOR EACH ROW
+-- BEGIN
+--     -- Đếm lại số participants cho result_id
+--     UPDATE competition_result
+--     SET result_participants = (
+--         SELECT COUNT(*)
+--         FROM competition_eventresult
+--         WHERE result_id_id = OLD.result_id_id
+--     )
+--     WHERE result_id = OLD.result_id_id;
+-- END$$
+-- 
+-- DELIMITER ;
+-- 
+
+-- DELIMITER $$
+-- 
+-- CREATE TRIGGER update_result_countries_after_insert
+-- AFTER INSERT ON competition_eventresult
+-- FOR EACH ROW
+-- BEGIN
+--     DECLARE country_count INT;
+--     
+--     -- Đếm số quốc gia tham gia cho kết quả cụ thể
+--     SELECT COUNT(DISTINCT a.country_noc_id)
+--     INTO country_count
+--     FROM athlete_athlete_bio a
+--     WHERE a.athlete_id = NEW.athlete_id_id;
+-- 
+--     -- Cập nhật trường result_countries trong bảng competition_result
+--     UPDATE competition_result r
+--     SET r.result_countries = country_count
+--     WHERE r.result_id = NEW.result_id_id;
+-- END $$
+-- 
+-- DELIMITER ;
+-- 
+-- DELIMITER $$
+-- 
+-- CREATE TRIGGER update_result_countries_after_delete
+-- AFTER DELETE ON competition_eventresult
+-- FOR EACH ROW
+-- BEGIN
+--     DECLARE country_count INT;
+--     
+--     -- Đếm lại số quốc gia tham gia cho kết quả cụ thể sau khi xóa
+--     SELECT COUNT(DISTINCT a.country_noc_id)
+--     INTO country_count
+--     FROM athlete_athlete_bio a
+--     JOIN competition_eventresult e ON a.athlete_id = e.athlete_id_id
+--     WHERE e.result_id_id = OLD.result_id_id;
+-- 
+--     -- Cập nhật lại trường result_countries trong bảng competition_result
+--     UPDATE competition_result r
+--     SET r.result_countries = country_count
+--     WHERE r.result_id = OLD.result_id_id;
+-- END $$
+-- 
+-- DELIMITER ;
+-- 
+-- DELIMITER $$
+-- 
+-- CREATE TRIGGER update_result_countries_after_update
+-- AFTER UPDATE ON competition_eventresult
+-- FOR EACH ROW
+-- BEGIN
+--     DECLARE country_count INT;
+--     
+--     -- Đếm lại số quốc gia tham gia cho kết quả cụ thể sau khi sửa
+--     SELECT COUNT(DISTINCT a.country_noc_id)
+--     INTO country_count
+--     FROM athlete_athlete_bio a
+--     JOIN competition_eventresult e ON a.athlete_id = e.athlete_id_id
+--     WHERE e.result_id_id = NEW.result_id_id;
+-- 
+--     -- Cập nhật lại trường result_countries trong bảng competition_result
+--     UPDATE competition_result r
+--     SET r.result_countries = country_count
+--     WHERE r.result_id = NEW.result_id_id;
+-- END $$
+-- 
+-- DELIMITER ;
+
+

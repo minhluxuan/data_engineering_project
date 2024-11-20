@@ -14,4 +14,4 @@ class Athlete_Bio(models.Model):
     # country_noc = models.TextField()
     description = models.TextField()
     special_notes = models.TextField()
-    country = models.TextField(default='Unknown')
+    #country = models.TextField(default='Unknown')

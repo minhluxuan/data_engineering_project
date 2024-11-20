@@ -13,11 +13,11 @@ urlpatterns = [
     path('upload-results/', upload_event_results, name='upload_event_results'),
     path('eventresult/', EventResultView.as_view(),
          name='event_result_post'),  # POST cho việc tạo event result
-    path('eventresult/<int:edition_id>-<str:country_noc>-<int:result_id>-<int:athlete_id>/',
+    path('eventresult/<int:result_id>/<int:athlete_id>/',
          EventResultView.as_view(), name='event_result_detail'),
-    path('eventresult/u/<int:edition_id>-<str:country_noc>-<int:result_id>-<int:athlete_id>/',
+    path('eventresult/u/<int:result_id>/<int:athlete_id>/',
          EventResultView.as_view(), name='event_result_update'),
-    path('eventresult/d/<int:edition_id>-<str:country_noc>-<int:result_id>-<int:athlete_id>/',
+    path('eventresult/d/<int:result_id>/<int:athlete_id>/',
          EventResultView.as_view(), name='event_result_delete'),
     # path('eventresult/<int:athlete_id>/<int:result_id>/<str:country_noc>/<int:edition_id>/',
     #      EventResultView.as_view(), name='event_result_update'),  # PUT để cập nhật kết quả

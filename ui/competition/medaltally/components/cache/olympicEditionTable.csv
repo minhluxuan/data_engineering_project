@@ -1,5 +1,7 @@
 edition_id,edition
 1,1896 Summer Olympics
+2,1900 Summer Olympics
+3,1904 Summer Olympics
 4,1906 Intercalated
 5,1908 Summer Olympics
 6,1912 Summer Olympics
@@ -44,11 +46,20 @@ edition_id,edition
 47,2002 Winter Olympics
 48,1956 Equestrian
 49,2006 Winter Olympics
+50,1916 Summer Olympics
+51,1940 Summer Olympics
+52,1944 Summer Olympics
 53,2008 Summer Olympics
 54,2012 Summer Olympics
+55,1940 Winter Olympics
+56,1944 Winter Olympics
 57,2010 Winter Olympics
 58,2014 Winter Olympics
 59,2016 Summer Olympics
 60,2018 Winter Olympics
+61,2020 Summer Olympics
 62,2022 Winter Olympics
+63,2024 Summer Olympics
+64,2028 Summer Olympics
 72,2026 Winter Olympics
+372,2032 Summer Olympics

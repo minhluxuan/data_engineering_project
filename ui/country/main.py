@@ -11,6 +11,7 @@ def main():
     tab1, tab2= st.tabs(['Country Profiles', 'Games'])
 
     with tab1:
+        st.write("List of country and NOC")
         response = CountryOperation.search()
         if response:
             if response.status_code == status.HTTP_200_OK:

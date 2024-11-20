@@ -1,0 +1,21 @@
+-- Cập nhật giá trị 'na' thành NULL
+-- UPDATE competition_result
+-- SET result_format = NULL
+-- WHERE result_format = 'na';
+-- 
+-- UPDATE competition_result
+-- SET result_detail = NULL
+-- WHERE result_detail = 'na';
+-- 
+-- UPDATE competition_result
+-- SET result_description = NULL
+-- WHERE result_description = 'na';
+
+-- Cập nhật result_participants sau khi thêm khóa ngoại từ competition_eventresult
+-- UPDATE competition_result r
+-- JOIN (
+--     SELECT result_id_id, COUNT(*) AS participants_count
+--     FROM competition_eventresult
+--     GROUP BY result_id_id
+-- ) er ON r.result_id = er.result_id_id
+-- SET r.result_participants = er.participants_count;

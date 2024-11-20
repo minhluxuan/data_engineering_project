@@ -142,11 +142,11 @@ class EventResultView(APIView):
     #         return Response(get_data, status=status.HTTP_200_OK)
     #     except Exception as e:
     #         return Response({"message": f"An error occurred: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-    def put(self, request, edition_id, country_noc, result_id, athlete_id):
+    def put(self, request, result_id, athlete_id):
         try:
             data = request.data  # Lấy dữ liệu từ request
             updated_data, message, status_code = EventResultService.update(
-                edition_id, country_noc, result_id, athlete_id, data)
+                result_id, athlete_id, data)
             return Response({
                 'data': updated_data,
                 'message': message
@@ -157,20 +157,20 @@ class EventResultView(APIView):
                 'message': f'An error occurred: {str(e)}'
             }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
-    def get(self, request, edition_id, country_noc, result_id, athlete_id):
+    def get(self, request, result_id, athlete_id):
         try:
             get_data, message, status_code = EventResultService.search(
-                edition_id, country_noc, result_id, athlete_id)
-            print(message)
+                result_id, athlete_id)
             return Response(get_data, status=status_code)
         except Exception as e:
+            print('----------------here exception----------------')
             return Response({"message": f"An error occurred: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
-    def delete(self, request, edition_id, country_noc, result_id, athlete_id):
+    def delete(self, request, result_id, athlete_id):
         try:
             # Gọi service để thực hiện thao tác xóa
             response, message, status_code = EventResultService.delete(
-                edition_id, country_noc, result_id, athlete_id)
+                result_id, athlete_id)
 
             # Trả về kết quả nếu xóa thành công
             return Response({

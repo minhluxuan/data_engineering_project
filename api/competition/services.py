@@ -13,16 +13,12 @@ class EventResultService:
         pass
 
     @staticmethod
-    def search(edition_id, country_noc, result_id, athlete_id):
+    def search(result_id, athlete_id):
         queryset = EventResult.objects.all()
-        if edition_id != 9132662681:
-            queryset = queryset.filter(edition_id=edition_id)
-        if country_noc != 'All':
-            queryset = queryset.filter(country_noc=country_noc)
-        if result_id != 9132662681:
-            queryset = queryset.filter(result_id=result_id)
-        if athlete_id != 9132662681:
-            queryset = queryset.filter(athlete_id=athlete_id)
+        if result_id != -793654029:
+            queryset = queryset.filter(result_id_id=result_id)
+        if athlete_id != -793654029:
+            queryset = queryset.filter(athlete_id_id=athlete_id)
         # Trả về None nếu không có kết quả
         if not queryset.exists():
             return None
@@ -31,19 +27,13 @@ class EventResultService:
         for event_result in queryset:
             try:
                 medal_result = MedalResult.objects.get(
-                    edition_id=event_result.edition_id,
-                    country_noc=event_result.country_noc,
-                    result_id=event_result.result_id,
-                    athlete_id=event_result.athlete_id
+                    result_id_id=result_id,
+                    athlete_id_id=athlete_id
                 )
                 # Thêm vào danh sách với 'medal' nằm trong cùng đối tượng
                 event_results_with_medals.append({
-                    'edition_id': event_result.edition_id,
-                    'country_noc': event_result.country_noc,
-                    'sport': event_result.sport,
-                    'event': event_result.event,
-                    'result_id': event_result.result_id,
-                    'athlete_id': event_result.athlete_id,
+                    'result_id': event_result.result_id_id,
+                    'athlete_id': event_result.athlete_id_id,
                     'pos': event_result.pos,
                     'isTeamSport': event_result.isTeamSport,
                     'medal': medal_result.medal  # Chỉ lấy giá trị của medal
@@ -51,36 +41,26 @@ class EventResultService:
             except MedalResult.DoesNotExist:
                 # Nếu không tìm thấy huy chương, thêm 'medal': None
                 event_results_with_medals.append({
-                    'edition_id': event_result.edition_id,
-                    'country_noc': event_result.country_noc,
-                    'sport': event_result.sport,
-                    'event': event_result.event,
-                    'result_id': event_result.result_id,
-                    'athlete_id': event_result.athlete_id,
+                    'result_id': event_result.result_id_id,
+                    'athlete_id': event_result.athlete_id_id,
                     'pos': event_result.pos,
                     'isTeamSport': event_result.isTeamSport,
                     'medal': None
                 })
         # Trả về dữ liệu đã kết hợp
+        print(event_results_with_medals)
         return event_results_with_medals, "Search successfully", status.HTTP_200_OK
 
     @staticmethod
-    def update(edition_id, country_noc, result_id, athlete_id, data):
+    def update(result_id, athlete_id, data):
         try:
             # Tìm event_result theo 4 id
-            event_res = EventResult.objects.get(edition_id=edition_id,
-                                                country_noc=country_noc,
-                                                result_id=result_id,
-                                                athlete_id=athlete_id)
+            event_res = EventResult.objects.get(result_id=result_id, athlete_id=athlete_id)
             # Tách dữ liệu thành hai phần
             event_data = {
                 # Nếu không có, dùng giá trị hiện tại
-                'edition_id': data.get('edition_id', event_res.edition_id),
-                'country_noc': data.get('country_noc', event_res.country_noc),
-                'sport': data.get('sport', event_res.sport),
-                'event': data.get('event', event_res.event),
-                'result_id': data.get('result_id', event_res.result_id),
-                'athlete_id': data.get('athlete_id', event_res.athlete_id),
+                'result_id': data.get('result_id', event_res.result_id_id),
+                'athlete_id': data.get('athlete_id', event_res.athlete_id_id),
                 'pos': data.get('pos', event_res.pos),
                 'isTeamSport': data.get('isTeamSport', event_res.isTeamSport),
             }
@@ -96,14 +76,10 @@ class EventResultService:
             if 'medal' in data and data['medal'] is not None:
                 try:
                     medal_result = MedalResult.objects.get(
-                        edition_id=edition_id,
-                        country_noc=country_noc,
                         result_id=result_id,
                         athlete_id=athlete_id
                     )
                     medal_data = {
-                        'edition_id': data.get('edition_id', medal_result.edition_id),
-                        'country_noc': data.get('country_noc', medal_result.country_noc),
                         'result_id': data.get('result_id', medal_result.result_id),
                         'athlete_id': data.get('athlete_id', medal_result.athlete_id),
                         # Chỉ cập nhật medal nếu có giá trị
@@ -125,21 +101,18 @@ class EventResultService:
 
     @staticmethod
     def create(data):
+        print(data.get('isTeamSport'))
         try:
             # Tách data
             event_data = {
-                'edition_id': data.get('edition_id'),
-                'country_noc': data.get('country_noc'),
-                'sport': data.get('sport'),
-                'event': data.get('event'),
+                'id': None,
                 'result_id': data.get('result_id'),
                 'athlete_id': data.get('athlete_id'),
-                'pos': data.get('pos'),
-                'isTeamSport': data.get('isTeamSport'),
+                'pos': data.get('pos') if data.get('pos') != '' else None,
+                'isTeamSport': 1 if data.get('isTeamSport') else 0,
             }
             medal_data = {
-                'edition_id': data.get('edition_id'),
-                'country_noc': data.get('country_noc'),
+                'id': None,
                 'result_id': data.get('result_id'),
                 'athlete_id': data.get('athlete_id'),
                 'medal': data.get('medal'),
@@ -167,16 +140,12 @@ class EventResultService:
         try:
             # Tìm và xóa tất cả MedalResult liên quan
             MedalResult.objects.filter(
-                edition_id=edition_id,
-                country_noc=country_noc,
                 result_id=result_id,
                 athlete_id=athlete_id
             ).delete()
 
             # Tìm và xóa EventResult
             event_result = EventResult.objects.get(
-                edition_id=edition_id,
-                country_noc=country_noc,
                 result_id=result_id,
                 athlete_id=athlete_id
             )
@@ -201,8 +170,21 @@ class ResultService:
     @staticmethod
     def create(data):
         print("I'm hear")
+        print(data)
         try:
-            serializer = ResultSerializer(data=data)
+            cleaned_data = {
+                key: value[0] if isinstance(value, list) else value
+                for key, value in data.items()
+            }
+            processed_data = cleaned_data.copy()
+            processed_data['result_id'] = None
+            processed_data['result_participants'] = 0
+            processed_data['sport_url'] = processed_data['sport_url'] if processed_data['sport_url'] else None
+            processed_data['result_format'] = processed_data['result_format'] if processed_data['result_format'] else None
+            processed_data['result_detail'] = processed_data['result_detail'] if processed_data['result_detail'] else None
+            processed_data['result_description'] = processed_data['result_description'] if processed_data['result_description'] else None
+            print(processed_data)
+            serializer = ResultSerializer(data=processed_data)
             print("WTF")
             if serializer.is_valid():
                 print("Valid")

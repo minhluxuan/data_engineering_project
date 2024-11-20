@@ -32,12 +32,12 @@ BRU,Brunei Darussalam
 BUL,Bulgaria
 BUR,Burkina Faso
 BDI,Burundi
-CIV,CÃ´te d'Ivoire
 CPV,Cabo Verde
 CAM,Cambodia
 CMR,Cameroon
 CAN,Canada
 CAY,Cayman Islands
+CIV,CÃ´te d'Ivoire
 CAF,Central African Republic
 CHA,Chad
 CHI,Chile
@@ -47,7 +47,6 @@ COM,Comoros
 CGO,Congo
 COK,Cook Islands
 CRC,Costa Rica
-noc,country
 CRT,Crete
 CRO,Croatia
 CUB,Cuba
@@ -173,13 +172,13 @@ ROU,Romania
 RUS,Russian Federation
 ROC,Russian Olympic Committee
 RWA,Rwanda
-STP,SÃ£o TomÃ© and PrÃ­ncipe
 SAA,Saar
 SKN,Saint Kitts and Nevis
 LCA,Saint Lucia
 VIN,Saint Vincent and the Grenadines
 SAM,Samoa
 SMR,San Marino
+STP,SÃ£o TomÃ© and PrÃ­ncipe
 SEN,Senegal
 SRB,Serbia
 SCG,Serbia and Montenegro
@@ -202,8 +201,8 @@ SUR,Suriname
 SWE,Sweden
 SUI,Switzerland
 SYR,Syrian Arab Republic
-TUR,TÃ¼rkiye
 TJK,Tajikistan
+TUR,TÃ¼rkiye
 THA,Thailand
 BAH,The Bahamas
 GAM,The Gambia

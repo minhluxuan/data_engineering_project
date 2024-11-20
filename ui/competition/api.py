@@ -17,28 +17,27 @@ class EventResultOperation:
         return None
 
     @staticmethod
-    def search(edition_id, country_noc, result_id, athlete_id):
-        url = f"{EventResultOperation.base_url}{
-            edition_id}-{country_noc}-{result_id}-{athlete_id}/"
+    def search(result_id, athlete_id):
+        url = f"{EventResultOperation.base_url}{result_id}/{athlete_id}/"
         response = requests.get(url)
+        print('33333333333333333333')
         if response:
             return response
         return None
 
     @staticmethod
-    def update(edition_id, country_noc, result_id, athlete_id, data):
+    def update(result_id, athlete_id, data):
         # Tạo URL cho yêu cầu PUT với các ID
-        url = f"{
-            EventResultOperation.base_url}u/{edition_id}-{country_noc}-{result_id}-{athlete_id}/"
+        url = f"{EventResultOperation.base_url}u/{result_id}/{athlete_id}/"
         response = requests.put(url, json=data)
         if response.ok:
             return response
         return None
 
     @staticmethod
-    def delete(id1, id2, id3, id4):
+    def delete(id1, id2):
         # Tạo URL cho yêu cầu DELETE với các ID
-        url = f"{EventResultOperation.base_url}d/{id1}-{id2}-{id3}-{id4}/"
+        url = f"{EventResultOperation.base_url}d/{id1}/{id2}/"
         response = requests.delete(url)
         if response.ok:  # Kiểm tra xem phản hồi có thành công không
             return response  # Trả về dữ liệu JSON nếu có

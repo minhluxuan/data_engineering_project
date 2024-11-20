@@ -53,9 +53,9 @@ class AthleteBioView(APIView):
         except Exception as e:
             return Response(f"Error occurr is {str(e)}", status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
-    def get(self, request):
+    def get(self, request, id=None):
         try:
-            id = request.query_params.get('id')
+            # id = request.query_params.get('id')
             print("here")
             if id:
                 athlete, message, status_code = AthleteBioService.searchById(
@@ -74,6 +74,7 @@ class AthleteBioView(APIView):
         try:
             data, message, status_code = AthleteBioService.update(
                 id, request.data)
+            print("-------------------", status_code)
             return Response({"message": message, "data": data}, status=status_code)
 
         except Exception as e:
