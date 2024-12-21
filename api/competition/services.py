@@ -206,11 +206,10 @@ class ResultService:
         return serializer.data
 
     @staticmethod
-    @staticmethod
-    def update(edition_id, data):
+    def update(result_id, data):
         try:
-
-            result = Result.objects.get(edition_id=edition_id)
+            print(data)
+            result = Result.objects.get(result_id = result_id)
             serializer = ResultSerializer(result, data=data)
 
             # Kiểm tra tính hợp lệ của dữ liệu

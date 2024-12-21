@@ -101,7 +101,7 @@ def main():
                                         st.success(response.json()['message'])
                                     else:
                                         st.error(response.json()['message'])
-                            st.experimental_rerun()
+                            st.rerun()
                 else:
                     st.write('No game has been created yet')
             else:

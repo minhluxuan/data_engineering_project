@@ -89,7 +89,7 @@ def competitionResult():
                                     new_value_dict = new_value.to_dict()
                                     response = ResultOperation.update(
                                         new_value_dict['result_id'], new_value_dict)
-                                    if response.status_code == 201:
+                                    if response.status_code == 201 or response.status_code == 200:
                                         st.success(response.json()['message'])
                                     else:
                                         st.error(response.json()['message'])

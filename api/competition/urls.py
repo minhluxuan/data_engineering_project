@@ -7,6 +7,7 @@ from .views import MedalTableView
 
 urlpatterns = [
     path('results/', ResultView.as_view(), name='results'),
+    path('results/<str:result_id>/', ResultView.as_view(), name='results1'),
     path("medaltally/", MedalTableView.as_view(), name="medal_table_search"),
     path("medaltally/<int:id>/", MedalTableView.as_view(), name="competition"),
     # URL cho EventResultView

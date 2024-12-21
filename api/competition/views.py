@@ -215,10 +215,10 @@ class ResultView(APIView):
                 'message': str(e)
             }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
-    def put(self, request, id):
+    def put(self, request, result_id):
         try:
             data = request.data  # Lấy dữ liệu từ request
-            updated_data, message, status_code = ResultService.update(id, data)
+            updated_data, message, status_code = ResultService.update(result_id, data)
             return Response({
                 'data': updated_data,
                 'message': message
