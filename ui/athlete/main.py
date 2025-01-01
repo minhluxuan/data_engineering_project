@@ -4,31 +4,161 @@ from athlete.api import AthleteOperations
 from country.api import CountryOperation
 from rest_framework import status
 
+
 def main():
     st.title("Athelete Biography")
-    tab1, tab2, tab3, tab4 = st.tabs(['Athelete Biography Info', 'Create athlete', 'Update athlete', 'Delete athlete'])
-    with tab1:
-        athlete_id = st.text_input('Enter athlete Id: ')
-        if athlete_id:
-            response = AthleteOperations.searchOne(athlete_id)
-        else:
-            response = AthleteOperations.search()
 
-        if response.status_code != status.HTTP_500_INTERNAL_SERVER_ERROR:
+    if "option" not in st.session_state:
+            st.session_state.option = ''  # Mặc định là rỗng
+
+    option = st.selectbox(
+        label='Choose option',
+        options=['','Create athlete', 'Athelete Biography Info','Update Biography Info'],
+        key="option"  # Liên kết giá trị với session_state
+    )
+
+    # tab1, tab2, tab3, tab4 = st.tabs(['Athelete Biography Info', 'Create athlete', 'Update athlete', 'Delete athlete'])
+    if "countries" not in st.session_state:
+        st.session_state.countries = CountryOperation.search().json() # Giả sử bạn đã import Country model
+
+    if option == 'Athelete Biography Info':
+        response = None
+        response_data = None
+        if "page" not in st.session_state:
+            st.session_state.page = 1
+
+        country_options = [f"{country['noc']} - {country['country']}" for country in st.session_state.countries]  # Lấy danh sách mã quốc gia
+        country_noc = st.selectbox("Select country noc", country_options)
+        selected_country = country_noc.split(' - ')[0]
+
+        response = AthleteOperations.search(1, selected_country, st.session_state.page)
+
+        if response.status_code == status.HTTP_200_OK:
+            response_data = response.json()
+            print(response_data['data'])
+
+        # Hiển thị dữ liệu
+        if response_data and "data" in response_data:
+            st.write(f"Trang {response_data['data']['page']} / {response_data['data']['total_pages']}")
+
+            # Chuyển dữ liệu bệnh nhân thành một danh sách các từ điển
+            patients_data = []
+            for item in response_data["data"]["data"]:
+                print(item)
+                patients_data.append({
+                    "athlete_id": item['athlete_id'],
+                    "name": item['name'],
+                    "sex": item['sex'],
+                    "born": item['born'],
+                    "height": item['height'],
+                    "weight": item['weight'],
+                    'description': item['description'],
+                    'special_notes': item['special_notes']
+                })
+
+            # Hiển thị bảng dữ liệu bệnh nhân
+            st.dataframe(patients_data)
+
+            # Các nút điều hướng trang
+            col1, col2, col3 = st.columns([1, 2, 1])
+            with col1:
+                if st.button("<< Trang trước", disabled=st.session_state.page == 1):
+                    st.session_state.page -= 1
+                    st.rerun()
+            with col3:
+                if st.button("Trang tiếp >>", disabled=st.session_state.page == response_data["data"]["total_pages"]):
+                    st.session_state.page += 1
+                    st.rerun()
+
+    if option == 'Update Biography Info':
+        response = None
+        data = None
+
+        country_options = [f"{country['noc']} - {country['country']}" for country in st.session_state.countries]  # Lấy danh sách mã quốc gia
+        country_noc = st.selectbox("Select country noc", country_options)
+        selected_country = country_noc.split(' - ')[0]
+        name = st.text_input("Input athlete name: ", value="")
+
+        if st.button('Search Update Athlete'):
+            if "df_selections" in st.session_state:
+                del st.session_state.df_selections
+                del st.session_state.df_data
+
+            response = AthleteOperations.searchOne(0, str(name), selected_country)
+            print(response)
+            
             if response.status_code == status.HTTP_200_OK:
-                data = response.json()
-                if isinstance(data, list) :
-                    df = pd.DataFrame(data)
-                    st.write(df)
-                elif isinstance(data, dict):
-                    df = pd.DataFrame([data])
-                    st.write(df)
-            elif response.status_code == status.HTTP_404_NOT_FOUND:
-                st.write('No athlete found')
-        else:
-            st.write('An error occurs. Please try again')
+                data = response.json()['data']
 
-    with tab2:
+                if isinstance(data, list):
+                    df = pd.DataFrame(data)
+
+                    if "df_selections" not in st.session_state:
+                        st.session_state.df_selections = len(df) * [False]
+                        st.session_state.df_data = df
+
+            elif response.status_code == status.HTTP_404_NOT_FOUND:
+                st.error(response.json()['message'])
+            else:
+                st.error("An error occurs. Please try again")
+                
+
+
+# Render the data editor if data is available
+        if  "df_data" in st.session_state:
+            df_with_selections = st.session_state.df_data.copy()
+            df_with_selections["Select"] = st.session_state.df_selections
+              # Chuyển cột "Select" lên đầu bằng phương pháp insert
+            select_column = df_with_selections.pop("Select")  # Xóa cột "Select" tạm thời
+            df_with_selections.insert(0, "Select", select_column)  # Chèn cột vào vị trí đầu tiên
+
+            edited_df = st.data_editor(
+                df_with_selections,
+                hide_index=True,
+                column_config={"Select": st.column_config.CheckboxColumn(required=True)},
+            )
+
+            # Sync checkbox selections with session state
+            st.session_state.df_selections = edited_df["Select"].tolist()
+
+            born_updated = st.text_input("Input born year: ")
+            weight_updated = st.number_input("Input weight (kg): ")
+            height_updated = st.number_input("Input height (cm): ")
+            special_notes_updated = st.text_input(" Input special notes: ")
+
+            # Button to update data
+            if st.button("Update Data"):
+                selected_rows = edited_df[edited_df["Select"]]
+                for _, row in selected_rows.iterrows():
+                    row_dict = row.to_dict()
+                    temp = row_dict
+
+                    row_dict['born'] = born_updated if born_updated != None else temp['born']
+                    row_dict['weight'] = weight_updated if weight_updated != 0 else temp['weight']
+                    row_dict['height'] = height_updated if height_updated != 0 else temp['height']
+                    row_dict['special_notes'] = special_notes_updated if special_notes_updated != '' else temp['special_notes']
+                    
+
+                    response_update = AthleteOperations.update(row_dict['athlete_id'], row_dict)
+                    if response_update.status_code == 200:
+                        st.success(f"Athlete {row_dict['athlete_id']} updated successfully.")
+                    else:
+                        st.error(f"Failed to update athlete {row_dict['athlete_id']}.")
+
+            if st.button("Delete selected row"):
+                selected_rows = edited_df[edited_df.Select]
+                
+                if not selected_rows.empty:
+                    for index, row in selected_rows.iterrows():  # Dùng iterrows để duyệt qua từng hàng
+                            response_delete = AthleteOperations.delete(row['athlete_id'])
+                            print(response_delete)
+                            if response_delete.status_code == 200:
+                                st.success(response_delete.json()['message'])
+                            else:
+                                st.error(response_delete.json()['message'])
+                    st.rerun()
+
+    if option == 'Create athlete':
       with st.expander("Create new athlete", expanded=True):
           with st.form(key='my_form'):
             name = st.text_input("Enter athlete name: ")
@@ -37,8 +167,7 @@ def main():
             height = st.text_input("Enter athlete height: ")
             weight = st.text_input("Enter athlete weight: ")
             
-            countries = CountryOperation.search().json() # Giả sử bạn đã import Country model
-            country_options = [f"{country['noc']} - {country['country']}" for country in countries]  # Lấy danh sách mã quốc gia
+            country_options = [f"{country['noc']} - {country['country']}" for country in st.session_state.countries]  # Lấy danh sách mã quốc gia
             country_noc = st.selectbox("Select country noc", country_options)
             selected_country = country_noc.split(' - ')[0]
             
@@ -67,74 +196,4 @@ def main():
                         st.error("An error occurs. Please try again")
             
 
-      # Hiển thị DataFrame
-    with tab3:
-        athlete_id = st.text_input("Enter update athlete id: ")
-        if athlete_id:
-            response = AthleteOperations.searchOne(athlete_id)
-            if response.status_code != 500:
-                if response.status_code == status.HTTP_200_OK:
-                    data = response.json()
-                    if isinstance(data, dict):
-                        df = pd.DataFrame([data])
-                        st.write(df)
-                        df_with_selections = df.copy()
-                        edited_df = st.data_editor(
-                            df_with_selections,
-                            hide_index = True,
-                            column_config={"Select": st.column_config.CheckboxColumn(required=True)},
-                        )
-                        if st.button("Update Data"):
-                            updated_rows = edited_df.compare(df)
-                            for index, _ in updated_rows.iterrows():
-                                for col in updated_rows.columns.levels[0]:
-                                    if (col, 'self') in updated_rows.columns:
-                                        new_value = edited_df.loc[index]
-                                        new_value_dict = new_value.to_dict()
-                                        print(new_value_dict)
-                                        response1 = AthleteOperations.update(new_value_dict['athlete_id'], new_value_dict)
-                                        #st.rerun()
-                                        if response1.status_code == 200:
-                                            st.success("Update successfully")
-                                        else:
-                                            st.error("Invalid input")
-                elif response.status_code == status.HTTP_404_NOT_FOUND:
-                    st.error('No athlete found') 
-            else:
-                st.error("An error occurs. Please try again")
-
-    with tab4:
-        athlete_id = st.text_input("Enter delete athlete id: ")
-        if athlete_id:
-            response = AthleteOperations.searchOne(athlete_id)
-            if response.status_code != 500:
-                if response.status_code == status.HTTP_200_OK:
-                    data = response.json()
-                    if isinstance(data, dict):
-                        df = pd.DataFrame([data])
-                        st.write(df)
-                        df_with_selections = df.copy()
-                        df_with_selections.insert(0, "Select", False)
-                        edited_df = st.data_editor(
-                            df_with_selections,
-                            hide_index = True,
-                            column_config={"Select": st.column_config.CheckboxColumn(required=True)},
-                        )
-                        
-                        if st.button("Delete selected row"):
-                            selected_rows = edited_df[edited_df.Select]
-                            
-                            if not selected_rows.empty:
-                                for index, row in selected_rows.iterrows():  # Dùng iterrows để duyệt qua từng hàng
-                                        response_delete = AthleteOperations.delete(row['athlete_id'])
-                                        print(response_delete)
-                                        if response_delete.status_code == 200:
-                                            st.success(response_delete.json()['message'])
-                                        else:
-                                            st.error(response_delete.json()['message'])
-                                st.rerun()
-
-                elif response.status_code == status.HTTP_404_NOT_FOUND:
-                    st.write('No athlete found') 
-            else:
-                st.write("An error occurs. Please try again")
+  

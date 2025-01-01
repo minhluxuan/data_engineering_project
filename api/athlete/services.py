@@ -6,13 +6,14 @@ from .models import Athlete_Bio
 from .serializers import AthleteBioSerializer
 import mysql.connector
 import csv
-
+import mariadb
 # Connect to the database
-conn = mysql.connector.connect(
+conn = mariadb.connect(
     host='localhost',
     user='root',
-    password='nhannt',
-    database='do_an'
+    password='admin',
+    database='do_an',
+    port=3307
 )
 
 def height_process(country_noc_id, sex):
@@ -32,7 +33,13 @@ def weight_process(country_noc_id, sex):
 
 class AthleteBioService:
     def __init__(self):
-        pass
+        self.connection = mariadb.connect(
+            host='localhost',
+            user='root',
+            password='admin',
+            database='do_an',
+            port=3307
+        )
 
     @staticmethod
     def create(data):
@@ -92,35 +99,86 @@ class AthleteBioService:
             print(f"Unexpected error: {str(e)}")
             return None, f"An error occurred: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR
 
-    @staticmethod
-    def searchById(id):
+    def searchByName(self, country_id, name):
         try:
             # Try to retrieve the athlete with the given id
-            athlete = Athlete_Bio.objects.get(athlete_id=id)
+            cursor = self.connection.cursor()
 
-            # Serialize the athlete object
-            serializer = AthleteBioSerializer(athlete)
+            # Fetch paginated data
+            query = """
+                SELECT * 
+                FROM athlete_athlete_bio
+                WHERE country_noc_id = %s AND name = %s
+            """
+            cursor.execute(query, (country_id, name))
+            data = cursor.fetchall()
+            print(data)
 
-            # If data is valid, return the serialized data
-            return serializer.data, "Get athlete successfully", status.HTTP_200_OK
+            if data:
+                result_list = list()
+                columns = ['athlete_id', 'name', 'sex', 'born', 'height', 'weight', 'description', 'special_notes', 'country_noc']
+                result_dict = dict(zip(columns, data[0]))
+                result_list.append(result_dict)
+
+                # If data is valid, return the serialized data
+                return result_list, "Get athlete successfully", status.HTTP_200_OK
+            
+            else:
+                return None, f"Athlete {name} have country_id {country_id} matching query does not exist.", status.HTTP_404_NOT_FOUND
 
         except Exception as e:
-            if (str(e) == "Athlete_Bio matching query does not exist."):
-                return None, f"Athlete have id {id} matching query does not exist.", status.HTTP_404_NOT_FOUND
+            print(str(e))
 
             # Catch any other exceptions
             return None, f"An error occurred: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR
 
-    @staticmethod
-    def search():
-        athletes = Athlete_Bio.objects.all()[:20]
+    def searchByCountryNoc(self, countryNoc, page=1, page_size=40):
+        try:
+            # Calculate offset
+            offset = (page - 1) * page_size
+            
+            cursor = self.connection.cursor()
+            
+            # Fetch total record count
+            cursor.execute("SELECT COUNT(*) FROM athlete_athlete_bio WHERE country_noc_id = %s", (countryNoc,))
+            total_records = cursor.fetchone()[0]
+            
+            # Fetch paginated data
+            query = """
+                SELECT * 
+                FROM athlete_athlete_bio
+                WHERE country_noc_id = %s
+                LIMIT %s OFFSET %s
+            """
+            cursor.execute(query, (countryNoc, page_size, offset))
+            result = cursor.fetchall()
+            
+            # Convert result into list of dictionaries
+            result_list = []
+            columns = ['athlete_id', 'name', 'sex', 'born', 'height', 'weight', 'description', 'special_notes', 'country_noc']
+            for row in result:
+                result_dict = dict(zip(columns, row))
+                result_list.append(result_dict)
+            
+            # Calculate total pages
+            total_pages = (total_records + page_size - 1) // page_size
+            
+            return {
+                "data": result_list,
+                "page": page,
+                "page_size": page_size,
+                "total_pages": total_pages,
+                "total_records": total_records,
+            }, "Fetched Successfully", status.HTTP_200_OK
 
-        serializer = AthleteBioSerializer(athletes, many=True)
-        return serializer.data
-
+        except Exception as e:
+            print(str(e))
+            return {}, f"Error: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR
+    
     @ staticmethod
     def update(athelet_id, data):
         try:
+            print(data)
             athlete = Athlete_Bio.objects.get(athlete_id=athelet_id)
             cleaned_data = data.copy()
             try:
@@ -156,19 +214,23 @@ class AthleteBioService:
             return None, "Athlete_id does not exist", status.HTTP_404_NOT_FOUND
 
         except Exception as e:
-            print(e)
+            print(str(e))
             return None, f"An error occurs {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR
 
     @ staticmethod
     def delete(id):
         try:
             athlete = Athlete_Bio.objects.get(athlete_id=id)
-
             if not athlete:
                 return None, f"Athlete {id} does not exist", status.HTTP_404_NOT_FOUND
 
-            athlete.delete()
+            deleted_count, deleted_details  = athlete.delete()
+
+            print(f"Deleted {deleted_count} objects.")
+            print(f"Details: {deleted_details}")
+
             return None, f"Delete athlete {id} successfully", status.HTTP_200_OK
 
         except Exception as e:
+            print(str(e))
             return f"An error occurs {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR
