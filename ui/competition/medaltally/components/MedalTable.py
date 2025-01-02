@@ -153,7 +153,7 @@ class MedalTable:
 
     @staticmethod
     def display():
-        st.title("Medal Table")
+        # st.header("Medal Table")
 
         if 'first_load' not in st.session_state:
             st.session_state.first_load = True

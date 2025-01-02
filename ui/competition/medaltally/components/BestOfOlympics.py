@@ -12,7 +12,7 @@ class BestOlympics:
 
     @staticmethod
     def display():
-        st.title("Best Olympics for each country")
+        st.header("Best Olympics for each country")
 
         nocTable = pd.DataFrame(CountryOperation.search().json())
 

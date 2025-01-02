@@ -3,28 +3,37 @@ import pandas as pd
 import requests
 import streamlit as st
 from country.api import CountryOperation, GameOperation
+from competition.medaltally.components.MedalTable import MedalTable
 from rest_framework import status
 
 def main():
-    st.title("Country")
+    st.title("Olympic Games")
+    st.write("**The Olympic Games are the world's only truly global, multi-sport, celebratory athletics competition. With more than 200 countries participating in over 400 events across the Summer and Winter Games, the Olympics are where the world comes to compete, feel inspired, and be together.**")
+    # st.image('./image/Olympic-Games-Paris-2024.jpg')
 
-    tab1, tab2= st.tabs(['Country Profiles', 'Games'])
+    st.header('_Future Games: Milano Cortina 2026_')
+    st.image('./image/milano_cortina_bg.jpg')
 
-    with tab1:
-        st.write("List of country and NOC")
-        response = CountryOperation.search()
-        if response:
-            if response.status_code == status.HTTP_200_OK:
-                data = response.json()
-                if isinstance(data, list):
-                    df = pd.DataFrame(data)
-                    st.write(df)
-                else:
-                    st.write('No country has been created yet')
-            else:
-                st.write('An error occurs. Please try again')
+    option = st.selectbox(
+    "Choose option:",
+    ["", "Games", "Create Game", "Games Medal Table"]  # Các tùy chọn
+    )
 
-    with tab2:
+    # if option == "Country Profiles":
+    #     st.write("List of country and NOC")
+    #     response = CountryOperation.search()
+    #     if response:
+    #         if response.status_code == status.HTTP_200_OK:
+    #             data = response.json()
+    #             if isinstance(data, list):
+    #                 df = pd.DataFrame(data)
+    #                 st.write(df)
+    #             else:
+    #                 st.write('No country has been created yet')
+    #         else:
+    #             st.write('An error occurs. Please try again')
+
+    if option == "Create Game":
         with st.expander("Create new game", expanded=True):
             with st.form(key='my_form'):
                 edition = st.text_input("Enter edition:")
@@ -32,7 +41,12 @@ def main():
                 year = st.text_input("Enter year")
                 city = st.text_input("Enter city")
                 country_flag_url = st.text_input("Enter country flag url")
-                country_noc = st.text_input("Enter country noc")
+                
+                countries = CountryOperation.search().json() # Giả sử bạn đã import Country model
+                country_options = [f"{country['noc']} - {country['country']}" for country in countries]  # Lấy danh sách mã quốc gia
+                country_noc = st.selectbox("Select country", country_options)
+                selected_country = country_noc.split(' - ')[0]
+                
                 start_date = st.date_input("Enter start date")
                 end_date = st.date_input("Enter end date")
                 isHeld = st.radio(label='Held:', options=['Yes', 'No'])
@@ -49,7 +63,7 @@ def main():
                         'year': year,
                         'city': city,
                         'country_flag_url': country_flag_url,
-                        'country_noc': country_noc,
+                        'country_noc': selected_country,
                         'start_date': str(start_date),
                         'end_date': str(end_date),
                         'is_held': isHeld_bool,
@@ -64,6 +78,7 @@ def main():
                         st.error(response.json()['message'])
 
         # Hiển thị DataFrame
+    elif option == 'Games':
         response = GameOperation.search()
         if response:
             if response.status_code == 200:  # Assuming successful status code is 200
@@ -106,6 +121,9 @@ def main():
                     st.write('No game has been created yet')
             else:
                 st.write('An error occurred. Please try again.')
+                
+    elif option == "Games Medal Table":
+        MedalTable.display()
         
         # uploaded_file = st.file_uploader("Country", type="csv")
 

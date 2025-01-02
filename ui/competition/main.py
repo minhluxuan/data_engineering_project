@@ -9,24 +9,28 @@ from country.api import GameOperation
 from rest_framework import status
 
 def competitionResult():
-    st.title("Competition")
+    st.title("Olympic Competitions")
+    st.image('./image/olympicsport.jpg')
+    
+    option = st.selectbox(
+    "Choose option:",
+    ["", "Competitions", "Create Competition"]  # Các tùy chọn
+    )
 
-    tab1, tab2 = st.tabs(['Result Profile', 'Results'])
+    # if option == "Competitions":
+    #     response = ResultOperation.search()
+    #     if response:
+    #         if response.status_code == status.HTTP_200_OK:
+    #             data = response.json()
+    #             if isinstance(data, list):
+    #                 df = pd.DataFrame(data)
+    #                 st.write(df)
+    #             else:
+    #                 st.write('No country has been created yet')
+    #         else:
+    #             st.write('An error occurs. Please try again')
 
-    with tab1:
-        response = ResultOperation.search()
-        if response:
-            if response.status_code == status.HTTP_200_OK:
-                data = response.json()
-                if isinstance(data, list):
-                    df = pd.DataFrame(data)
-                    st.write(df)
-                else:
-                    st.write('No country has been created yet')
-            else:
-                st.write('An error occurs. Please try again')
-
-    with tab2:
+    if option == "Create Competition":
         with st.expander("Create new result", expanded=True):
             with st.form(key='my_form'):
                 # result_id = st.text_input("Enter result id:")
@@ -71,7 +75,8 @@ def competitionResult():
                         st.success(response.json()['message'])
                     else:
                         st.error(response.json()['message'])
-
+    
+    elif option == "Competitions":
         # Hiển thị DataFrame
         response = ResultOperation.search()
         if response:

@@ -12,7 +12,7 @@ class CountryTotalOvertime:
 
     @staticmethod
     def display():
-        st.title("Country Consistency Over Time")
+        st.header("Country Consistency Over Time")
 
         nocTable = pd.DataFrame(CountryOperation.search().json())
 
