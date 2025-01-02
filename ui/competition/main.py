@@ -9,57 +9,65 @@ from country.api import GameOperation
 from rest_framework import status
 
 def competitionResult():
-    st.title("Competition")
+    
+    st.title("Olympic Competitions")
+    st.image('./image/olympicsport.jpg')
+    
+    option = st.selectbox(
+    "Choose option:",
+    ["", "Competitions", "Create Competition"]  # Các tùy chọn
+    )
+    # st.title("Competition")
 
-    tab1, tab2 = st.tabs(['Result Profile', 'Results'])
+    # tab1, tab2 = st.tabs(['Result Profile', 'Results'])
 
-    with tab1:
-        response = None
-        response_data = None
-        if "page_result" not in st.session_state:
-            st.session_state.page_result = 1
+    # with tab1:
+    #     response = None
+    #     response_data = None
+    #     if "page_result" not in st.session_state:
+    #         st.session_state.page_result = 1
 
-        response = ResultOperation.search(st.session_state.page_result)
+    #     response = ResultOperation.search(st.session_state.page_result)
 
-        if response.status_code == status.HTTP_200_OK:
-            response_data = response.json()
+    #     if response.status_code == status.HTTP_200_OK:
+    #         response_data = response.json()
 
-        # Hiển thị dữ liệu
-        if response_data and "data" in response_data:
-            st.write(f"Trang {response_data['data']['page']} / {response_data['data']['total_pages']}")
+    #     # Hiển thị dữ liệu
+    #     if response_data and "data" in response_data:
+    #         st.write(f"Trang {response_data['data']['page']} / {response_data['data']['total_pages']}")
 
-            # Chuyển dữ liệu bệnh nhân thành một danh sách các từ điển
-            patients_data = []
-            for item in response_data["data"]["data"]:
-                print(item)
-                patients_data.append({
-                    "result_id": item['result_id'],
-                    "event_title": item['event_title'],
-                    "sport": item['sport'],
-                    "sport_url": item['sport_url'],
-                    "result_location": item['result_location'],
-                    "result_participants": item['result_participants'],
-                    'result_format': item['result_format'],
-                    'result_detail': item['result_detail'],
-                    'result_description': item['result_description'],
-                    'start_date': item['start_date'],
-                    'end_date': item['end_date'],
-                    'edition_id_id': item['edition_id_id'],
-                })
+    #         # Chuyển dữ liệu bệnh nhân thành một danh sách các từ điển
+    #         patients_data = []
+    #         for item in response_data["data"]["data"]:
+    #             print(item)
+    #             patients_data.append({
+    #                 "result_id": item['result_id'],
+    #                 "event_title": item['event_title'],
+    #                 "sport": item['sport'],
+    #                 "sport_url": item['sport_url'],
+    #                 "result_location": item['result_location'],
+    #                 "result_participants": item['result_participants'],
+    #                 'result_format': item['result_format'],
+    #                 'result_detail': item['result_detail'],
+    #                 'result_description': item['result_description'],
+    #                 'start_date': item['start_date'],
+    #                 'end_date': item['end_date'],
+    #                 'edition_id_id': item['edition_id_id'],
+    #             })
 
-            # Hiển thị bảng dữ liệu bệnh nhân
-            st.dataframe(patients_data)
+    #         # Hiển thị bảng dữ liệu bệnh nhân
+    #         st.dataframe(patients_data)
 
-            # Các nút điều hướng trang
-            col1, col2, col3 = st.columns([1, 2, 1])
-            with col1:
-                if st.button("<< Trang trước", disabled=st.session_state.page_result == 1):
-                    st.session_state.page_result -= 1
-                    st.rerun()
-            with col3:
-                if st.button("Trang tiếp >>", disabled=st.session_state.page_result == response_data["data"]["total_pages"]):
-                    st.session_state.page_result += 1
-                    st.rerun()
+    #         # Các nút điều hướng trang
+    #         col1, col2, col3 = st.columns([1, 2, 1])
+    #         with col1:
+    #             if st.button("<< Trang trước", disabled=st.session_state.page_result == 1):
+    #                 st.session_state.page_result -= 1
+    #                 st.rerun()
+    #         with col3:
+    #             if st.button("Trang tiếp >>", disabled=st.session_state.page_result == response_data["data"]["total_pages"]):
+    #                 st.session_state.page_result += 1
+    #                 st.rerun()
         # if response:
         #     if response.status_code == status.HTTP_200_OK:
         #         data = response.json()
@@ -71,7 +79,7 @@ def competitionResult():
         #     else:
         #         st.write('An error occurs. Please try again')
 
-    with tab2:
+    if option == "Create Competition":
         with st.expander("Create new result", expanded=True):
             with st.form(key='my_form'):
                 # result_id = st.text_input("Enter result id:")
@@ -116,7 +124,7 @@ def competitionResult():
                         st.success(response.json()['message'])
                     else:
                         st.error(response.json()['message'])
-
+    elif option == "Competitions":
         # Hiển thị DataFrame
         response = ResultOperation.search(2)
         if response:
@@ -211,209 +219,209 @@ def competitionResult():
 
 
 
-def eventResult():
-    st.title("Event Results")
+# def eventResult():
+#     st.title("Event Results")
 
-    tab1, tab2, tab3, tab4 = st.tabs(
-        ['Event Result View', 'Event Result Creating', 'Event Result Updating', 'Event Result Deleting', ])
-    with tab1:
-        st.header("Searching the result of each athlete")
-        st.write(
-            "Please look up the result and athlete IDs before searching (empty = all).")
+#     tab1, tab2, tab3, tab4 = st.tabs(
+#         ['Event Result View', 'Event Result Creating', 'Event Result Updating', 'Event Result Deleting', ])
+#     with tab1:
+#         st.header("Searching the result of each athlete")
+#         st.write(
+#             "Please look up the result and athlete IDs before searching (empty = all).")
 
-        # Tạo 4 hộp xổ xuống
-        col1, col2 = st.columns(2)
-        with col1:
-            result_id = st.text_input(
-                "Result ID:", placeholder="Enter number result ID")
-        with col1:
-            athlete_id = st.text_input(
-                "Athlete ID:", placeholder="Enter number athlete ID")
+#         # Tạo 4 hộp xổ xuống
+#         col1, col2 = st.columns(2)
+#         with col1:
+#             result_id = st.text_input(
+#                 "Result ID:", placeholder="Enter number result ID")
+#         with col1:
+#             athlete_id = st.text_input(
+#                 "Athlete ID:", placeholder="Enter number athlete ID")
 
-        if st.button("Confirm Input"):
-            if result_id == "":
-                result_id = -793654029
-            if athlete_id == "":
-                athlete_id = -793654029
+#         if st.button("Confirm Input"):
+#             if result_id == "":
+#                 result_id = -793654029
+#             if athlete_id == "":
+#                 athlete_id = -793654029
 
-        response = EventResultOperation.search(
-            result_id, athlete_id)
-        if response is not None:
-            if response.status_code == 200:  # Kiểm tra mã trạng thái HTTP
-                data = response.json()
-                if isinstance(data, list) and data:  # Kiểm tra xem có dữ liệu không
-                    df = pd.DataFrame(data)
-                    st.write(df)
-                else:
-                    st.write('No event result has been created yet.')
-            else:
-                st.write(f'An error occurred: {response.status_code}')
-        else:
-            st.write('No event result has been created yet.')
+#         response = EventResultOperation.search(
+#             result_id, athlete_id)
+#         if response is not None:
+#             if response.status_code == 200:  # Kiểm tra mã trạng thái HTTP
+#                 data = response.json()
+#                 if isinstance(data, list) and data:  # Kiểm tra xem có dữ liệu không
+#                     df = pd.DataFrame(data)
+#                     st.write(df)
+#                 else:
+#                     st.write('No event result has been created yet.')
+#             else:
+#                 st.write(f'An error occurred: {response.status_code}')
+#         else:
+#             st.write('No event result has been created yet.')
 
-    with tab2:
-        st.header("Creating the result of athlete")
-        st.write(
-            "Please look up the result and athlete IDs before creating.")
+#     with tab2:
+#         st.header("Creating the result of athlete")
+#         st.write(
+#             "Please look up the result and athlete IDs before creating.")
 
-        with st.expander("Create new event result", expanded=True):
-            with st.form(key='post_form'):
-                result_id = st.text_input("Result ID")
-                athlete_id = st.text_input("Athlete ID")
-                pos = st.text_input("Position")
-                isTeamSport = st.radio(
-                    label='Is Team Sport?', options=['Yes', 'No'])
-                medal = st.radio(label='Medal', options=[
-                                 'Gold', 'Silver', 'Bronze', 'None'])
-                submit_button = st.form_submit_button(label='Submit')
+#         with st.expander("Create new event result", expanded=True):
+#             with st.form(key='post_form'):
+#                 result_id = st.text_input("Result ID")
+#                 athlete_id = st.text_input("Athlete ID")
+#                 pos = st.text_input("Position")
+#                 isTeamSport = st.radio(
+#                     label='Is Team Sport?', options=['Yes', 'No'])
+#                 medal = st.radio(label='Medal', options=[
+#                                  'Gold', 'Silver', 'Bronze', 'None'])
+#                 submit_button = st.form_submit_button(label='Submit')
 
-                if submit_button:
-                    if not result_id or not athlete_id:
-                        st.write(
-                            "Result ID, Athelete ID cannot be empty. Please enter all values.")
-                    else:
-                        isTeamSport = True if isTeamSport == 'Yes' else False
-                        if medal == 'None':
-                            medal = None
+#                 if submit_button:
+#                     if not result_id or not athlete_id:
+#                         st.write(
+#                             "Result ID, Athelete ID cannot be empty. Please enter all values.")
+#                     else:
+#                         isTeamSport = True if isTeamSport == 'Yes' else False
+#                         if medal == 'None':
+#                             medal = None
 
-                        form_data = {
-                            'result_id': result_id,
-                            'athlete_id': athlete_id,
-                            'pos': pos,
-                            'isTeamSport': isTeamSport,
-                            'medal': medal
-                        }
-                        if form_data is not {}:
-                            response = EventResultOperation.create(form_data)
-                            if response.status_code == 200 or response.status_code == 201:
-                                st.success(response.json()['message'])
-                            else:
-                                st.error(response.json()['message'])
+#                         form_data = {
+#                             'result_id': result_id,
+#                             'athlete_id': athlete_id,
+#                             'pos': pos,
+#                             'isTeamSport': isTeamSport,
+#                             'medal': medal
+#                         }
+#                         if form_data is not {}:
+#                             response = EventResultOperation.create(form_data)
+#                             if response.status_code == 200 or response.status_code == 201:
+#                                 st.success(response.json()['message'])
+#                             else:
+#                                 st.error(response.json()['message'])
 
-        # Hiển thị các lựa chọn đã chọn
-        # st.write(f"Selected Event: {edition_id}")
-        # st.write(f"Selected Athlete: {result_id}")
-        # st.write(f"Selected Gender: {athlete_id}")
+#         # Hiển thị các lựa chọn đã chọn
+#         # st.write(f"Selected Event: {edition_id}")
+#         # st.write(f"Selected Athlete: {result_id}")
+#         # st.write(f"Selected Gender: {athlete_id}")
 
-    with tab3:
-        st.header("Updating the result of athlete")
-        st.write(
-            "Please look up the result and athlete IDs before creating. (Not be empty)")
+#     with tab3:
+#         st.header("Updating the result of athlete")
+#         st.write(
+#             "Please look up the result and athlete IDs before creating. (Not be empty)")
 
-        col1, col2 = st.columns(2)
-        with col1:
-            result_id = st.text_input(
-                "Result ID:", placeholder="Enter number result ID", key='u2')
-        with col2:
-            athlete_id = st.text_input(
-                "Athlete ID:", placeholder="Enter number athlete ID", key='u3')
+#         col1, col2 = st.columns(2)
+#         with col1:
+#             result_id = st.text_input(
+#                 "Result ID:", placeholder="Enter number result ID", key='u2')
+#         with col2:
+#             athlete_id = st.text_input(
+#                 "Athlete ID:", placeholder="Enter number athlete ID", key='u3')
 
-        # if st.button("Search"):
-        if not result_id or not athlete_id:
-            st.write("Cannot be empty. Please enter all values.")
-        else:
-            # Gọi API để tìm kiếm
-            response = EventResultOperation.search(
-                result_id, athlete_id)
-            if response is not None and response.status_code == 200:
-                data = response.json()
-                row_count = len(data)
-                # Kiểm tra nếu dữ liệu là list và không rỗng
-                if isinstance(data, list) and data:
-                    df = pd.DataFrame(data)  # Hiển thị dữ liệu dưới dạng bảng
-                    st.write(df)
+#         # if st.button("Search"):
+#         if not result_id or not athlete_id:
+#             st.write("Cannot be empty. Please enter all values.")
+#         else:
+#             # Gọi API để tìm kiếm
+#             response = EventResultOperation.search(
+#                 result_id, athlete_id)
+#             if response is not None and response.status_code == 200:
+#                 data = response.json()
+#                 row_count = len(data)
+#                 # Kiểm tra nếu dữ liệu là list và không rỗng
+#                 if isinstance(data, list) and data:
+#                     df = pd.DataFrame(data)  # Hiển thị dữ liệu dưới dạng bảng
+#                     st.write(df)
 
-                # Lấy dữ liệu cũ
-                    old_data = data[0]
-                    print(old_data)
+#                 # Lấy dữ liệu cũ
+#                     old_data = data[0]
+#                     print(old_data)
 
-                    # Tạo form để người dùng cập nhật
-                    st.write(
-                        "Please update the information below. Leave blank if no changes are needed.")
-                    with st.form(key=f'update_form1'):
-                        result_id1 = st.text_input(
-                            "Result ID", value=old_data.get("result_id", ""))
-                        athlete_id1 = st.text_input(
-                            "Athlete ID", value=old_data.get("athlete_id", ""))
-                        pos1 = st.text_input(
-                            "Position", value=old_data.get("pos", ""))
-                        isTeamSport1 = st.radio("Is Team Sport?", options=[
-                                                    "Yes", "No"], index=0 if old_data.get("isTeamSport") else 1)
-                        medal1 = st.radio("Medal", options=["Gold", "Silver", "Bronze", "None"], index={
-                                        "Gold": 0, "Silver": 1, "Bronze": 2, None: 3}[old_data.get("medal")])
-                        submit_button1 = st.form_submit_button(label="Submit")
+#                     # Tạo form để người dùng cập nhật
+#                     st.write(
+#                         "Please update the information below. Leave blank if no changes are needed.")
+#                     with st.form(key=f'update_form1'):
+#                         result_id1 = st.text_input(
+#                             "Result ID", value=old_data.get("result_id", ""))
+#                         athlete_id1 = st.text_input(
+#                             "Athlete ID", value=old_data.get("athlete_id", ""))
+#                         pos1 = st.text_input(
+#                             "Position", value=old_data.get("pos", ""))
+#                         isTeamSport1 = st.radio("Is Team Sport?", options=[
+#                                                     "Yes", "No"], index=0 if old_data.get("isTeamSport") else 1)
+#                         medal1 = st.radio("Medal", options=["Gold", "Silver", "Bronze", "None"], index={
+#                                         "Gold": 0, "Silver": 1, "Bronze": 2, None: 3}[old_data.get("medal")])
+#                         submit_button1 = st.form_submit_button(label="Submit")
 
-                        # So sánh và cập nhật khi người dùng nhấn nút Submit
-                        if submit_button1:
+#                         # So sánh và cập nhật khi người dùng nhấn nút Submit
+#                         if submit_button1:
 
-                            isTeamSport1 = 1 if isTeamSport1 == "Yes" else 0
-                            if medal1 == "None":
-                                medal1 = None
+#                             isTeamSport1 = 1 if isTeamSport1 == "Yes" else 0
+#                             if medal1 == "None":
+#                                 medal1 = None
 
-                            # Tạo dict với dữ liệu mới nếu có sự thay đổi
-                            updated_data = {}
-                            #updated_data['id'] = (data[i])['id']
-                            if result_id1 and result_id1 != old_data["result_id"]:
-                                updated_data["result_id"] = result_id1
-                            if athlete_id1 and athlete_id1 != old_data["athlete_id"]:
-                                updated_data["athlete_id"] = athlete_id1
-                            if pos1 and pos1 != old_data["pos"]:
-                                updated_data["pos"] = pos1
-                            if isTeamSport1 != old_data["isTeamSport"]:
-                                updated_data["isTeamSport"] = isTeamSport1
-                            if medal1 != old_data["medal"]:
-                                updated_data["medal"] = medal1
+#                             # Tạo dict với dữ liệu mới nếu có sự thay đổi
+#                             updated_data = {}
+#                             #updated_data['id'] = (data[i])['id']
+#                             if result_id1 and result_id1 != old_data["result_id"]:
+#                                 updated_data["result_id"] = result_id1
+#                             if athlete_id1 and athlete_id1 != old_data["athlete_id"]:
+#                                 updated_data["athlete_id"] = athlete_id1
+#                             if pos1 and pos1 != old_data["pos"]:
+#                                 updated_data["pos"] = pos1
+#                             if isTeamSport1 != old_data["isTeamSport"]:
+#                                 updated_data["isTeamSport"] = isTeamSport1
+#                             if medal1 != old_data["medal"]:
+#                                 updated_data["medal"] = medal1
 
-                            print(updated_data)
+#                             print(updated_data)
 
-                            # Gửi dữ liệu cập nhật nếu có thay đổi
-                            if updated_data:
-                                response = EventResultOperation.update(
-                                    result_id, athlete_id, updated_data)
-                                if response.status_code == 200:
-                                    st.success(response.json()['message'])
-                                else:
-                                    st.write(f"An error occurred: {response.status_code}")
-                            else:
-                                st.write("No changes detected.")
-                else:
-                    st.write("No event result found.")
-            else:
-                st.write("No event result found.")
+#                             # Gửi dữ liệu cập nhật nếu có thay đổi
+#                             if updated_data:
+#                                 response = EventResultOperation.update(
+#                                     result_id, athlete_id, updated_data)
+#                                 if response.status_code == 200:
+#                                     st.success(response.json()['message'])
+#                                 else:
+#                                     st.write(f"An error occurred: {response.status_code}")
+#                             else:
+#                                 st.write("No changes detected.")
+#                 else:
+#                     st.write("No event result found.")
+#             else:
+#                 st.write("No event result found.")
 
-    with tab4:
-        st.header("Deleting the result of athlete")
-        st.write(
-            "Please look up the result and athlete IDs before creating. (Not be empty)")
+#     with tab4:
+#         st.header("Deleting the result of athlete")
+#         st.write(
+#             "Please look up the result and athlete IDs before creating. (Not be empty)")
 
-        col1, col2 = st.columns(2)
-        with col1:
-            result_id = st.text_input(
-                "Result ID:", placeholder="Enter number result ID", key='u6')
-        with col2:
-            athlete_id = st.text_input(
-                "Athlete ID:", placeholder="Enter number athlete ID", key='u7')
+#         col1, col2 = st.columns(2)
+#         with col1:
+#             result_id = st.text_input(
+#                 "Result ID:", placeholder="Enter number result ID", key='u6')
+#         with col2:
+#             athlete_id = st.text_input(
+#                 "Athlete ID:", placeholder="Enter number athlete ID", key='u7')
 
-        # if st.button("Search"):
-        if not result_id or not athlete_id:
-            st.write("Cannot be empty, please enter all values.")
-        else:
-            # Gọi API để tìm kiếm
-            response = EventResultOperation.search(
-                result_id, athlete_id)
-            if response is not None and response.status_code == 200:
-                data = response.json()
-                # Kiểm tra nếu dữ liệu là list và không rỗng
-                if isinstance(data, list) and data:
-                    df = pd.DataFrame(data)  # Hiển thị dữ liệu dưới dạng bảng
-                    st.write(df)
-                if st.button("Confirm Delete"):
-                    response = EventResultOperation.delete(
-                        result_id, athlete_id)
-                    if response is not None and response.status_code == 204:
-                        st.write("Delete successfully")
-                    else:
-                        st.write("An error occurred while deleting.")
-            else:
-                st.write("No event result found.")
+#         # if st.button("Search"):
+#         if not result_id or not athlete_id:
+#             st.write("Cannot be empty, please enter all values.")
+#         else:
+#             # Gọi API để tìm kiếm
+#             response = EventResultOperation.search(
+#                 result_id, athlete_id)
+#             if response is not None and response.status_code == 200:
+#                 data = response.json()
+#                 # Kiểm tra nếu dữ liệu là list và không rỗng
+#                 if isinstance(data, list) and data:
+#                     df = pd.DataFrame(data)  # Hiển thị dữ liệu dưới dạng bảng
+#                     st.write(df)
+#                 if st.button("Confirm Delete"):
+#                     response = EventResultOperation.delete(
+#                         result_id, athlete_id)
+#                     if response is not None and response.status_code == 204:
+#                         st.write("Delete successfully")
+#                     else:
+#                         st.write("An error occurred while deleting.")
+#             else:
+#                 st.write("No event result found.")
 

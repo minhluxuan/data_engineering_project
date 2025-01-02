@@ -6,7 +6,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from .models import EventResult, MedalResult
 from .serializers import EventResultSerializer, MedalResultSerializer
-import mariadb
+import mysql.connector
 
 
 class EventResultService:
@@ -166,12 +166,14 @@ class EventResultService:
 
 class ResultService:
     def __init__(self):
-        self.connection = mariadb.connect(
+        self.connection = mysql.connector.connect(
             host='localhost',
             user='root',
-            password='admin',
+            password='nhannt',
             database='do_an',
-            port=3307
+            port=3306,
+            charset="utf8mb4",
+            collation="utf8mb4_general_ci"
         )
 
 

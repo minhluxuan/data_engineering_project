@@ -6,14 +6,15 @@ from .models import Athlete_Bio
 from .serializers import AthleteBioSerializer
 import mysql.connector
 import csv
-import mariadb
 # Connect to the database
-conn = mariadb.connect(
+conn = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='admin',
+    password='nhannt',
     database='do_an',
-    port=3307
+    port=3306,
+    charset="utf8mb4",
+    collation="utf8mb4_general_ci"
 )
 
 def height_process(country_noc_id, sex):

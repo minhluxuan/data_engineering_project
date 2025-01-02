@@ -15,7 +15,7 @@ class Dashboard:
 
     @staticmethod
     def display():
-        MedalTable.display()
+        #MedalTable.display()
         CountryTotalOvertime.display()
         BestOlympics.display()
 

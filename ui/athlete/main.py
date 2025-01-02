@@ -3,10 +3,18 @@ import streamlit as st
 from athlete.api import AthleteOperations
 from country.api import CountryOperation
 from rest_framework import status
+from PIL import Image
 
 
 def main():
     st.title("Athelete Biography")
+    
+    st.write('_**"Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing or learning to do."**_ (Pelé)')
+    
+    fixed_size = (500, 400)
+    img = Image.open('./image/athlete.png')
+    img_resized = img.resize(fixed_size)
+    st.image(img_resized)
 
     if "option" not in st.session_state:
             st.session_state.option = ''  # Mặc định là rỗng
