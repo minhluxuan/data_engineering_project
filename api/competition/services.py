@@ -7,6 +7,7 @@ from rest_framework import status
 from .models import EventResult, MedalResult
 from .serializers import EventResultSerializer, MedalResultSerializer
 import mysql.connector
+from django.db import connection
 
 
 class EventResultService:
@@ -17,9 +18,9 @@ class EventResultService:
     def search(result_id, athlete_id):
         queryset = EventResult.objects.all()
         if result_id != -793654029:
-            queryset = queryset.filter(result_id_id=result_id)
+            queryset = queryset.filter(result_id=result_id)
         if athlete_id != -793654029:
-            queryset = queryset.filter(athlete_id_id=athlete_id)
+            queryset = queryset.filter(athlete_id=athlete_id)
         # Trả về None nếu không có kết quả
         if not queryset.exists():
             return None
@@ -28,8 +29,8 @@ class EventResultService:
         for event_result in queryset:
             try:
                 medal_result = MedalResult.objects.get(
-                    result_id_id=result_id,
-                    athlete_id_id=athlete_id
+                    result_id=result_id,
+                    athlete_id=athlete_id
                 )
                 # Thêm vào danh sách với 'medal' nằm trong cùng đối tượng
                 event_results_with_medals.append({
@@ -53,15 +54,15 @@ class EventResultService:
         return event_results_with_medals, "Search successfully", status.HTTP_200_OK
 
     @staticmethod
-    def update(result_id, athlete_id, data):
+    def update(result_id1, athlete_id1, data):
         try:
             # Tìm event_result theo 4 id
-            event_res = EventResult.objects.get(result_id=result_id, athlete_id=athlete_id)
+            event_res = EventResult.objects.get(result_id=result_id1, athlete_id=athlete_id1)
             # Tách dữ liệu thành hai phần
             event_data = {
                 # Nếu không có, dùng giá trị hiện tại
-                'result_id': data.get('result_id', event_res.result_id_id),
-                'athlete_id': data.get('athlete_id', event_res.athlete_id_id),
+                'result_id_id': data.get('result_id', event_res.result_id),
+                'athlete_id_id': data.get('athlete_id', event_res.athlete_id),
                 'pos': data.get('pos', event_res.pos),
                 'isTeamSport': data.get('isTeamSport', event_res.isTeamSport),
             }
@@ -69,6 +70,7 @@ class EventResultService:
             event_serializer = EventResultSerializer(
                 event_res, data=event_data, partial=True)
             if event_serializer.is_valid():
+                print(event_serializer.validated_data)
                 event_serializer.save()  # Lưu event_result đã cập nhật
             else:
                 return None, event_serializer.errors, status.HTTP_400_BAD_REQUEST
@@ -76,28 +78,40 @@ class EventResultService:
             # Chỉ cập nhật nếu medal không phải là None
             if 'medal' in data and data['medal'] is not None:
                 try:
-                    medal_result = MedalResult.objects.get(
-                        result_id=result_id,
-                        athlete_id=athlete_id
-                    )
+                    medal_result = MedalResult.objects.get(result_id=result_id1, athlete_id=athlete_id1)
+                    print("Medal Result: ", medal_result.result_id_id, medal_result.athlete_id_id)
                     medal_data = {
-                        'result_id': data.get('result_id', medal_result.result_id),
-                        'athlete_id': data.get('athlete_id', medal_result.athlete_id),
-                        # Chỉ cập nhật medal nếu có giá trị
-                        'medal': data['medal'],
+                        'result_id_id': data.get('result_id', medal_result.result_id_id),
+                        'athlete_id_id': data.get('athlete_id', medal_result.athlete_id_id),
+                        'medal': data.get('medal', medal_result.medal),
                     }
-                    medal_serializer = MedalResultSerializer(
-                        medal_result, data=medal_data, partial=True)
-                    if medal_serializer.is_valid():
-                        medal_serializer.save()  # Lưu medal_result đã cập nhật
-                    else:
-                        return None, medal_serializer.errors, status.HTTP_400_BAD_REQUEST
+
+                    # In ra câu lệnh SQL để kiểm tra
+                    print("SQL Query to Update MedalResult:", """
+                        UPDATE competition_medalresult
+                        SET medal = '%s'
+                        WHERE result_id_id = '%s' AND athlete_id_id = '%s';
+                    """ % (medal_data['medal'], medal_data['result_id_id'], medal_data['athlete_id_id']))
+
+                    with connection.cursor() as cursor:
+                        cursor.execute("""
+                            UPDATE competition_medalresult
+                            SET medal = %s
+                            WHERE result_id_id = %s AND athlete_id_id = %s;
+                        """, [medal_data['medal'], medal_data['result_id_id'], medal_data['athlete_id_id']])
+                        print("Medal updated successfully")
+                    # medal_serializer = MedalResultSerializer(medal_result, data=medal_data, partial=True)
+                    # if medal_serializer.is_valid():
+                    #     return "Update successful", None, status.HTTP_200_OK
+                    # else:
+                    #     return None, medal_serializer.errors, status.HTTP_400_BAD_REQUEST
                 except MedalResult.DoesNotExist:
                     return None, "Medal result not found", status.HTTP_404_NOT_FOUND
             return event_serializer.data, "Update successfully", status.HTTP_200_OK
         except EventResult.DoesNotExist:
             return None, "Event result not found", status.HTTP_404_NOT_FOUND
         except Exception as e:
+            print(f"Error in update: {str(e)}")
             return None, f"An error occurred: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR
 
     @staticmethod

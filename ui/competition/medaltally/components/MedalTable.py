@@ -209,10 +209,10 @@ class MedalTable:
         recordUpdateDF = displayTable['data'].reset_index(drop=True)
         recordSelectedDF = displayTable['selected_data']
 
-        st.button("Update", on_click=MedalTable.updateGridTable,
-                  args=[medalTable, recordUpdateDF])
+        # st.button("Update", on_click=MedalTable.updateGridTable,
+        #           args=[medalTable, recordUpdateDF])
 
-        st.button("Delete Selected", on_click=MedalTable.deleteSelectedRows,
-                  args=[recordSelectedDF])
+        # st.button("Delete Selected", on_click=MedalTable.deleteSelectedRows,
+        #           args=[recordSelectedDF])
 
         # MedalTable.add_new_data()
