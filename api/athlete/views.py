@@ -77,8 +77,9 @@ class AthleteBioView(APIView):
             elif option == 1:
                 countryNoc = request.query_params.get('country_id')
                 page = request.query_params.get('page')
+                condition_query = request.query_params.get('condition')
 
-                data, message, status_code =  self.athleteBioService.searchByCountryNoc(countryNoc, int(page))
+                data, message, status_code =  self.athleteBioService.searchByCountryNoc(countryNoc, int(condition_query), int(page))
                 return Response({"data": data, "message": message}, status=status_code)
 
         except Exception as e:

@@ -132,7 +132,7 @@ class AthleteBioService:
             # Catch any other exceptions
             return None, f"An error occurred: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR
 
-    def searchByCountryNoc(self, countryNoc, page=1, page_size=40):
+    def searchByCountryNoc(self, countryNoc, condition_query = 0, page=1, page_size=40, ):
         try:
             # Calculate offset
             offset = (page - 1) * page_size
@@ -145,17 +145,51 @@ class AthleteBioService:
             
             # Fetch paginated data
             query = """
-                SELECT * 
-                FROM athlete_athlete_bio
-                WHERE country_noc_id = %s
-                LIMIT %s OFFSET %s
-            """
+                    SELECT 
+                    ath.*,
+                    SUM(CASE WHEN md.medal = 'gold' THEN 1 ELSE 0 END) AS gold,
+                    SUM(CASE WHEN md.medal = 'silver' THEN 1 ELSE 0 END) AS silver,
+                    SUM(CASE WHEN md.medal = 'bronze' THEN 1 ELSE 0 END) AS bronze
+                    FROM 
+                        athlete_athlete_bio ath
+                    LEFT JOIN 
+                        competition_medalresult md 
+                        ON md.athlete_id_id = ath.athlete_id
+                    WHERE 
+                        ath.country_noc_id = %s
+                    GROUP BY 
+                        ath.athlete_id
+                   
+                    """
+            
+            if condition_query == 0:
+                query += """LIMIT %s OFFSET %s; """
+
+            elif condition_query == 1:
+               query += """
+                        HAVING gold > 0 
+                        LIMIT %s OFFSET %s;
+                        """
+            
+            elif condition_query == 2:
+                query += """
+                        HAVING silver > 0 
+                        LIMIT %s OFFSET %s;
+                        """
+            
+            elif condition_query == 3:
+                query += """
+                        HAVING bronze > 0
+                        LIMIT %s OFFSET %s;
+                        """
+            
+            print(query)
             cursor.execute(query, (countryNoc, page_size, offset))
             result = cursor.fetchall()
-            
+
             # Convert result into list of dictionaries
             result_list = []
-            columns = ['athlete_id', 'name', 'sex', 'born', 'height', 'weight', 'description', 'special_notes', 'country_noc']
+            columns = ['athlete_id', 'name', 'sex', 'born', 'height', 'weight', 'description', 'special_notes', 'country_noc', 'gold', 'silver', 'bronze']
             for row in result:
                 result_dict = dict(zip(columns, row))
                 result_list.append(result_dict)

@@ -16,8 +16,8 @@ class AthleteOperations():
         return None
 
     @staticmethod
-    def search(option, country_id, page_size):
-        response = requests.get(AthleteOperations.base_url + str(option) + '/', params= {'country_id': country_id, 'page': page_size})
+    def search(option, country_id, optionView, page_size):
+        response = requests.get(AthleteOperations.base_url + str(option) + '/', params= {'country_id': country_id, 'page': page_size, 'condition': optionView})
         if response:
             return response
         return None

@@ -6,6 +6,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from .models import EventResult, MedalResult
 from .serializers import EventResultSerializer, MedalResultSerializer
+import mariadb
 
 
 class EventResultService:
@@ -165,7 +166,14 @@ class EventResultService:
 
 class ResultService:
     def __init__(self):
-        pass
+        self.connection = mariadb.connect(
+            host='localhost',
+            user='root',
+            password='admin',
+            database='do_an',
+            port=3307
+        )
+
 
     @staticmethod
     def create(data):
@@ -199,11 +207,58 @@ class ResultService:
         except Exception as e:
             return None, f"An error occurred: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR
 
-    @staticmethod
-    def search():
-        results = Result.objects.all()
-        serializer = ResultSerializer(results, many=True)
-        return serializer.data
+    # @staticmethod
+    def search(self, page = 1, page_size = 40):   
+        try:
+            # Calculate offset
+            offset = (page - 1) * page_size
+            
+            cursor = self.connection.cursor()
+            
+            # Fetch total record count
+            cursor.execute("SELECT COUNT(*) FROM competition_result",)
+            total_records = cursor.fetchone()[0]
+            
+            # Fetch paginated data
+            query = """
+                SELECT * 
+                FROM competition_result
+                LIMIT %s OFFSET %s
+            """
+
+            cursor.execute(query, (page_size, offset))
+            result = cursor.fetchall()
+            
+            query = """DESCRIBE competition_result"""
+
+            cursor.execute(query)
+            result_column = cursor.fetchall()
+            columns = list()
+
+            for el in result_column:
+                columns.append(el[0])
+            # Convert result into list of dictionaries
+            result_list = []
+
+
+            for row in result:
+                result_dict = dict(zip(columns, row))
+                result_list.append(result_dict)
+            
+            # Calculate total pages
+            total_pages = (total_records + page_size - 1) // page_size
+            print(result_list)
+            return {
+                "data": result_list,
+                "page": page,
+                "page_size": page_size,
+                "total_pages": total_pages,
+                "total_records": total_records,
+            }, "Fetched Successfully", status.HTTP_200_OK
+
+        except Exception as e:
+            print(str(e))
+            return {}, f"Error: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR
 
     @staticmethod
     def update(result_id, data):

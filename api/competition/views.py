@@ -191,6 +191,10 @@ class EventResultView(APIView):
 
 
 class ResultView(APIView):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        # Khởi tạo instance của NhanVienService
+        self.resultService = ResultService()
     def post(self, request):
         try:
             print('Heloo Niggga')
@@ -207,8 +211,10 @@ class ResultView(APIView):
 
     def get(self, request):
         try:
-            results = ResultService.search()
-            return Response(results, status=status.HTTP_200_OK)
+            page = request.query_params.get('page')
+            print(page)
+            results, message, status = self.resultService.search(int(page))
+            return Response({"data": results, "message": message}, status=status)
         except Exception as e:
             return Response({
                 'data': None,

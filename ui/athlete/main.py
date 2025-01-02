@@ -30,8 +30,17 @@ def main():
         country_options = [f"{country['noc']} - {country['country']}" for country in st.session_state.countries]  # Lấy danh sách mã quốc gia
         country_noc = st.selectbox("Select country noc", country_options)
         selected_country = country_noc.split(' - ')[0]
+        
+        condition_query = st.selectbox("Select view option", ['ALL', 'GOLD', 'SILVER', 'BRONZE'])
+        
+        viewOption = {
+            'ALL': 0,
+            'GOLD': 1,
+            'SILVER': 2,
+            'BRONZE': 3
+        }
 
-        response = AthleteOperations.search(1, selected_country, st.session_state.page)
+        response = AthleteOperations.search(1, selected_country, viewOption[condition_query], st.session_state.page)
 
         if response.status_code == status.HTTP_200_OK:
             response_data = response.json()
@@ -46,14 +55,17 @@ def main():
             for item in response_data["data"]["data"]:
                 print(item)
                 patients_data.append({
-                    "athlete_id": item['athlete_id'],
+                    "athlete_id": str(item['athlete_id']),
                     "name": item['name'],
                     "sex": item['sex'],
                     "born": item['born'],
                     "height": item['height'],
                     "weight": item['weight'],
                     'description': item['description'],
-                    'special_notes': item['special_notes']
+                    'special_notes': item['special_notes'],
+                    'gold': item['gold'],
+                    'silver': item['silver'],
+                    'bronze': item['bronze'],
                 })
 
             # Hiển thị bảng dữ liệu bệnh nhân
