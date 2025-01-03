@@ -33,14 +33,12 @@ def weight_process(country_noc_id, sex):
 
 class AthleteBioService:
     def __init__(self):
-        self.connection = mysql.connector.connect(
+        self.connection = mariadb.connect(
             host='localhost',
             user='root',
-            password='nhannt',
+            password='admin',
             database='do_an',
-            port=3306,
-            charset="utf8mb4",
-            collation="utf8mb4_general_ci"
+            port=3307,
         )
 
     @staticmethod

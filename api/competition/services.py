@@ -223,25 +223,25 @@ class ResultService:
             return None, f"An error occurred: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR
 
     # @staticmethod
-    def search(self, page = 1, page_size = 40):   
+    def search(self, editionId, page = 1, page_size = 40):   
         try:
             # Calculate offset
             offset = (page - 1) * page_size
             
             cursor = self.connection.cursor()
-            
             # Fetch total record count
-            cursor.execute("SELECT COUNT(*) FROM competition_result",)
+            count_query = """SELECT COUNT(*) FROM competition_result WHERE edition_id_id = %s"""
+            cursor.execute(count_query, (editionId,))
             total_records = cursor.fetchone()[0]
-            
             # Fetch paginated data
             query = """
                 SELECT * 
                 FROM competition_result
+                WHERE edition_id_id = %s
                 LIMIT %s OFFSET %s
             """
 
-            cursor.execute(query, (page_size, offset))
+            cursor.execute(query, (editionId, page_size, offset))
             result = cursor.fetchall()
             
             query = """DESCRIBE competition_result"""
@@ -307,3 +307,23 @@ class ResultService:
             return None, "Result not found", status.HTTP_404_NOT_FOUND
         except Exception as e:
             return None, "An error occurs", status.HTTP_500_INTERNAL_SERVER_ERROR
+
+    def searchEditionName(self):
+        try:
+            cursor = self.connection.cursor()
+            query = """"SELECT DISTINCT edition, edition_id FROM country_game"""
+            cursor.execute(query)
+
+            results = cursor.fetchall()
+            columns = ['edition', 'edition_id']
+            result_list = list()
+            
+            for row in results:
+                result_dict = dict(zip(columns, row))
+                result_list.append(result_dict)
+
+            return result_list, 'Get successfully', status.HTTP_200_OK
+        
+        except Exception as e:
+            return None, 'An error occurred', status.HTTP_500_INTERNAL_SERVER_ERROR 
+

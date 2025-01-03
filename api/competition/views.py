@@ -212,8 +212,9 @@ class ResultView(APIView):
     def get(self, request):
         try:
             page = request.query_params.get('page')
-            print(page)
-            results, message, status = self.resultService.search(int(page))
+            editionId = request.query_params.get('edition_id')
+
+            results, message, status = self.resultService.search(int(editionId), int(page))
             return Response({"data": results, "message": message}, status=status)
         except Exception as e:
             return Response({

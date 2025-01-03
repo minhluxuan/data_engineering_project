@@ -58,8 +58,8 @@ class ResultOperation:
         return None
 
     @staticmethod
-    def search(page):
-        response = requests.get(ResultOperation.base_url, params = {'page': page})
+    def search(page, editionId):
+        response = requests.get(ResultOperation.base_url, params = {'page': page, 'edition_id': editionId})
         if response:
             return response
         return None
