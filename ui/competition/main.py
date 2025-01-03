@@ -79,7 +79,7 @@ def competitionResult():
         #     else:
         #         st.write('An error occurs. Please try again')
 
-    if option == "Create Competition":
+    elif option == "Create Competition":
         with st.expander("Create new result", expanded=True):
             with st.form(key='my_form'):
                 # result_id = st.text_input("Enter result id:")
@@ -124,30 +124,38 @@ def competitionResult():
                         st.success(response.json()['message'])
                     else:
                         st.error(response.json()['message'])
-
     # elif option == "Competitions":
-    #     # Hiển thị DataFrame
-    #     response = ResultOperation.search(2)
-    #     if response:
-    #         if response.status_code == 200:  # Assuming successful status code is 200
-    #             data = response.json()['data']['data']
-    #             print(data)
-    #             if isinstance(data, list):
-    #                 df = pd.DataFrame(data)
-    #                 edited_df = st.data_editor(df)
-    #                 if st.button("Update Data"):
-    #                     updated_rows = edited_df.compare(df)
-    #                     for index, _ in updated_rows.iterrows():
-    #                         for col in updated_rows.columns.levels[0]:
-    #                             if (col, 'self') in updated_rows.columns:
-    #                                 new_value = edited_df.loc[index]
-    #                                 new_value_dict = new_value.to_dict()
-    #                                 response = ResultOperation.update(
-    #                                     new_value_dict['result_id'], new_value_dict)
-    #                                 if response.status_code == 201 or response.status_code == 200:
-    #                                     st.success(response.json()['message'])
-    #                                 else:
-    #                                     st.error(response.json()['message'])
+        # Hiển thị DataFrame
+        # response = None
+        # response_data = None
+        # if "page_result" not in st.session_state:
+        #     st.session_state.page_result = 1
+
+        # response = ResultOperation.search(st.session_state.page_result)
+        # # response = ResultOperation.search(2)
+        # if response:
+        #     if response.status_code == 200:  # Assuming successful status code is 200
+        #         data = response.json()
+        #         if isinstance(data, list):
+        #             df = pd.DataFrame(data)
+        #             edited_df = st.data_editor(df)
+        #             if st.button("Update Data"):
+        #                 updated_rows = edited_df.compare(df)
+        #                 for index, _ in updated_rows.iterrows():
+        #                     for col in updated_rows.columns.levels[0]:
+        #                         if (col, 'self') in updated_rows.columns:
+        #                             new_value = edited_df.loc[index]
+        #                             new_value_dict = new_value.to_dict()
+        #                             response = ResultOperation.update(
+        #                                 new_value_dict['result_id'], new_value_dict)
+        #                             if response.status_code == 201 or response.status_code == 200:
+        #                                 st.success(response.json()['message'])
+        #                             else:
+        #                                 st.error(response.json()['message'])
+
+
+
+
 
                     # for index, row in df.iterrows():
                     #     st.subheader(f"Update Game - Edition: {row['edition']}")  # Hiển thị tiêu đề

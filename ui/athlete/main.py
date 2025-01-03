@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 from athlete.api import AthleteOperations
 from country.api import CountryOperation
+from competition.api import EventResultOperation
 from rest_framework import status
 from PIL import Image
 
@@ -21,7 +22,7 @@ def main():
 
     option = st.selectbox(
         label='Choose option',
-        options=['','Create athlete', 'Athelete Biography Info','Update Biography Info'],
+        options=['','Create athlete', 'Athelete Biography Info','Update Biography Info', 'Athlete Event Result'],
         key="option"  # Liên kết giá trị với session_state
     )
 
@@ -214,6 +215,86 @@ def main():
                         st.success("Create successfully")
                     else:
                         st.error("An error occurs. Please try again")
-            
+    if option == 'Athlete Event Result':
+        col1, col2 = st.columns(2)
+        with col1:
+            result_id = st.text_input(
+                "Result ID:", placeholder="Enter number result ID", key='u2')
+        with col2:
+            athlete_id = st.text_input(
+                "Athlete ID:", placeholder="Enter number athlete ID", key='u3')
+
+        # if st.button("Search"):
+        if not result_id or not athlete_id:
+            st.write("Cannot be empty. Please enter all values.")
+        else:
+            # Gọi API để tìm kiếm
+            response = EventResultOperation.search(
+                result_id, athlete_id)
+            if response is not None and response.status_code == 200:
+                data = response.json()
+                row_count = len(data)
+                # Kiểm tra nếu dữ liệu là list và không rỗng
+                if isinstance(data, list) and data:
+                    df = pd.DataFrame(data)  # Hiển thị dữ liệu dưới dạng bảng
+                    st.write(df)
+
+                # Lấy dữ liệu cũ
+                    old_data = data[0]
+                    print(old_data)
+
+                    # Tạo form để người dùng cập nhật
+                    st.write(
+                        "Please update the information below. Leave blank if no changes are needed.")
+                    with st.form(key=f'update_form1'):
+                        result_id1 = st.text_input(
+                            "Result ID", value=old_data.get("result_id", ""))
+                        athlete_id1 = st.text_input(
+                            "Athlete ID", value=old_data.get("athlete_id", ""))
+                        pos1 = st.text_input(
+                            "Position", value=old_data.get("pos", ""))
+                        isTeamSport1 = st.radio("Is Team Sport?", options=[
+                                                    "Yes", "No"], index=0 if old_data.get("isTeamSport") else 1)
+                        medal1 = st.radio("Medal", options=["Gold", "Silver", "Bronze", "None"], index={
+                                        "Gold": 0, "Silver": 1, "Bronze": 2, None: 3}[old_data.get("medal")])
+                        submit_button1 = st.form_submit_button(label="Submit")
+
+                        # So sánh và cập nhật khi người dùng nhấn nút Submit
+                        if submit_button1:
+
+                            isTeamSport1 = 1 if isTeamSport1 == "Yes" else 0
+                            if medal1 == "None":
+                                medal1 = None
+
+                            # Tạo dict với dữ liệu mới nếu có sự thay đổi
+                            updated_data = {}
+                            #updated_data['id'] = (data[i])['id']
+                            if result_id1 and result_id1 != old_data["result_id"]:
+                                updated_data["result_id"] = result_id1
+                            if athlete_id1 and athlete_id1 != old_data["athlete_id"]:
+                                updated_data["athlete_id"] = athlete_id1
+                            if pos1 and pos1 != old_data["pos"]:
+                                updated_data["pos"] = pos1
+                            if isTeamSport1 != old_data["isTeamSport"]:
+                                updated_data["isTeamSport"] = isTeamSport1
+                            if medal1 != old_data["medal"]:
+                                updated_data["medal"] = medal1
+
+                            print(updated_data)
+
+                            # Gửi dữ liệu cập nhật nếu có thay đổi
+                            if updated_data:
+                                response = EventResultOperation.update(
+                                    result_id, athlete_id, updated_data)
+                                if response.status_code == 200:
+                                    st.success(response.json()['message'])
+                                else:
+                                    st.write(f"An error occurred: {response.status_code}")
+                            else:
+                                st.write("No changes detected.")
+                else:
+                    st.write("No event result found.")
+            else:
+                st.write("No event result found.")
 
   
