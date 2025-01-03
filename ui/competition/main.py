@@ -14,60 +14,60 @@ def competitionResult():
     st.image('./image/olympicsport.jpg')
     
     option = st.selectbox(
-    "Choose option:",
+    "Choose option in result site:",
     ["", "Competitions", "Create Competition"]  # Các tùy chọn
     )
     # st.title("Competition")
 
     # tab1, tab2 = st.tabs(['Result Profile', 'Results'])
 
-    # with tab1:
-    #     response = None
-    #     response_data = None
-    #     if "page_result" not in st.session_state:
-    #         st.session_state.page_result = 1
+    if option == "Competitions":
+        response = None
+        response_data = None
+        if "page_result" not in st.session_state:
+            st.session_state.page_result = 1
 
-    #     response = ResultOperation.search(st.session_state.page_result)
+        response = ResultOperation.search(st.session_state.page_result)
 
-    #     if response.status_code == status.HTTP_200_OK:
-    #         response_data = response.json()
+        if response.status_code == status.HTTP_200_OK:
+            response_data = response.json()
 
-    #     # Hiển thị dữ liệu
-    #     if response_data and "data" in response_data:
-    #         st.write(f"Trang {response_data['data']['page']} / {response_data['data']['total_pages']}")
+        # Hiển thị dữ liệu
+        if response_data and "data" in response_data:
+            st.write(f"Trang {response_data['data']['page']} / {response_data['data']['total_pages']}")
 
-    #         # Chuyển dữ liệu bệnh nhân thành một danh sách các từ điển
-    #         patients_data = []
-    #         for item in response_data["data"]["data"]:
-    #             print(item)
-    #             patients_data.append({
-    #                 "result_id": item['result_id'],
-    #                 "event_title": item['event_title'],
-    #                 "sport": item['sport'],
-    #                 "sport_url": item['sport_url'],
-    #                 "result_location": item['result_location'],
-    #                 "result_participants": item['result_participants'],
-    #                 'result_format': item['result_format'],
-    #                 'result_detail': item['result_detail'],
-    #                 'result_description': item['result_description'],
-    #                 'start_date': item['start_date'],
-    #                 'end_date': item['end_date'],
-    #                 'edition_id_id': item['edition_id_id'],
-    #             })
+            # Chuyển dữ liệu bệnh nhân thành một danh sách các từ điển
+            patients_data = []
+            for item in response_data["data"]["data"]:
+                print(item)
+                patients_data.append({
+                    "result_id": item['result_id'],
+                    "event_title": item['event_title'],
+                    "sport": item['sport'],
+                    "sport_url": item['sport_url'],
+                    "result_location": item['result_location'],
+                    "result_participants": item['result_participants'],
+                    'result_format': item['result_format'],
+                    'result_detail': item['result_detail'],
+                    'result_description': item['result_description'],
+                    'start_date': item['start_date'],
+                    'end_date': item['end_date'],
+                    'edition_id_id': item['edition_id_id'],
+                })
 
-    #         # Hiển thị bảng dữ liệu bệnh nhân
-    #         st.dataframe(patients_data)
+            # Hiển thị bảng dữ liệu bệnh nhân
+            st.dataframe(patients_data)
 
-    #         # Các nút điều hướng trang
-    #         col1, col2, col3 = st.columns([1, 2, 1])
-    #         with col1:
-    #             if st.button("<< Trang trước", disabled=st.session_state.page_result == 1):
-    #                 st.session_state.page_result -= 1
-    #                 st.rerun()
-    #         with col3:
-    #             if st.button("Trang tiếp >>", disabled=st.session_state.page_result == response_data["data"]["total_pages"]):
-    #                 st.session_state.page_result += 1
-    #                 st.rerun()
+            # Các nút điều hướng trang
+            col1, col2, col3 = st.columns([1, 2, 1])
+            with col1:
+                if st.button("<< Trang trước", disabled=st.session_state.page_result == 1):
+                    st.session_state.page_result -= 1
+                    st.rerun()
+            with col3:
+                if st.button("Trang tiếp >>", disabled=st.session_state.page_result == response_data["data"]["total_pages"]):
+                    st.session_state.page_result += 1
+                    st.rerun()
         # if response:
         #     if response.status_code == status.HTTP_200_OK:
         #         data = response.json()
@@ -124,28 +124,30 @@ def competitionResult():
                         st.success(response.json()['message'])
                     else:
                         st.error(response.json()['message'])
-    elif option == "Competitions":
-        # Hiển thị DataFrame
-        response = ResultOperation.search(2)
-        if response:
-            if response.status_code == 200:  # Assuming successful status code is 200
-                data = response.json()
-                if isinstance(data, list):
-                    df = pd.DataFrame(data)
-                    edited_df = st.data_editor(df)
-                    if st.button("Update Data"):
-                        updated_rows = edited_df.compare(df)
-                        for index, _ in updated_rows.iterrows():
-                            for col in updated_rows.columns.levels[0]:
-                                if (col, 'self') in updated_rows.columns:
-                                    new_value = edited_df.loc[index]
-                                    new_value_dict = new_value.to_dict()
-                                    response = ResultOperation.update(
-                                        new_value_dict['result_id'], new_value_dict)
-                                    if response.status_code == 201 or response.status_code == 200:
-                                        st.success(response.json()['message'])
-                                    else:
-                                        st.error(response.json()['message'])
+
+    # elif option == "Competitions":
+    #     # Hiển thị DataFrame
+    #     response = ResultOperation.search(2)
+    #     if response:
+    #         if response.status_code == 200:  # Assuming successful status code is 200
+    #             data = response.json()['data']['data']
+    #             print(data)
+    #             if isinstance(data, list):
+    #                 df = pd.DataFrame(data)
+    #                 edited_df = st.data_editor(df)
+    #                 if st.button("Update Data"):
+    #                     updated_rows = edited_df.compare(df)
+    #                     for index, _ in updated_rows.iterrows():
+    #                         for col in updated_rows.columns.levels[0]:
+    #                             if (col, 'self') in updated_rows.columns:
+    #                                 new_value = edited_df.loc[index]
+    #                                 new_value_dict = new_value.to_dict()
+    #                                 response = ResultOperation.update(
+    #                                     new_value_dict['result_id'], new_value_dict)
+    #                                 if response.status_code == 201 or response.status_code == 200:
+    #                                     st.success(response.json()['message'])
+    #                                 else:
+    #                                     st.error(response.json()['message'])
 
                     # for index, row in df.iterrows():
                     #     st.subheader(f"Update Game - Edition: {row['edition']}")  # Hiển thị tiêu đề
@@ -194,10 +196,10 @@ def competitionResult():
                     #             else:
                     #                 st.error("Failed to update game.")
 
-                else:
-                    st.write('No game has been created yet')
-            else:
-                st.write('An error occurred. Please try again.')
+            #     else:
+            #         st.write('No game has been created yet')
+            # else:
+            #     st.write('An error occurred. Please try again.')
         # uploaded_file = st.file_uploader("Country", type="csv")
 
         # if uploaded_file is not None:
