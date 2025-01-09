@@ -29,7 +29,7 @@ class Result(models.Model):
 class EventResult(models.Model):
     result_id = models.ForeignKey(Result, on_delete=models.CASCADE)
     athlete_id = models.ForeignKey(Athlete_Bio, on_delete=models.CASCADE)
-    pos = models.CharField(max_length=50)
+    pos = models.IntegerField()
     isTeamSport = models.IntegerField()
 
     # def __str__(self):
