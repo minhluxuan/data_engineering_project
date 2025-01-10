@@ -288,6 +288,7 @@ def main():
                                     result_id, athlete_id, updated_data)
                                 if response.status_code == 200:
                                     st.success(response.json()['message'])
+                                    st.rerun()
                                 else:
                                     st.write(f"An error occurred: {response.status_code}")
                             else:

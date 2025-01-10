@@ -12,7 +12,7 @@ class MedalTableSerializer(serializers.ModelSerializer):
 
 class EventResultSerializer(serializers.ModelSerializer):
     id = serializers.IntegerField(read_only=True)
-    pos = serializers.CharField(allow_null=True, required=False)
+    pos = serializers.IntegerField(allow_null=True, required=False)
     class Meta:
         model = EventResult
         fields = '__all__'

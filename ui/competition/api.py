@@ -28,7 +28,7 @@ class EventResultOperation:
     @staticmethod
     def update(result_id, athlete_id, data):
         # Tạo URL cho yêu cầu PUT với các ID
-        url = f"{EventResultOperation.base_url}u/{result_id}/{athlete_id}/"
+        url = f"{EventResultOperation.base_url}u/{int(result_id)}/{int(athlete_id)}/"
         response = requests.put(url, json=data)
         if response.ok:
             return response

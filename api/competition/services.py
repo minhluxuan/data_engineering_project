@@ -13,46 +13,113 @@ from django.db import connection
 
 class EventResultService:
     def __init__(self):
-        pass
+        self.connection = mariadb.connect(
+            host='localhost',
+            user='root',
+            password='admin',
+            database='do_an',
+            port=3307,
+        )
 
-    @staticmethod
-    def search(result_id, athlete_id):
-        queryset = EventResult.objects.all()
-        if result_id != -793654029:
-            queryset = queryset.filter(result_id=result_id)
-        if athlete_id != -793654029:
-            queryset = queryset.filter(athlete_id=athlete_id)
-        # Trả về None nếu không có kết quả
-        if not queryset.exists():
-            return None
-        # Truy vấn MedalResult liên quan đến các EventResult đã lọc
-        event_results_with_medals = []
-        for event_result in queryset:
-            try:
-                medal_result = MedalResult.objects.get(
-                    result_id=result_id,
-                    athlete_id=athlete_id
-                )
-                # Thêm vào danh sách với 'medal' nằm trong cùng đối tượng
-                event_results_with_medals.append({
-                    'result_id': event_result.result_id_id,
-                    'athlete_id': event_result.athlete_id_id,
-                    'pos': event_result.pos,
-                    'isTeamSport': event_result.isTeamSport,
-                    'medal': medal_result.medal  # Chỉ lấy giá trị của medal
-                })
-            except MedalResult.DoesNotExist:
-                # Nếu không tìm thấy huy chương, thêm 'medal': None
-                event_results_with_medals.append({
-                    'result_id': event_result.result_id_id,
-                    'athlete_id': event_result.athlete_id_id,
-                    'pos': event_result.pos,
-                    'isTeamSport': event_result.isTeamSport,
-                    'medal': None
-                })
-        # Trả về dữ liệu đã kết hợp
-        print(event_results_with_medals)
-        return event_results_with_medals, "Search successfully", status.HTTP_200_OK
+    def search(self, result_id, athlete_id):
+        # queryset = EventResult.objects.all()
+        # if result_id != -793654029:
+        #     queryset = queryset.filter(result_id=result_id)
+        # if athlete_id != -793654029:
+        #     queryset = queryset.filter(athlete_id=athlete_id)
+        # # Trả về None nếu không có kết quả
+        # if not queryset.exists():
+        #     return None
+        
+        cursor = self.connection.cursor()
+
+        # Fetch paginated data
+        # query = """
+        #     SELECT ce.result_id_id, ce.athlete_id_id, ath.name, cr.event_title, cr.result_location, cr.sport, cr.sport_url, ce.isTeamSport, ce.pos , cm.medal 
+        #     FROM competition_eventresult ce
+        #     JOIN athlete_athlete_bio ath ON ath.athlete_id = ce.athlete_id_id
+        #     JOIN competition_result cr ON cr.result_id = ce.result_id_id
+        #     JOIN competition_medalresult cm ON cm.athlete_id_id = ce.athlete_id_id AND cm.result_id_id = ce.result_id_id
+        #     JOIN country_game cg ON cg.edition_id = cr.edition_id_id
+        #     WHERE ce.athlete_id_id = %d AND ce.result_id_id = %d;
+        # """
+
+        query = """SELECT 
+                        ce.result_id_id, 
+                        ce.athlete_id_id, 
+                        ath.name AS athlete_name, 
+                        cr.event_title, 
+                        cr.result_location, 
+                        cr.sport, 
+                        cr.sport_url, 
+                        ce.isTeamSport, 
+                        ce.pos AS position, 
+                        cg.edition 
+                    FROM 
+                        competition_eventresult ce
+                    INNER JOIN 
+                        athlete_athlete_bio ath 
+                        ON ath.athlete_id = ce.athlete_id_id
+                    INNER JOIN 
+                        competition_result cr 
+                        ON cr.result_id = ce.result_id_id
+                    INNER JOIN 
+                        country_game cg 
+                        ON cg.edition_id = cr.edition_id_id
+                    WHERE 
+                        ce.athlete_id_id = %s
+                        AND ce.result_id_id = %s;
+                """
+        
+        cursor.execute(query, ( athlete_id, result_id))
+        total_records = cursor.fetchall()[0]
+
+        medal_query = """ 
+                        SELECT medal 
+                        FROM competition_medalresult 
+                        WHERE athlete_id_id = %s AND result_id_id = %s
+                    """
+        cursor.execute(medal_query, (athlete_id, result_id))
+        medal_records = cursor.fetchone()
+
+        medal = medal_records if medal_records else (None, )
+        print(medal)
+        total_records += medal
+
+        columns = ['result_id', 'athlete_id', 'name', 'event_title', 'result_location', 'sport', 'sport_url', 'isTeamSport', 'pos', 'edition', 'medal']
+        result_list = []
+
+        result_dict = dict(zip(columns, total_records))
+        result_list.append(result_dict)
+
+        # # Truy vấn MedalResult liên quan đến các EventResult đã lọc
+        # event_results_with_medals = []
+        # for event_result in queryset:
+        #     try:
+        #         medal_result = MedalResult.objects.get(
+        #             result_id=result_id,
+        #             athlete_id=athlete_id
+        #         )
+        #         # Thêm vào danh sách với 'medal' nằm trong cùng đối tượng
+        #         event_results_with_medals.append({
+        #             'result_id': event_result.result_id_id,
+        #             'athlete_id': event_result.athlete_id_id,
+        #             'pos': event_result.pos,
+        #             'isTeamSport': event_result.isTeamSport,
+        #             'medal': medal_result.medal  # Chỉ lấy giá trị của medal
+        #         })
+        #     except MedalResult.DoesNotExist:
+        #         # Nếu không tìm thấy huy chương, thêm 'medal': None
+        #         event_results_with_medals.append({
+        #             'result_id': event_result.result_id_id,
+        #             'athlete_id': event_result.athlete_id_id,
+        #             'pos': event_result.pos,
+        #             'isTeamSport': event_result.isTeamSport,
+        #             'medal': None
+        #         })
+        # # Trả về dữ liệu đã kết hợp
+        print('result', result_list)
+        return result_list, "Search successfully", status.HTTP_200_OK
 
     @staticmethod
     def update(result_id1, athlete_id1, data):
@@ -77,30 +144,38 @@ class EventResultService:
                 return None, event_serializer.errors, status.HTTP_400_BAD_REQUEST
             # Cập nhật MedalResult nếu có
             # Chỉ cập nhật nếu medal không phải là None
-            if 'medal' in data and data['medal'] is not None:
+            if 'medal' in data:
                 try:
-                    medal_result = MedalResult.objects.get(result_id=result_id1, athlete_id=athlete_id1)
-                    print("Medal Result: ", medal_result.result_id_id, medal_result.athlete_id_id)
-                    medal_data = {
-                        'result_id_id': data.get('result_id', medal_result.result_id_id),
-                        'athlete_id_id': data.get('athlete_id', medal_result.athlete_id_id),
-                        'medal': data.get('medal', medal_result.medal),
-                    }
+                    medal_result = MedalResult.objects.filter(result_id=result_id1, athlete_id=athlete_id1).first()
+                    if medal_result is None and data['medal'] is not None:
+                        with connection.cursor() as cursor:
+                            cursor.execute("""
+                                INSERT INTO competition_medalresult (result_id_id, athlete_id_id, medal)
+                                VALUES (%s, %s, %s) ON DUPLICATE KEY UPDATE medal = VALUES(medal);
+                            """, [result_id1, athlete_id1, data['medal']])
+                            print("Medal inserted successfully")
+                    elif data['medal'] is None:
+                        with connection.cursor() as cursor:
+                            cursor.execute("""
+                                DELETE FROM competition_medalresult 
+                                WHERE result_id_id = %s AND athlete_id_id = %s;
+                            """, [result_id1, athlete_id1])
+                    else:
+                        medal_data = {
+                            'result_id_id': data.get('result_id', medal_result.result_id_id),
+                            'athlete_id_id': data.get('athlete_id', medal_result.athlete_id_id),
+                            'medal': data.get('medal', medal_result.medal),
+                        }
 
-                    # In ra câu lệnh SQL để kiểm tra
-                    print("SQL Query to Update MedalResult:", """
-                        UPDATE competition_medalresult
-                        SET medal = '%s'
-                        WHERE result_id_id = '%s' AND athlete_id_id = '%s';
-                    """ % (medal_data['medal'], medal_data['result_id_id'], medal_data['athlete_id_id']))
+                        # In ra câu lệnh SQL để kiểm tra
 
-                    with connection.cursor() as cursor:
-                        cursor.execute("""
-                            UPDATE competition_medalresult
-                            SET medal = %s
-                            WHERE result_id_id = %s AND athlete_id_id = %s;
-                        """, [medal_data['medal'], medal_data['result_id_id'], medal_data['athlete_id_id']])
-                        print("Medal updated successfully")
+                        with connection.cursor() as cursor:
+                            cursor.execute("""
+                                UPDATE competition_medalresult
+                                SET medal = %s
+                                WHERE result_id_id = %s AND athlete_id_id = %s;
+                            """, [medal_data['medal'], medal_data['result_id_id'], medal_data['athlete_id_id']])
+                            print("Medal updated successfully")
                     # medal_serializer = MedalResultSerializer(medal_result, data=medal_data, partial=True)
                     # if medal_serializer.is_valid():
                     #     return "Update successful", None, status.HTTP_200_OK

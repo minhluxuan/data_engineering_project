@@ -40,7 +40,7 @@ def main():
                 edition_url = st.text_input("Enter edition url:")
                 year = st.text_input("Enter year")
                 city = st.text_input("Enter city")
-                country_flag_url = st.text_input("Enter country flag url")
+                # country_flag_url = st.text_input("Enter country flag url")
                 
                 countries = CountryOperation.search().json() # Giả sử bạn đã import Country model
                 country_options = [f"{country['noc']} - {country['country']}" for country in countries]  # Lấy danh sách mã quốc gia
@@ -62,7 +62,7 @@ def main():
                         'edition_url': edition_url,
                         'year': year,
                         'city': city,
-                        'country_flag_url': country_flag_url,
+                        # 'country_flag_url': country_flag_url,
                         'country_noc': selected_country,
                         'start_date': str(start_date),
                         'end_date': str(end_date),
@@ -93,18 +93,18 @@ def main():
                         hide_index=True,
                         column_config={"Select": st.column_config.CheckboxColumn(required=True)},
                     )
-                    if st.button("Update Data"):
-                        updated_rows = edited_df.compare(df)
-                        for index, _ in updated_rows.iterrows():
-                            for col in updated_rows.columns.levels[0]:
-                                if (col, 'self') in updated_rows.columns:
-                                    new_value = edited_df.loc[index]
-                                    new_value_dict = new_value.to_dict()
-                                    response = GameOperation.update(new_value_dict['edition_id'], new_value_dict)
-                                    if response.status_code == 201:
-                                        st.success(response.json()['message'])
-                                    else:
-                                        st.error(response.json()['message'])
+                    # if st.button("Update Data"):
+                    #     updated_rows = edited_df.compare(df)
+                    #     for index, _ in updated_rows.iterrows():
+                    #         for col in updated_rows.columns.levels[0]:
+                    #             if (col, 'self') in updated_rows.columns:
+                    #                 new_value = edited_df.loc[index]
+                    #                 new_value_dict = new_value.to_dict()
+                    #                 response = GameOperation.update(new_value_dict['edition_id'], new_value_dict)
+                    #                 if response.status_code == 201:
+                    #                     st.success(response.json()['message'])
+                    #                 else:
+                    #                     st.error(response.json()['message'])
                     
                     if st.button("Delete selected row"):
                         selected_rows = edited_df[edited_df.Select]

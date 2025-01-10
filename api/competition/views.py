@@ -126,6 +126,10 @@ def upload_result(request):
 
 
 class EventResultView(APIView):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        self.eventResultService = EventResultService()
+
 
     def post(self, request):
         try:
@@ -144,14 +148,18 @@ class EventResultView(APIView):
     #         return Response({"message": f"An error occurred: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
     def put(self, request, result_id, athlete_id):
         try:
+            print(type(result_id), type(athlete_id))
             data = request.data  # Lấy dữ liệu từ request
-            updated_data, message, status_code = EventResultService.update(
+            print(result_id, athlete_id, data)
+            updated_data, message, status_code =  self.eventResultService.update(
                 result_id, athlete_id, data)
+            
             return Response({
                 'data': updated_data,
                 'message': message
             }, status=status_code)
         except Exception as e:
+            print(str(e))
             return Response({
                 'data': None,
                 'message': f'An error occurred: {str(e)}'
@@ -159,11 +167,12 @@ class EventResultView(APIView):
 
     def get(self, request, result_id, athlete_id):
         try:
-            get_data, message, status_code = EventResultService.search(
+            get_data, message, status_code = self.eventResultService.search(
                 result_id, athlete_id)
             return Response(get_data, status=status_code)
         except Exception as e:
             print('----------------here exception----------------')
+            print(str(e))
             return Response({"message": f"An error occurred: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
     def delete(self, request, result_id, athlete_id):
