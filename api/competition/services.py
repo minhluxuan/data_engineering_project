@@ -54,7 +54,8 @@ class EventResultService:
                         cr.sport_url, 
                         ce.isTeamSport, 
                         ce.pos AS position, 
-                        cg.edition 
+                        cg.edition,
+                        ath.country_noc_id AS country_id
                     FROM 
                         competition_eventresult ce
                     INNER JOIN 
@@ -86,7 +87,7 @@ class EventResultService:
         print(medal)
         total_records += medal
 
-        columns = ['result_id', 'athlete_id', 'name', 'event_title', 'result_location', 'sport', 'sport_url', 'isTeamSport', 'pos', 'edition', 'medal']
+        columns = ['result_id', 'athlete_id', 'name', 'event_title', 'result_location', 'sport', 'sport_url', 'isTeamSport', 'pos', 'edition', 'country_id', 'medal']
         result_list = []
 
         result_dict = dict(zip(columns, total_records))
